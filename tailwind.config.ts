@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -25,20 +24,36 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				// Nova paleta cyberpunk brasileira
+				// Paleta cyberpunk brasileira otimizada para contraste
 				cyber: {
 					yellow: '#FFD700',
-					'yellow-glow': '#FFED4E',
-					green: '#00FF88',
-					'green-glow': '#39FF96',
-					blue: '#0080FF',
-					'blue-glow': '#4A9BFF',
-					purple: '#8A2BE2',
-					'purple-glow': '#A855F7',
-					pink: '#FF1493',
-					'pink-glow': '#FF69B4',
-					lime: '#CCFF00',
-					'lime-glow': '#D4FF33',
+					'yellow-bright': '#FFEB3B',
+					'yellow-dark': '#F57F17',
+					green: '#00E676',
+					'green-bright': '#1DE9B6',
+					'green-dark': '#00C853',
+					blue: '#2196F3',
+					'blue-bright': '#03DAC6',
+					'blue-dark': '#0277BD',
+					purple: '#9C27B0',
+					'purple-bright': '#E1BEE7',
+					'purple-dark': '#6A1B9A',
+					pink: '#E91E63',
+					'pink-bright': '#F8BBD9',
+					'pink-dark': '#AD1457',
+					// Tons neutros com melhor contraste
+					gray: {
+						50: '#FAFAFA',
+						100: '#F5F5F5',
+						200: '#EEEEEE',
+						300: '#E0E0E0',
+						400: '#BDBDBD',
+						500: '#9E9E9E',
+						600: '#757575',
+						700: '#616161',
+						800: '#424242',
+						900: '#212121',
+					}
 				},
 				// Cores originais mantidas para compatibilidade
 				terra: {
@@ -203,9 +218,27 @@ export default {
 				'grid-move': 'grid-move 20s linear infinite',
 			},
 			fontFamily: {
-				'cyber': ['Orbitron', 'monospace'],
-				'heading': ['Rajdhani', 'sans-serif'],
-				'body': ['Inter', 'sans-serif'],
+				// Fontes modernas e legíveis otimizadas
+				'display': ['Inter', 'system-ui', 'sans-serif'],
+				'heading': ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
+				'cyber': ['JetBrains Mono', 'Fira Code', 'monospace'],
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
+			},
+			fontSize: {
+				'xs': ['0.75rem', { lineHeight: '1rem' }],
+				'sm': ['0.875rem', { lineHeight: '1.25rem' }],
+				'base': ['1rem', { lineHeight: '1.5rem' }],
+				'lg': ['1.125rem', { lineHeight: '1.75rem' }],
+				'xl': ['1.25rem', { lineHeight: '1.75rem' }],
+				'2xl': ['1.5rem', { lineHeight: '2rem' }],
+				'3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+				'4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+				'5xl': ['3rem', { lineHeight: '1' }],
+				'6xl': ['3.75rem', { lineHeight: '1' }],
+				'7xl': ['4.5rem', { lineHeight: '1' }],
+				'8xl': ['6rem', { lineHeight: '1' }],
+				'9xl': ['8rem', { lineHeight: '1' }],
 			},
 			backgroundImage: {
 				'cyber-grid': `
