@@ -3,87 +3,87 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 48 25% 97%;
-    --foreground: 25 15% 15%;
+    --background: 250 250 250;
+    --foreground: 10 10 10;
 
-    --card: 48 25% 99%;
-    --card-foreground: 25 15% 15%;
+    --card: 255 255 255;
+    --card-foreground: 10 10 10;
 
-    --popover: 48 25% 99%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 255 255 255;
+    --popover-foreground: 10 10 10;
 
-    --primary: 25 75% 45%;
-    --primary-foreground: 48 25% 97%;
+    --primary: 51 144 255;
+    --primary-foreground: 255 255 255;
 
-    --secondary: 48 25% 90%;
-    --secondary-foreground: 25 15% 25%;
+    --secondary: 240 244 248;
+    --secondary-foreground: 15 23 42;
 
-    --muted: 48 25% 90%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 244 244 245;
+    --muted-foreground: 100 116 139;
 
-    --accent: 48 25% 90%;
-    --accent-foreground: 25 15% 25%;
+    --accent: 244 244 245;
+    --accent-foreground: 15 23 42;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
 
-    --border: 48 25% 85%;
-    --input: 48 25% 85%;
-    --ring: 25 75% 45%;
+    --border: 228 228 231;
+    --input: 228 228 231;
+    --ring: 51 144 255;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    --sidebar-background: 48 25% 97%;
-    --sidebar-foreground: 25 15% 15%;
-    --sidebar-primary: 25 75% 45%;
-    --sidebar-primary-foreground: 48 25% 97%;
-    --sidebar-accent: 48 25% 90%;
-    --sidebar-accent-foreground: 25 15% 25%;
-    --sidebar-border: 48 25% 85%;
-    --sidebar-ring: 25 75% 45%;
+    --sidebar-background: 255 255 255;
+    --sidebar-foreground: 10 10 10;
+    --sidebar-primary: 51 144 255;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 240 244 248;
+    --sidebar-accent-foreground: 15 23 42;
+    --sidebar-border: 228 228 231;
+    --sidebar-ring: 51 144 255;
   }
 
   .dark {
-    --background: 25 15% 8%;
-    --foreground: 48 25% 92%;
+    --background: 9 9 11;
+    --foreground: 250 250 250;
 
-    --card: 25 15% 10%;
-    --card-foreground: 48 25% 92%;
+    --card: 9 9 11;
+    --card-foreground: 250 250 250;
 
-    --popover: 25 15% 10%;
-    --popover-foreground: 48 25% 92%;
+    --popover: 9 9 11;
+    --popover-foreground: 250 250 250;
 
-    --primary: 25 75% 55%;
-    --primary-foreground: 25 15% 8%;
+    --primary: 51 144 255;
+    --primary-foreground: 9 9 11;
 
-    --secondary: 25 15% 15%;
-    --secondary-foreground: 48 25% 92%;
+    --secondary: 24 24 27;
+    --secondary-foreground: 161 161 170;
 
-    --muted: 25 15% 15%;
-    --muted-foreground: 48 25% 65%;
+    --muted: 24 24 27;
+    --muted-foreground: 161 161 170;
 
-    --accent: 25 15% 15%;
-    --accent-foreground: 48 25% 92%;
+    --accent: 24 24 27;
+    --accent-foreground: 250 250 250;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 220 38 38;
+    --destructive-foreground: 250 250 250;
 
-    --border: 25 15% 20%;
-    --input: 25 15% 20%;
-    --ring: 25 75% 55%;
+    --border: 39 39 42;
+    --input: 39 39 42;
+    --ring: 51 144 255;
 
-    --sidebar-background: 25 15% 8%;
-    --sidebar-foreground: 48 25% 92%;
-    --sidebar-primary: 25 75% 55%;
-    --sidebar-primary-foreground: 25 15% 8%;
-    --sidebar-accent: 25 15% 15%;
-    --sidebar-accent-foreground: 48 25% 92%;
-    --sidebar-border: 25 15% 20%;
-    --sidebar-ring: 25 75% 55%;
+    --sidebar-background: 9 9 11;
+    --sidebar-foreground: 250 250 250;
+    --sidebar-primary: 51 144 255;
+    --sidebar-primary-foreground: 9 9 11;
+    --sidebar-accent: 24 24 27;
+    --sidebar-accent-foreground: 250 250 250;
+    --sidebar-border: 39 39 42;
+    --sidebar-ring: 51 144 255;
   }
 }
 
@@ -93,8 +93,12 @@
   }
 
   body {
-    @apply bg-gradient-to-br from-terra-50 via-background to-spice-50 text-foreground font-body;
+    @apply bg-gradient-to-br from-gray-50 via-white to-gray-50 text-foreground font-body;
     min-height: 100vh;
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(255, 215, 0, 0.1) 0%, transparent 25%),
+      radial-gradient(circle at 75% 75%, rgba(0, 255, 136, 0.1) 0%, transparent 25%),
+      radial-gradient(circle at 75% 25%, rgba(138, 43, 226, 0.1) 0%, transparent 25%);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -103,15 +107,124 @@
 }
 
 @layer components {
-  .game-card {
-    @apply bg-card/80 backdrop-blur-sm border border-border/50 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300;
+  .cyber-card {
+    @apply bg-white/90 backdrop-blur-sm border-2 border-transparent rounded-xl shadow-2xl;
+    background-image: linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #8A2BE2);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+  }
+  
+  .cyber-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.5), rgba(0, 255, 136, 0.5), rgba(138, 43, 226, 0.5));
+    border-radius: 12px;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: -1;
+  }
+  
+  .cyber-button {
+    @apply relative overflow-hidden font-cyber font-bold text-lg px-8 py-4 rounded-lg;
+    background: linear-gradient(135deg, #FF1493, #8A2BE2);
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    box-shadow: 
+      0 0 20px rgba(255, 20, 147, 0.5),
+      inset 0 0 20px rgba(138, 43, 226, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .cyber-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+      0 0 30px rgba(255, 20, 147, 0.8),
+      0 5px 20px rgba(0, 0, 0, 0.3),
+      inset 0 0 30px rgba(138, 43, 226, 0.5);
+    text-shadow: 0 0 15px rgba(255, 215, 0, 1);
+  }
+  
+  .country-card {
+    @apply relative overflow-hidden bg-gradient-to-br from-white to-gray-50 rounded-2xl p-6 transition-all duration-300;
+    border: 3px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #0080FF);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 
+      0 20px 40px rgba(0, 0, 0, 0.2),
+      0 0 30px rgba(255, 215, 0, 0.3),
+      0 0 40px rgba(0, 255, 136, 0.2);
   }
   
   .country-flag {
-    @apply w-16 h-12 object-cover rounded-md shadow-sm;
+    @apply w-20 h-14 object-cover rounded-xl shadow-lg;
+    border: 2px solid rgba(255, 215, 0, 0.5);
   }
   
   .ingredient-tag {
-    @apply bg-terra-100 text-terra-800 px-3 py-1 rounded-full text-sm font-medium border border-terra-200 shadow-sm;
+    @apply bg-gradient-to-r from-cyber-green/20 to-cyber-blue/20 text-gray-800 px-4 py-2 rounded-full text-sm font-medium;
+    border: 2px solid rgba(0, 255, 136, 0.3);
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+    backdrop-filter: blur(10px);
   }
+
+  .cyber-grid-bg {
+    background-image: 
+      linear-gradient(rgba(0, 255, 136, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 136, 0.1) 1px, transparent 1px),
+      linear-gradient(rgba(255, 215, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 215, 0, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    animation: grid-move 20s linear infinite;
+  }
+
+  .cyber-title {
+    @apply font-cyber font-black text-transparent bg-clip-text;
+    background-image: linear-gradient(135deg, #FFD700, #00FF88, #0080FF);
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+    animation: cyber-glow 3s ease-in-out infinite;
+  }
+
+  .tapioca-pin {
+    @apply relative inline-block;
+  }
+
+  .tapioca-pin::before {
+    content: '🗺️';
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    font-size: 1.2em;
+    filter: drop-shadow(0 0 10px rgba(0, 128, 255, 0.8));
+  }
+}
+
+/* Scrollbar personalizada com tema cyber */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #FFD700, #00FF88);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #FFED4E, #39FF96);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
 }

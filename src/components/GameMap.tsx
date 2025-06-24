@@ -90,30 +90,37 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-terra-50 to-spice-50">
-      <div className="p-4">
-        <Card className="game-card">
-          <CardContent className="p-4">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="min-h-screen flex flex-col cyber-grid-bg relative overflow-hidden">
+      {/* Background effects */}
+      <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/5 via-transparent to-cyber-yellow/10 pointer-events-none" />
+      
+      <div className="p-4 relative z-10">
+        <Card className="cyber-card">
+          <CardContent className="p-6">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-center md:text-left">
-                <h3 className="text-xl font-heading font-semibold text-terra-800">
-                  🎯 Onde este prato é preparado?
+                <h3 className="text-3xl font-cyber font-bold text-gray-800 mb-2">
+                  <span className="text-cyber-purple">🎯</span> LOCALIZAR ORIGEM
                 </h3>
-                <p className="text-terra-600 text-sm mt-1">
-                  Clique no mapa para fazer seu palpite
+                <p className="text-gray-600 font-heading">
+                  Clique no mapa para marcar sua hipótese
                 </p>
               </div>
               
-              <div className="flex items-center gap-3">
-                <div className="ingredient-tag text-xs">
+              <div className="flex items-center gap-4">
+                <div className="cyber-card p-3 text-xs max-w-48">
+                  <span className="text-cyber-green font-semibold">Ingredientes: </span>
                   {recipe.ingredientes.slice(0, 2).join(', ')}...
                 </div>
                 {guessCoords && (
                   <Button
                     onClick={handleConfirmGuess}
-                    className="bg-leaf-500 hover:bg-leaf-600 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300"
+                    className="cyber-button animate-neon-pulse"
                   >
-                    Confirmar Palpite ✓
+                    <span className="flex items-center gap-2">
+                      CONFIRMAR
+                      <span className="text-xl">✓</span>
+                    </span>
                   </Button>
                 )}
               </div>
@@ -122,10 +129,15 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
         </Card>
       </div>
       
-      <div className="flex-1 mx-4 mb-4">
+      <div className="flex-1 mx-4 mb-4 relative z-10">
         <div
           ref={mapContainer}
-          className="w-full h-full min-h-[500px] rounded-xl shadow-lg border border-border/50"
+          className="w-full h-full min-h-[500px] rounded-xl shadow-2xl border-4 border-transparent"
+          style={{
+            backgroundImage: 'linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #0080FF)',
+            backgroundOrigin: 'border-box',
+            backgroundClip: 'content-box, border-box'
+          }}
         />
       </div>
     </div>

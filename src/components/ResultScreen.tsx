@@ -24,97 +24,110 @@ export const ResultScreen = ({
   totalScore 
 }: ResultScreenProps) => {
   const getPerformanceMessage = (distance: number) => {
-    if (distance <= 50) return { emoji: '🎯', message: 'Perfeito!', color: 'text-leaf-600' };
-    if (distance <= 100) return { emoji: '🌟', message: 'Excelente!', color: 'text-leaf-500' };
-    if (distance <= 200) return { emoji: '👏', message: 'Muito Bom!', color: 'text-terra-500' };
-    if (distance <= 500) return { emoji: '👍', message: 'Bom!', color: 'text-spice-500' };
-    if (distance <= 1000) return { emoji: '🤔', message: 'Pode Melhorar', color: 'text-orange-500' };
-    return { emoji: '😅', message: 'Tente Novamente!', color: 'text-red-500' };
+    if (distance <= 50) return { emoji: '🎯', message: 'PERFEITO!', color: 'text-cyber-green', glow: 'text-cyber-green' };
+    if (distance <= 100) return { emoji: '🌟', message: 'EXCELENTE!', color: 'text-cyber-yellow', glow: 'text-cyber-yellow' };
+    if (distance <= 200) return { emoji: '👏', message: 'MUITO BOM!', color: 'text-cyber-blue', glow: 'text-cyber-blue' };
+    if (distance <= 500) return { emoji: '👍', message: 'BOM!', color: 'text-cyber-purple', glow: 'text-cyber-purple' };
+    if (distance <= 1000) return { emoji: '🤔', message: 'PODE MELHORAR', color: 'text-orange-500', glow: 'text-orange-500' };
+    return { emoji: '😅', message: 'TENTE NOVAMENTE!', color: 'text-red-500', glow: 'text-red-500' };
   };
 
   const performance = getPerformanceMessage(distance);
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-gradient-to-br from-terra-50 to-spice-50">
-      <Card className="game-card max-w-2xl w-full animate-fade-in">
-        <CardHeader className="text-center pb-4">
-          <div className="text-6xl mb-4">{performance.emoji}</div>
-          <CardTitle className={`text-3xl font-heading ${performance.color}`}>
+    <div className="min-h-screen flex items-center justify-center p-6 cyber-grid-bg relative overflow-hidden">
+      {/* Background effects */}
+      <div className="absolute inset-0 bg-gradient-to-br from-cyber-green/10 via-transparent to-cyber-purple/10 pointer-events-none" />
+      
+      <Card className="cyber-card max-w-3xl w-full animate-fade-in relative z-10">
+        <CardHeader className="text-center pb-6">
+          <div className="text-8xl mb-6 animate-bounce-gentle">{performance.emoji}</div>
+          <CardTitle className={`text-5xl font-cyber font-black ${performance.color} mb-4`}>
             {performance.message}
           </CardTitle>
         </CardHeader>
         
-        <CardContent className="space-y-6">
-          <div className="text-center space-y-4">
-            <div className="bg-terra-100 rounded-xl p-4">
-              <h3 className="text-2xl font-heading font-bold text-terra-800 mb-2">
+        <CardContent className="space-y-8">
+          <div className="text-center space-y-6">
+            <div className="cyber-card p-6 bg-gradient-to-r from-cyber-yellow/10 to-cyber-green/10">
+              <h3 className="text-4xl font-heading font-bold text-gray-800 mb-3">
                 🍽️ {recipe.prato}
               </h3>
-              <p className="text-terra-600">
-                <strong>Origem:</strong> {recipe.estado ? `${recipe.estado}, ${recipe.pais}` : recipe.pais}
-              </p>
-              {recipe.regiao && (
-                <p className="text-terra-600">
-                  <strong>Região:</strong> {recipe.regiao}
+              <div className="space-y-2 text-lg">
+                <p className="text-gray-700">
+                  <span className="text-cyber-blue font-bold">🏠 Origem:</span> {recipe.estado ? `${recipe.estado}, ${recipe.pais}` : recipe.pais}
                 </p>
-              )}
+                {recipe.regiao && (
+                  <p className="text-gray-700">
+                    <span className="text-cyber-green font-bold">🌍 Região:</span> {recipe.regiao}
+                  </p>
+                )}
+              </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-spice-100 rounded-lg p-4">
-                <div className="text-2xl font-bold text-spice-700">
+            <div className="grid grid-cols-2 gap-6">
+              <div className="cyber-card p-6 bg-gradient-to-br from-cyber-pink/10 to-cyber-purple/10">
+                <div className="text-4xl font-cyber font-black text-cyber-pink">
                   {formatDistance(distance)}
                 </div>
-                <div className="text-sm text-spice-600">Distância</div>
+                <div className="text-sm text-gray-600 font-heading font-semibold">DISTÂNCIA</div>
               </div>
-              <div className="bg-leaf-100 rounded-lg p-4">
-                <div className="text-2xl font-bold text-leaf-700">
+              <div className="cyber-card p-6 bg-gradient-to-br from-cyber-green/10 to-cyber-lime/10">
+                <div className="text-4xl font-cyber font-black text-cyber-green">
                   {score} pts
                 </div>
-                <div className="text-sm text-leaf-600">Pontuação</div>
+                <div className="text-sm text-gray-600 font-heading font-semibold">PONTUAÇÃO</div>
               </div>
             </div>
 
-            <div className="bg-terra-50 rounded-xl p-4 border border-terra-200">
-              <h4 className="font-semibold text-terra-800 mb-2">💡 Curiosidade:</h4>
-              <p className="text-terra-700 text-sm leading-relaxed">
+            <div className="cyber-card p-6 bg-gradient-to-r from-cyber-blue/10 to-cyber-purple/10 border-2 border-cyber-blue/30">
+              <h4 className="font-cyber font-bold text-cyber-blue mb-3 text-xl">💡 CURIOSIDADE CULTURAL:</h4>
+              <p className="text-gray-700 leading-relaxed">
                 {recipe.dica}
               </p>
             </div>
 
             {isLastRound && (
-              <div className="bg-gradient-to-r from-terra-100 to-spice-100 rounded-xl p-4 border border-terra-200">
-                <h4 className="font-semibold text-terra-800 mb-2">🏆 Pontuação Final:</h4>
-                <p className="text-2xl font-bold text-terra-700">
-                  {totalScore} pontos
+              <div className="cyber-card p-6 bg-gradient-to-r from-cyber-yellow/20 to-cyber-green/20 border-2 border-cyber-yellow/50 animate-neon-pulse">
+                <h4 className="font-cyber font-bold text-cyber-yellow mb-3 text-2xl">🏆 MISSÃO COMPLETA!</h4>
+                <p className="text-3xl font-cyber font-black text-gray-800">
+                  {totalScore} PONTOS TOTAIS
                 </p>
               </div>
             )}
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-6">
             {!isLastRound ? (
               <Button
                 onClick={onNextRound}
-                className="flex-1 bg-leaf-500 hover:bg-leaf-600 text-white py-3 rounded-full font-semibold transition-all duration-300"
+                className="flex-1 cyber-button text-xl py-6"
               >
-                Próximo Prato 🍽️
+                <span className="flex items-center gap-3">
+                  PRÓXIMA MISSÃO
+                  <span className="text-2xl">🍽️</span>
+                </span>
               </Button>
             ) : (
               <Button
                 onClick={onRestart}
-                className="flex-1 bg-terra-500 hover:bg-terra-600 text-white py-3 rounded-full font-semibold transition-all duration-300"
+                className="flex-1 cyber-button text-xl py-6"
               >
-                Jogar Novamente 🔄
+                <span className="flex items-center gap-3">
+                  NOVA JORNADA
+                  <span className="text-2xl">🔄</span>
+                </span>
               </Button>
             )}
             
             <Button
               onClick={onRestart}
-              variant="outline"
-              className="flex-1 border-terra-300 text-terra-700 hover:bg-terra-50 py-3 rounded-full font-semibold transition-all duration-300"
+              className="flex-1 bg-white/90 hover:bg-cyber-yellow/20 border-2 border-cyber-yellow text-cyber-blue font-cyber font-bold text-xl py-6 rounded-lg transition-all duration-300"
             >
-              Escolher Outro País 🌎
+              <span className="flex items-center gap-3">
+                EXPLORAR OUTROS PAÍSES
+                <span className="text-2xl">🌎</span>
+              </span>
             </Button>
           </div>
         </CardContent>
