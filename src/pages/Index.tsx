@@ -1,14 +1,142 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useState, useEffect } from 'react';
+import { CountrySelection } from '@/components/CountrySelection';
+import { LoadingScreen } from '@/components/LoadingScreen';
+import { IngredientsDisplay } from '@/components/IngredientsDisplay';
+import { GameMap } from '@/components/GameMap';
+import { ResultScreen } from '@/components/ResultScreen';
+import { useGameState } from '@/hooks/useGameState';
+import { getRecipesByCountry } from '@/data/recipes';
+import { calculateDistance, calculateScore, getRandomRecipe } from '@/utils/gameLogic';
 
 const Index = () => {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
+  const { gameState, updateGameState, resetGame } = useGameState();
+  const [usedRecipes, setUsedRecipes] = useState<string[]>([]);
+
+  const handleCountrySelect = (countryCode: string) => {
+    console.log('Country selected:', countryCode);
+    updateGameState({ 
+      selectedCountry: countryCode, 
+      phase: 'loading' 
+    });
+    
+    // Simulate loading time
+    setTimeout(() => {
+      startNewRound(countryCode);
+    }, 2000);
+  };
+
+  const startNewRound = (countryCode: string) => {
+    const countryRecipes = getRecipesByCountry(countryCode);
+    const availableRecipes = countryRecipes.filter(recipe => !usedRecipes.includes(recipe.id));
+    
+    if (availableRecipes.length === 0) {
+      // Reset used recipes if all have been used
+      setUsedRecipes([]);
+      const recipe = getRandomRecipe(countryRecipes);
+      setUsedRecipes([recipe.id]);
+      updateGameState({
+        currentRecipe: recipe,
+        phase: 'ingredients',
+        round: gameState.round + 1
+      });
+    } else {
+      const recipe = getRandomRecipe(availableRecipes);
+      setUsedRecipes(prev => [...prev, recipe.id]);
+      updateGameState({
+        currentRecipe: recipe,
+        phase: 'ingredients',
+        round: gameState.round + 1
+      });
+    }
+  };
+
+  const handleShowMap = () => {
+    updateGameState({ phase: 'map' });
+  };
+
+  const handleGuess = (lat: number, lng: number) => {
+    if (!gameState.currentRecipe) return;
+
+    const distance = calculateDistance(
+      lat,
+      lng,
+      gameState.currentRecipe.latitude,
+      gameState.currentRecipe.longitude
+    );
+    
+    const roundScore = calculateScore(distance);
+    
+    updateGameState({
+      userGuess: { lat, lng },
+      distance,
+      score: gameState.score + roundScore,
+      phase: 'result'
+    });
+  };
+
+  const handleNextRound = () => {
+    if (gameState.round >= gameState.totalRounds) {
+      resetGame();
+      return;
+    }
+    
+    updateGameState({ phase: 'loading' });
+    setTimeout(() => {
+      startNewRound(gameState.selectedCountry!);
+    }, 1000);
+  };
+
+  const handleRestart = () => {
+    setUsedRecipes([]);
+    resetGame();
+  };
+
+  // Debug logging
+  useEffect(() => {
+    console.log('Game state updated:', gameState);
+  }, [gameState]);
+
+  switch (gameState.phase) {
+    case 'country-selection':
+      return <CountrySelection onCountrySelect={handleCountrySelect} />;
+    
+    case 'loading':
+      return <LoadingScreen country={gameState.selectedCountry!} />;
+    
+    case 'ingredients':
+      return (
+        <IngredientsDisplay
+          recipe={gameState.currentRecipe!}
+          onContinue={handleShowMap}
+        />
+      );
+    
+    case 'map':
+      return (
+        <GameMap
+          recipe={gameState.currentRecipe!}
+          onGuess={handleGuess}
+          selectedCountry={gameState.selectedCountry!}
+        />
+      );
+    
+    case 'result':
+      return (
+        <ResultScreen
+          recipe={gameState.currentRecipe!}
+          distance={gameState.distance!}
+          score={calculateScore(gameState.distance!)}
+          onNextRound={handleNextRound}
+          onRestart={handleRestart}
+          isLastRound={gameState.round >= gameState.totalRounds}
+          totalScore={gameState.score}
+        />
+      );
+    
+    default:
+      return <CountrySelection onCountrySelect={handleCountrySelect} />;
+  }
 };
 
 export default Index;
