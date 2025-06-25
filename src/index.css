@@ -1,8 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
   :root {
@@ -92,16 +93,14 @@
   }
 
   body {
-    @apply bg-gradient-to-br from-white via-gray-50 to-gray-100 text-cyber-gray-900 font-body antialiased;
+    @apply bg-leaf-600 text-white font-body antialiased;
     min-height: 100vh;
-    background-image: 
-      radial-gradient(circle at 25% 25%, rgba(255, 215, 0, 0.08) 0%, transparent 25%),
-      radial-gradient(circle at 75% 75%, rgba(0, 230, 118, 0.08) 0%, transparent 25%),
-      radial-gradient(circle at 75% 25%, rgba(156, 39, 176, 0.08) 0%, transparent 25%);
+    font-family: 'Inter', system-ui, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading font-semibold;
+    font-family: 'Poppins', 'Inter', system-ui, sans-serif;
   }
 
   h1 { @apply text-4xl md:text-5xl lg:text-6xl; }
@@ -114,23 +113,8 @@
 
 @layer components {
   .cyber-card {
-    @apply bg-white/95 backdrop-blur-sm border-2 border-transparent rounded-2xl shadow-xl;
-    background-image: linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00E676, #2196F3);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    position: relative;
-  }
-  
-  .cyber-card::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    padding: 2px;
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.6), rgba(0, 230, 118, 0.6), rgba(33, 150, 243, 0.6));
-    border-radius: 16px;
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask-composite: exclude;
-    z-index: -1;
+    @apply bg-green-800/95 backdrop-blur-sm border border-green-700/50 rounded-2xl shadow-lg;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   }
   
   .cyber-button {
@@ -140,231 +124,128 @@
     border: 2px solid #FFD700;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     box-shadow: 
-      0 0 20px rgba(233, 30, 99, 0.4),
-      0 4px 15px rgba(0, 0, 0, 0.1),
-      inset 0 0 20px rgba(156, 39, 176, 0.2);
+      0 0 15px rgba(233, 30, 99, 0.3),
+      0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .cyber-button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: 
-      0 0 30px rgba(233, 30, 99, 0.6),
-      0 8px 25px rgba(0, 0, 0, 0.15),
-      inset 0 0 30px rgba(156, 39, 176, 0.3);
-    text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+      0 0 20px rgba(233, 30, 99, 0.4),
+      0 6px 15px rgba(0, 0, 0, 0.15);
   }
   
   .country-card {
     @apply relative overflow-hidden rounded-2xl transition-all duration-300;
-    background-color: rgba(255, 255, 255, 0.98);
-    border: 3px solid transparent;
-    background-image: linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00E676, #2196F3);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 
-      0 8px 32px rgba(0, 0, 0, 0.08),
-      0 4px 16px rgba(0, 0, 0, 0.04);
+    background-color: rgba(34, 197, 94, 0.8);
+    border: 2px solid rgba(22, 163, 74, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   }
   
   .country-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 
-      0 20px 40px rgba(0, 0, 0, 0.12),
-      0 0 40px rgba(255, 215, 0, 0.15),
-      0 0 60px rgba(0, 230, 118, 0.1);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   }
   
   .country-flag {
     @apply w-full h-32 object-cover rounded-xl shadow-md;
-    border: 2px solid rgba(255, 215, 0, 0.3);
+    border: 1px solid rgba(22, 163, 74, 0.3);
   }
   
   .ingredient-tag {
-    @apply bg-gradient-to-r from-cyber-green/15 to-cyber-blue/15 text-cyber-gray-800 px-4 py-3 rounded-full text-sm font-medium font-body;
-    border: 2px solid rgba(0, 230, 118, 0.2);
-    box-shadow: 0 2px 8px rgba(0, 230, 118, 0.1);
-    backdrop-filter: blur(10px);
+    @apply bg-green-700/60 text-white px-3 py-2 rounded-full text-sm font-medium;
+    border: 1px solid rgba(22, 163, 74, 0.4);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .cyber-grid-bg {
-    background-image: 
-      linear-gradient(rgba(0, 230, 118, 0.08) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 230, 118, 0.08) 1px, transparent 1px),
-      linear-gradient(rgba(255, 215, 0, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 215, 0, 0.04) 1px, transparent 1px);
-    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
-    animation: grid-move 25s linear infinite;
-  }
-
-  .cyber-title {
-    @apply font-display font-black text-transparent bg-clip-text leading-tight;
-    background-image: linear-gradient(135deg, #FFD700, #00E676, #2196F3);
-    text-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
-    animation: cyber-glow 4s ease-in-out infinite;
-  }
-
-  .tapioca-pin {
-    @apply relative inline-block;
-  }
-
-  .tapioca-pin::before {
-    content: '🗺️';
-    position: absolute;
-    top: -12px;
-    right: -8px;
-    font-size: 1.4em;
-    filter: drop-shadow(0 0 12px rgba(33, 150, 243, 0.6));
-  }
-
-  /* Melhor contraste para textos */
-  .text-high-contrast {
-    @apply text-cyber-gray-900;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
-  }
-
-  .text-medium-contrast {
-    @apply text-cyber-gray-700;
-  }
-
-  .text-low-contrast {
-    @apply text-cyber-gray-600;
+    background-color: #16a34a;
   }
 
   .cyber-country-card {
     @apply relative overflow-hidden rounded-2xl transition-all duration-300;
-    background: linear-gradient(135deg, rgba(139, 69, 19, 0.1), rgba(255, 215, 0, 0.1));
-    border: 3px solid transparent;
-    background-image: 
-      linear-gradient(rgba(139, 69, 19, 0.8), rgba(139, 69, 19, 0.8)), 
-      linear-gradient(135deg, #9C27B0, #E91E63, #2196F3);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 
-      0 8px 32px rgba(156, 39, 176, 0.2),
-      0 4px 16px rgba(233, 30, 99, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(34, 197, 94, 0.8);
+    border: 2px solid rgba(22, 163, 74, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   }
   
   .cyber-country-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 
-      0 20px 40px rgba(156, 39, 176, 0.3),
-      0 0 40px rgba(233, 30, 99, 0.2),
-      0 0 60px rgba(33, 150, 243, 0.15);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   }
 
   .cyber-mode-card {
     @apply relative overflow-hidden rounded-2xl transition-all duration-300 animate-fade-in;
-    background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(233, 30, 99, 0.1));
-    border: 3px solid transparent;
-    background-image: 
-      linear-gradient(rgba(139, 69, 19, 0.9), rgba(139, 69, 19, 0.9)), 
-      linear-gradient(135deg, #FFD700, #00E676, #2196F3);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 
-      0 8px 32px rgba(0, 0, 0, 0.3),
-      0 4px 16px rgba(255, 215, 0, 0.1);
-    backdrop-filter: blur(15px);
+    background: rgba(34, 197, 94, 0.8);
+    border: 2px solid rgba(22, 163, 74, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   }
   
   .cyber-mode-card:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 
-      0 20px 40px rgba(0, 0, 0, 0.4),
-      0 0 40px rgba(255, 215, 0, 0.3),
-      0 0 60px rgba(0, 230, 118, 0.2);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   }
 
   .cyber-menu-card {
     @apply relative overflow-hidden rounded-2xl;
-    background: linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(75, 0, 130, 0.95));
-    border: 3px solid transparent;
-    background-image: 
-      linear-gradient(rgba(139, 69, 19, 0.95), rgba(75, 0, 130, 0.95)), 
-      linear-gradient(135deg, #FFD700, #E91E63, #9C27B0);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 
-      0 20px 60px rgba(0, 0, 0, 0.5),
-      0 0 80px rgba(255, 215, 0, 0.2);
-    backdrop-filter: blur(20px);
+    background: rgba(34, 197, 94, 0.9);
+    border: 2px solid rgba(22, 163, 74, 0.7);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
   }
 
   .cyber-neon-button {
-    @apply relative overflow-hidden font-heading font-bold px-8 py-4 rounded-xl transition-all duration-300;
+    @apply relative overflow-hidden font-heading font-bold px-6 py-3 rounded-xl transition-all duration-300;
     background: linear-gradient(135deg, #9C27B0, #E91E63);
     color: #FFFFFF;
     border: 2px solid #FFD700;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
     box-shadow: 
-      0 0 20px rgba(156, 39, 176, 0.6),
-      0 4px 15px rgba(0, 0, 0, 0.2),
-      inset 0 0 20px rgba(233, 30, 99, 0.3);
+      0 0 15px rgba(156, 39, 176, 0.4),
+      0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .cyber-neon-button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: 
-      0 0 30px rgba(156, 39, 176, 0.8),
-      0 8px 25px rgba(0, 0, 0, 0.3),
-      inset 0 0 30px rgba(233, 30, 99, 0.4);
-    text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+      0 0 20px rgba(156, 39, 176, 0.5),
+      0 6px 15px rgba(0, 0, 0, 0.2);
   }
 
   .cyber-start-button {
     @apply relative overflow-hidden font-heading font-black rounded-2xl transition-all duration-300;
     background: linear-gradient(135deg, #E91E63, #FF6B6B);
     color: #FFFF00;
-    border: 4px solid #FFD700;
+    border: 3px solid #FFD700;
     text-shadow: 
-      0 0 10px rgba(255, 255, 0, 0.8),
-      0 0 20px rgba(255, 255, 0, 0.6),
-      2px 2px 0px rgba(0, 0, 0, 0.8);
+      0 0 8px rgba(255, 255, 0, 0.6),
+      0 0 15px rgba(255, 255, 0, 0.4);
     box-shadow: 
-      0 0 30px rgba(233, 30, 99, 0.8),
-      0 8px 25px rgba(0, 0, 0, 0.3),
-      inset 0 0 30px rgba(255, 107, 107, 0.3);
+      0 0 20px rgba(233, 30, 99, 0.5),
+      0 6px 15px rgba(0, 0, 0, 0.2);
   }
   
   .cyber-start-button:hover {
-    transform: translateY(-4px) scale(1.05);
+    transform: translateY(-3px) scale(1.03);
     box-shadow: 
-      0 0 40px rgba(233, 30, 99, 1),
-      0 12px 35px rgba(0, 0, 0, 0.4),
-      inset 0 0 40px rgba(255, 107, 107, 0.4);
-    text-shadow: 
-      0 0 15px rgba(255, 255, 0, 1),
-      0 0 30px rgba(255, 255, 0, 0.8),
-      2px 2px 0px rgba(0, 0, 0, 1);
-  }
-
-  .pixel-glow {
-    text-shadow: 
-      0 0 5px currentColor,
-      0 0 10px currentColor,
-      0 0 15px currentColor,
-      2px 2px 0px rgba(0, 0, 0, 0.5);
+      0 0 25px rgba(233, 30, 99, 0.6),
+      0 8px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
-/* Scrollbar com melhor contraste */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
+  background: rgba(34, 197, 94, 0.3);
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #FFD700, #00E676);
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: rgba(22, 163, 74, 0.8);
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #FFEB3B, #1DE9B6);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: rgba(22, 163, 74, 1);
 }

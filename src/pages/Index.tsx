@@ -1,5 +1,9 @@
 
 import { useState, useEffect } from 'react';
+import { User, Session } from '@supabase/supabase-js';
+import { supabase } from '@/integrations/supabase/client';
+import { AuthPage } from '@/components/AuthPage';
+import { Navigation } from '@/components/Navigation';
 import { GameHomeScreen } from '@/components/GameHomeScreen';
 import { LoadingScreen } from '@/components/LoadingScreen';
 import { IngredientsDisplay } from '@/components/IngredientsDisplay';
@@ -10,8 +14,42 @@ import { getRecipesByCountry } from '@/data/recipes';
 import { calculateDistance, calculateScore, getRandomRecipe } from '@/utils/gameLogic';
 
 const Index = () => {
+  const [user, setUser] = useState<User | null>(null);
+  const [session, setSession] = useState<Session | null>(null);
+  const [loading, setLoading] = useState(true);
   const { gameState, updateGameState, resetGame } = useGameState();
   const [usedRecipes, setUsedRecipes] = useState<string[]>([]);
+
+  useEffect(() => {
+    // Set up auth state listener
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      setSession(session);
+      setUser(session?.user ?? null);
+      setLoading(false);
+    });
+
+    // Check for existing session
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+      setUser(session?.user ?? null);
+      setLoading(false);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleAuthSuccess = () => {
+    // Auth state will be updated by the listener
+  };
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    resetGame();
+  };
+
+  const handleHome = () => {
+    resetGame();
+  };
 
   const handleGameStart = (countryCode: string, gameMode: string) => {
     console.log('Game started with:', countryCode, gameMode);
@@ -20,7 +58,6 @@ const Index = () => {
       phase: 'loading' 
     });
     
-    // Simulate loading time
     setTimeout(() => {
       startNewRound(countryCode);
     }, 2000);
@@ -31,7 +68,6 @@ const Index = () => {
     const availableRecipes = countryRecipes.filter(recipe => !usedRecipes.includes(recipe.id));
     
     if (availableRecipes.length === 0) {
-      // Reset used recipes if all have been used
       setUsedRecipes([]);
       const recipe = getRandomRecipe(countryRecipes);
       setUsedRecipes([recipe.id]);
@@ -92,51 +128,70 @@ const Index = () => {
     resetGame();
   };
 
-  // Debug logging
-  useEffect(() => {
-    console.log('Game state updated:', gameState);
-  }, [gameState]);
-
-  switch (gameState.phase) {
-    case 'country-selection':
-      return <GameHomeScreen onStartGame={handleGameStart} />;
-    
-    case 'loading':
-      return <LoadingScreen country={gameState.selectedCountry!} />;
-    
-    case 'ingredients':
-      return (
-        <IngredientsDisplay
-          recipe={gameState.currentRecipe!}
-          onContinue={handleShowMap}
-        />
-      );
-    
-    case 'map':
-      return (
-        <GameMap
-          recipe={gameState.currentRecipe!}
-          onGuess={handleGuess}
-          selectedCountry={gameState.selectedCountry!}
-        />
-      );
-    
-    case 'result':
-      return (
-        <ResultScreen
-          recipe={gameState.currentRecipe!}
-          distance={gameState.distance!}
-          score={calculateScore(gameState.distance!)}
-          onNextRound={handleNextRound}
-          onRestart={handleRestart}
-          isLastRound={gameState.round >= gameState.totalRounds}
-          totalScore={gameState.score}
-        />
-      );
-    
-    default:
-      return <GameHomeScreen onStartGame={handleGameStart} />;
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-leaf-600 flex items-center justify-center">
+        <div className="text-white text-xl">Carregando...</div>
+      </div>
+    );
   }
+
+  if (!user) {
+    return <AuthPage onAuthSuccess={handleAuthSuccess} />;
+  }
+
+  return (
+    <div className="min-h-screen bg-leaf-600">
+      <Navigation
+        onHome={handleHome}
+        onLogout={handleLogout}
+        isAuthenticated={!!user}
+      />
+      
+      {(() => {
+        switch (gameState.phase) {
+          case 'country-selection':
+            return <GameHomeScreen onStartGame={handleGameStart} />;
+          
+          case 'loading':
+            return <LoadingScreen country={gameState.selectedCountry!} />;
+          
+          case 'ingredients':
+            return (
+              <IngredientsDisplay
+                recipe={gameState.currentRecipe!}
+                onContinue={handleShowMap}
+              />
+            );
+          
+          case 'map':
+            return (
+              <GameMap
+                recipe={gameState.currentRecipe!}
+                onGuess={handleGuess}
+                selectedCountry={gameState.selectedCountry!}
+              />
+            );
+          
+          case 'result':
+            return (
+              <ResultScreen
+                recipe={gameState.currentRecipe!}
+                distance={gameState.distance!}
+                score={calculateScore(gameState.distance!)}
+                onNextRound={handleNextRound}
+                onRestart={handleRestart}
+                isLastRound={gameState.round >= gameState.totalRounds}
+                totalScore={gameState.score}
+              />
+            );
+          
+          default:
+            return <GameHomeScreen onStartGame={handleGameStart} />;
+        }
+      })()}
+    </div>
+  );
 };
 
 export default Index;

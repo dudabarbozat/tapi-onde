@@ -1,7 +1,9 @@
+
 import { Recipe } from '@/data/recipes';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { formatDistance } from '@/utils/gameLogic';
+
 interface ResultScreenProps {
   recipe: Recipe;
   distance: number;
@@ -11,6 +13,7 @@ interface ResultScreenProps {
   isLastRound: boolean;
   totalScore: number;
 }
+
 export const ResultScreen = ({
   recipe,
   distance,
@@ -24,113 +27,118 @@ export const ResultScreen = ({
     if (distance <= 50) return {
       emoji: '🎯',
       message: 'PERFEITO!',
-      color: 'text-cyber-green',
-      glow: 'text-cyber-green'
+      color: 'text-yellow-400'
     };
     if (distance <= 100) return {
       emoji: '🌟',
       message: 'EXCELENTE!',
-      color: 'text-cyber-yellow',
-      glow: 'text-cyber-yellow'
+      color: 'text-green-400'
     };
     if (distance <= 200) return {
       emoji: '👏',
       message: 'MUITO BOM!',
-      color: 'text-cyber-blue',
-      glow: 'text-cyber-blue'
+      color: 'text-blue-400'
     };
     if (distance <= 500) return {
       emoji: '👍',
       message: 'BOM!',
-      color: 'text-cyber-purple',
-      glow: 'text-cyber-purple'
+      color: 'text-purple-400'
     };
     if (distance <= 1000) return {
       emoji: '🤔',
       message: 'PODE MELHORAR',
-      color: 'text-orange-500',
-      glow: 'text-orange-500'
+      color: 'text-orange-400'
     };
     return {
       emoji: '😅',
       message: 'TENTE NOVAMENTE!',
-      color: 'text-red-500',
-      glow: 'text-red-500'
+      color: 'text-red-400'
     };
   };
+
   const performance = getPerformanceMessage(distance);
-  return <div className="min-h-screen flex items-center justify-center p-6 cyber-grid-bg relative overflow-hidden bg-leaf-600">
-      {/* Background effects */}
-      <div className="absolute inset-0 bg-gradient-to-br from-cyber-green/10 via-transparent to-cyber-purple/10 pointer-events-none" />
-      
-      <Card className="cyber-card max-w-3xl w-full animate-fade-in relative z-10 bg-green-800">
-        <CardHeader className="text-center pb-6 bg-green-800">
+
+  return (
+    <div className="min-h-screen flex items-center justify-center p-6 bg-leaf-600">      
+      <Card className="cyber-card max-w-3xl w-full animate-fade-in relative z-10">
+        <CardHeader className="text-center pb-6">
           <div className="text-8xl mb-6 animate-bounce-gentle">{performance.emoji}</div>
-          <CardTitle className={`text-5xl font-cyber font-black ${performance.color} mb-4`}>
+          <CardTitle className={`text-5xl font-heading font-black ${performance.color} mb-4`}>
             {performance.message}
           </CardTitle>
         </CardHeader>
         
-        <CardContent className="space-y-8 bg-green-800">
+        <CardContent className="space-y-8">
           <div className="text-center space-y-6">
-            <div className="cyber-card p-6 bg-gradient-to-r from-cyber-yellow/10 to-cyber-green/10 bg-green-800">
-              <h3 className="text-4xl font-heading font-bold text-gray-800 mb-3">
+            <div className="cyber-card p-6">
+              <h3 className="text-4xl font-heading font-bold text-white mb-3">
                 🍽️ {recipe.prato}
               </h3>
               <div className="space-y-2 text-lg">
-                <p className="text-gray-700">
-                  <span className="text-cyber-blue font-bold">🏠 Origem:</span> {recipe.estado ? `${recipe.estado}, ${recipe.pais}` : recipe.pais}
+                <p className="text-green-200">
+                  <span className="text-blue-400 font-bold">🏠 Origem:</span> {recipe.estado ? `${recipe.estado}, ${recipe.pais}` : recipe.pais}
                 </p>
-                {recipe.regiao && <p className="text-gray-700">
-                    <span className="text-cyber-green font-bold">🌍 Região:</span> {recipe.regiao}
-                  </p>}
+                {recipe.regiao && (
+                  <p className="text-green-200">
+                    <span className="text-green-400 font-bold">🌍 Região:</span> {recipe.regiao}
+                  </p>
+                )}
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-6">
-              <div className="cyber-card p-6 bg-gradient-to-br from-cyber-pink/10 to-cyber-purple/10">
-                <div className="text-4xl font-cyber font-black text-cyber-pink bg-green-800">
+              <div className="cyber-card p-6">
+                <div className="text-4xl font-heading font-black text-pink-400">
                   {formatDistance(distance)}
                 </div>
-                <div className="text-sm text-gray-100 font-heading font-semibold bg-green-800">DISTÂNCIA</div>
+                <div className="text-sm text-green-200 font-heading font-semibold">DISTÂNCIA</div>
               </div>
-              <div className="cyber-card p-6 bg-gradient-to-br from-cyber-green/10 to-cyber-lime/10">
-                <div className="text-4xl font-cyber font-black text-cyber-green bg-green-800">
+              <div className="cyber-card p-6">
+                <div className="text-4xl font-heading font-black text-green-400">
                   {score} pts
                 </div>
-                <div className="text-sm text-gray-100 font-heading font-semibold bg-green-800">PONTUAÇÃO</div>
+                <div className="text-sm text-green-200 font-heading font-semibold">PONTUAÇÃO</div>
               </div>
             </div>
 
-            <div className="cyber-card p-6 bg-gradient-to-r from-cyber-blue/10 to-cyber-purple/10 border-2 border-cyber-blue/30 bg-green-800">
-              <h4 className="font-cyber font-bold text-cyber-blue mb-3 text-xl">💡 CURIOSIDADE CULTURAL:</h4>
-              <p className="text-gray-100 leading-relaxed">
+            <div className="cyber-card p-6">
+              <h4 className="font-heading font-bold text-blue-400 mb-3 text-xl">💡 CURIOSIDADE CULTURAL:</h4>
+              <p className="text-green-200 leading-relaxed">
                 {recipe.dica}
               </p>
             </div>
 
-            {isLastRound && <div className="cyber-card p-6 bg-gradient-to-r from-cyber-yellow/20 to-cyber-green/20 border-2 border-cyber-yellow/50 animate-neon-pulse">
-                <h4 className="font-cyber font-bold text-cyber-yellow mb-3 text-2xl">🏆 MISSÃO COMPLETA!</h4>
-                <p className="text-3xl font-cyber font-black text-gray-800">
+            {isLastRound && (
+              <div className="cyber-card p-6 border-2 border-yellow-500/50">
+                <h4 className="font-heading font-bold text-yellow-400 mb-3 text-2xl">🏆 MISSÃO COMPLETA!</h4>
+                <p className="text-3xl font-heading font-black text-white">
                   {totalScore} PONTOS TOTAIS
                 </p>
-              </div>}
+              </div>
+            )}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-6">
-            {!isLastRound ? <Button onClick={onNextRound} className="flex-1 cyber-button text-xl py-6">
+            {!isLastRound ? (
+              <Button onClick={onNextRound} className="flex-1 cyber-button text-xl py-6">
                 <span className="flex items-center gap-3">
                   PRÓXIMA MISSÃO
                   <span className="text-2xl">🍽️</span>
                 </span>
-              </Button> : <Button onClick={onRestart} className="flex-1 cyber-button text-xl py-6">
+              </Button>
+            ) : (
+              <Button onClick={onRestart} className="flex-1 cyber-button text-xl py-6">
                 <span className="flex items-center gap-3">
                   NOVA JORNADA
                   <span className="text-2xl">🔄</span>
                 </span>
-              </Button>}
+              </Button>
+            )}
             
-            <Button onClick={onRestart} className="flex-1 bg-white/90 hover:bg-cyber-yellow/20 border-2 border-cyber-yellow text-cyber-blue font-cyber font-bold text-xl py-6 rounded-lg transition-all duration-300">
+            <Button 
+              onClick={onRestart} 
+              className="flex-1 bg-green-700/80 hover:bg-green-600/90 border-2 border-green-500 text-white font-heading font-bold text-xl py-6 rounded-lg transition-all duration-300"
+            >
               <span className="flex items-center gap-3">
                 EXPLORAR OUTROS PAÍSES
                 <span className="text-2xl">🌎</span>
@@ -139,5 +147,6 @@ export const ResultScreen = ({
           </div>
         </CardContent>
       </Card>
-    </div>;
+    </div>
+  );
 };
