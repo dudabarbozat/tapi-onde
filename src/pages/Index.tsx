@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { CountrySelection } from '@/components/CountrySelection';
+import { GameHomeScreen } from '@/components/GameHomeScreen';
 import { LoadingScreen } from '@/components/LoadingScreen';
 import { IngredientsDisplay } from '@/components/IngredientsDisplay';
 import { GameMap } from '@/components/GameMap';
@@ -13,8 +13,8 @@ const Index = () => {
   const { gameState, updateGameState, resetGame } = useGameState();
   const [usedRecipes, setUsedRecipes] = useState<string[]>([]);
 
-  const handleCountrySelect = (countryCode: string) => {
-    console.log('Country selected:', countryCode);
+  const handleGameStart = (countryCode: string, gameMode: string) => {
+    console.log('Game started with:', countryCode, gameMode);
     updateGameState({ 
       selectedCountry: countryCode, 
       phase: 'loading' 
@@ -99,7 +99,7 @@ const Index = () => {
 
   switch (gameState.phase) {
     case 'country-selection':
-      return <CountrySelection onCountrySelect={handleCountrySelect} />;
+      return <GameHomeScreen onStartGame={handleGameStart} />;
     
     case 'loading':
       return <LoadingScreen country={gameState.selectedCountry!} />;
@@ -135,7 +135,7 @@ const Index = () => {
       );
     
     default:
-      return <CountrySelection onCountrySelect={handleCountrySelect} />;
+      return <GameHomeScreen onStartGame={handleGameStart} />;
   }
 };
 

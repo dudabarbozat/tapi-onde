@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -229,6 +228,123 @@
 
   .text-low-contrast {
     @apply text-cyber-gray-600;
+  }
+
+  .cyber-country-card {
+    @apply relative overflow-hidden rounded-2xl transition-all duration-300;
+    background: linear-gradient(135deg, rgba(139, 69, 19, 0.1), rgba(255, 215, 0, 0.1));
+    border: 3px solid transparent;
+    background-image: 
+      linear-gradient(rgba(139, 69, 19, 0.8), rgba(139, 69, 19, 0.8)), 
+      linear-gradient(135deg, #9C27B0, #E91E63, #2196F3);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 
+      0 8px 32px rgba(156, 39, 176, 0.2),
+      0 4px 16px rgba(233, 30, 99, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .cyber-country-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 20px 40px rgba(156, 39, 176, 0.3),
+      0 0 40px rgba(233, 30, 99, 0.2),
+      0 0 60px rgba(33, 150, 243, 0.15);
+  }
+
+  .cyber-mode-card {
+    @apply relative overflow-hidden rounded-2xl transition-all duration-300 animate-fade-in;
+    background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(233, 30, 99, 0.1));
+    border: 3px solid transparent;
+    background-image: 
+      linear-gradient(rgba(139, 69, 19, 0.9), rgba(139, 69, 19, 0.9)), 
+      linear-gradient(135deg, #FFD700, #00E676, #2196F3);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.3),
+      0 4px 16px rgba(255, 215, 0, 0.1);
+    backdrop-filter: blur(15px);
+  }
+  
+  .cyber-mode-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 
+      0 20px 40px rgba(0, 0, 0, 0.4),
+      0 0 40px rgba(255, 215, 0, 0.3),
+      0 0 60px rgba(0, 230, 118, 0.2);
+  }
+
+  .cyber-menu-card {
+    @apply relative overflow-hidden rounded-2xl;
+    background: linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(75, 0, 130, 0.95));
+    border: 3px solid transparent;
+    background-image: 
+      linear-gradient(rgba(139, 69, 19, 0.95), rgba(75, 0, 130, 0.95)), 
+      linear-gradient(135deg, #FFD700, #E91E63, #9C27B0);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 
+      0 20px 60px rgba(0, 0, 0, 0.5),
+      0 0 80px rgba(255, 215, 0, 0.2);
+    backdrop-filter: blur(20px);
+  }
+
+  .cyber-neon-button {
+    @apply relative overflow-hidden font-heading font-bold px-8 py-4 rounded-xl transition-all duration-300;
+    background: linear-gradient(135deg, #9C27B0, #E91E63);
+    color: #FFFFFF;
+    border: 2px solid #FFD700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 
+      0 0 20px rgba(156, 39, 176, 0.6),
+      0 4px 15px rgba(0, 0, 0, 0.2),
+      inset 0 0 20px rgba(233, 30, 99, 0.3);
+  }
+  
+  .cyber-neon-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 
+      0 0 30px rgba(156, 39, 176, 0.8),
+      0 8px 25px rgba(0, 0, 0, 0.3),
+      inset 0 0 30px rgba(233, 30, 99, 0.4);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+  }
+
+  .cyber-start-button {
+    @apply relative overflow-hidden font-heading font-black rounded-2xl transition-all duration-300;
+    background: linear-gradient(135deg, #E91E63, #FF6B6B);
+    color: #FFFF00;
+    border: 4px solid #FFD700;
+    text-shadow: 
+      0 0 10px rgba(255, 255, 0, 0.8),
+      0 0 20px rgba(255, 255, 0, 0.6),
+      2px 2px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 
+      0 0 30px rgba(233, 30, 99, 0.8),
+      0 8px 25px rgba(0, 0, 0, 0.3),
+      inset 0 0 30px rgba(255, 107, 107, 0.3);
+  }
+  
+  .cyber-start-button:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 
+      0 0 40px rgba(233, 30, 99, 1),
+      0 12px 35px rgba(0, 0, 0, 0.4),
+      inset 0 0 40px rgba(255, 107, 107, 0.4);
+    text-shadow: 
+      0 0 15px rgba(255, 255, 0, 1),
+      0 0 30px rgba(255, 255, 0, 0.8),
+      2px 2px 0px rgba(0, 0, 0, 1);
+  }
+
+  .pixel-glow {
+    text-shadow: 
+      0 0 5px currentColor,
+      0 0 10px currentColor,
+      0 0 15px currentColor,
+      2px 2px 0px rgba(0, 0, 0, 0.5);
   }
 }
 
