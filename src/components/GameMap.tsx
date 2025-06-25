@@ -99,7 +99,7 @@ export const GameMap = ({
       
       <div className="p-4 relative z-10">
         <Card className="cyber-card">
-          <CardContent className="p-6 bg-green-800">
+          <CardContent className="p-6 bg-green-800 px-[100px]">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-center md:text-left">
                 <h3 className="text-3xl font-cyber font-bold mb-2 text-zinc-50">
@@ -127,7 +127,7 @@ export const GameMap = ({
         </Card>
       </div>
       
-      <div className="flex-1 mx-4 mb-4 relative z-10">
+      <div className="flex-1 mb-4 relative z-10 mx-[150px]">
         <div ref={mapContainer} style={{
         backgroundImage: 'linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #0080FF)',
         backgroundOrigin: 'border-box',
