@@ -14,25 +14,25 @@ export const IngredientsDisplay = ({
       <div className="absolute inset-0 bg-gradient-to-br from-cyber-purple/5 via-transparent to-cyber-green/8 pointer-events-none" />
       
       <Card className="cyber-card max-w-4xl w-full animate-fade-in relative z-10">
-        <CardHeader className="text-center pb-8">
+        <CardHeader className="text-center pb-8 bg-green-800">
           <div className="text-9xl mb-8 relative">
             🥘
             <div className="absolute -top-2 -right-2 text-4xl animate-pulse">🔍</div>
           </div>
-          <CardTitle className="text-5xl font-display font-black cyber-title mb-6">
+          <CardTitle className="font-display cyber-title mb-6 font-light text-4xl text-zinc-50">
             MISSÃO: IDENTIFICAR
           </CardTitle>
           <div className="max-w-2xl mx-auto">
-            <p className="text-2xl text-high-contrast mb-6 font-heading font-semibold">
+            <p className="text-high-contrast mb-6 font-heading text-zinc-50 text-base font-light">
               🎯 Analise os ingredientes e descubra o local de origem
             </p>
-            <p className="text-medium-contrast font-body leading-relaxed text-lg">
+            <p className="text-medium-contrast font-body leading-relaxed text-zinc-50 text-base font-normal">
               Use suas habilidades de detetive gastronômico para identificar onde este prato é tradicionalmente preparado
             </p>
           </div>
         </CardHeader>
         
-        <CardContent className="pt-8">
+        <CardContent className="pt-8 bg-green-800">
           <div className="mb-12">
             <h3 className="text-3xl font-heading font-bold text-center mb-10 text-high-contrast">
               <span className="text-cyber-green">🌿</span> INGREDIENTES DETECTADOS:
@@ -46,7 +46,7 @@ export const IngredientsDisplay = ({
             </div>
           </div>
           
-          <div className="text-center">
+          <div className="text-center bg-green-800">
             <Button onClick={onContinue} className="cyber-button text-xl px-16 py-6 animate-neon-pulse font-heading">
               <span className="flex items-center gap-4">
                 ACESSAR MAPA
