@@ -1,16 +1,15 @@
-
 import { Recipe } from '@/data/recipes';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-
 interface IngredientsDisplayProps {
   recipe: Recipe;
   onContinue: () => void;
 }
-
-export const IngredientsDisplay = ({ recipe, onContinue }: IngredientsDisplayProps) => {
-  return (
-    <div className="min-h-screen flex items-center justify-center p-6 cyber-grid-bg relative overflow-hidden">
+export const IngredientsDisplay = ({
+  recipe,
+  onContinue
+}: IngredientsDisplayProps) => {
+  return <div className="min-h-screen flex items-center justify-center p-6 cyber-grid-bg relative overflow-hidden bg-leaf-600">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-cyber-purple/5 via-transparent to-cyber-green/8 pointer-events-none" />
       
@@ -39,23 +38,16 @@ export const IngredientsDisplay = ({ recipe, onContinue }: IngredientsDisplayPro
               <span className="text-cyber-green">🌿</span> INGREDIENTES DETECTADOS:
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-              {recipe.ingredientes.map((ingrediente, index) => (
-                <div
-                  key={index}
-                  className="ingredient-tag text-center animate-fade-in hover:scale-105 transition-all duration-300 font-body"
-                  style={{ animationDelay: `${index * 150}ms` }}
-                >
+              {recipe.ingredientes.map((ingrediente, index) => <div key={index} className="ingredient-tag text-center animate-fade-in hover:scale-105 transition-all duration-300 font-body" style={{
+              animationDelay: `${index * 150}ms`
+            }}>
                   {ingrediente}
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
           
           <div className="text-center">
-            <Button
-              onClick={onContinue}
-              className="cyber-button text-xl px-16 py-6 animate-neon-pulse font-heading"
-            >
+            <Button onClick={onContinue} className="cyber-button text-xl px-16 py-6 animate-neon-pulse font-heading">
               <span className="flex items-center gap-4">
                 ACESSAR MAPA
                 <span className="text-3xl">🗺️</span>
@@ -64,6 +56,5 @@ export const IngredientsDisplay = ({ recipe, onContinue }: IngredientsDisplayPro
           </div>
         </CardContent>
       </Card>
-    </div>
-  );
+    </div>;
 };
