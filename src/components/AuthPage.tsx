@@ -118,14 +118,14 @@ export const AuthPage = ({
   }
   return <div className="min-h-screen bg-leaf-600 flex items-center justify-center p-6">
       <Card className="cyber-card w-full max-w-md">
-        <CardHeader className="text-center">
+        <CardHeader className="text-center bg-green-800">
           <img src="/lovable-uploads/8bfc5af9-403d-4df4-8dea-debdb93da4e5.png" alt="TapiOnde Logo" className="w-16 h-16 mx-auto mb-4" />
           <CardTitle className="text-2xl font-heading text-white">
             {isLogin ? 'Entrar' : 'Criar Conta'}
           </CardTitle>
         </CardHeader>
         
-        <CardContent>
+        <CardContent className="bg-green-800">
           <form onSubmit={handleAuth} className="space-y-4">
             {!isLogin && <div className="relative">
                 <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-green-300" size={18} />
