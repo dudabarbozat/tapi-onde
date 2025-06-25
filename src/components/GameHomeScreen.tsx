@@ -81,7 +81,7 @@ export const GameHomeScreen = ({
                             <img src={country.bandeira} alt={`Bandeira ${country.pais}`} className="w-full h-32 object-cover rounded-xl shadow-lg border-2 border-cyber-purple/50 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                             <div className="absolute inset-0 bg-gradient-to-t from-cyber-purple/20 to-transparent rounded-xl" />
                           </div>
-                          <h3 className="text-2xl font-heading font-bold mb-4 pixel-glow text-stone-300">
+                          <h3 className="text-2xl font-heading font-bold mb-4  text-stone-300">
                             {country.pais}
                           </h3>
                         </div>
