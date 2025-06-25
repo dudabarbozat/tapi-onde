@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -11,26 +10,32 @@ delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
   iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png'
 });
-
 interface GameMapProps {
   recipe: Recipe;
   onGuess: (lat: number, lng: number) => void;
   selectedCountry: string;
 }
-
-export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
+export const GameMap = ({
+  recipe,
+  onGuess,
+  selectedCountry
+}: GameMapProps) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const [userMarker, setUserMarker] = useState<L.Marker | null>(null);
-  const [guessCoords, setGuessCoords] = useState<{ lat: number; lng: number } | null>(null);
-
+  const [guessCoords, setGuessCoords] = useState<{
+    lat: number;
+    lng: number;
+  } | null>(null);
   useEffect(() => {
     if (!mapContainer.current) return;
 
     // Map bounds for different countries/regions
-    const mapBounds: { [key: string]: [[number, number], [number, number]] } = {
+    const mapBounds: {
+      [key: string]: [[number, number], [number, number]];
+    } = {
       'BR': [[-33.7, -73.9], [5.3, -28.8]],
       'PE': [[-18.4, -81.4], [-0.0, -68.7]],
       'MX': [[14.5, -118.4], [32.7, -86.7]],
@@ -38,22 +43,22 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
       'AR': [[-55.1, -73.6], [-21.8, -53.6]],
       'CL': [[-56.5, -75.6], [-17.5, -66.4]]
     };
-
     const bounds = mapBounds[selectedCountry] || [[-60, -120], [15, -30]];
-
     mapRef.current = L.map(mapContainer.current, {
       zoomControl: true,
       attributionControl: false
     }).fitBounds(bounds);
-
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors'
     }).addTo(mapRef.current);
 
     // Add click handler
     mapRef.current.on('click', (e: L.LeafletMouseEvent) => {
-      const { lat, lng } = e.latlng;
-      
+      const {
+        lat,
+        lng
+      } = e.latlng;
+
       // Remove previous marker
       if (userMarker) {
         mapRef.current?.removeLayer(userMarker);
@@ -71,38 +76,36 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
           shadowSize: [41, 41]
         })
       }).addTo(mapRef.current!);
-
       setUserMarker(marker);
-      setGuessCoords({ lat, lng });
+      setGuessCoords({
+        lat,
+        lng
+      });
     });
-
     return () => {
       if (mapRef.current) {
         mapRef.current.remove();
       }
     };
   }, [selectedCountry]);
-
   const handleConfirmGuess = () => {
     if (guessCoords) {
       onGuess(guessCoords.lat, guessCoords.lng);
     }
   };
-
-  return (
-    <div className="min-h-screen flex flex-col cyber-grid-bg relative overflow-hidden">
+  return <div className="min-h-screen flex flex-col cyber-grid-bg relative overflow-hidden bg-leaf-600">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/5 via-transparent to-cyber-yellow/10 pointer-events-none" />
       
       <div className="p-4 relative z-10">
         <Card className="cyber-card">
-          <CardContent className="p-6">
+          <CardContent className="p-6 bg-green-800">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-center md:text-left">
-                <h3 className="text-3xl font-cyber font-bold text-gray-800 mb-2">
+                <h3 className="text-3xl font-cyber font-bold mb-2 text-zinc-50">
                   <span className="text-cyber-purple">🎯</span> LOCALIZAR ORIGEM
                 </h3>
-                <p className="text-gray-600 font-heading">
+                <p className="font-heading text-zinc-50">
                   Clique no mapa para marcar sua hipótese
                 </p>
               </div>
@@ -112,17 +115,12 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
                   <span className="text-cyber-green font-semibold">Ingredientes: </span>
                   {recipe.ingredientes.slice(0, 2).join(', ')}...
                 </div>
-                {guessCoords && (
-                  <Button
-                    onClick={handleConfirmGuess}
-                    className="cyber-button animate-neon-pulse"
-                  >
+                {guessCoords && <Button onClick={handleConfirmGuess} className="cyber-button animate-neon-pulse">
                     <span className="flex items-center gap-2">
                       CONFIRMAR
                       <span className="text-xl">✓</span>
                     </span>
-                  </Button>
-                )}
+                  </Button>}
               </div>
             </div>
           </CardContent>
@@ -130,16 +128,11 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
       </div>
       
       <div className="flex-1 mx-4 mb-4 relative z-10">
-        <div
-          ref={mapContainer}
-          className="w-full h-full min-h-[500px] rounded-xl shadow-2xl border-4 border-transparent"
-          style={{
-            backgroundImage: 'linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #0080FF)',
-            backgroundOrigin: 'border-box',
-            backgroundClip: 'content-box, border-box'
-          }}
-        />
+        <div ref={mapContainer} style={{
+        backgroundImage: 'linear-gradient(white, white), linear-gradient(135deg, #FFD700, #00FF88, #0080FF)',
+        backgroundOrigin: 'border-box',
+        backgroundClip: 'content-box, border-box'
+      }} className="w-full h-full min-h-[500px] rounded-xl shadow-2xl border-4 border-transparent px-[97px] py-[50px]" />
       </div>
-    </div>
-  );
+    </div>;
 };
