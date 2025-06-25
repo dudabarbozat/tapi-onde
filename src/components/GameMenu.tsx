@@ -46,7 +46,7 @@ export const GameMenu = ({
                   {item.icon}
                 </span>
                 <div>
-                  <h4 className="text-lg font-heading font-bold text-white pixel-glow">
+                  <h4 className="text-lg font-heading font-bold text-white ">
                     {item.title}
                   </h4>
                   <p className="text-sm text-white/70 font-body">
