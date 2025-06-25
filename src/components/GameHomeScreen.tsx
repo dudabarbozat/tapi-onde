@@ -48,7 +48,7 @@ export const GameHomeScreen = ({
           🏠
         </button>}
 
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 relative z-10">
+      <div className="flex flex-col items-center justify-center min-h-screen p-6 relative z-10 bg-[cyber-purple-dark] bg-leaf-600">
         {/* Logo Section */}
         <div className="text-center mb-12 animate-fade-in">
           <div className="mb-8 relative">
@@ -75,7 +75,7 @@ export const GameHomeScreen = ({
                     <Card className={`cyber-country-card cursor-pointer group h-full transition-all duration-300 ${selectedCountry === country.codigo.toUpperCase() ? 'ring-4 ring-cyber-yellow shadow-2xl scale-105' : ''}`} onClick={() => handleCountrySelect(country.codigo.toUpperCase())} style={{
                 animationDelay: `${index * 100}ms`
               }}>
-                      <CardContent className="p-6 text-center h-full flex flex-col justify-between bg-[cyber-green-dark] bg-cyber-purple">
+                      <CardContent className="p-6 text-center h-full flex flex-col justify-between bg-[cyber-green-dark] bg-green-800">
                         <div className="flex-grow">
                           <div className="mb-6 overflow-hidden rounded-xl relative">
                             <img src={country.bandeira} alt={`Bandeira ${country.pais}`} className="w-full h-32 object-cover rounded-xl shadow-lg border-2 border-cyber-purple/50 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
