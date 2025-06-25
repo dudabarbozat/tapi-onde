@@ -34,7 +34,7 @@ export const IngredientsDisplay = ({
         
         <CardContent className="pt-8 bg-green-800">
           <div className="mb-12">
-            <h3 className="text-3xl font-heading font-bold text-center mb-10 text-high-contrast">
+            <h3 className="font-heading text-center mb-10 text-high-contrast text-xl text-zinc-50 font-light">
               <span className="text-cyber-green">🌿</span> INGREDIENTES DETECTADOS:
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
