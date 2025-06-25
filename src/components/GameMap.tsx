@@ -97,9 +97,9 @@ export const GameMap = ({
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/5 via-transparent to-cyber-yellow/10 pointer-events-none" />
       
-      <div className="p-4 relative z-10">
+      <div className="p-4 relative z-10 px-[150px] py-[50px]">
         <Card className="cyber-card">
-          <CardContent className="p-6 bg-green-800 px-[100px]">
+          <CardContent className="p-6 bg-green-800 my-0 mx-0 py-[20px] px-[30px]">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-center md:text-left">
                 <h3 className="text-3xl font-cyber font-bold mb-2 text-zinc-50">
