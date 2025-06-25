@@ -66,7 +66,7 @@ export const GameModeSelector = ({
           </Card>)}
       </div>
 
-      {selectedMode && <div className="text-center animate-fade-in">
+      {selectedMode && <div className="text-center animate-fade-in py-[89px] rounded-sm">
           <Button onClick={onStartGame} className="cyber-start-button text-2xl px-12 py-6 font-heading font-black animate-neon-pulse">
             <span className="flex items-center gap-4">
               ▶️ COMEÇAR JOGO
