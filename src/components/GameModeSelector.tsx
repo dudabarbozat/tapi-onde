@@ -52,11 +52,11 @@ export const GameModeSelector = ({
         {gameModes.map((mode, index) => <Card key={mode.id} className={`cyber-mode-card cursor-pointer group transition-all duration-300 ${selectedMode === mode.id ? 'ring-4 ring-cyber-green shadow-2xl scale-105' : ''}`} onClick={() => onModeSelect(mode.id)} style={{
         animationDelay: `${index * 150}ms`
       }}>
-            <CardContent className="p-6 text-center">
+            <CardContent className="p-6 text-center bg-cyber-purple">
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 {mode.icon}
               </div>
-              <h3 className="text-2xl font-heading font-bold text-white pixel-glow mb-3">
+              <h3 className="text-2xl font-heading font-bold text-white  mb-3">
                 {mode.title}
               </h3>
               <p className="text-white/80 font-body leading-relaxed">
