@@ -57,7 +57,7 @@ export const GameHomeScreen = ({
           
           
           
-          <p className="text-xl text-white/90 font-heading text-3xl mb-2 text-xl ">
+          <p className="text-xl text-white/90 font-heading text-3xl mb-2 text-xl py-[35px] my-0 mx-0 px-0">
             🎮 Descubra os Sabores da América Latina
           </p>
           
@@ -65,7 +65,7 @@ export const GameHomeScreen = ({
 
         {/* Country Selector */}
         {!showModeSelector ? <div className="w-full max-w-6xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-center mb-8 text-white">
+            <h2 className="text-3xl font-heading font-bold text-center mb-8 text-white py-0">
               🎌 Escolha Seu País
             </h2>
             
