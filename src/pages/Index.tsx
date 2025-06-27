@@ -51,16 +51,9 @@ const Index = () => {
     resetGame();
   };
 
-  const handleGameStart = (countryCode: string, gameMode: string) => {
-    console.log('Game started with:', countryCode, gameMode);
-    updateGameState({ 
-      selectedCountry: countryCode, 
-      phase: 'loading' 
-    });
-    
-    setTimeout(() => {
-      startNewRound(countryCode);
-    }, 2000);
+  const handleGameStart = () => {
+    // Update game state to show country selection
+    updateGameState({ phase: 'country-selection' });
   };
 
   const startNewRound = (countryCode: string) => {

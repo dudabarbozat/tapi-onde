@@ -104,7 +104,7 @@ const App = () => {
   };
 
   if (loading) {
-    return <LoadingScreen />;
+    return <LoadingScreen country="BR" />;
   }
 
   if (!session) {
@@ -113,7 +113,7 @@ const App = () => {
 
   // Wait for recipes to load
   if (recipesLoading && gameState.selectedCountry) {
-    return <LoadingScreen />;
+    return <LoadingScreen country={gameState.selectedCountry} />;
   }
 
   return (
@@ -132,8 +132,8 @@ const App = () => {
                   <AdminPanel onClose={() => setShowAdminPanel(false)} />
                 )}
               </div>
-            ) : gameState.phase === 'loading' ? (
-              <LoadingScreen />
+            ) : gameState.phase === 'loading' && gameState.selectedCountry ? (
+              <LoadingScreen country={gameState.selectedCountry} />
             ) : gameState.phase === 'ingredients' && currentRecipe ? (
               <IngredientsDisplay
                 recipe={currentRecipe}

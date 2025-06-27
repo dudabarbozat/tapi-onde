@@ -28,8 +28,8 @@ export const useRecipes = () => {
         longitude: parseFloat(record.longitude.toString()),
         dica: record.dica,
         regiao: record.regiao,
-        categoria: record.categoria,
-        dificuldade: record.dificuldade
+        categoria: record.categoria as 'prato-principal' | 'sobremesa' | 'bebida' | 'aperitivo',
+        dificuldade: record.dificuldade as 'facil' | 'medio' | 'dificil'
       }));
 
       setRecipes(transformedRecipes);
