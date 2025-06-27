@@ -89,21 +89,21 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
     <div className="min-h-screen flex flex-col bg-leaf-600">      
       <div className="p-4 relative z-10 px-6 md:px-32 py-12">
         <Card className="cyber-card">
-          <CardContent className="p-6">
+          <CardContent className="p-6 bg-green-800/90">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-center md:text-left">
-                <h3 className="text-3xl font-heading font-bold mb-2 text-white">
+                <h3 className="text-3xl font-bold mb-2 text-white" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                   <span className="text-purple-400">🎯</span> LOCALIZAR ORIGEM
                 </h3>
-                <p className="font-body text-green-200">
+                <p className="text-green-200" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                   Clique no mapa para marcar sua hipótese
                 </p>
               </div>
               
               <div className="flex items-center gap-4">
-                <div className="cyber-card p-3 text-xs max-w-48">
-                  <span className="text-green-400 font-semibold">Ingredientes: </span>
-                  <span className="text-white">
+                <div className="cyber-card p-3 text-xs max-w-48 bg-green-800/90">
+                  <span className="text-green-400 font-semibold" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>Ingredientes: </span>
+                  <span className="text-white" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                     {recipe.ingredientes.slice(0, 2).join(', ')}...
                   </span>
                 </div>
@@ -124,7 +124,8 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
       <div className="flex-1 mb-4 relative z-10 mx-6 md:mx-32">
         <div 
           ref={mapContainer} 
-          className="w-full h-full min-h-[500px] rounded-xl shadow-2xl border-2 border-green-700/50"
+          className="w-full h-full min-h-[500px] rounded-xl border-2 border-green-700/30"
+          style={{ boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)' }}
         />
       </div>
     </div>

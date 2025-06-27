@@ -61,25 +61,25 @@ export const ResultScreen = ({
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-leaf-600">      
       <Card className="cyber-card max-w-3xl w-full animate-fade-in relative z-10">
-        <CardHeader className="text-center pb-6">
+        <CardHeader className="text-center pb-6 bg-green-800/90">
           <div className="text-8xl mb-6 animate-bounce-gentle">{performance.emoji}</div>
-          <CardTitle className={`text-5xl font-heading font-black ${performance.color} mb-4`}>
+          <CardTitle className={`text-5xl font-black ${performance.color} mb-4`} style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
             {performance.message}
           </CardTitle>
         </CardHeader>
         
-        <CardContent className="space-y-8">
+        <CardContent className="space-y-8 bg-green-800/90">
           <div className="text-center space-y-6">
-            <div className="cyber-card p-6">
-              <h3 className="text-4xl font-heading font-bold text-white mb-3">
+            <div className="cyber-card p-6 bg-green-800/90">
+              <h3 className="text-4xl font-bold text-white mb-3" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                 🍽️ {recipe.prato}
               </h3>
               <div className="space-y-2 text-lg">
-                <p className="text-green-200">
+                <p className="text-green-200" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                   <span className="text-blue-400 font-bold">🏠 Origem:</span> {recipe.estado ? `${recipe.estado}, ${recipe.pais}` : recipe.pais}
                 </p>
                 {recipe.regiao && (
-                  <p className="text-green-200">
+                  <p className="text-green-200" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                     <span className="text-green-400 font-bold">🌍 Região:</span> {recipe.regiao}
                   </p>
                 )}
@@ -87,31 +87,31 @@ export const ResultScreen = ({
             </div>
 
             <div className="grid grid-cols-2 gap-6">
-              <div className="cyber-card p-6">
-                <div className="text-4xl font-heading font-black text-pink-400">
+              <div className="cyber-card p-6 bg-green-800/90">
+                <div className="text-4xl font-black text-pink-400" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                   {formatDistance(distance)}
                 </div>
-                <div className="text-sm text-green-200 font-heading font-semibold">DISTÂNCIA</div>
+                <div className="text-sm text-green-200 font-semibold" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>DISTÂNCIA</div>
               </div>
-              <div className="cyber-card p-6">
-                <div className="text-4xl font-heading font-black text-green-400">
+              <div className="cyber-card p-6 bg-green-800/90">
+                <div className="text-4xl font-black text-green-400" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                   {score} pts
                 </div>
-                <div className="text-sm text-green-200 font-heading font-semibold">PONTUAÇÃO</div>
+                <div className="text-sm text-green-200 font-semibold" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>PONTUAÇÃO</div>
               </div>
             </div>
 
-            <div className="cyber-card p-6">
-              <h4 className="font-heading font-bold text-blue-400 mb-3 text-xl">💡 CURIOSIDADE CULTURAL:</h4>
-              <p className="text-green-200 leading-relaxed">
+            <div className="cyber-card p-6 bg-green-800/90">
+              <h4 className="font-bold text-blue-400 mb-3 text-xl" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>💡 CURIOSIDADE CULTURAL:</h4>
+              <p className="text-green-200 leading-relaxed" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                 {recipe.dica}
               </p>
             </div>
 
             {isLastRound && (
-              <div className="cyber-card p-6 border-2 border-yellow-500/50">
-                <h4 className="font-heading font-bold text-yellow-400 mb-3 text-2xl">🏆 MISSÃO COMPLETA!</h4>
-                <p className="text-3xl font-heading font-black text-white">
+              <div className="cyber-card p-6 border-2 border-yellow-500/50 bg-green-800/90">
+                <h4 className="font-bold text-yellow-400 mb-3 text-2xl" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>🏆 MISSÃO COMPLETA!</h4>
+                <p className="text-3xl font-black text-white" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
                   {totalScore} PONTOS TOTAIS
                 </p>
               </div>
@@ -137,7 +137,8 @@ export const ResultScreen = ({
             
             <Button 
               onClick={onRestart} 
-              className="flex-1 bg-green-700/80 hover:bg-green-600/90 border-2 border-green-500 text-white font-heading font-bold text-xl py-6 rounded-lg transition-all duration-300"
+              className="flex-1 bg-green-700/60 hover:bg-green-600/70 border-2 border-green-500/50 text-white font-bold text-xl py-6 rounded-lg transition-all duration-300"
+              style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
             >
               <span className="flex items-center gap-3">
                 EXPLORAR OUTROS PAÍSES
