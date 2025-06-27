@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase } from '@/integrations/supabase/client';
@@ -9,6 +8,7 @@ import { LoadingScreen } from '@/components/LoadingScreen';
 import { IngredientsDisplay } from '@/components/IngredientsDisplay';
 import { GameMap } from '@/components/GameMap';
 import { ResultScreen } from '@/components/ResultScreen';
+import { AdminPanel } from '@/components/AdminPanel';
 import { useGameState } from '@/hooks/useGameState';
 import { getRecipesByCountry } from '@/data/recipes';
 import { calculateDistance, calculateScore, getRandomRecipe } from '@/utils/gameLogic';
@@ -17,6 +17,7 @@ const Index = () => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showAdminPanel, setShowAdminPanel] = useState(false);
   const { gameState, updateGameState, resetGame } = useGameState();
   const [usedRecipes, setUsedRecipes] = useState<string[]>([]);
 
@@ -54,6 +55,10 @@ const Index = () => {
   const handleGameStart = () => {
     // Update game state to show country selection
     updateGameState({ phase: 'country-selection' });
+  };
+
+  const handleOpenAdmin = () => {
+    setShowAdminPanel(true);
   };
 
   const startNewRound = (countryCode: string) => {
@@ -144,7 +149,18 @@ const Index = () => {
       {(() => {
         switch (gameState.phase) {
           case 'country-selection':
-            return <GameHomeScreen onStartGame={handleGameStart} />;
+            return (
+              <div>
+                <GameHomeScreen 
+                  onStartGame={handleGameStart}
+                  onSignOut={handleLogout}
+                  onOpenAdmin={handleOpenAdmin}
+                />
+                {showAdminPanel && (
+                  <AdminPanel onClose={() => setShowAdminPanel(false)} />
+                )}
+              </div>
+            );
           
           case 'loading':
             return <LoadingScreen country={gameState.selectedCountry!} />;
@@ -180,7 +196,18 @@ const Index = () => {
             );
           
           default:
-            return <GameHomeScreen onStartGame={handleGameStart} />;
+            return (
+              <div>
+                <GameHomeScreen 
+                  onStartGame={handleGameStart}
+                  onSignOut={handleLogout}
+                  onOpenAdmin={handleOpenAdmin}
+                />
+                {showAdminPanel && (
+                  <AdminPanel onClose={() => setShowAdminPanel(false)} />
+                )}
+              </div>
+            );
         }
       })()}
     </div>
