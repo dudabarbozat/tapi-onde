@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { Recipe } from '@/data/recipes';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { calculateDistance, formatDistance } from '@/utils/gameLogic';
 
 // Fix for default markers
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -24,7 +25,10 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const [userMarker, setUserMarker] = useState<L.Marker | null>(null);
+  const [correctLocationMarker, setCorrectLocationMarker] = useState<L.Marker | null>(null);
   const [guessCoords, setGuessCoords] = useState<{ lat: number; lng: number } | null>(null);
+  const [distance, setDistance] = useState<number | null>(null);
+  const [showCorrectLocation, setShowCorrectLocation] = useState(false);
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -52,10 +56,12 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
     mapRef.current.on('click', (e: L.LeafletMouseEvent) => {
       const { lat, lng } = e.latlng;
 
+      // Remove previous user marker
       if (userMarker) {
         mapRef.current?.removeLayer(userMarker);
       }
 
+      // Add user guess marker (blue)
       const marker = L.marker([lat, lng], {
         icon: L.icon({
           iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
@@ -70,6 +76,38 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
 
       setUserMarker(marker);
       setGuessCoords({ lat, lng });
+
+      // Calculate and show distance immediately
+      const calculatedDistance = calculateDistance(lat, lng, recipe.latitude, recipe.longitude);
+      setDistance(calculatedDistance);
+
+      // Show correct location marker (red)
+      if (correctLocationMarker) {
+        mapRef.current?.removeLayer(correctLocationMarker);
+      }
+
+      const correctMarker = L.marker([recipe.latitude, recipe.longitude], {
+        icon: L.icon({
+          iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+          iconRetinaUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+          shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+          iconSize: [25, 41],
+          iconAnchor: [12, 41],
+          popupAnchor: [1, -34],
+          shadowSize: [41, 41]
+        })
+      }).addTo(mapRef.current!);
+
+      setCorrectLocationMarker(correctMarker);
+      setShowCorrectLocation(true);
+
+      // Draw a line between the guess and correct location
+      L.polyline([[lat, lng], [recipe.latitude, recipe.longitude]], {
+        color: '#ef4444',
+        weight: 3,
+        opacity: 0.7,
+        dashArray: '10, 10'
+      }).addTo(mapRef.current!);
     });
 
     return () => {
@@ -77,7 +115,7 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
         mapRef.current.remove();
       }
     };
-  }, [selectedCountry]);
+  }, [selectedCountry, recipe]);
 
   const handleConfirmGuess = () => {
     if (guessCoords) {
@@ -98,6 +136,13 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
                 <p className="text-green-200" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
                   Clique no mapa para marcar sua hipótese
                 </p>
+                {distance !== null && (
+                  <div className="mt-4 p-3 bg-green-700/50 rounded-lg">
+                    <p className="text-green-200 text-sm" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
+                      Sua distância: <span className="text-white font-bold text-lg">{formatDistance(distance)}</span>
+                    </p>
+                  </div>
+                )}
               </div>
               
               <div className="flex items-center gap-4">
@@ -117,6 +162,21 @@ export const GameMap = ({ recipe, onGuess, selectedCountry }: GameMapProps) => {
                 )}
               </div>
             </div>
+
+            {showCorrectLocation && (
+              <div className="mt-4 p-4 bg-green-700/30 rounded-lg border border-green-600/50">
+                <div className="flex items-center gap-4 text-sm" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 bg-blue-500 rounded"></div>
+                    <span className="text-green-200">Sua resposta</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 bg-red-500 rounded"></div>
+                    <span className="text-green-200">Localização correta</span>
+                  </div>
+                </div>
+              </div>
+            )}
           </CardContent>
         </Card>
       </div>
