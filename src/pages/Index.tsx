@@ -9,6 +9,7 @@ import { IngredientsDisplay } from '@/components/IngredientsDisplay';
 import { GameMap } from '@/components/GameMap';
 import { ResultScreen } from '@/components/ResultScreen';
 import { AdminPanel } from '@/components/AdminPanel';
+import { CountrySelection } from '@/components/CountrySelection';
 import { useGameState } from '@/hooks/useGameState';
 import { getRecipesByCountry } from '@/data/recipes';
 import { calculateDistance, calculateScore, getRandomRecipe } from '@/utils/gameLogic';
@@ -53,12 +54,24 @@ const Index = () => {
   };
 
   const handleGameStart = () => {
-    // Update game state to show country selection
+    // Start country selection phase
     updateGameState({ phase: 'country-selection' });
   };
 
   const handleOpenAdmin = () => {
     setShowAdminPanel(true);
+  };
+
+  const handleCountrySelect = (countryCode: string) => {
+    updateGameState({
+      selectedCountry: countryCode,
+      phase: 'loading'
+    });
+
+    // Simulate loading time then start the game
+    setTimeout(() => {
+      startNewRound(countryCode);
+    }, 2000);
   };
 
   const startNewRound = (countryCode: string) => {
@@ -148,7 +161,14 @@ const Index = () => {
       
       {(() => {
         switch (gameState.phase) {
+          case 'home':
           case 'country-selection':
+            // Show country selection if we're in that phase
+            if (gameState.phase === 'country-selection') {
+              return <CountrySelection onCountrySelect={handleCountrySelect} />;
+            }
+            
+            // Otherwise show home screen
             return (
               <div>
                 <GameHomeScreen 

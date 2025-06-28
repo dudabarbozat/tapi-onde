@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Recipe } from '@/data/recipes';
 
-export type GamePhase = 'country-selection' | 'loading' | 'ingredients' | 'map' | 'result';
+export type GamePhase = 'home' | 'country-selection' | 'loading' | 'ingredients' | 'map' | 'result';
 
 export interface GameState {
   phase: GamePhase;
@@ -17,7 +17,7 @@ export interface GameState {
 
 export const useGameState = () => {
   const [gameState, setGameState] = useState<GameState>({
-    phase: 'country-selection',
+    phase: 'home',
     selectedCountry: null,
     currentRecipe: null,
     userGuess: null,
@@ -33,7 +33,7 @@ export const useGameState = () => {
 
   const resetGame = () => {
     setGameState({
-      phase: 'country-selection',
+      phase: 'home',
       selectedCountry: null,
       currentRecipe: null,
       userGuess: null,
