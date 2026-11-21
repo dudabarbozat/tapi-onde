@@ -30,7 +30,7 @@ npm run dev
 
 ## Conteúdo
 
-Cada prato tem a origem, os ingredientes e o preparo conferidos na fonte indicada no próprio jogo. As fotos são do [Wikimedia Commons](https://commons.wikimedia.org/), com autor e licença exibidos junto de cada imagem. Mapa © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright).
+Cada prato tem a origem, os ingredientes e o preparo conferidos na fonte indicada no próprio jogo. As fotos são do [Wikimedia Commons](https://commons.wikimedia.org/), com autor e licença exibidos junto de cada imagem. Mapa © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright); fronteiras do mapa de escolha: [Natural Earth](https://www.naturalearthdata.com/) (domínio público).
 
 ## Licença
 

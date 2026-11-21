@@ -1,6 +1,5 @@
-import type { Prato } from '@/data/pratos';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { CATEGORIA, type Prato } from '@/data/pratos';
+import { Progresso } from '@/components/Progresso';
 
 interface IngredientsDisplayProps {
   recipe: Prato;
@@ -9,57 +8,40 @@ interface IngredientsDisplayProps {
   onContinue: () => void;
 }
 
-const CATEGORIA: Record<Prato['categoria'], string> = {
-  'prato-principal': 'Prato principal',
-  sobremesa: 'Sobremesa',
-  bebida: 'Bebida',
-  aperitivo: 'Petisco',
-};
-
 export const IngredientsDisplay = ({ recipe, rodada, totalRodadas, onContinue }: IngredientsDisplayProps) => (
-  <div className="min-h-screen flex items-center justify-center px-4 pt-6 pb-6 bg-leaf-600">
-    <Card className="cyber-card max-w-4xl w-full animate-fade-in relative z-10">
-      <CardHeader className="text-center pb-6 bg-green-800/90">
-        <p className="text-green-300 text-sm tracking-widest mb-4" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
-          RODADA {rodada} DE {totalRodadas} · {CATEGORIA[recipe.categoria].toUpperCase()}
-        </p>
-        <div className="text-8xl mb-6 relative inline-block mx-auto">
-          🥘
-          <div className="absolute -top-2 -right-4 text-4xl animate-pulse">🔍</div>
-        </div>
-        <CardTitle className="text-3xl md:text-4xl text-white mb-4 font-light" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-          DE ONDE É ESTE PRATO?
-        </CardTitle>
-        <p className="text-green-200 max-w-2xl mx-auto" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
-          Analise os ingredientes e a dica, e depois marque no mapa onde ele é tradicionalmente preparado.
-        </p>
-      </CardHeader>
+  <main className="mx-auto max-w-3xl px-4 py-6">
+    <article className="painel animate-fade-in p-5 sm:p-8">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <Progresso rodada={rodada} total={totalRodadas} />
+        <span className="etiqueta">{CATEGORIA[recipe.categoria]}</span>
+      </div>
 
-      <CardContent className="pt-6 bg-green-800/90">
-        <h3 className="text-center mb-6 text-xl text-white font-light" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-          <span className="text-green-400">🌿</span> INGREDIENTES
-        </h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto mb-8">
-          {recipe.ingredientes.map((ingrediente, index) => (
-            <div key={ingrediente} className="ingredient-tag text-center animate-fade-in" style={{ animationDelay: `${index * 120}ms` }}>
-              {ingrediente}
-            </div>
-          ))}
-        </div>
+      <h2 className="mt-6 text-3xl sm:text-4xl">De onde é este prato?</h2>
+      <p className="mt-1 text-stone-700">Leia as pistas e depois marque no mapa onde ele é tradicionalmente preparado.</p>
 
-        <div className="max-w-3xl mx-auto mb-10 rounded-lg border border-green-600/50 bg-green-700/40 p-5">
-          <p className="text-green-100 leading-relaxed" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
-            <span className="font-semibold text-yellow-300">💡 Dica: </span>
-            {recipe.dica}
-          </p>
-        </div>
+      <h3 className="mt-6 text-lg">🌿 Ingredientes</h3>
+      <ul className="mt-3 flex flex-wrap gap-2">
+        {recipe.ingredientes.map((ingrediente, i) => (
+          <li
+            key={ingrediente}
+            className="animate-fade-in rounded-full border-2 border-green-200 bg-green-50 px-4 py-1.5 font-medium text-green-950"
+            style={{ animationDelay: `${i * 80}ms` }}
+          >
+            {ingrediente}
+          </li>
+        ))}
+      </ul>
 
-        <div className="text-center">
-          <Button onClick={onContinue} className="cyber-button text-xl px-12 py-6">
-            ABRIR O MAPA 🗺️
-          </Button>
-        </div>
-      </CardContent>
-    </Card>
-  </div>
+      <div className="mt-6 rounded-2xl border-2 border-yellow-400 bg-yellow-50 p-4 sm:p-5">
+        <h3 className="text-lg">💡 Dica</h3>
+        <p className="mt-1 text-lg leading-relaxed">{recipe.dica}</p>
+      </div>
+
+      <div className="mt-8 text-center">
+        <button type="button" onClick={onContinue} className="botao-principal w-full sm:w-auto">
+          Abrir o mapa 🗺️
+        </button>
+      </div>
+    </article>
+  </main>
 );

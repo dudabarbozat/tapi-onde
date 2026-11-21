@@ -27,3 +27,10 @@ export const pratosDoPais = (codigoPais: string) => pratos.filter((p) => p.codig
 
 /** Caminho de um arquivo de public/ respeitando o base path do GitHub Pages. */
 export const arquivoPublico = (caminho: string) => `${import.meta.env.BASE_URL}${caminho}`;
+
+export const CATEGORIA: Record<Categoria, string> = {
+  'prato-principal': 'Prato principal',
+  sobremesa: 'Sobremesa',
+  bebida: 'Bebida',
+  aperitivo: 'Petisco',
+};

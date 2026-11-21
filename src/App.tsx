@@ -71,20 +71,22 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-leaf-600">
+    <div className="min-h-screen">
       <FaixaProjeto />
-      {fase !== 'inicio' && <Navigation onHome={voltarAoInicio} />}
+      {fase !== 'inicio' && <Navigation pais={pais} onHome={voltarAoInicio} />}
 
       {fase === 'inicio' && <CountrySelection onCountrySelect={escolherPais} />}
       {fase === 'carregando' && pais && <LoadingScreen country={pais} />}
       {fase === 'ingredientes' && prato && (
         <IngredientsDisplay recipe={prato} rodada={rodada + 1} totalRodadas={fila.length} onContinue={() => setFase('mapa')} />
       )}
-      {fase === 'mapa' && prato && pais && <GameMap key={prato.id} recipe={prato} selectedCountry={pais} onGuess={confirmarPalpite} />}
+      {fase === 'mapa' && prato && pais && <GameMap key={prato.id} recipe={prato} selectedCountry={pais} rodada={rodada + 1} totalRodadas={fila.length} onGuess={confirmarPalpite} />}
       {fase === 'resultado' && prato && palpite && (
         <ResultScreen
           recipe={prato}
           guess={palpite}
+          rodada={rodada + 1}
+          totalRodadas={fila.length}
           totalScore={total}
           isLastRound={ultimaRodada}
           onNextRound={proximaRodada}

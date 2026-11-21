@@ -3,17 +3,18 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { Prato } from '@/data/pratos';
 import { paisPorCodigo } from '@/data/countries';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Progresso } from '@/components/Progresso';
 import { camadaBase, estiloPalpite } from '@/utils/mapa';
 
 interface GameMapProps {
   recipe: Prato;
   selectedCountry: string;
+  rodada: number;
+  totalRodadas: number;
   onGuess: (lat: number, lng: number) => void;
 }
 
-export const GameMap = ({ recipe, selectedCountry, onGuess }: GameMapProps) => {
+export const GameMap = ({ recipe, selectedCountry, rodada, totalRodadas, onGuess }: GameMapProps) => {
   const container = useRef<HTMLDivElement>(null);
   const [palpite, setPalpite] = useState<L.LatLng | null>(null);
 
@@ -36,43 +37,35 @@ export const GameMap = ({ recipe, selectedCountry, onGuess }: GameMapProps) => {
   }, [selectedCountry]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-leaf-600">
-      <div className="relative z-10 px-4 md:px-32 pt-6 pb-6">
-        <Card className="cyber-card">
-          <CardContent className="p-6 bg-green-800/90">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="text-center md:text-left">
-                <h3 className="text-3xl font-bold mb-2 text-white" style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
-                  <span className="text-purple-400">🎯</span> LOCALIZAR ORIGEM
-                </h3>
-                <p className="text-green-200" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
-                  {palpite ? 'Pode mudar o ponto quantas vezes quiser antes de confirmar.' : 'Toque no mapa onde você acha que este prato nasceu.'}
-                </p>
-              </div>
+    <main className="mx-auto max-w-5xl px-4 py-6">
+      <section className="painel p-4 sm:p-6">
+        <Progresso rodada={rodada} total={totalRodadas} />
+        <h2 className="mt-4 text-2xl sm:text-3xl">📍 Onde este prato nasceu?</h2>
+        <p className="mt-1 text-stone-700">
+          {palpite ? 'Ponto marcado! Pode mudar quantas vezes quiser antes de confirmar.' : 'Toque no mapa para marcar o seu palpite. Use + e − para aproximar.'}
+        </p>
+        <p className="mt-3 rounded-xl bg-green-50 px-4 py-2 text-green-950">
+          <b>Ingredientes:</b> {recipe.ingredientes.join(', ')}
+        </p>
 
-              <div className="flex flex-col sm:flex-row items-center gap-4">
-                <div className="cyber-card p-3 text-xs max-w-64 bg-green-800/90" style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}>
-                  <span className="text-green-400 font-semibold">Ingredientes: </span>
-                  <span className="text-white">{recipe.ingredientes.join(', ')}</span>
-                </div>
-                <Button onClick={() => palpite && onGuess(palpite.lat, palpite.lng)} disabled={!palpite} className="cyber-button">
-                  CONFIRMAR ✓
-                </Button>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-
-      <div className="flex-1 mb-6 relative z-10 mx-4 md:mx-32">
         <div
           ref={container}
           role="application"
           aria-label="Mapa para marcar o palpite"
-          className="w-full h-full min-h-[60vh] rounded-xl border-2 border-green-700/30"
-          style={{ boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)' }}
+          className="mt-4 h-[55vh] min-h-[320px] w-full rounded-2xl border-2 border-stone-200"
         />
-      </div>
-    </div>
+
+        <div className="sticky bottom-3 z-[1000] mt-4 text-center">
+          <button
+            type="button"
+            onClick={() => palpite && onGuess(palpite.lat, palpite.lng)}
+            disabled={!palpite}
+            className="botao-principal w-full shadow-lg sm:w-auto"
+          >
+            {palpite ? 'Confirmar palpite ✓' : 'Marque um ponto no mapa'}
+          </button>
+        </div>
+      </section>
+    </main>
   );
 };
