@@ -1,15 +1,15 @@
 
-import { countriesData } from '@/data/countries';
+import { paisPorCodigo } from '@/data/countries';
+
+const FEMININOS = ['Argentina', 'Colômbia', 'Venezuela', 'Bolívia'];
 
 interface LoadingScreenProps {
   country: string;
 }
 
 export const LoadingScreen = ({ country }: LoadingScreenProps) => {
-  const getCountryName = (countryCode: string): string => {
-    const countryData = countriesData.find(c => c.codigo.toUpperCase() === countryCode.toUpperCase());
-    return countryData?.pais || countryCode;
-  };
+  const nome = paisPorCodigo(country)?.pais ?? country;
+  const artigo = FEMININOS.includes(nome) ? 'da' : 'do';
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center cyber-grid-bg relative overflow-hidden">
@@ -39,11 +39,8 @@ export const LoadingScreen = ({ country }: LoadingScreenProps) => {
             🎯 Preparando Sabores
           </p>
           <p className="text-lg text-medium-contrast font-body leading-relaxed">
-            Selecionando um prato típico{' '}
-            {getCountryName(country) !== 'Brasil' ? 'do' : 'do'}{' '}
-            <span className="text-cyber-green font-bold font-heading">
-              {getCountryName(country)}
-            </span>
+            Selecionando pratos típicos {artigo}{' '}
+            <span className="text-cyber-green font-bold font-heading">{nome}</span>
           </p>
         </div>
         

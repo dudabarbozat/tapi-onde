@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { countriesData } from '@/data/countries';
+import { arquivoPublico } from '@/data/pratos';
 
 interface CountrySelectionProps {
   onCountrySelect: (countryCode: string) => void;
@@ -16,13 +17,8 @@ export const CountrySelection = ({ onCountrySelect }: CountrySelectionProps) => 
       
       {/* Logo Section */}
       <div className="text-center mb-16 animate-fade-in relative z-10">
-        <div className="mb-8 relative">
-          <div className="text-8xl mb-4 tapioca-pin">🥞</div>
-          <div className="absolute -top-2 -right-2 text-5xl animate-bounce-gentle">📍</div>
-        </div>
-        
-        <h1 className="text-7xl cyber-title mb-8 tracking-wide">
-          TAPiONDE
+        <h1 className="mb-8">
+          <img src={arquivoPublico('img/logo.png')} alt="TapiOnde" className="mx-auto h-56 w-56 md:h-72 md:w-72" />
         </h1>
         
         <div className="max-w-4xl mx-auto">
@@ -32,8 +28,8 @@ export const CountrySelection = ({ onCountrySelect }: CountrySelectionProps) => 
           <p className="text-lg text-medium-contrast leading-relaxed font-body">
             Veja os ingredientes, adivinhe o local! Um jogo que mistura 
             <span className="text-cyber-green font-semibold"> geolocalização </span>
-            e <span className="text-cyber-blue font-semibold">cultura gastronômica</span> 
-            em uma aventura cyberpunk pelos sabores latinos.
+            e <span className="text-cyber-blue font-semibold">cultura gastronômica</span>{" "}
+            em uma viagem pelos sabores da América Latina.
           </p>
         </div>
       </div>

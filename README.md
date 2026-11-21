@@ -1,73 +1,37 @@
-# Welcome to your Lovable project
+# TapiOnde — de onde é este prato?
 
-## Project info
+Jogo de geografia gastronômica: você vê os ingredientes e uma dica de um prato típico da América Latina e marca no mapa de onde ele vem. Quanto mais perto, mais pontos.
 
-**URL**: https://lovable.dev/projects/2535d7be-2c16-4ca8-90ae-9334238a3d81
+**Jogar:** https://dudabarbozat.github.io/tapi-onde/
 
-## How can I edit this code?
+## Para quem
 
-There are several ways of editing your application.
+Quem gosta de comida, de viagem ou de geografia, e professores que querem um jeito leve de falar de cultura latino-americana.
 
-**Use Lovable**
+## Como funciona
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2535d7be-2c16-4ca8-90ae-9334238a3d81) and start prompting.
+- Escolha um entre 10 países: Brasil, Argentina, México, Colômbia, Peru, Chile, Equador, Venezuela, Bolívia e Uruguai.
+- A cada rodada aparecem os ingredientes e uma dica. Você marca a origem no mapa e confirma.
+- O resultado mostra a distância, a pontuação (de 100 a 1.000), a foto do prato, uma curiosidade e como ele é feito.
+- Uma partida tem 5 pratos.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Stack
 
-**Use your preferred IDE**
+Vite · React 18 · TypeScript · Tailwind CSS · Leaflet
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Sem backend: os pratos ficam em `src/data/pratos.json` e as fotos em `public/pratos/`.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Como rodar
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm ci
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Conteúdo
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Cada prato tem a origem, os ingredientes e o preparo conferidos na fonte indicada no próprio jogo. As fotos são do [Wikimedia Commons](https://commons.wikimedia.org/), com autor e licença exibidos junto de cada imagem. Mapa © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright).
 
-**Use GitHub Codespaces**
+## Licença
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2535d7be-2c16-4ca8-90ae-9334238a3d81) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Código sob [MIT](LICENSE). Fotos sob as licenças indicadas em cada uma.

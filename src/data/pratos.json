@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "br-pato-no-tucupi",
+    "prato": "Pato no tucupi",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Belém, Pará",
+    "regiao": "Norte",
+    "latitude": -1.4558,
+    "longitude": -48.4902,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "pato",
+      "tucupi",
+      "jambu",
+      "chicória",
+      "arroz branco",
+      "farinha de mandioca"
+    ],
+    "dica": "Prato de herança indígena servido no almoço de uma das maiores procissões religiosas do país, com uma erva que deixa a boca dormente.",
+    "curiosidade": "É um dos pratos principais do tradicional almoço do Círio de Nazaré, ao lado da maniçoba. O jambu foi um acréscimo posterior à receita indígena.",
+    "comoSeFaz": "O pato é temperado, marinado, refogado e cozido na panela para amaciar; depois é destrinchado e dourado no forno. Por fim, é fervido com tucupi, jambu e folhas de chicória e servido com arroz branco e farinha de mandioca.",
+    "fonte": "https://pt.wikipedia.org/wiki/Pato_no_tucupi",
+    "imagem": {
+      "arquivo": "pratos/br-pato-no-tucupi.jpg",
+      "autor": "Bruna Brandão / MTur Destinos",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:BrunaBrandao_Pato_no_Tucupi_Belem_PA_(26185651117).jpg"
+    }
+  },
+  {
+    "id": "br-tacaca",
+    "prato": "Tacacá",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Manaus, Amazonas",
+    "regiao": "Norte",
+    "latitude": -3.119,
+    "longitude": -60.0217,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "tucupi",
+      "goma de mandioca",
+      "jambu",
+      "camarão seco",
+      "pimenta-de-cheiro",
+      "alho"
+    ],
+    "dica": "Caldo amarelo servido quente numa cuia, com goma, camarão seco e uma folha que faz a boca formigar.",
+    "curiosidade": "O nome vem do nheengatu e pode significar \"caldo de goma\". O prato provavelmente deriva de uma sopa indígena chamada mani poi, e em Manaus dá nome até a um evento musical, o \"Tacacá-na-bossa\".",
+    "comoSeFaz": "O tucupi e a goma saem da massa ralada da mandioca: o líquido prensado descansa, a fécula assenta no fundo e o tucupi fica por cima. Serve-se o tucupi quente sobre a goma, com jambu e camarão seco, temperado com sal, alho e pimenta-de-cheiro.",
+    "fonte": "https://pt.wikipedia.org/wiki/Tacac%C3%A1",
+    "imagem": {
+      "arquivo": "pratos/br-tacaca.jpg",
+      "autor": "Ajmcbarreto",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tacac%C3%A1_01.jpg"
+    }
+  },
+  {
+    "id": "br-x-caboquinho",
+    "prato": "X-caboquinho",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Manaus, Amazonas",
+    "regiao": "Norte",
+    "latitude": -3.1319,
+    "longitude": -60.0233,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "pão francês",
+      "tucumã",
+      "banana pacovã",
+      "queijo coalho",
+      "manteiga"
+    ],
+    "dica": "Sanduíche de café da manhã com lascas de um fruto de palmeira amazônica e banana frita.",
+    "curiosidade": "É uma das iguarias mais pedidas em feiras e lanchonetes da cidade e foi reconhecido como Patrimônio Cultural Imaterial municipal em 23 de outubro de 2019.",
+    "comoSeFaz": "Um pão francês é recheado com lascas de tucumã, banana pacovã madura frita, queijo coalho e manteiga.",
+    "fonte": "https://pt.wikipedia.org/wiki/X-caboquinho",
+    "imagem": {
+      "arquivo": "pratos/br-x-caboquinho.jpg",
+      "autor": "Turismo Aqui",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:X-Caboquinho_de_Manaus.png"
+    }
+  },
+  {
+    "id": "br-acaraje",
+    "prato": "Acarajé",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Salvador, Bahia",
+    "regiao": "Nordeste",
+    "latitude": -12.9714,
+    "longitude": -38.5014,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão-fradinho",
+      "cebola",
+      "sal",
+      "azeite de dendê",
+      "camarão seco",
+      "vatapá",
+      "caruru"
+    ],
+    "dica": "Bolinho de origem iorubá vendido em tabuleiros de rua, frito em óleo alaranjado e recheado com camarão; também é comida ritual de um orixá.",
+    "curiosidade": "Na língua iorubá, àkàrà significa \"bola de fogo\". Além de comida de rua, o acarajé é comida ritual da orixá Iansã no candomblé.",
+    "comoSeFaz": "O feijão-fradinho é demolhado e moído até virar uma massa fina, à qual se acrescentam cebola ralada e sal. Os bolinhos são fritos no azeite de dendê, cortados ao meio e recheados com vatapá, caruru, camarão e pimenta.",
+    "fonte": "https://pt.wikipedia.org/wiki/Acaraj%C3%A9",
+    "imagem": {
+      "arquivo": "pratos/br-acaraje.jpg",
+      "autor": "Nahtanom",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_na_Bahia.jpg"
+    }
+  },
+  {
+    "id": "br-baiao-de-dois",
+    "prato": "Baião de dois",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Ceará (Fortaleza como referência)",
+    "regiao": "Nordeste",
+    "latitude": -3.7319,
+    "longitude": -38.5267,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "arroz",
+      "feijão verde",
+      "queijo coalho",
+      "nata"
+    ],
+    "dica": "Arroz e feijão verde cozidos juntos, com nome de ritmo musical e de uma canção famosa do Rei do Baião.",
+    "curiosidade": "O nome se popularizou com a música \"Baião de Dois\", de Humberto Teixeira e Luiz Gonzaga. Câmara Cascudo atesta a origem cearense da iguaria.",
+    "comoSeFaz": "Prepara-se arroz junto com feijão, de preferência feijão verde ou feijão novo. É frequente acrescentar queijo coalho e nata.",
+    "fonte": "https://pt.wikipedia.org/wiki/Bai%C3%A3o_de_dois",
+    "imagem": {
+      "arquivo": "pratos/br-baiao-de-dois.jpg",
+      "autor": "Zé Carlos Barretta",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bai%C3%A3o_de_dois.jpg"
+    }
+  },
+  {
+    "id": "br-bolo-de-rolo",
+    "prato": "Bolo de rolo",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Pernambuco (Recife como referência)",
+    "regiao": "Nordeste",
+    "latitude": -8.0476,
+    "longitude": -34.877,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "farinha de trigo",
+      "ovos",
+      "manteiga",
+      "açúcar",
+      "goiabada"
+    ],
+    "dica": "Bolo de camadas finíssimas enroladas com goiabada, adaptado de um doce português com amêndoas.",
+    "curiosidade": "Deriva do \"colchão de noiva\" português; na Zona da Mata o recheio de amêndoas foi trocado pela goiaba. Desde 2008 é patrimônio imaterial do estado por lei.",
+    "comoSeFaz": "A massa de farinha de trigo, ovos, manteiga e açúcar é espalhada bem fina, coberta com goiabada derretida e enrolada em muitas camadas finas, como um rocambole. Por fim, polvilha-se açúcar por fora.",
+    "fonte": "https://pt.wikipedia.org/wiki/Bolo_de_rolo",
+    "imagem": {
+      "arquivo": "pratos/br-bolo-de-rolo.jpg",
+      "autor": "Guilherme Jófili",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bolo_de_Rolo,_doce_brasileiro,_t%C3%ADpico_de_Pernambuco.jpg"
+    }
+  },
+  {
+    "id": "br-empadao-goiano",
+    "prato": "Empadão goiano",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Cidade de Goiás, Goiás",
+    "regiao": "Centro-Oeste",
+    "latitude": -15.934,
+    "longitude": -50.1403,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "frango",
+      "carne de porco",
+      "linguiça",
+      "queijo minas",
+      "guariroba",
+      "azeitona",
+      "batata"
+    ],
+    "dica": "Torta salgada grande, assada em fôrma, com recheio que leva palmito amargo do Cerrado.",
+    "curiosidade": "Era chamado de \"empada goiana\" até os anos 1980. Está em processo de reconhecimento como Patrimônio Imaterial pelo IPHAN.",
+    "comoSeFaz": "A torta é assada em fôrma forrada com a própria massa e servida quente. O recheio tradicional leva frango, carne e linguiça de porco, queijo minas, azeitona, guariroba, batata, molho de tomate e pimenta.",
+    "fonte": "https://pt.wikipedia.org/wiki/Empad%C3%A3o_goiano",
+    "imagem": {
+      "arquivo": "pratos/br-empadao-goiano.jpg",
+      "autor": "Elis Florentine",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Empad%C3%A3o_Goiano..jpg"
+    }
+  },
+  {
+    "id": "br-sopa-paraguaia",
+    "prato": "Sopa paraguaia",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Mato Grosso do Sul (Campo Grande como referência)",
+    "regiao": "Centro-Oeste",
+    "latitude": -20.4697,
+    "longitude": -54.6201,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de milho",
+      "leite",
+      "óleo",
+      "queijo",
+      "cebola"
+    ],
+    "dica": "Apesar do nome, não é sopa: é um bolo salgado de milho e queijo herdado de um país vizinho.",
+    "curiosidade": "É considerada o prato tradicional do Paraguai e muito consumida na fronteira brasileira, onde é assada em forno de barro chamado tatakua.",
+    "comoSeFaz": "Mistura-se farinha de milho com leite, óleo, bastante queijo e cebola e assa-se em forno comum ou de barro. Usa-se milho ou fubá, mas nunca os dois juntos.",
+    "fonte": "https://pt.wikipedia.org/wiki/Sopa_paraguaia",
+    "imagem": {
+      "arquivo": "pratos/br-sopa-paraguaia.jpg",
+      "autor": "Everton Zanella Alvarenga",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sopa_paraguaia.jpg"
+    }
+  },
+  {
+    "id": "br-furrundu",
+    "prato": "Furrundu",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Cuiabá, Mato Grosso",
+    "regiao": "Centro-Oeste",
+    "latitude": -15.6014,
+    "longitude": -56.0979,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "mamão verde",
+      "rapadura",
+      "canela",
+      "cravo",
+      "coco ralado",
+      "gengibre"
+    ],
+    "dica": "Doce de mamão verde ralado com rapadura, símbolo da baixada pantaneira.",
+    "curiosidade": "Inspirou até cerveja e sorvete locais. Furrundu também pode significar \"barulho, confusão\", segundo Câmara Cascudo.",
+    "comoSeFaz": "O mamão verde é ralado fino e lavado até sair todo o látex. Vai à panela com a rapadura picada e temperos como canela, cravo, coco ou gengibre; a rapadura vira melaço e cozinha junto com o mamão.",
+    "fonte": "https://pt.wikipedia.org/wiki/Furrundum",
+    "imagem": {
+      "arquivo": "pratos/br-furrundu.jpg",
+      "autor": "Sanso 37",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Doce_Furrundum.jpg"
+    }
+  },
+  {
+    "id": "br-pao-de-queijo",
+    "prato": "Pão de queijo",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Minas Gerais (Belo Horizonte como referência)",
+    "regiao": "Sudeste",
+    "latitude": -19.9167,
+    "longitude": -43.9345,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "polvilho",
+      "queijo",
+      "ovos",
+      "leite"
+    ],
+    "dica": "Bolinha assada de polvilho e queijo, nascida numa região de muito leite e pouca farinha de trigo.",
+    "curiosidade": "Surgiu por volta de 1750, quando a pecuária leiteira se especializou na região. Em 2023 ficou em terceiro lugar na categoria café da manhã do TasteAtlas.",
+    "comoSeFaz": "Os primeiros eram feitos misturando aparas endurecidas de queijo com polvilho. Depois, ovos e leite foram acrescentados à massa.",
+    "fonte": "https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo",
+    "imagem": {
+      "arquivo": "pratos/br-pao-de-queijo.jpg",
+      "autor": "Acfariac",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pao_de_queijo_brasil.jpg"
+    }
+  },
+  {
+    "id": "br-moqueca-capixaba",
+    "prato": "Moqueca capixaba",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Vitória, Espírito Santo",
+    "regiao": "Sudeste",
+    "latitude": -20.3155,
+    "longitude": -40.3128,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe",
+      "tomate",
+      "cebola",
+      "coentro",
+      "urucum",
+      "azeite de oliva"
+    ],
+    "dica": "Cozido de peixe feito em panela de barro preta, sem dendê nem leite de coco, colorido com urucum.",
+    "curiosidade": "As panelas de barro são feitas pelas paneleiras do bairro de Goiabeiras Velha, um ofício descrito por Saint-Hilaire em 1815.",
+    "comoSeFaz": "O peixe é cozido em panela de barro com tomates maduros, cebola e coentro. No lugar do dendê, usa-se azeite de oliva, e a cor vem do urucum; não leva pimentão nem leite de coco.",
+    "fonte": "https://pt.wikipedia.org/wiki/Moqueca",
+    "imagem": {
+      "arquivo": "pratos/br-moqueca-capixaba.jpg",
+      "autor": "Sintegrity",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Moqueca_Capixaba_01.jpg"
+    }
+  },
+  {
+    "id": "br-virado-a-paulista",
+    "prato": "Virado à paulista",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "São Paulo, São Paulo",
+    "regiao": "Sudeste",
+    "latitude": -23.5505,
+    "longitude": -46.6333,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão",
+      "farinha de mandioca",
+      "bisteca de porco",
+      "linguiça",
+      "banana empanada",
+      "couve",
+      "ovo",
+      "arroz"
+    ],
+    "dica": "Feijão virado com farinha que alimentava os bandeirantes, hoje servido com bisteca, couve e ovo frito.",
+    "curiosidade": "A referência mais antiga é de 1602. Conta-se que D. Pedro I comeu virado em 17 de agosto de 1822, dias antes do Grito do Ipiranga.",
+    "comoSeFaz": "O feijão cozido é refogado em cebola, alho e gordura e mexido com farinha de milho ou de mandioca. Acompanha bisteca ou costeleta de porco, linguiça frita, banana empanada, ovo, couve e arroz.",
+    "fonte": "https://pt.wikipedia.org/wiki/Virado",
+    "imagem": {
+      "arquivo": "pratos/br-virado-a-paulista.jpg",
+      "autor": "edsonaoki",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Virado_a_paulista.jpg"
+    }
+  },
+  {
+    "id": "br-barreado",
+    "prato": "Barreado",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Morretes, Paraná",
+    "regiao": "Sul",
+    "latitude": -25.4744,
+    "longitude": -48.8345,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "carne bovina",
+      "toucinho",
+      "cebola",
+      "alho",
+      "louro",
+      "cominho",
+      "farinha de mandioca",
+      "banana-da-terra"
+    ],
+    "dica": "Carne cozida por horas numa panela de barro com a tampa vedada, servida com farinha e banana no litoral.",
+    "curiosidade": "De origem açoriana, era servido em mutirões e no entrudo, antes do carnaval. Tropeiros paravam na cidade atrás de cachaça e barreado.",
+    "comoSeFaz": "Carne bovina magra é temperada com cebola, alho, toucinho, pimenta-do-reino, louro e cominho e cozida até desmanchar numa panela de barro vedada com massa de farinha e água. Depois é misturada à farinha de mandioca e servida com arroz e banana-da-terra.",
+    "fonte": "https://pt.wikipedia.org/wiki/Barreado",
+    "imagem": {
+      "arquivo": "pratos/br-barreado.jpg",
+      "autor": "Kevin Klop (Kevinklop)",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Barreado.jpg"
+    }
+  },
+  {
+    "id": "br-sagu-de-vinho",
+    "prato": "Sagu de vinho",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Serra Gaúcha (Caxias do Sul como referência)",
+    "regiao": "Sul",
+    "latitude": -29.1678,
+    "longitude": -51.1794,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "sagu (pérolas de mandioca)",
+      "vinho tinto",
+      "creme de baunilha"
+    ],
+    "dica": "Bolinhas de fécula cozidas no vinho tinto, sobremesa de uma região de imigrantes italianos e alemães.",
+    "curiosidade": "Sagu é originalmente o amido de uma palmeira asiática; as pérolas de mandioca chegaram ao Brasil com imigrantes alemães e italianos do norte.",
+    "comoSeFaz": "As bolinhas de fécula de mandioca são cozidas, geralmente com vinho tinto. Costuma ser servido com um creme de baunilha suave ou merengue.",
+    "fonte": "https://pt.wikipedia.org/wiki/Sagu_(sobremesa)",
+    "imagem": {
+      "arquivo": "pratos/br-sagu-de-vinho.jpg",
+      "autor": "Scheridon",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:SaguDeVinho.jpg"
+    }
+  },
+  {
+    "id": "br-arroz-carreteiro",
+    "prato": "Arroz carreteiro",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Rio Grande do Sul (Porto Alegre como referência)",
+    "regiao": "Sul",
+    "latitude": -30.0346,
+    "longitude": -51.2177,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "arroz",
+      "charque",
+      "alho",
+      "cebola",
+      "tomate",
+      "cheiro-verde"
+    ],
+    "dica": "Arroz com carne-seca cozido em panela de ferro por quem transportava cargas em carretas de boi.",
+    "curiosidade": "Os carreteiros não tinham geladeira e usavam o charque, que aguentava muitos dias de viagem. Hoje é comum prepará-lo com sobras de churrasco.",
+    "comoSeFaz": "Refoga-se a carne picada (originalmente charque) em bastante gordura com alho, cebola, tomate e cheiro-verde e cozinha-se junto com o arroz, tradicionalmente em panela de ferro.",
+    "fonte": "https://pt.wikipedia.org/wiki/Arroz_carreteiro",
+    "imagem": {
+      "arquivo": "pratos/br-arroz-carreteiro.jpg",
+      "autor": "Cesar Vieira",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Arroz_carreteiro.jpg"
+    }
+  },
+  {
+    "id": "pe-ceviche",
+    "prato": "Cebiche",
+    "pais": "Peru",
+    "codigoPais": "PE",
+    "local": "Lima (prato nacional)",
+    "regiao": "Costa",
+    "latitude": -12.0464,
+    "longitude": -77.0428,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe cru",
+      "limão",
+      "cebola",
+      "ají",
+      "sal"
+    ],
+    "dica": "Peixe cru marinado rapidamente em suco de limão com pimenta, reconhecido pela Unesco como patrimônio.",
+    "curiosidade": "Os moches já marinavam peixe com suco de tumbo; os espanhóis trouxeram a lima e a cebola. O caldo da marinada é chamado de \"leche de tigre\".",
+    "comoSeFaz": "O peixe cru é cortado e tem contato rápido, de menos de um minuto, com suco de limão e \"leche de tigre\". Leva ají (amarelo, mochero ou rocoto), cebola e sal.",
+    "fonte": "https://es.wikipedia.org/wiki/Cebiche",
+    "imagem": {
+      "arquivo": "pratos/pe-ceviche.jpg",
+      "autor": "Yogma",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ceviche_de_Lenguado_(Lima,_Peru).jpg"
+    }
+  },
+  {
+    "id": "pe-rocoto-relleno",
+    "prato": "Rocoto relleno",
+    "pais": "Peru",
+    "codigoPais": "PE",
+    "local": "Arequipa",
+    "regiao": "Sul",
+    "latitude": -16.3989,
+    "longitude": -71.535,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "rocoto",
+      "carne moída",
+      "azeitonas",
+      "ervilhas",
+      "queijo fresco",
+      "cominho",
+      "salsinha"
+    ],
+    "dica": "Pimenta redonda e muito ardida, do tamanho de uma maçã, recheada com carne e assada no forno.",
+    "curiosidade": "Em 2016 a cidade fez o primeiro festival do prato e bateu um recorde Guinness com o maior rocoto relleno do mundo.",
+    "comoSeFaz": "O rocoto é recheado com carne moída, azeitonas, ervilhas e queijo fresco, temperados com cominho e salsinha. Vai ao forno, é servido quente e costuma acompanhar pastel de papa.",
+    "fonte": "https://es.wikipedia.org/wiki/Rocoto_relleno",
+    "imagem": {
+      "arquivo": "pratos/pe-rocoto-relleno.jpg",
+      "autor": "Idan Robbins",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rocoto_relleno.jpg"
+    }
+  },
+  {
+    "id": "pe-juane",
+    "prato": "Juane",
+    "pais": "Peru",
+    "codigoPais": "PE",
+    "local": "Moyobamba, San Martín",
+    "regiao": "Amazônia",
+    "latitude": -6.0342,
+    "longitude": -76.9717,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "arroz",
+      "galinha",
+      "ovos",
+      "folha de bijao"
+    ],
+    "dica": "Trouxinha de arroz e galinha embrulhada em folha e fervida, comida da festa de São João na selva.",
+    "curiosidade": "O nome faz referência à cabeça de São João Batista. Segundo a Biblioteca Nacional do Peru, a origem está nesta cidade amazônica.",
+    "comoSeFaz": "Arroz e pedaços de galinha são ligados com ovos batidos, envolvidos em folha de bijao e fervidos. Acompanha tacacho, mandioca ou banana cozida.",
+    "fonte": "https://es.wikipedia.org/wiki/Juane",
+    "imagem": {
+      "arquivo": "pratos/pe-juane.jpg",
+      "autor": "Dtarazona",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Juane_3260409.JPG"
+    }
+  },
+  {
+    "id": "pe-chiriuchu",
+    "prato": "Chiri uchu",
+    "pais": "Peru",
+    "codigoPais": "PE",
+    "local": "Cusco",
+    "regiao": "Andes",
+    "latitude": -13.532,
+    "longitude": -71.9675,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "cuy",
+      "galinha",
+      "charqui",
+      "morcela",
+      "salsicha",
+      "queijo",
+      "torreja de milho",
+      "ovas de peixe",
+      "algas"
+    ],
+    "dica": "Prato frio de muitas carnes, incluindo porquinho-da-índia, comido nas festas de junho da antiga capital inca.",
+    "curiosidade": "Não é vendido em picanterias: é consumido no Inti Raymi e, principalmente, no Corpus Christi, misturando sabores andinos e espanhóis.",
+    "comoSeFaz": "Monta-se um prato frio com várias carnes (cuy, galinha cozida, charqui, morcela, salsicha), queijo, torreja de milho, ovas de peixe de rio e algas de lagoa.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_del_Cusco",
+    "imagem": {
+      "arquivo": "pratos/pe-chiriuchu.jpg",
+      "autor": "Chalisimo5",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chiriuchu.jpg"
+    }
+  },
+  {
+    "id": "pe-arroz-con-pato",
+    "prato": "Arroz con pato",
+    "pais": "Peru",
+    "codigoPais": "PE",
+    "local": "Chiclayo, Lambayeque",
+    "regiao": "Costa Norte",
+    "latitude": -6.7714,
+    "longitude": -79.8409,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "pato",
+      "arroz",
+      "alho",
+      "vinagre",
+      "ají amarillo",
+      "coentro",
+      "cerveja preta"
+    ],
+    "dica": "Arroz verde de coentro com pato marinado em alho e vinagre, típico da costa norte.",
+    "curiosidade": "Também era chamado de \"pato con arroz a la chiclayana\". As referências mais antigas são de 1860.",
+    "comoSeFaz": "O pato é marinado em alho e vinagre e cozido com ají amarelo e arroz esverdeado pelo coentro. É comum adicionar cerveja preta ou chicha de jora e servir com salsa criolla.",
+    "fonte": "https://es.wikipedia.org/wiki/Arroz_con_pato",
+    "imagem": {
+      "arquivo": "pratos/pe-arroz-con-pato.jpg",
+      "autor": "Dtarazona",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Arroz_con_pato_a_la_chiclayana.JPG"
+    }
+  },
+  {
+    "id": "mx-mole-poblano",
+    "prato": "Mole poblano",
+    "pais": "México",
+    "codigoPais": "MX",
+    "local": "Puebla",
+    "regiao": "Centro",
+    "latitude": 19.0414,
+    "longitude": -98.2063,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "guajolote (peru)",
+      "chiles",
+      "chocolate",
+      "condimentos"
+    ],
+    "dica": "Molho espesso de dezenas de ingredientes, com várias pimentas e chocolate, servido sobre uma ave grande.",
+    "curiosidade": "Uma das versões situa sua criação no convento de Santa Rosa, quando uma freira moeu diferentes chiles e condimentos. A palavra náuatle \"molli\" significa molho.",
+    "comoSeFaz": "Prepara-se um molho com grande variedade de ingredientes moídos, incluindo chiles e chocolate, que é vertido sobre pedaços de peru. Hoje também é comum com frango.",
+    "fonte": "https://es.wikipedia.org/wiki/Mole_poblano",
+    "imagem": {
+      "arquivo": "pratos/mx-mole-poblano.jpg",
+      "autor": "Palmarito Tochapán",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mole_poblano_de_guajolote.jpg"
+    }
+  },
+  {
+    "id": "mx-cochinita-pibil",
+    "prato": "Cochinita pibil",
+    "pais": "México",
+    "codigoPais": "MX",
+    "local": "Península de Yucatán (Mérida como referência)",
+    "regiao": "Sudeste",
+    "latitude": 20.9674,
+    "longitude": -89.5926,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "carne de porco",
+      "achiote",
+      "pimenta",
+      "folha de bananeira",
+      "cebola roxa",
+      "laranja-azeda",
+      "chile habanero"
+    ],
+    "dica": "Porco marinado em urucum, embrulhado em folha de bananeira e cozido num forno cavado na terra.",
+    "curiosidade": "\"Pibil\" vem do maia e indica algo preparado no \"píib\", forno de terra pré-hispânico usado antes para cozinhar caititus e veados.",
+    "comoSeFaz": "A carne de porco é adobada num recado de achiote, pimenta e especiarias, envolta em folha de bananeira e cozida no forno de terra. Acompanha cebola roxa curtida em laranja-azeda com chile habanero.",
+    "fonte": "https://es.wikipedia.org/wiki/Cochinita_pibil",
+    "imagem": {
+      "arquivo": "pratos/mx-cochinita-pibil.jpg",
+      "autor": "Popo le Chien",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cochinita_pibil_2.jpg"
+    }
+  },
+  {
+    "id": "mx-tlayuda",
+    "prato": "Tlayuda",
+    "pais": "México",
+    "codigoPais": "MX",
+    "local": "Oaxaca de Juárez",
+    "regiao": "Sul",
+    "latitude": 17.0732,
+    "longitude": -96.7266,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "tortilla de milho",
+      "asiento (banha de porco)",
+      "quesillo",
+      "alface",
+      "tasajo",
+      "salsa picante"
+    ],
+    "dica": "Tortilha de milho gigante e crocante, passada com banha e coberta com queijo de fio e carne seca.",
+    "curiosidade": "Pode passar de 40 cm de diâmetro. O cozimento demorado no comal faz com que dure muito tempo sem estragar.",
+    "comoSeFaz": "A tortilha grande é semitostada no comal. Unta-se com asiento de porco, cobre-se com quesillo, alface, tasajo ou cecina e salsa de molcajete, e vai ao anafre até ficar crocante.",
+    "fonte": "https://es.wikipedia.org/wiki/Tlayuda",
+    "imagem": {
+      "arquivo": "pratos/mx-tlayuda.jpg",
+      "autor": "Nsaum75",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tlayuda_con_chorizo_en_Oaxaca.jpg"
+    }
+  },
+  {
+    "id": "mx-birria",
+    "prato": "Birria",
+    "pais": "México",
+    "codigoPais": "MX",
+    "local": "Guadalajara, Jalisco",
+    "regiao": "Ocidente",
+    "latitude": 20.6597,
+    "longitude": -103.3496,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "carne de cabrito ou carneiro",
+      "vinagre",
+      "chiles secos",
+      "alho",
+      "ervas",
+      "tomate"
+    ],
+    "dica": "Carne de cabrito marinada em pimentas secas e cozida em forno de terra, servida com o próprio caldo.",
+    "curiosidade": "\"Birria\" era o nome regional para a barbacoa no ocidente do país; lugares que a servem são chamados de birrierías.",
+    "comoSeFaz": "A carne é marinada num adobo de vinagre, chiles secos, alho, ervas e sal e cozida num recipiente de metal enterrado num buraco com brasas, coberto com folhas de maguey e terra. Com o suco do cozimento se faz um consomê de tomate.",
+    "fonte": "https://es.wikipedia.org/wiki/Birria",
+    "imagem": {
+      "arquivo": "pratos/mx-birria.jpg",
+      "autor": "Equipo 9mkt",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Plato_de_birria.jpg"
+    }
+  },
+  {
+    "id": "mx-taco-al-pastor",
+    "prato": "Taco al pastor",
+    "pais": "México",
+    "codigoPais": "MX",
+    "local": "Cidade do México",
+    "regiao": "Centro",
+    "latitude": 19.4326,
+    "longitude": -99.1332,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de porco adobada",
+      "tortilha",
+      "abacaxi",
+      "cebola",
+      "coentro",
+      "salsa"
+    ],
+    "dica": "Carne de porco adobada assada num espeto vertical giratório, servida com abacaxi.",
+    "curiosidade": "O espeto vertical, chamado \"trompo\", chegou com imigrantes libaneses. Em 2019 o TasteAtlas o elegeu a melhor comida do mundo.",
+    "comoSeFaz": "Fatias finas de porco adobado são empilhadas num espeto de ferro que gira diante de um fogo vertical. A carne é servida em tortilhas com cebola, coentro, abacaxi e salsas.",
+    "fonte": "https://es.wikipedia.org/wiki/Taco_al_pastor",
+    "imagem": {
+      "arquivo": "pratos/mx-taco-al-pastor.jpg",
+      "autor": "City Foodsters",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:(El_Flaco)_Al_Pastor_Tacos.jpg"
+    }
+  },
+  {
+    "id": "co-bandeja-paisa",
+    "prato": "Bandeja paisa",
+    "pais": "Colômbia",
+    "codigoPais": "CO",
+    "local": "Antioquia (Medellín como referência)",
+    "regiao": "Andina",
+    "latitude": 6.2442,
+    "longitude": -75.5812,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão vermelho",
+      "arroz",
+      "carne moída",
+      "chicharrón",
+      "ovo frito",
+      "banana-da-terra madura",
+      "chouriço",
+      "arepa",
+      "abacate"
+    ],
+    "dica": "Prato tão farto que precisa de uma travessa: feijão, arroz, torresmo, ovo, banana e arepa, comida de tropeiros das montanhas.",
+    "curiosidade": "Sua origem é associada à alimentação dos arrieros do século XIX, que percorriam longas distâncias pelas montanhas e precisavam de comida muito calórica.",
+    "comoSeFaz": "Servem-se juntos, numa bandeja grande, feijão vermelho cozido com porco, arroz branco, carne moída, chicharrón, ovo frito, banana madura frita, chouriço, arepa, hogao, morcela, abacate e limão.",
+    "fonte": "https://es.wikipedia.org/wiki/Bandeja_paisa",
+    "imagem": {
+      "arquivo": "pratos/co-bandeja-paisa.jpg",
+      "autor": "Matt Lemmon from Colorado, USA",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bandeja_paisa_antioque%C3%B1a,_Colombia.jpg"
+    }
+  },
+  {
+    "id": "co-ajiaco",
+    "prato": "Ajiaco santafereño",
+    "pais": "Colômbia",
+    "codigoPais": "CO",
+    "local": "Bogotá",
+    "regiao": "Andina",
+    "latitude": 4.711,
+    "longitude": -74.0721,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "frango",
+      "batata criolla",
+      "batata pastusa",
+      "batata sabanera",
+      "guascas"
+    ],
+    "dica": "Sopa de frango com três tipos de batata e uma erva aromática do altiplano; apesar do nome, não é picante.",
+    "curiosidade": "Os muíscas já preparavam uma sopa de batata, cebola, milho e guascas. Creme de leite e alcaparras são acréscimos populares, mas não tradicionais.",
+    "comoSeFaz": "Cozinha-se o frango com três tipos de batata, que dão cremosidade por cozinharem em tempos diferentes, e tempera-se com folhas de guasca. Costuma ser servido em tigelas de barro.",
+    "fonte": "https://es.wikipedia.org/wiki/Ajiaco_(Colombia)",
+    "imagem": {
+      "arquivo": "pratos/co-ajiaco.jpg",
+      "autor": "ProtoplasmaKid",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ajiaco_santafere%C3%B1o_11.jpg"
+    }
+  },
+  {
+    "id": "co-lechona",
+    "prato": "Lechona",
+    "pais": "Colômbia",
+    "codigoPais": "CO",
+    "local": "Tolima (Ibagué como referência)",
+    "regiao": "Andina",
+    "latitude": 4.4389,
+    "longitude": -75.2322,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "porco inteiro",
+      "ervilhas",
+      "arroz",
+      "cebola",
+      "alho",
+      "cominho"
+    ],
+    "dica": "Porco inteiro recheado com a própria carne, ervilhas e arroz, servido com arepa e um doce chamado insulso.",
+    "curiosidade": "Na sua região de origem é servida com uma natilha local chamada \"insulso\".",
+    "comoSeFaz": "Retira-se a carne do porco sem romper a pele e adoba-se com cebola, alho, sal, pimenta e cominho. A pele é recheada em camadas de carne com costela e do refogado de ervilha, banha, arroz e cebola, costurada e assada no forno por algumas horas.",
+    "fonte": "https://es.wikipedia.org/wiki/Lechona",
+    "imagem": {
+      "arquivo": "pratos/co-lechona.jpg",
+      "autor": "Remux",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lechona_en_Honda.jpg"
+    }
+  },
+  {
+    "id": "co-mote-de-queso",
+    "prato": "Mote de queso",
+    "pais": "Colômbia",
+    "codigoPais": "CO",
+    "local": "Montes de María (El Carmen de Bolívar como referência)",
+    "regiao": "Caribe",
+    "latitude": 9.7174,
+    "longitude": -75.1202,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "inhame",
+      "queijo costeño duro",
+      "alho",
+      "cebola",
+      "limão",
+      "bleo de chupa"
+    ],
+    "dica": "Sopa de inhame com cubinhos de queijo duro, insígnia da cozinha do litoral caribenho.",
+    "curiosidade": "A variante do vale do rio Sinú leva berinjela e leite de coco.",
+    "comoSeFaz": "Cozinha-se o inhame com queijo costeño duro em cubos, alho, cebola, gotas de limão e folhas de bleo de chupa. Serve-se com arroz branco ou de coco e um refogado de cebola, ají dulce e alho.",
+    "fonte": "https://es.wikipedia.org/wiki/Mote_de_queso",
+    "imagem": {
+      "arquivo": "pratos/co-mote-de-queso.jpg",
+      "autor": "Jdvillalobos",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Motequeso.jpg"
+    }
+  },
+  {
+    "id": "co-pandebono",
+    "prato": "Pandebono",
+    "pais": "Colômbia",
+    "codigoPais": "CO",
+    "local": "Valle del Cauca (Cali como referência)",
+    "regiao": "Pacífico",
+    "latitude": 3.4516,
+    "longitude": -76.532,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "fécula de milho",
+      "polvilho azedo",
+      "queijo",
+      "ovo"
+    ],
+    "dica": "Pãozinho sem farinha de trigo, feito de polvilho e queijo, que os tropeiros comiam a caminho do porto do Pacífico.",
+    "curiosidade": "O nome viria da \"Hacienda El Bono\", no caminho entre Dagua e Cali, onde arrieros compravam o \"pan de El Bono\".",
+    "comoSeFaz": "Mistura-se fécula de milho, polvilho azedo de mandioca, queijo e ovo. A massa é dividida em porções achatadas e assada.",
+    "fonte": "https://es.wikipedia.org/wiki/Pandebono",
+    "imagem": {
+      "arquivo": "pratos/co-pandebono.jpg",
+      "autor": "vasquezcarlosm",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pandebono.jpg"
+    }
+  },
+  {
+    "id": "ar-empanada-tucumana",
+    "prato": "Empanada tucumana",
+    "pais": "Argentina",
+    "codigoPais": "AR",
+    "local": "Tucumán (San Miguel de Tucumán)",
+    "regiao": "Noroeste",
+    "latitude": -26.8083,
+    "longitude": -65.2176,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "farinha de trigo",
+      "banha (grasa de pella)",
+      "carne bovina",
+      "cebola",
+      "pimentão-doce em pó",
+      "ovo cozido",
+      "cominho"
+    ],
+    "dica": "Pastel muito suculento de carne cortada à faca, assado em forno de barro, de uma província que tem uma festa nacional dedicada a ele.",
+    "curiosidade": "A cidade de Famaillá realiza todo ano a Fiesta Nacional de la Empanada.",
+    "comoSeFaz": "A massa de farinha, água e banha descansa para crescer. O recheio é de carne bovina cortada à faca (ou frango), cebola, pimentão-doce, ovo cozido e muito cominho; assa-se em forno de barro ou frita-se em banha.",
+    "fonte": "https://es.wikipedia.org/wiki/Empanada",
+    "imagem": {
+      "arquivo": "pratos/ar-empanada-tucumana.jpg",
+      "autor": "César Pérez",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Empanadas_de_Taf%C3%AD_del_Valle_(Tucum%C3%A1n,_Argentina).jpg"
+    }
+  },
+  {
+    "id": "ar-alfajor-santafesino",
+    "prato": "Alfajor santafesino",
+    "pais": "Argentina",
+    "codigoPais": "AR",
+    "local": "Santa Fe",
+    "regiao": "Litoral",
+    "latitude": -31.6333,
+    "longitude": -60.7,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "biscoitos de massa salgada",
+      "doce de leite",
+      "merengue italiano"
+    ],
+    "dica": "Doce de discos crocantes recheados com doce de leite e banhados em merengue, levado de lembrança pelos constituintes de 1853.",
+    "curiosidade": "Começou a ser feito em 1851 por Hermenegildo Zuviría, apelidado \"Merengo\", perto do Cabildo. É considerado o primeiro alfajor propriamente argentino.",
+    "comoSeFaz": "Biscoitos circulares de massa salgada são assados, recheados com doce de leite e banhados em merengue italiano.",
+    "fonte": "https://es.wikipedia.org/wiki/Alfajor_(Hispanoam%C3%A9rica)",
+    "imagem": {
+      "arquivo": "pratos/ar-alfajor-santafesino.jpg",
+      "autor": "TitiNicola",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfajor_Santafesino_Rampazzo_02.jpg"
+    }
+  },
+  {
+    "id": "ar-torta-negra-galesa",
+    "prato": "Torta negra galesa",
+    "pais": "Argentina",
+    "codigoPais": "AR",
+    "local": "Leste do Chubut (Trelew como referência)",
+    "regiao": "Patagônia",
+    "latitude": -43.249,
+    "longitude": -65.3051,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "frutas secas",
+      "frutas cristalizadas"
+    ],
+    "dica": "Bolo escuro de frutas trazido por imigrantes do País de Gales para a Patagônia.",
+    "curiosidade": "Foi criada pela colônia galesa que se instalou na região a partir de 1865 e lembra o bara brith do País de Gales.",
+    "comoSeFaz": "É um bolo de frutas (fruitcake) com frutas secas e frutas cristalizadas, semelhante ao bara brith galês.",
+    "fonte": "https://es.wikipedia.org/wiki/Pastel_gal%C3%A9s",
+    "imagem": {
+      "arquivo": "pratos/ar-torta-negra-galesa.jpg",
+      "autor": "Gastón Cuello",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Torta_negra_galesa_(Y_Wladfa,_Argentina).JPG"
+    }
+  },
+  {
+    "id": "ar-fugazzeta",
+    "prato": "Fugazzeta",
+    "pais": "Argentina",
+    "codigoPais": "AR",
+    "local": "Buenos Aires (bairro de La Boca)",
+    "regiao": "Rio da Prata",
+    "latitude": -34.6345,
+    "longitude": -58.3631,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "massa de pizza",
+      "queijo",
+      "cebola"
+    ],
+    "dica": "Pizza de cebola com queijo entre dois discos de massa, inventada por um pizzaiolo filho de genovês.",
+    "curiosidade": "Foi criada por Juan Banchero no bairro de La Boca; deriva da focaccia com cebola, chamada \"fugassa\" em Gênova.",
+    "comoSeFaz": "Coloca-se o queijo entre dois discos de massa de pizza, como recheio, e cobre-se com cebola antes de assar.",
+    "fonte": "https://es.wikipedia.org/wiki/Fugazzetta",
+    "imagem": {
+      "arquivo": "pratos/ar-fugazzeta.jpg",
+      "autor": "Aleposta",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fugazzetta_en_Pizzer%C3%ADa_Guerrin,_Buenos_Aires.jpg"
+    }
+  },
+  {
+    "id": "ar-milanesa-a-la-napolitana",
+    "prato": "Milanesa a la napolitana",
+    "pais": "Argentina",
+    "codigoPais": "AR",
+    "local": "Buenos Aires (centro)",
+    "regiao": "Rio da Prata",
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "bife à milanesa",
+      "molho de tomate",
+      "rodelas de tomate",
+      "muçarela",
+      "presunto",
+      "batata frita"
+    ],
+    "dica": "Bife empanado gratinado como se fosse pizza; o nome não vem de Nápoles, mas de um restaurante.",
+    "curiosidade": "Foi servida pela primeira vez no fim dos anos 1940 no restaurante Nápoli, em frente ao estádio de boxe Luna Park, com o nome \"milanesa a la Nápoli\".",
+    "comoSeFaz": "Uma milanesa, geralmente de carne, é levada ao forno coberta como pizza, com rodelas de tomate, muçarela e ingredientes como presunto. Acompanha batata frita ou purê.",
+    "fonte": "https://es.wikipedia.org/wiki/Milanesa_napolitana",
+    "imagem": {
+      "arquivo": "pratos/ar-milanesa-a-la-napolitana.jpg",
+      "autor": "Horacio Cambeiro",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Milanesa_napolitana_argentina.jpg"
+    }
+  },
+  {
+    "id": "cl-curanto",
+    "prato": "Curanto",
+    "pais": "Chile",
+    "codigoPais": "CL",
+    "local": "Arquipélago de Chiloé (Castro como referência)",
+    "regiao": "Sul",
+    "latitude": -42.48,
+    "longitude": -73.762,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "mariscos",
+      "batatas",
+      "milcao",
+      "chapalele",
+      "carne",
+      "linguiça",
+      "favas",
+      "ervilhas"
+    ],
+    "dica": "Mariscos, carnes e pães de batata cozidos sobre pedras quentes num buraco na terra coberto com folhas gigantes.",
+    "curiosidade": "O nome vem do mapudungun \"kurantu\" (pedregal), e há vestígios arqueológicos da técnica com mais de onze mil anos na ilha Grande.",
+    "comoSeFaz": "Cava-se um buraco de meio metro, forra-se com pedras aquecidas numa fogueira e colocam-se em camadas mariscos, carne, batatas, linguiças, milcaos e chapaleles. Cada camada é coberta com folhas de nalca (pangue), depois terra e sacos molhados, e cozinha por cerca de uma hora.",
+    "fonte": "https://es.wikipedia.org/wiki/Curanto",
+    "imagem": {
+      "arquivo": "pratos/cl-curanto.jpg",
+      "autor": "madhseason from Santiago, CHILE",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Curanto_en_Hoyo_(Isla_Mechuque_-_Chilo%C3%A9)_-_Flickr_-_madhseason.jpg"
+    }
+  },
+  {
+    "id": "cl-chorrillana",
+    "prato": "Chorrillana",
+    "pais": "Chile",
+    "codigoPais": "CL",
+    "local": "Valparaíso",
+    "regiao": "Centro",
+    "latitude": -33.0472,
+    "longitude": -71.6127,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "batata frita",
+      "cebola frita",
+      "carne bovina picada",
+      "linguiça",
+      "alho",
+      "orégano"
+    ],
+    "dica": "Montanha de batatas fritas com carne, cebola e linguiça para dividir, popular na boemia de uma cidade portuária.",
+    "curiosidade": "Uma versão diz que nasceu em 1970 no J. Cruz, local frequentado por jovens, como um \"bife a lo pobre\" barato para vários comerem juntos.",
+    "comoSeFaz": "Sobre uma base de batatas fritas, colocam-se cebola frita e carne bovina picada, acompanhadas de linguiças ou salsichas e temperos como alho ou orégano.",
+    "fonte": "https://es.wikipedia.org/wiki/Chorrillana",
+    "imagem": {
+      "arquivo": "pratos/cl-chorrillana.jpg",
+      "autor": "P R from Santiago, Chile",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chorrillana.jpg"
+    }
+  },
+  {
+    "id": "cl-mote-con-huesillos",
+    "prato": "Mote con huesillos",
+    "pais": "Chile",
+    "codigoPais": "CL",
+    "local": "Zona central (Santiago como referência)",
+    "regiao": "Centro",
+    "latitude": -33.4489,
+    "longitude": -70.6693,
+    "categoria": "bebida",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "pêssegos desidratados (huesillos)",
+      "mote de trigo",
+      "açúcar caramelizado",
+      "canela"
+    ],
+    "dica": "Refresco de verão vendido em carrocinhas, com trigo cozido e pêssegos secos boiando num caldo caramelado.",
+    "curiosidade": "Há registros do seu consumo em massa desde a época colonial; antigamente o açúcar podia ser trocado por mel.",
+    "comoSeFaz": "Os pêssegos secos são reidratados e cozidos em água com canela; a cor vem do açúcar caramelizado. Serve-se em copo alto com mote de trigo cozido e uma colher.",
+    "fonte": "https://es.wikipedia.org/wiki/Mote_con_huesillos",
+    "imagem": {
+      "arquivo": "pratos/cl-mote-con-huesillos.jpg",
+      "autor": "Conyann2009",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mote_con_huesillos.jpg"
+    }
+  },
+  {
+    "id": "cl-completo",
+    "prato": "Completo",
+    "pais": "Chile",
+    "codigoPais": "CL",
+    "local": "Santiago (Portal Fernández Concha)",
+    "regiao": "Centro",
+    "latitude": -33.4378,
+    "longitude": -70.6505,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "pão de completo",
+      "salsicha (vienesa)",
+      "tomate",
+      "abacate amassado",
+      "maionese",
+      "chucrute"
+    ],
+    "dica": "Cachorro-quente gigante coberto com tomate picado, abacate e muita maionese.",
+    "curiosidade": "Eduardo Bahamondes, que havia trabalhado nos EUA, abriu nos anos 1920 um local junto à Plaza de Armas; o portal virou centro de completos até hoje.",
+    "comoSeFaz": "O pão é aberto ao comprido e recebe uma salsicha vienesa coberta com tomate em cubos, abacate amassado, maionese ou chucrute.",
+    "fonte": "https://es.wikipedia.org/wiki/Completo_(gastronom%C3%ADa)",
+    "imagem": {
+      "arquivo": "pratos/cl-completo.jpg",
+      "autor": "Paul Lowry",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Completo_italiano.jpg"
+    }
+  },
+  {
+    "id": "cl-chumbeque",
+    "prato": "Chumbeque",
+    "pais": "Chile",
+    "codigoPais": "CL",
+    "local": "Pozo Almonte, Tarapacá (Norte Grande)",
+    "regiao": "Norte",
+    "latitude": -20.2563,
+    "longitude": -69.7868,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "farinha",
+      "óleo",
+      "gergelim",
+      "canela",
+      "açúcar",
+      "mel"
+    ],
+    "dica": "Doce em camadas parecido com torrone, criado por um imigrante cantonês na região das minas de salitre.",
+    "curiosidade": "Ernesto Koo, cantonês que atendia os trabalhadores do salitre, recriou um doce de sua terra; ele o chamava \"Kung-Queque\", e os moradores adaptaram para chumbeque.",
+    "comoSeFaz": "Camadas de massa de farinha, gordura, gergelim, canela, sal e açúcar são intercaladas com mel. A versão do norte do Chile não usa gemas e troca a manteiga por óleo.",
+    "fonte": "https://es.wikipedia.org/wiki/Chumbeque",
+    "imagem": {
+      "arquivo": "pratos/cl-chumbeque.jpg",
+      "autor": "Viva Iquique weblog / www.vivaiquique.com",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chumbeque_chileno.jpg"
+    }
+  },
+  {
+    "id": "ec-encebollado",
+    "prato": "Encebollado",
+    "pais": "Equador",
+    "codigoPais": "EC",
+    "local": "Costa (Guayaquil como referência)",
+    "regiao": "Costa",
+    "latitude": -2.1894,
+    "longitude": -79.8891,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe (albacora)",
+      "mandioca",
+      "cebola roxa curtida",
+      "especiarias",
+      "chifles"
+    ],
+    "dica": "Caldo de peixe com mandioca e muita cebola curtida, popular entre estivadores do porto e servido com chips de banana.",
+    "curiosidade": "É considerado o prato insígnia do país e descende de um antigo \"picante de pescado\" feito com peixe salgado.",
+    "comoSeFaz": "Prepara-se um caldo de peixe, geralmente albacora, com mandioca, e serve-se com cebola roxa curtida. Acompanha chifles, pão ou arroz.",
+    "fonte": "https://es.wikipedia.org/wiki/Encebollado",
+    "imagem": {
+      "arquivo": "pratos/ec-encebollado.jpg",
+      "autor": "Vapelaez2212",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Encebollado_Ecuatoriano.png.jpg"
+    }
+  },
+  {
+    "id": "ec-fanesca",
+    "prato": "Fanesca",
+    "pais": "Equador",
+    "codigoPais": "EC",
+    "local": "Quito",
+    "regiao": "Serra",
+    "latitude": -0.1807,
+    "longitude": -78.4678,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "bacalhau",
+      "leite",
+      "milho verde",
+      "tremoço (chochos)",
+      "favas",
+      "ervilhas",
+      "lentilha",
+      "amendoim",
+      "feijão",
+      "abóbora"
+    ],
+    "dica": "Sopa da Semana Santa com doze grãos, que simbolizam os apóstolos, e peixe seco.",
+    "curiosidade": "Uma lenda diz que uma mulher chamada Juana a inventou num mosteiro da capital, por isso foi chamada de \"juanesca\". A receita já aparece no primeiro livro de culinária impresso na cidade, por volta de 1882.",
+    "comoSeFaz": "Cozinha-se uma base de leite e bacalhau com doze ingredientes, entre eles grãos tenros andinos como milho, chochos, favas, ervilhas, lentilha, amendoim e feijão, além de abóbora.",
+    "fonte": "https://es.wikipedia.org/wiki/Fanesca",
+    "imagem": {
+      "arquivo": "pratos/ec-fanesca.jpg",
+      "autor": "Micah Yoder",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Fanesca.jpg"
+    }
+  },
+  {
+    "id": "ec-encocado",
+    "prato": "Encocado",
+    "pais": "Equador",
+    "codigoPais": "EC",
+    "local": "Esmeraldas",
+    "regiao": "Costa",
+    "latitude": 0.9682,
+    "longitude": -79.6517,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "coco",
+      "camarão",
+      "peixe (corvina)",
+      "alho",
+      "cebola",
+      "chillangua"
+    ],
+    "dica": "Frutos do mar cozidos em coco, herança de receitas africanas na costa mais ao norte do país.",
+    "curiosidade": "Sua origem remonta às receitas trazidas da África na época colonial pelos africanos que se fixaram nessa costa.",
+    "comoSeFaz": "Prepara-se com coco e mariscos como concha, camarão, caranguejo e peixe (sobretudo corvina), temperados com alho, cebola, chillangua e chirarán. Serve-se com arroz e patacones.",
+    "fonte": "https://es.wikipedia.org/wiki/Encocado",
+    "imagem": {
+      "arquivo": "pratos/ec-encocado.jpg",
+      "autor": "Paulakindsvater",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Encocado_de_camarones.jpg"
+    }
+  },
+  {
+    "id": "ec-viche",
+    "prato": "Viche",
+    "pais": "Equador",
+    "codigoPais": "EC",
+    "local": "Manabí (registros antigos em Jipijapa)",
+    "regiao": "Costa",
+    "latitude": -1.3486,
+    "longitude": -80.5786,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe",
+      "amendoim",
+      "abóbora",
+      "milho verde",
+      "favas",
+      "batata-doce",
+      "banana-da-terra madura",
+      "mandioca"
+    ],
+    "dica": "Sopa espessa de peixe engrossada com amendoim, chamada de \"sopa dos deuses\".",
+    "curiosidade": "Estudos arqueológicos indicam que as culturas Chorrera, Valdivia e Jama Coaque já consumiam essa sopa; um cronista a registrou em 1767.",
+    "comoSeFaz": "Faz-se um refogado de cebola branca e roxa com manteiga, pimentão e alho e acrescenta-se água quente. Juntam-se favas, vagens, batata-doce, milho, mandioca, abóbora e banana ralada; depois de 15 minutos entra o amendoim dissolvido em água e, por fim, o peixe ou camarão.",
+    "fonte": "https://es.wikipedia.org/wiki/Viche_(sopa)",
+    "imagem": {
+      "arquivo": "pratos/ec-viche.jpg",
+      "autor": "Marshedpotato",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Viche_made_on_outdoor_wood_oven_on_the_coast_of_Manab%C3%AD,_Ecuador.jpg"
+    }
+  },
+  {
+    "id": "ec-hornado",
+    "prato": "Hornado",
+    "pais": "Equador",
+    "codigoPais": "EC",
+    "local": "Serra (Riobamba, Chimborazo, como referência)",
+    "regiao": "Serra",
+    "latitude": -1.6636,
+    "longitude": -78.6546,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "carne de porco",
+      "chicha",
+      "cebola",
+      "alho",
+      "cominho",
+      "achiote",
+      "mote",
+      "llapingachos"
+    ],
+    "dica": "Porco assado lentamente em forno a lenha, temperado com chicha e urucum, servido com mote.",
+    "curiosidade": "Deriva do cochinillo segoviano trazido pelos espanhóis; o achiote é o ingrediente que marca a diferença.",
+    "comoSeFaz": "O porco é temperado com chicha, cebola, alho, muito cominho e achiote e assado em fogo baixo, geralmente em forno a lenha, para o couro ficar crocante. Acompanha mote, llapingachos, banana madura frita e salada.",
+    "fonte": "https://es.wikipedia.org/wiki/Hornado",
+    "imagem": {
+      "arquivo": "pratos/ec-hornado.jpg",
+      "autor": "amalavida.tv",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:AMA_Chimborazo_Hornado_(31)_(14296351502).jpg"
+    }
+  },
+  {
+    "id": "ve-tequeno",
+    "prato": "Tequeño",
+    "pais": "Venezuela",
+    "codigoPais": "VE",
+    "local": "Los Teques, Miranda",
+    "regiao": "Centro-Norte",
+    "latitude": 10.3447,
+    "longitude": -67.0433,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de trigo",
+      "queijo branco"
+    ],
+    "dica": "Palitinho de massa frita enrolada em volta de queijo branco, presença obrigatória em festas.",
+    "curiosidade": "Segundo a tradição, foi criado nos anos 1920 por uma jovem da família Báez e se chamava \"enrolladitos de queso\". Em 2023 foi declarado patrimônio cultural do país.",
+    "comoSeFaz": "Uma massa de farinha de trigo é recheada com queijo branco e frita. Pode ser servido com molhos como guasacaca, salsa rosada ou molho de alho.",
+    "fonte": "https://es.wikipedia.org/wiki/Teque%C3%B1o",
+    "imagem": {
+      "arquivo": "pratos/ve-tequeno.jpg",
+      "autor": "Muago",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Teque%C3%B1os_fritos.jpg"
+    }
+  },
+  {
+    "id": "ve-asado-negro",
+    "prato": "Asado negro",
+    "pais": "Venezuela",
+    "codigoPais": "VE",
+    "local": "Caracas",
+    "regiao": "Capital",
+    "latitude": 10.4806,
+    "longitude": -66.9036,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "muchacho redondo (corte bovino)",
+      "papelón",
+      "vinho",
+      "ají dulce",
+      "especiarias"
+    ],
+    "dica": "Peça de carne bovina escurecida e adocicada por rapadura, nascida na cidade colonial.",
+    "curiosidade": "Às vezes substitui o pernil tradicional na ceia de Natal.",
+    "comoSeFaz": "O corte cilíndrico \"muchacho redondo\" é preparado com especiarias e papelón (rapadura), que, com o vinho e o ají dulce, dão cor escura e sabor doce. Acompanha arroz branco e tajadas de banana madura frita.",
+    "fonte": "https://es.wikipedia.org/wiki/Asado_negro",
+    "imagem": {
+      "arquivo": "pratos/ve-asado-negro.jpg",
+      "autor": "Mi acento culinario",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Asado_negro.jpg"
+    }
+  },
+  {
+    "id": "ve-pabellon-criollo",
+    "prato": "Pabellón criollo",
+    "pais": "Venezuela",
+    "codigoPais": "VE",
+    "local": "Caracas (prato nacional)",
+    "regiao": "Capital",
+    "latitude": 10.5061,
+    "longitude": -66.9146,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "arroz branco",
+      "carne desfiada",
+      "feijão preto (caraotas)",
+      "banana-da-terra madura frita"
+    ],
+    "dica": "Prato nacional cujas cores lembram uma bandeira: arroz, carne desfiada, feijão preto e banana frita.",
+    "curiosidade": "Uma versão diz que nasceu do aproveitamento de sobras pelos escravizados das fazendas; só as tajadas de banana eram feitas na hora.",
+    "comoSeFaz": "Serve-se arroz branco cozido, carne mechada de boi, caraotas pretas e tajadas de banana madura frita no mesmo prato.",
+    "fonte": "https://es.wikipedia.org/wiki/Pabell%C3%B3n_criollo",
+    "imagem": {
+      "arquivo": "pratos/ve-pabellon-criollo.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pabell%C3%B3n_Criollo_Venezolano.jpg"
+    }
+  },
+  {
+    "id": "ve-pastel-de-chucho",
+    "prato": "Pastel de chucho",
+    "pais": "Venezuela",
+    "codigoPais": "VE",
+    "local": "Juan Griego, Ilha de Margarita",
+    "regiao": "Insular",
+    "latitude": 11.0817,
+    "longitude": -63.9654,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "chucho (raia)",
+      "banana-da-terra madura",
+      "ovo"
+    ],
+    "dica": "Torta em camadas de banana madura frita e carne de raia, emblema de uma ilha caribenha.",
+    "curiosidade": "A cidade é reconhecida como berço do prato, popularizado pelo chef Rubén Santiago a partir de 1982.",
+    "comoSeFaz": "Monta-se uma torta com banana madura, ovo e a carne do chucho, peixe da família das raias.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_del_estado_Nueva_Esparta",
+    "imagem": {
+      "arquivo": "pratos/ve-pastel-de-chucho.jpg",
+      "autor": "Alejandro C 7ve",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pastel_de_Chucho_(cropped).jpg"
+    }
+  },
+  {
+    "id": "ve-mandoca",
+    "prato": "Mandoca",
+    "pais": "Venezuela",
+    "codigoPais": "VE",
+    "local": "Maracaibo, Zulia",
+    "regiao": "Zuliana",
+    "latitude": 10.6545,
+    "longitude": -71.6406,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de milho",
+      "papelón",
+      "banana-da-terra madura",
+      "queijo de año"
+    ],
+    "dica": "Rosquinha frita em forma de gota, de milho, banana madura e rapadura, comida no café da manhã à beira do grande lago.",
+    "curiosidade": "Na região central do país acrescentam sementes de anis à massa.",
+    "comoSeFaz": "Mistura-se farinha de milho, papelón, banana madura e queijo de año ralado, modela-se em forma de gota e frita-se. Come-se quente, com queijo ralado ou manteiga.",
+    "fonte": "https://es.wikipedia.org/wiki/Mandoca",
+    "imagem": {
+      "arquivo": "pratos/ve-mandoca.jpg",
+      "autor": "DamianFinol",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mandocas_maracuchas.jpg"
+    }
+  },
+  {
+    "id": "bo-saltena",
+    "prato": "Salteña",
+    "pais": "Bolívia",
+    "codigoPais": "BO",
+    "local": "Potosí",
+    "regiao": "Altiplano",
+    "latitude": -19.5836,
+    "longitude": -65.7531,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "farinha de trigo",
+      "achiote",
+      "carne ou frango",
+      "batata",
+      "ovo cozido",
+      "ají",
+      "caldo"
+    ],
+    "dica": "Pastel de massa adocicada e alaranjada com recheio caldoso, comido no meio da manhã; o nome homenageia uma cozinheira de uma província vizinha.",
+    "curiosidade": "O nome se refere a Juana Manuela Gorriti, nascida em Salta, que se exilou com a família nesta cidade no século XIX.",
+    "comoSeFaz": "A massa de trigo, levemente doce, é colorida com achiote e recheada com um jigote de carne ou frango, batata, ovo, ají e parte do caldo do cozimento. Assa-se no forno.",
+    "fonte": "https://es.wikipedia.org/wiki/Salte%C3%B1a",
+    "imagem": {
+      "arquivo": "pratos/bo-saltena.jpg",
+      "autor": "Tamorlan",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Salte%C3%B1as_(Plaza_Mayor)-2011.JPG"
+    }
+  },
+  {
+    "id": "bo-silpancho",
+    "prato": "Silpancho",
+    "pais": "Bolívia",
+    "codigoPais": "BO",
+    "local": "Cochabamba",
+    "regiao": "Vales",
+    "latitude": -17.3895,
+    "longitude": -66.1568,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne bovina empanada",
+      "arroz",
+      "batatas",
+      "ovo frito",
+      "cebola",
+      "tomate",
+      "locoto"
+    ],
+    "dica": "Bife finíssimo empanado que cobre o prato, sobre arroz e batatas, com ovo frito e salada picante.",
+    "curiosidade": "O nome vem do quéchua \"sillp'anchu\", aplanado e fino. Celia la Fuente Peredo é reconhecida pelo departamento como criadora do prato.",
+    "comoSeFaz": "Uma lâmina circular de carne bovina é empanada e frita e colocada sobre arroz e batatas cozidas e depois fritas, com ovo frito. Por cima vai uma salada de cebola, tomate e locoto em cubinhos.",
+    "fonte": "https://es.wikipedia.org/wiki/Silpancho",
+    "imagem": {
+      "arquivo": "pratos/bo-silpancho.jpg",
+      "autor": "Mashi Rosas",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Silpancho_cochalo.jpg"
+    }
+  },
+  {
+    "id": "bo-majadito",
+    "prato": "Majadito",
+    "pais": "Bolívia",
+    "codigoPais": "BO",
+    "local": "Santa Cruz de la Sierra",
+    "regiao": "Oriente",
+    "latitude": -17.7833,
+    "longitude": -63.1821,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "arroz",
+      "charque",
+      "ovo",
+      "mandioca",
+      "banana-da-terra frita"
+    ],
+    "dica": "Arroz com carne-seca socada no pilão, servido com ovo, mandioca e banana frita nas planícies tropicais.",
+    "curiosidade": "Uma historiadora liga sua criação à fundação da cidade por Ñuflo de Chaves; \"majao\" vem de \"majar\", socar a carne.",
+    "comoSeFaz": "A carne é golpeada num pilão de madeira (tacú) e cozida com arroz. Serve-se com ovo, mandioca e banana frita; há as versões tostada e batida.",
+    "fonte": "https://es.wikipedia.org/wiki/Majadito",
+    "imagem": {
+      "arquivo": "pratos/bo-majadito.jpg",
+      "autor": "Akizia",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Majadito.jpg"
+    }
+  },
+  {
+    "id": "bo-saice",
+    "prato": "Saice",
+    "pais": "Bolívia",
+    "codigoPais": "BO",
+    "local": "Tarija",
+    "regiao": "Sul",
+    "latitude": -21.5355,
+    "longitude": -64.7296,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne bovina picada",
+      "caldo de mocotó",
+      "batata",
+      "ervilha",
+      "ají colorado",
+      "arroz",
+      "macarrão"
+    ],
+    "dica": "Guisado de carne picada com pimenta vermelha, servido com arroz, macarrão e salada no vale do sul do país.",
+    "curiosidade": "Ficou popular nos anos 1930, com os soldados que iam para a Guerra do Chaco.",
+    "comoSeFaz": "Prepara-se um guisado de carne bovina picada ou moída com caldo de mocotó ou chicha, batata, ervilha, ají colorado, banha, pimenta e sal. Acompanha arroz, macarrão e salada de tomate, cebola e alface.",
+    "fonte": "https://es.wikipedia.org/wiki/Saice",
+    "imagem": {
+      "arquivo": "pratos/bo-saice.jpg",
+      "autor": "Opinión",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saice_tradicional_de_Tarija.jpg"
+    }
+  },
+  {
+    "id": "bo-plato-paceno",
+    "prato": "Plato paceño",
+    "pais": "Bolívia",
+    "codigoPais": "BO",
+    "local": "La Paz",
+    "regiao": "Altiplano",
+    "latitude": -16.4897,
+    "longitude": -68.1193,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "carne bovina frita",
+      "queijo frito",
+      "milho (choclo)",
+      "batata com casca",
+      "favas com casca",
+      "llajua"
+    ],
+    "dica": "Milho, favas, batatas e queijo frito: comida nascida de um cerco à cidade em 1781.",
+    "curiosidade": "Durante o cerco de Túpac Katari e Bartolina Sisa, o prefeito mandou recolher alimentos das fazendas próximas; assim teria surgido o prato. A carne só foi acrescentada no século XIX.",
+    "comoSeFaz": "Servem-se juntos carne bovina frita, queijo frito, milho, batata cozida com casca e favas cozidas com casca, acompanhados de llajua.",
+    "fonte": "https://es.wikipedia.org/wiki/Plato_pace%C3%B1o",
+    "imagem": {
+      "arquivo": "pratos/bo-plato-paceno.jpg",
+      "autor": "R Iván Mamani Cachi Comida-Boliviana",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_tradicional.jpg"
+    }
+  },
+  {
+    "id": "uy-chivito",
+    "prato": "Chivito",
+    "pais": "Uruguai",
+    "codigoPais": "UY",
+    "local": "Punta del Este, Maldonado",
+    "regiao": "Leste",
+    "latitude": -34.9667,
+    "longitude": -54.95,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "lombo bovino",
+      "pão",
+      "maionese",
+      "presunto",
+      "bacon",
+      "muçarela",
+      "batata frita"
+    ],
+    "dica": "Sanduíche de filé inventado por acaso num restaurante de balneário famoso nos anos 1940.",
+    "curiosidade": "Foi criado por Antonio Carbonaro, dono do restaurante El Mejillón, que chegou a vender mil por dia.",
+    "comoSeFaz": "Lombo bovino é salteado na chapa e colocado no pão com maionese. Hoje costuma levar presunto, bacon, muçarela e outros ingredientes, acompanhado de batata frita.",
+    "fonte": "https://es.wikipedia.org/wiki/Chivito",
+    "imagem": {
+      "arquivo": "pratos/uy-chivito.jpg",
+      "autor": "Matt Rubens (Flickr)",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chivito_al_pan_uruguayo.jpg"
+    }
+  },
+  {
+    "id": "uy-chaja",
+    "prato": "Chajá",
+    "pais": "Uruguai",
+    "codigoPais": "UY",
+    "local": "Paysandú",
+    "regiao": "Litoral",
+    "latitude": -32.3214,
+    "longitude": -58.0756,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "merengue",
+      "pão de ló",
+      "creme de leite",
+      "pêssego",
+      "morango"
+    ],
+    "dica": "Torta de merengue, pão de ló, creme e pêssego que leva o nome de uma ave da região.",
+    "curiosidade": "Foi criada em 27 de abril de 1927 por Orlando Castellano, da Confitería Las Familias. Em 2023 entrou na lista dos 50 melhores doces do mundo do TasteAtlas.",
+    "comoSeFaz": "Combina merengue, pão de ló e creme de leite com pêssego e morango. Há variações com doce de leite e chocolate.",
+    "fonte": "https://es.wikipedia.org/wiki/Chaj%C3%A1_(postre)",
+    "imagem": {
+      "arquivo": "pratos/uy-chaja.jpg",
+      "autor": "Muago",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Torta_chaj%C3%A1.jpg"
+    }
+  },
+  {
+    "id": "uy-capeletis-a-la-caruso",
+    "prato": "Capeletis a la Caruso",
+    "pais": "Uruguai",
+    "codigoPais": "UY",
+    "local": "Montevidéu",
+    "regiao": "Sul",
+    "latitude": -34.9011,
+    "longitude": -56.1645,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "capeletis",
+      "creme de leite",
+      "presunto cozido",
+      "champignons",
+      "extrato de carne"
+    ],
+    "dica": "Massa recheada com molho cremoso de presunto e cogumelos batizado em homenagem a um famoso tenor napolitano.",
+    "curiosidade": "O molho foi criado em 1954 pelo chef Raimondo Monti, no restaurante Mario y Alberto, quase 40 anos depois da visita de Enrico Caruso à cidade.",
+    "comoSeFaz": "Prepara-se um molho com creme de leite, presunto cozido picado, champignons salteados na manteiga e extrato de carne, servido sobre capeletis.",
+    "fonte": "https://es.wikipedia.org/wiki/Salsa_caruso",
+    "imagem": {
+      "arquivo": "pratos/uy-capeletis-a-la-caruso.jpg",
+      "autor": "Porfirijuan",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Capelettis_a_la_Caruso.jpg"
+    }
+  },
+  {
+    "id": "uy-queso-colonia",
+    "prato": "Queso Colonia",
+    "pais": "Uruguai",
+    "codigoPais": "UY",
+    "local": "Nueva Helvecia, Colonia",
+    "regiao": "Sudoeste",
+    "latitude": -34.3,
+    "longitude": -57.2333,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "leite de vaca"
+    ],
+    "dica": "Queijo amarelo com olhaduras, derivado do emmental e trazido por imigrantes suíços.",
+    "curiosidade": "Foi introduzido em 1868 por Juan Teófilo Karlen na colônia suíça que deu nome à cidade.",
+    "comoSeFaz": "É um queijo semiduro de leite de vaca, de casca dura e cor amarelo-clara, cujas olhaduras de 5 a 30 mm resultam de um processo de fermentação láctica.",
+    "fonte": "https://es.wikipedia.org/wiki/Queso_Colonia",
+    "imagem": {
+      "arquivo": "pratos/uy-queso-colonia.jpg",
+      "autor": "Coquimbo58",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Queso_Colonia_Uruguayo.jpg"
+    }
+  },
+  {
+    "id": "uy-asado",
+    "prato": "Asado",
+    "pais": "Uruguai",
+    "codigoPais": "UY",
+    "local": "Montevidéu (prato nacional; Mercado del Puerto)",
+    "regiao": "Sul",
+    "latitude": -34.9065,
+    "longitude": -56.2117,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "asado de tira",
+      "linguiça",
+      "morcela",
+      "chinchulines",
+      "mollejas",
+      "chimichurri",
+      "salsa criolla"
+    ],
+    "dica": "Churrasco de cortes bovinos, linguiças e miúdos assados na brasa de lenha, nunca de carvão.",
+    "curiosidade": "Nas cidades é comum encontrar parrillas improvisadas \"al medio tanque\", feitas de um tambor cortado ao meio.",
+    "comoSeFaz": "Carnes bovinas (falda, asado de tira, entraña), embutidos e miúdos são assados na parrilla sobre brasas de lenha seca. Tempera-se com salsa criolla, adobo e chimichurri.",
+    "fonte": "https://es.wikipedia.org/wiki/Asado",
+    "imagem": {
+      "arquivo": "pratos/uy-asado.jpg",
+      "autor": "Gonzalo Velasco",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Asado_uruguayo.JPG"
+    }
+  }
+]
