@@ -1,94 +1,171 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { CountrySelection } from '@/components/CountrySelection';
+import { Contagem } from '@/components/Contagem';
+import { Cronometro } from '@/components/Cronometro';
 import { FaixaProjeto } from '@/components/FaixaProjeto';
 import { GameMap } from '@/components/GameMap';
 import { IngredientsDisplay } from '@/components/IngredientsDisplay';
-import { LoadingScreen } from '@/components/LoadingScreen';
 import { Navigation } from '@/components/Navigation';
 import { ResultScreen } from '@/components/ResultScreen';
-import { pratosDoPais, type Prato } from '@/data/pratos';
-import { calculateDistance, calculateScore, embaralhar } from '@/utils/gameLogic';
+import { Vez } from '@/components/Vez';
+import { paisPorCodigo, porPais } from '@/data/countries';
+import type { Marcacao } from '@/utils/estados';
+import { calculateDistance, pontuar, PONTOS_MAXIMOS_POR_PRATO, type ResultadoRodada } from '@/utils/gameLogic';
+import { montarFila, montarPlacar, nomeDestino, type Configuracao, type Vez as VezDaFila } from '@/utils/partida';
+import { salvarNoRanking } from '@/utils/ranking';
 
-const RODADAS = 5;
+const CHAVE_NOME = 'tapionde-nome';
 
-type Fase = 'inicio' | 'carregando' | 'ingredientes' | 'mapa' | 'resultado';
+type Fase = 'inicio' | 'contagem' | 'vez' | 'ingredientes' | 'mapa' | 'resultado';
 
-interface Palpite {
-  lat: number;
-  lng: number;
-  distancia: number;
-  pontos: number;
-}
+const lerNome = () => {
+  try {
+    return localStorage.getItem(CHAVE_NOME) ?? '';
+  } catch {
+    return '';
+  }
+};
+
+const fraseDeInicio = (config: Configuracao) => {
+  const [primeiro] = config.jogadores;
+  if (config.destino.tipo === 'pais') {
+    const pais = paisPorCodigo(config.destino.codigo)?.pais ?? '';
+    return `${primeiro ? `${primeiro}, a sua viagem` : 'A sua viagem'} ${porPais(pais)} vai começar`;
+  }
+  return `${config.jogadores.length} jogadores · ${nomeDestino(config.destino)} · ${primeiro} começa`;
+};
 
 const App = () => {
   const [fase, setFase] = useState<Fase>('inicio');
-  const [pais, setPais] = useState<string | null>(null);
-  const [fila, setFila] = useState<Prato[]>([]);
-  const [rodada, setRodada] = useState(0);
-  const [total, setTotal] = useState(0);
-  const [palpite, setPalpite] = useState<Palpite | null>(null);
+  const [nomeSozinho, setNomeSozinho] = useState(lerNome);
+  const [config, setConfig] = useState<Configuracao | null>(null);
+  const [fila, setFila] = useState<VezDaFila[]>([]);
+  const [indice, setIndice] = useState(0);
+  const [historico, setHistorico] = useState<ResultadoRodada[]>([]);
+  // Cronômetro: corre das pistas até a confirmação de cada prato.
+  const [inicioRodada, setInicioRodada] = useState<number | null>(null);
+  const [tempoAcumulado, setTempoAcumulado] = useState(0);
 
-  const prato = fila[rodada];
-  const ultimaRodada = rodada >= fila.length - 1;
-
-  useEffect(() => {
-    if (fase !== 'carregando') return;
-    const t = setTimeout(() => setFase('ingredientes'), 1200);
-    return () => clearTimeout(t);
-  }, [fase]);
+  const jogadores = config?.jogadores ?? [];
+  const emGrupo = jogadores.length > 1;
+  const vez = fila[indice];
+  const resultado = historico[indice];
+  const ultima = indice >= fila.length - 1;
+  const progresso = emGrupo
+    ? { rotulo: 'Rodada', atual: Math.floor(indice / jogadores.length) + 1, total: config?.rodadas ?? 1 }
+    : { rotulo: 'Prato', atual: indice + 1, total: fila.length };
+  const jogadorDaVez = emGrupo && vez ? jogadores[vez.jogador] : undefined;
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [fase]);
+  }, [fase, indice]);
 
-  const escolherPais = (codigo: string) => {
-    setPais(codigo);
-    setFila(embaralhar(pratosDoPais(codigo)).slice(0, RODADAS));
-    setRodada(0);
-    setTotal(0);
-    setPalpite(null);
-    setFase('carregando');
+  const comecar = (nova: Configuracao) => {
+    if (nova.jogadores.length === 1) {
+      setNomeSozinho(nova.jogadores[0]);
+      try {
+        localStorage.setItem(CHAVE_NOME, nova.jogadores[0]);
+      } catch {
+        /* armazenamento indisponível: o nome vale só nesta visita */
+      }
+    }
+    setConfig(nova);
+    setFila(montarFila(nova.destino, nova.jogadores.length, nova.rodadas));
+    setIndice(0);
+    setHistorico([]);
+    setTempoAcumulado(0);
+    setInicioRodada(null);
+    setFase('contagem');
   };
 
-  const confirmarPalpite = (lat: number, lng: number) => {
-    const distancia = calculateDistance(lat, lng, prato.latitude, prato.longitude);
-    const pontos = calculateScore(distancia);
-    setPalpite({ lat, lng, distancia, pontos });
-    setTotal((t) => t + pontos);
+  const iniciarRodada = useCallback(() => {
+    setInicioRodada(Date.now());
+    setFase('ingredientes');
+  }, []);
+
+  const confirmarPalpite = (m: Marcacao) => {
+    if (!vez || !config) return;
+    const { prato } = vez;
+    const ms = inicioRodada === null ? 0 : Date.now() - inicioRodada;
+    const distancia = calculateDistance(m.lat, m.lng, prato.latitude, prato.longitude);
+    const acertou = m.estado === prato.estado || distancia <= 50;
+    const novo: ResultadoRodada = { prato, jogador: vez.jogador, marcacao: m, distancia, acertou, ...pontuar(acertou, distancia, ms / 1000), ms };
+    const completo = [...historico, novo];
+    setHistorico(completo);
+    setTempoAcumulado((t) => t + ms);
+    setInicioRodada(null);
     setFase('resultado');
+
+    if (ultima) {
+      const destino = nomeDestino(config.destino);
+      const data = new Date().toISOString();
+      salvarNoRanking(
+        montarPlacar(config.jogadores.map((n) => n || 'Sem nome'), completo).map((l) => ({
+          nome: l.nome,
+          destino,
+          pontos: l.pontos,
+          maximo: l.pratos * PONTOS_MAXIMOS_POR_PRATO,
+          acertos: l.acertos,
+          pratos: l.pratos,
+          ms: l.ms,
+          data,
+        })),
+      );
+    }
   };
 
   const proximaRodada = () => {
-    setRodada((r) => r + 1);
-    setPalpite(null);
-    setFase('ingredientes');
+    setIndice((i) => i + 1);
+    if (emGrupo) {
+      setFase('vez');
+    } else {
+      iniciarRodada();
+    }
   };
 
   const voltarAoInicio = () => {
     setFase('inicio');
-    setPais(null);
+    setConfig(null);
     setFila([]);
+    setInicioRodada(null);
   };
+
+  const emPartida = fase === 'ingredientes' || fase === 'mapa' || fase === 'resultado';
+  const paisDaVez = vez?.prato.codigoPais ?? (config?.destino.tipo === 'pais' ? config.destino.codigo : null);
+  const bandeira = config?.destino.tipo === 'pais' ? paisPorCodigo(config.destino.codigo)?.bandeira : undefined;
+  // Em grupo, o tempo exibido é o da vez atual; sozinho, o da partida inteira.
+  const acumuladoExibido = emGrupo ? 0 : tempoAcumulado;
 
   return (
     <div className="min-h-screen">
       <FaixaProjeto />
-      {fase !== 'inicio' && <Navigation pais={pais} onHome={voltarAoInicio} />}
-
-      {fase === 'inicio' && <CountrySelection onCountrySelect={escolherPais} />}
-      {fase === 'carregando' && pais && <LoadingScreen country={pais} />}
-      {fase === 'ingredientes' && prato && (
-        <IngredientsDisplay recipe={prato} rodada={rodada + 1} totalRodadas={fila.length} onContinue={() => setFase('mapa')} />
+      {fase !== 'inicio' && (
+        <Navigation
+          pais={paisDaVez}
+          jogador={jogadorDaVez}
+          onHome={voltarAoInicio}
+          cronometro={emPartida ? <Cronometro acumulado={fase === 'resultado' && emGrupo ? (resultado?.ms ?? 0) : acumuladoExibido} inicio={inicioRodada} /> : undefined}
+        />
       )}
-      {fase === 'mapa' && prato && pais && <GameMap key={prato.id} recipe={prato} selectedCountry={pais} rodada={rodada + 1} totalRodadas={fila.length} onGuess={confirmarPalpite} />}
-      {fase === 'resultado' && prato && palpite && (
+
+      {fase === 'inicio' && <CountrySelection nomeInicial={nomeSozinho} onComecar={comecar} />}
+      {fase === 'contagem' && config && <Contagem bandeira={bandeira} frase={fraseDeInicio(config)} onFim={iniciarRodada} />}
+      {fase === 'vez' && jogadorDaVez && (
+        <Vez jogador={jogadorDaVez} rodada={progresso.atual} totalRodadas={progresso.total} onComecar={iniciarRodada} />
+      )}
+      {fase === 'ingredientes' && vez && (
+        <IngredientsDisplay recipe={vez.prato} progresso={progresso} jogador={jogadorDaVez} onContinue={() => setFase('mapa')} />
+      )}
+      {fase === 'mapa' && vez && <GameMap key={vez.prato.id} recipe={vez.prato} progresso={progresso} onGuess={confirmarPalpite} />}
+      {fase === 'resultado' && resultado && (
         <ResultScreen
-          recipe={prato}
-          guess={palpite}
-          rodada={rodada + 1}
-          totalRodadas={fila.length}
-          totalScore={total}
-          isLastRound={ultimaRodada}
+          key={resultado.prato.id}
+          resultado={resultado}
+          historico={historico}
+          progresso={progresso}
+          jogadores={jogadores}
+          proximo={emGrupo && !ultima ? jogadores[fila[indice + 1].jogador] : undefined}
+          isLastRound={ultima}
           onNextRound={proximaRodada}
           onRestart={voltarAoInicio}
         />

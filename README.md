@@ -1,25 +1,31 @@
 # TapiOnde — de onde é este prato?
 
-Jogo de geografia gastronômica: você vê os ingredientes e uma dica de um prato típico da América Latina e marca no mapa de onde ele vem. Quanto mais perto, mais pontos.
+Jogo educativo de geografia pela comida da América Latina: a partir dos ingredientes e de uma dica, a pessoa descobre em qual estado, província ou região nasceu um prato típico.
 
 **Jogar:** https://dudabarbozat.github.io/tapi-onde/
 
 ## Para quem
 
-Quem gosta de comida, de viagem ou de geografia, e professores que querem um jeito leve de falar de cultura latino-americana.
+Professores e estudantes do ensino fundamental e médio, e qualquer pessoa curiosa por comida, viagem e geografia. Funciona no navegador, sem cadastro.
 
 ## Como funciona
 
-- Escolha um entre 10 países: Brasil, Argentina, México, Colômbia, Peru, Chile, Equador, Venezuela, Bolívia e Uruguai.
-- A cada rodada aparecem os ingredientes e uma dica. Você marca a origem no mapa e confirma.
-- O resultado mostra a distância, a pontuação (de 100 a 1.000), a foto do prato, uma curiosidade e como ele é feito.
-- Uma partida tem 5 pratos.
+- Escreva o seu nome e escolha um país da América Latina no mapa, ou jogue em grupo (2 a 6 pessoas no mesmo aparelho).
+- Depois da contagem, o cronômetro começa. Cada rodada mostra os ingredientes e uma dica.
+- No mapa do país, toque no estado (ou província, região, departamento) de origem e confirme.
+- Acertar o lugar vale 1.000 pontos; errando, a pontuação cai com a distância. Responder rápido dá até 300 pontos de bônus, proporcional ao acerto.
+- O resultado mostra o lugar certo no mapa, a foto, uma curiosidade, como o prato é feito e a fonte. Ao fim dos 5 pratos aparece o resumo da partida.
 
 ## Stack
 
 Vite · React 18 · TypeScript · Tailwind CSS · Leaflet
 
-Sem backend: os pratos ficam em `src/data/pratos.json` e as fotos em `public/pratos/`.
+Sem backend:
+
+- `src/data/pratos.json`: os pratos; o campo `estado` é calculado a partir das coordenadas.
+- `public/pratos/`: as fotos.
+- `public/estados/`: as divisões internas de cada país, carregadas só quando o país é jogado.
+- `src/data/america-latina.json`: as fronteiras do mapa de escolha.
 
 ## Como rodar
 
@@ -30,7 +36,7 @@ npm run dev
 
 ## Conteúdo
 
-Cada prato tem a origem, os ingredientes e o preparo conferidos na fonte indicada no próprio jogo. As fotos são do [Wikimedia Commons](https://commons.wikimedia.org/), com autor e licença exibidos junto de cada imagem. Mapa © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright); fronteiras do mapa de escolha: [Natural Earth](https://www.naturalearthdata.com/) (domínio público).
+Cada prato tem a origem, os ingredientes e o preparo conferidos na fonte indicada no próprio jogo. As fotos são do [Wikimedia Commons](https://commons.wikimedia.org/), com autor e licença exibidos junto de cada imagem. Fronteiras de países e estados: [Natural Earth](https://www.naturalearthdata.com/) (domínio público), simplificadas.
 
 ## Licença
 

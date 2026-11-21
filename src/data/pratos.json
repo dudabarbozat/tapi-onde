@@ -27,7 +27,8 @@
       "autor": "Bruna Brandão / MTur Destinos",
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:BrunaBrandao_Pato_no_Tucupi_Belem_PA_(26185651117).jpg"
-    }
+    },
+    "estado": "Pará"
   },
   {
     "id": "br-tacaca",
@@ -57,7 +58,8 @@
       "autor": "Ajmcbarreto",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tacac%C3%A1_01.jpg"
-    }
+    },
+    "estado": "Amazonas"
   },
   {
     "id": "br-x-caboquinho",
@@ -86,7 +88,8 @@
       "autor": "Turismo Aqui",
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:X-Caboquinho_de_Manaus.png"
-    }
+    },
+    "estado": "Amazonas"
   },
   {
     "id": "br-acaraje",
@@ -117,7 +120,8 @@
       "autor": "Nahtanom",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_na_Bahia.jpg"
-    }
+    },
+    "estado": "Bahia"
   },
   {
     "id": "br-baiao-de-dois",
@@ -145,7 +149,8 @@
       "autor": "Zé Carlos Barretta",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bai%C3%A3o_de_dois.jpg"
-    }
+    },
+    "estado": "Ceará"
   },
   {
     "id": "br-bolo-de-rolo",
@@ -174,7 +179,8 @@
       "autor": "Guilherme Jófili",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bolo_de_Rolo,_doce_brasileiro,_t%C3%ADpico_de_Pernambuco.jpg"
-    }
+    },
+    "estado": "Pernambuco"
   },
   {
     "id": "br-empadao-goiano",
@@ -205,7 +211,8 @@
       "autor": "Elis Florentine",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Empad%C3%A3o_Goiano..jpg"
-    }
+    },
+    "estado": "Goiás"
   },
   {
     "id": "br-sopa-paraguaia",
@@ -234,7 +241,8 @@
       "autor": "Everton Zanella Alvarenga",
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Sopa_paraguaia.jpg"
-    }
+    },
+    "estado": "Mato Grosso do Sul"
   },
   {
     "id": "br-furrundu",
@@ -264,7 +272,8 @@
       "autor": "Sanso 37",
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Doce_Furrundum.jpg"
-    }
+    },
+    "estado": "Mato Grosso"
   },
   {
     "id": "br-pao-de-queijo",
@@ -292,7 +301,8 @@
       "autor": "Acfariac",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pao_de_queijo_brasil.jpg"
-    }
+    },
+    "estado": "Minas Gerais"
   },
   {
     "id": "br-moqueca-capixaba",
@@ -322,7 +332,8 @@
       "autor": "Sintegrity",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Moqueca_Capixaba_01.jpg"
-    }
+    },
+    "estado": "Espírito Santo"
   },
   {
     "id": "br-virado-a-paulista",
@@ -354,7 +365,8 @@
       "autor": "edsonaoki",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Virado_a_paulista.jpg"
-    }
+    },
+    "estado": "São Paulo"
   },
   {
     "id": "br-barreado",
@@ -386,7 +398,8 @@
       "autor": "Kevin Klop (Kevinklop)",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Barreado.jpg"
-    }
+    },
+    "estado": "Paraná"
   },
   {
     "id": "br-sagu-de-vinho",
@@ -413,7 +426,8 @@
       "autor": "Scheridon",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:SaguDeVinho.jpg"
-    }
+    },
+    "estado": "Rio Grande do Sul"
   },
   {
     "id": "br-arroz-carreteiro",
@@ -443,7 +457,8 @@
       "autor": "Cesar Vieira",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Arroz_carreteiro.jpg"
-    }
+    },
+    "estado": "Rio Grande do Sul"
   },
   {
     "id": "pe-ceviche",
@@ -472,7 +487,8 @@
       "autor": "Yogma",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ceviche_de_Lenguado_(Lima,_Peru).jpg"
-    }
+    },
+    "estado": "Lima Metropolitana"
   },
   {
     "id": "pe-rocoto-relleno",
@@ -503,7 +519,8 @@
       "autor": "Idan Robbins",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Rocoto_relleno.jpg"
-    }
+    },
+    "estado": "Arequipa"
   },
   {
     "id": "pe-juane",
@@ -531,7 +548,8 @@
       "autor": "Dtarazona",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Juane_3260409.JPG"
-    }
+    },
+    "estado": "San Martín"
   },
   {
     "id": "pe-chiriuchu",
@@ -564,7 +582,8 @@
       "autor": "Chalisimo5",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chiriuchu.jpg"
-    }
+    },
+    "estado": "Cusco"
   },
   {
     "id": "pe-arroz-con-pato",
@@ -595,7 +614,8 @@
       "autor": "Dtarazona",
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Arroz_con_pato_a_la_chiclayana.JPG"
-    }
+    },
+    "estado": "Lambayeque"
   },
   {
     "id": "mx-mole-poblano",
@@ -623,7 +643,8 @@
       "autor": "Palmarito Tochapán",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mole_poblano_de_guajolote.jpg"
-    }
+    },
+    "estado": "Puebla"
   },
   {
     "id": "mx-cochinita-pibil",
@@ -654,7 +675,8 @@
       "autor": "Popo le Chien",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Cochinita_pibil_2.jpg"
-    }
+    },
+    "estado": "Yucatán"
   },
   {
     "id": "mx-tlayuda",
@@ -684,7 +706,8 @@
       "autor": "Nsaum75",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tlayuda_con_chorizo_en_Oaxaca.jpg"
-    }
+    },
+    "estado": "Oaxaca"
   },
   {
     "id": "mx-birria",
@@ -714,7 +737,8 @@
       "autor": "Equipo 9mkt",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Plato_de_birria.jpg"
-    }
+    },
+    "estado": "Jalisco"
   },
   {
     "id": "mx-taco-al-pastor",
@@ -744,7 +768,8 @@
       "autor": "City Foodsters",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:(El_Flaco)_Al_Pastor_Tacos.jpg"
-    }
+    },
+    "estado": "Cidade do México"
   },
   {
     "id": "co-bandeja-paisa",
@@ -777,7 +802,8 @@
       "autor": "Matt Lemmon from Colorado, USA",
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bandeja_paisa_antioque%C3%B1a,_Colombia.jpg"
-    }
+    },
+    "estado": "Antioquia"
   },
   {
     "id": "co-ajiaco",
@@ -806,7 +832,8 @@
       "autor": "ProtoplasmaKid",
       "licenca": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ajiaco_santafere%C3%B1o_11.jpg"
-    }
+    },
+    "estado": "Bogotá"
   },
   {
     "id": "co-lechona",
@@ -836,7 +863,8 @@
       "autor": "Remux",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Lechona_en_Honda.jpg"
-    }
+    },
+    "estado": "Tolima"
   },
   {
     "id": "co-mote-de-queso",
@@ -866,7 +894,8 @@
       "autor": "Jdvillalobos",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Motequeso.jpg"
-    }
+    },
+    "estado": "Bolívar"
   },
   {
     "id": "co-pandebono",
@@ -894,7 +923,8 @@
       "autor": "vasquezcarlosm",
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pandebono.jpg"
-    }
+    },
+    "estado": "Valle del Cauca"
   },
   {
     "id": "ar-empanada-tucumana",
@@ -925,7 +955,8 @@
       "autor": "César Pérez",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Empanadas_de_Taf%C3%AD_del_Valle_(Tucum%C3%A1n,_Argentina).jpg"
-    }
+    },
+    "estado": "Tucumán"
   },
   {
     "id": "ar-alfajor-santafesino",
@@ -952,7 +983,8 @@
       "autor": "TitiNicola",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Alfajor_Santafesino_Rampazzo_02.jpg"
-    }
+    },
+    "estado": "Santa Fe"
   },
   {
     "id": "ar-torta-negra-galesa",
@@ -978,7 +1010,8 @@
       "autor": "Gastón Cuello",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Torta_negra_galesa_(Y_Wladfa,_Argentina).JPG"
-    }
+    },
+    "estado": "Chubut"
   },
   {
     "id": "ar-fugazzeta",
@@ -1005,7 +1038,8 @@
       "autor": "Aleposta",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Fugazzetta_en_Pizzer%C3%ADa_Guerrin,_Buenos_Aires.jpg"
-    }
+    },
+    "estado": "Ciudad de Buenos Aires"
   },
   {
     "id": "ar-milanesa-a-la-napolitana",
@@ -1035,7 +1069,8 @@
       "autor": "Horacio Cambeiro",
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Milanesa_napolitana_argentina.jpg"
-    }
+    },
+    "estado": "Ciudad de Buenos Aires"
   },
   {
     "id": "cl-curanto",
@@ -1067,7 +1102,8 @@
       "autor": "madhseason from Santiago, CHILE",
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Curanto_en_Hoyo_(Isla_Mechuque_-_Chilo%C3%A9)_-_Flickr_-_madhseason.jpg"
-    }
+    },
+    "estado": "Los Lagos"
   },
   {
     "id": "cl-chorrillana",
@@ -1097,7 +1133,8 @@
       "autor": "P R from Santiago, Chile",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chorrillana.jpg"
-    }
+    },
+    "estado": "Valparaíso"
   },
   {
     "id": "cl-mote-con-huesillos",
@@ -1125,7 +1162,8 @@
       "autor": "Conyann2009",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mote_con_huesillos.jpg"
-    }
+    },
+    "estado": "Região Metropolitana de Santiago"
   },
   {
     "id": "cl-completo",
@@ -1155,7 +1193,8 @@
       "autor": "Paul Lowry",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Completo_italiano.jpg"
-    }
+    },
+    "estado": "Região Metropolitana de Santiago"
   },
   {
     "id": "cl-chumbeque",
@@ -1185,7 +1224,8 @@
       "autor": "Viva Iquique weblog / www.vivaiquique.com",
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chumbeque_chileno.jpg"
-    }
+    },
+    "estado": "Tarapacá"
   },
   {
     "id": "ec-encebollado",
@@ -1214,7 +1254,8 @@
       "autor": "Vapelaez2212",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Encebollado_Ecuatoriano.png.jpg"
-    }
+    },
+    "estado": "Guayas"
   },
   {
     "id": "ec-fanesca",
@@ -1248,7 +1289,8 @@
       "autor": "Micah Yoder",
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Fanesca.jpg"
-    }
+    },
+    "estado": "Pichincha"
   },
   {
     "id": "ec-encocado",
@@ -1278,7 +1320,8 @@
       "autor": "Paulakindsvater",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Encocado_de_camarones.jpg"
-    }
+    },
+    "estado": "Esmeraldas"
   },
   {
     "id": "ec-viche",
@@ -1310,7 +1353,8 @@
       "autor": "Marshedpotato",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Viche_made_on_outdoor_wood_oven_on_the_coast_of_Manab%C3%AD,_Ecuador.jpg"
-    }
+    },
+    "estado": "Manabí"
   },
   {
     "id": "ec-hornado",
@@ -1342,7 +1386,8 @@
       "autor": "amalavida.tv",
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:AMA_Chimborazo_Hornado_(31)_(14296351502).jpg"
-    }
+    },
+    "estado": "Chimborazo"
   },
   {
     "id": "ve-tequeno",
@@ -1368,7 +1413,8 @@
       "autor": "Muago",
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Teque%C3%B1os_fritos.jpg"
-    }
+    },
+    "estado": "Miranda"
   },
   {
     "id": "ve-asado-negro",
@@ -1397,7 +1443,8 @@
       "autor": "Mi acento culinario",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Asado_negro.jpg"
-    }
+    },
+    "estado": "Distrito Capital"
   },
   {
     "id": "ve-pabellon-criollo",
@@ -1425,7 +1472,8 @@
       "autor": "Wilfredor",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pabell%C3%B3n_Criollo_Venezolano.jpg"
-    }
+    },
+    "estado": "Distrito Capital"
   },
   {
     "id": "ve-pastel-de-chucho",
@@ -1452,7 +1500,8 @@
       "autor": "Alejandro C 7ve",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pastel_de_Chucho_(cropped).jpg"
-    }
+    },
+    "estado": "Nueva Esparta"
   },
   {
     "id": "ve-mandoca",
@@ -1480,7 +1529,8 @@
       "autor": "DamianFinol",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mandocas_maracuchas.jpg"
-    }
+    },
+    "estado": "Zulia"
   },
   {
     "id": "bo-saltena",
@@ -1511,7 +1561,8 @@
       "autor": "Tamorlan",
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Salte%C3%B1as_(Plaza_Mayor)-2011.JPG"
-    }
+    },
+    "estado": "Potosí"
   },
   {
     "id": "bo-silpancho",
@@ -1542,7 +1593,8 @@
       "autor": "Mashi Rosas",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Silpancho_cochalo.jpg"
-    }
+    },
+    "estado": "Cochabamba"
   },
   {
     "id": "bo-majadito",
@@ -1571,7 +1623,8 @@
       "autor": "Akizia",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Majadito.jpg"
-    }
+    },
+    "estado": "Santa Cruz"
   },
   {
     "id": "bo-saice",
@@ -1602,7 +1655,8 @@
       "autor": "Opinión",
       "licenca": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Saice_tradicional_de_Tarija.jpg"
-    }
+    },
+    "estado": "Tarija"
   },
   {
     "id": "bo-plato-paceno",
@@ -1632,7 +1686,8 @@
       "autor": "R Iván Mamani Cachi Comida-Boliviana",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_tradicional.jpg"
-    }
+    },
+    "estado": "La Paz"
   },
   {
     "id": "uy-chivito",
@@ -1663,7 +1718,8 @@
       "autor": "Matt Rubens (Flickr)",
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chivito_al_pan_uruguayo.jpg"
-    }
+    },
+    "estado": "Maldonado"
   },
   {
     "id": "uy-chaja",
@@ -1692,7 +1748,8 @@
       "autor": "Muago",
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Torta_chaj%C3%A1.jpg"
-    }
+    },
+    "estado": "Paysandú"
   },
   {
     "id": "uy-capeletis-a-la-caruso",
@@ -1721,7 +1778,8 @@
       "autor": "Porfirijuan",
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Capelettis_a_la_Caruso.jpg"
-    }
+    },
+    "estado": "Montevideo"
   },
   {
     "id": "uy-queso-colonia",
@@ -1746,7 +1804,8 @@
       "autor": "Coquimbo58",
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Queso_Colonia_Uruguayo.jpg"
-    }
+    },
+    "estado": "Colonia"
   },
   {
     "id": "uy-asado",
@@ -1777,6 +1836,7 @@
       "autor": "Gonzalo Velasco",
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Asado_uruguayo.JPG"
-    }
+    },
+    "estado": "Montevideo"
   }
 ]

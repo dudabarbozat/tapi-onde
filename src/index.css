@@ -74,3 +74,18 @@
     display: none;
   }
 }
+
+@layer components {
+  /* Nome do estado ao passar o dedo ou o mouse no mapa do palpite */
+  .rotulo-estado {
+    @apply rounded-lg border-0 bg-green-950 px-2.5 py-1 font-titulo text-sm font-bold text-white shadow-lg;
+  }
+  .rotulo-estado::before {
+    border-top-color: #052e16 !important;
+  }
+
+  /* Países pequenos: nome só quando destacados ou escolhidos */
+  .rotulo-pequeno:not(.rotulo-visivel) {
+    display: none;
+  }
+}

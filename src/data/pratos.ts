@@ -9,6 +9,8 @@ export interface Prato {
   codigoPais: string;
   local: string;
   regiao: string;
+  /** Estado, província ou departamento onde fica a origem (calculado a partir das coordenadas). */
+  estado: string;
   latitude: number;
   longitude: number;
   categoria: Categoria;

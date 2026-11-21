@@ -4,34 +4,40 @@ import 'leaflet/dist/leaflet.css';
 import type { FeatureCollection, Geometry } from 'geojson';
 import fronteiras from '@/data/america-latina.json';
 import { countriesData, paisPorCodigo } from '@/data/countries';
+import { paisesJogaveis } from '@/utils/partida';
 
 type Props = { codigo: string | null };
 
 interface MapaEscolhaProps {
+  /** País sob o mouse ou o foco do teclado. */
   destaque: string | null;
+  /** Países escolhidos para a partida: um no modo sozinho, uma região inteira em grupo. */
+  escolhidos: string[];
   onDestaque: (codigo: string | null) => void;
   onEscolher: (codigo: string) => void;
 }
 
 const VIZINHO: L.PathOptions = { fillColor: '#d6d3d1', fillOpacity: 1, color: '#ffffff', weight: 1 };
 
-const estilo = (codigo: string, ativo: boolean): L.PathOptions => ({
+const estilo = (codigo: string, nivel: 'normal' | 'destaque' | 'escolhido'): L.PathOptions => ({
   fillColor: paisPorCodigo(codigo)?.cor,
-  fillOpacity: ativo ? 1 : 0.82,
-  color: ativo ? '#052e16' : '#ffffff',
-  weight: ativo ? 3 : 1.5,
+  fillOpacity: nivel === 'normal' ? 0.82 : 1,
+  color: nivel === 'normal' ? '#ffffff' : '#052e16',
+  weight: nivel === 'escolhido' ? 4 : nivel === 'destaque' ? 3 : 1.5,
 });
 
-/** Mapa da América Latina para escolher o país: cada país jogável com a cor da sua bandeira. */
-export const MapaEscolha = ({ destaque, onDestaque, onEscolher }: MapaEscolhaProps) => {
+/** Mapa da América Latina para escolher o país: cada país com a cor da sua bandeira. */
+export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: MapaEscolhaProps) => {
   const container = useRef<HTMLDivElement>(null);
   const camadas = useRef(new Map<string, L.Path>());
+  const rotulos = useRef(new Map<string, L.Tooltip>());
   const callbacks = useRef({ onDestaque, onEscolher });
   callbacks.current = { onDestaque, onEscolher };
 
   useEffect(() => {
     if (!container.current) return;
-    const mapa = L.map(container.current, {
+    const caixa = container.current;
+    const mapa = L.map(caixa, {
       zoomControl: false,
       dragging: false,
       scrollWheelZoom: false,
@@ -45,10 +51,10 @@ export const MapaEscolha = ({ destaque, onDestaque, onEscolher }: MapaEscolhaPro
     L.control.attribution({ prefix: false }).addAttribution('Fronteiras: Natural Earth').addTo(mapa);
 
     const geo = L.geoJSON(fronteiras as FeatureCollection<Geometry, Props>, {
-      style: (f) => (f?.properties.codigo ? estilo(f.properties.codigo, false) : VIZINHO),
+      style: (f) => (f?.properties.codigo && paisesJogaveis.includes(f.properties.codigo) ? estilo(f.properties.codigo, 'normal') : VIZINHO),
       onEachFeature: (f, camada) => {
         const codigo = (f.properties as Props).codigo;
-        if (!codigo) return;
+        if (!codigo || !paisesJogaveis.includes(codigo)) return;
         const path = camada as L.Path;
         camadas.current.set(codigo, path);
         path.on({
@@ -59,15 +65,12 @@ export const MapaEscolha = ({ destaque, onDestaque, onEscolher }: MapaEscolhaPro
       },
     }).addTo(mapa);
 
-    for (const c of countriesData) {
-      mapa.openTooltip(
-        L.tooltip({ permanent: true, direction: c.direcaoRotulo ?? 'center', className: 'rotulo-pais' })
-          .setLatLng(c.rotulo)
-          .setContent(c.pais),
-      );
+    for (const c of countriesData.filter((p) => paisesJogaveis.includes(p.codigo))) {
+      const rotulo = L.tooltip({ permanent: true, direction: 'center', className: `rotulo-pais${c.pequeno ? ' rotulo-pequeno' : ''}` }).setLatLng(c.rotulo).setContent(c.pais);
+      rotulos.current.set(c.codigo, rotulo);
+      mapa.openTooltip(rotulo);
     }
 
-    const caixa = container.current;
     const enquadrar = () => {
       if (!caixa.clientWidth || !caixa.clientHeight) return;
       mapa.invalidateSize({ animate: false });
@@ -78,26 +81,38 @@ export const MapaEscolha = ({ destaque, onDestaque, onEscolher }: MapaEscolhaPro
     observador.observe(caixa);
 
     const lista = camadas.current;
+    const nomes = rotulos.current;
     return () => {
       observador.disconnect();
       lista.clear();
+      nomes.clear();
       mapa.remove();
     };
   }, []);
 
   useEffect(() => {
     camadas.current.forEach((camada, codigo) => {
-      camada.setStyle(estilo(codigo, codigo === destaque));
-      if (codigo === destaque) camada.bringToFront();
+      // Um país escolhido ganha contorno forte; uma região inteira (modo em grupo) fica colorida e o resto em cinza.
+      const regiao = escolhidos.length > 1;
+      if (regiao && !escolhidos.includes(codigo)) {
+        camada.setStyle(VIZINHO);
+        return;
+      }
+      const nivel = !regiao && escolhidos.includes(codigo) ? 'escolhido' : codigo === destaque ? 'destaque' : 'normal';
+      camada.setStyle(estilo(codigo, nivel));
+      if (nivel !== 'normal') camada.bringToFront();
+      // Nome dos países pequenos: só no destaque ou quando é o único escolhido (evita sobreposição).
+      const visivel = codigo === destaque || (escolhidos.length === 1 && escolhidos[0] === codigo);
+      rotulos.current.get(codigo)?.getElement()?.classList.toggle('rotulo-visivel', visivel);
     });
-  }, [destaque]);
+  }, [destaque, escolhidos]);
 
   return (
     <div
       ref={container}
       role="img"
-      aria-label="Mapa da América Latina com os 10 países do jogo coloridos. Toque em um país para começar, ou use a lista ao lado."
-      className="h-full  w-full rounded-2xl bg-oceano"
+      aria-label="Mapa da América Latina com os países do jogo coloridos. Toque em um país para escolher, ou use a lista."
+      className="h-full w-full rounded-2xl bg-oceano"
     />
   );
 };
