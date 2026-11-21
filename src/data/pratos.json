@@ -28,7 +28,8 @@
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:BrunaBrandao_Pato_no_Tucupi_Belem_PA_(26185651117).jpg"
     },
-    "estado": "Pará"
+    "estado": "Pará",
+    "cidade": null
   },
   {
     "id": "br-tacaca",
@@ -59,7 +60,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tacac%C3%A1_01.jpg"
     },
-    "estado": "Amazonas"
+    "estado": "Amazonas",
+    "cidade": null
   },
   {
     "id": "br-x-caboquinho",
@@ -89,7 +91,8 @@
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:X-Caboquinho_de_Manaus.png"
     },
-    "estado": "Amazonas"
+    "estado": "Amazonas",
+    "cidade": null
   },
   {
     "id": "br-acaraje",
@@ -121,7 +124,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_na_Bahia.jpg"
     },
-    "estado": "Bahia"
+    "estado": "Bahia",
+    "cidade": null
   },
   {
     "id": "br-baiao-de-dois",
@@ -150,7 +154,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bai%C3%A3o_de_dois.jpg"
     },
-    "estado": "Ceará"
+    "estado": "Ceará",
+    "cidade": null
   },
   {
     "id": "br-bolo-de-rolo",
@@ -180,7 +185,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bolo_de_Rolo,_doce_brasileiro,_t%C3%ADpico_de_Pernambuco.jpg"
     },
-    "estado": "Pernambuco"
+    "estado": "Pernambuco",
+    "cidade": null
   },
   {
     "id": "br-empadao-goiano",
@@ -212,37 +218,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Empad%C3%A3o_Goiano..jpg"
     },
-    "estado": "Goiás"
-  },
-  {
-    "id": "br-sopa-paraguaia",
-    "prato": "Sopa paraguaia",
-    "pais": "Brasil",
-    "codigoPais": "BR",
-    "local": "Mato Grosso do Sul (Campo Grande como referência)",
-    "regiao": "Centro-Oeste",
-    "latitude": -20.4697,
-    "longitude": -54.6201,
-    "categoria": "aperitivo",
-    "dificuldade": "facil",
-    "ingredientes": [
-      "farinha de milho",
-      "leite",
-      "óleo",
-      "queijo",
-      "cebola"
-    ],
-    "dica": "Apesar do nome, não é sopa: é um bolo salgado de milho e queijo herdado de um país vizinho.",
-    "curiosidade": "É considerada o prato tradicional do Paraguai e muito consumida na fronteira brasileira, onde é assada em forno de barro chamado tatakua.",
-    "comoSeFaz": "Mistura-se farinha de milho com leite, óleo, bastante queijo e cebola e assa-se em forno comum ou de barro. Usa-se milho ou fubá, mas nunca os dois juntos.",
-    "fonte": "https://pt.wikipedia.org/wiki/Sopa_paraguaia",
-    "imagem": {
-      "arquivo": "pratos/br-sopa-paraguaia.jpg",
-      "autor": "Everton Zanella Alvarenga",
-      "licenca": "CC BY-SA 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Sopa_paraguaia.jpg"
-    },
-    "estado": "Mato Grosso do Sul"
+    "estado": "Goiás",
+    "cidade": null
   },
   {
     "id": "br-furrundu",
@@ -273,7 +250,8 @@
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Doce_Furrundum.jpg"
     },
-    "estado": "Mato Grosso"
+    "estado": "Mato Grosso",
+    "cidade": null
   },
   {
     "id": "br-pao-de-queijo",
@@ -302,7 +280,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pao_de_queijo_brasil.jpg"
     },
-    "estado": "Minas Gerais"
+    "estado": "Minas Gerais",
+    "cidade": null
   },
   {
     "id": "br-moqueca-capixaba",
@@ -333,7 +312,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Moqueca_Capixaba_01.jpg"
     },
-    "estado": "Espírito Santo"
+    "estado": "Espírito Santo",
+    "cidade": null
   },
   {
     "id": "br-virado-a-paulista",
@@ -366,7 +346,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Virado_a_paulista.jpg"
     },
-    "estado": "São Paulo"
+    "estado": "São Paulo",
+    "cidade": null
   },
   {
     "id": "br-barreado",
@@ -399,7 +380,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Barreado.jpg"
     },
-    "estado": "Paraná"
+    "estado": "Paraná",
+    "cidade": null
   },
   {
     "id": "br-sagu-de-vinho",
@@ -427,7 +409,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:SaguDeVinho.jpg"
     },
-    "estado": "Rio Grande do Sul"
+    "estado": "Rio Grande do Sul",
+    "cidade": null
   },
   {
     "id": "br-arroz-carreteiro",
@@ -458,7 +441,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Arroz_carreteiro.jpg"
     },
-    "estado": "Rio Grande do Sul"
+    "estado": "Rio Grande do Sul",
+    "cidade": null
   },
   {
     "id": "pe-ceviche",
@@ -488,7 +472,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ceviche_de_Lenguado_(Lima,_Peru).jpg"
     },
-    "estado": "Lima Metropolitana"
+    "estado": "Lima Metropolitana",
+    "cidade": null
   },
   {
     "id": "pe-rocoto-relleno",
@@ -520,7 +505,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Rocoto_relleno.jpg"
     },
-    "estado": "Arequipa"
+    "estado": "Arequipa",
+    "cidade": null
   },
   {
     "id": "pe-juane",
@@ -549,7 +535,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Juane_3260409.JPG"
     },
-    "estado": "San Martín"
+    "estado": "San Martín",
+    "cidade": null
   },
   {
     "id": "pe-chiriuchu",
@@ -583,7 +570,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chiriuchu.jpg"
     },
-    "estado": "Cusco"
+    "estado": "Cusco",
+    "cidade": null
   },
   {
     "id": "pe-arroz-con-pato",
@@ -615,7 +603,8 @@
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Arroz_con_pato_a_la_chiclayana.JPG"
     },
-    "estado": "Lambayeque"
+    "estado": "Lambayeque",
+    "cidade": null
   },
   {
     "id": "mx-mole-poblano",
@@ -644,7 +633,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mole_poblano_de_guajolote.jpg"
     },
-    "estado": "Puebla"
+    "estado": "Puebla",
+    "cidade": null
   },
   {
     "id": "mx-cochinita-pibil",
@@ -676,7 +666,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Cochinita_pibil_2.jpg"
     },
-    "estado": "Yucatán"
+    "estado": "Yucatán",
+    "cidade": null
   },
   {
     "id": "mx-tlayuda",
@@ -707,7 +698,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tlayuda_con_chorizo_en_Oaxaca.jpg"
     },
-    "estado": "Oaxaca"
+    "estado": "Oaxaca",
+    "cidade": null
   },
   {
     "id": "mx-birria",
@@ -738,7 +730,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Plato_de_birria.jpg"
     },
-    "estado": "Jalisco"
+    "estado": "Jalisco",
+    "cidade": null
   },
   {
     "id": "mx-taco-al-pastor",
@@ -769,7 +762,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:(El_Flaco)_Al_Pastor_Tacos.jpg"
     },
-    "estado": "Cidade do México"
+    "estado": "Cidade do México",
+    "cidade": null
   },
   {
     "id": "co-bandeja-paisa",
@@ -803,7 +797,8 @@
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Bandeja_paisa_antioque%C3%B1a,_Colombia.jpg"
     },
-    "estado": "Antioquia"
+    "estado": "Antioquia",
+    "cidade": null
   },
   {
     "id": "co-ajiaco",
@@ -833,7 +828,8 @@
       "licenca": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Ajiaco_santafere%C3%B1o_11.jpg"
     },
-    "estado": "Bogotá"
+    "estado": "Bogotá",
+    "cidade": null
   },
   {
     "id": "co-lechona",
@@ -864,7 +860,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Lechona_en_Honda.jpg"
     },
-    "estado": "Tolima"
+    "estado": "Tolima",
+    "cidade": null
   },
   {
     "id": "co-mote-de-queso",
@@ -895,7 +892,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Motequeso.jpg"
     },
-    "estado": "Bolívar"
+    "estado": "Bolívar",
+    "cidade": null
   },
   {
     "id": "co-pandebono",
@@ -924,7 +922,8 @@
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pandebono.jpg"
     },
-    "estado": "Valle del Cauca"
+    "estado": "Valle del Cauca",
+    "cidade": null
   },
   {
     "id": "ar-empanada-tucumana",
@@ -956,7 +955,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Empanadas_de_Taf%C3%AD_del_Valle_(Tucum%C3%A1n,_Argentina).jpg"
     },
-    "estado": "Tucumán"
+    "estado": "Tucumán",
+    "cidade": null
   },
   {
     "id": "ar-alfajor-santafesino",
@@ -984,7 +984,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Alfajor_Santafesino_Rampazzo_02.jpg"
     },
-    "estado": "Santa Fe"
+    "estado": "Santa Fe",
+    "cidade": null
   },
   {
     "id": "ar-torta-negra-galesa",
@@ -1011,7 +1012,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Torta_negra_galesa_(Y_Wladfa,_Argentina).JPG"
     },
-    "estado": "Chubut"
+    "estado": "Chubut",
+    "cidade": null
   },
   {
     "id": "ar-fugazzeta",
@@ -1039,7 +1041,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Fugazzetta_en_Pizzer%C3%ADa_Guerrin,_Buenos_Aires.jpg"
     },
-    "estado": "Ciudad de Buenos Aires"
+    "estado": "Ciudad de Buenos Aires",
+    "cidade": null
   },
   {
     "id": "ar-milanesa-a-la-napolitana",
@@ -1070,7 +1073,8 @@
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Milanesa_napolitana_argentina.jpg"
     },
-    "estado": "Ciudad de Buenos Aires"
+    "estado": "Ciudad de Buenos Aires",
+    "cidade": null
   },
   {
     "id": "cl-curanto",
@@ -1103,7 +1107,8 @@
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Curanto_en_Hoyo_(Isla_Mechuque_-_Chilo%C3%A9)_-_Flickr_-_madhseason.jpg"
     },
-    "estado": "Los Lagos"
+    "estado": "Los Lagos",
+    "cidade": null
   },
   {
     "id": "cl-chorrillana",
@@ -1134,7 +1139,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chorrillana.jpg"
     },
-    "estado": "Valparaíso"
+    "estado": "Valparaíso",
+    "cidade": null
   },
   {
     "id": "cl-mote-con-huesillos",
@@ -1163,7 +1169,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mote_con_huesillos.jpg"
     },
-    "estado": "Região Metropolitana de Santiago"
+    "estado": "Região Metropolitana de Santiago",
+    "cidade": null
   },
   {
     "id": "cl-completo",
@@ -1194,7 +1201,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Completo_italiano.jpg"
     },
-    "estado": "Região Metropolitana de Santiago"
+    "estado": "Região Metropolitana de Santiago",
+    "cidade": null
   },
   {
     "id": "cl-chumbeque",
@@ -1225,7 +1233,8 @@
       "licenca": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chumbeque_chileno.jpg"
     },
-    "estado": "Tarapacá"
+    "estado": "Tarapacá",
+    "cidade": null
   },
   {
     "id": "ec-encebollado",
@@ -1255,7 +1264,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Encebollado_Ecuatoriano.png.jpg"
     },
-    "estado": "Guayas"
+    "estado": "Guayas",
+    "cidade": null
   },
   {
     "id": "ec-fanesca",
@@ -1290,7 +1300,8 @@
       "licenca": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Fanesca.jpg"
     },
-    "estado": "Pichincha"
+    "estado": "Pichincha",
+    "cidade": null
   },
   {
     "id": "ec-encocado",
@@ -1321,7 +1332,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Encocado_de_camarones.jpg"
     },
-    "estado": "Esmeraldas"
+    "estado": "Esmeraldas",
+    "cidade": null
   },
   {
     "id": "ec-viche",
@@ -1354,7 +1366,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Viche_made_on_outdoor_wood_oven_on_the_coast_of_Manab%C3%AD,_Ecuador.jpg"
     },
-    "estado": "Manabí"
+    "estado": "Manabí",
+    "cidade": null
   },
   {
     "id": "ec-hornado",
@@ -1387,7 +1400,8 @@
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:AMA_Chimborazo_Hornado_(31)_(14296351502).jpg"
     },
-    "estado": "Chimborazo"
+    "estado": "Chimborazo",
+    "cidade": null
   },
   {
     "id": "ve-tequeno",
@@ -1414,7 +1428,8 @@
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Teque%C3%B1os_fritos.jpg"
     },
-    "estado": "Miranda"
+    "estado": "Miranda",
+    "cidade": null
   },
   {
     "id": "ve-asado-negro",
@@ -1444,7 +1459,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Asado_negro.jpg"
     },
-    "estado": "Distrito Capital"
+    "estado": "Distrito Capital",
+    "cidade": null
   },
   {
     "id": "ve-pabellon-criollo",
@@ -1473,7 +1489,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pabell%C3%B3n_Criollo_Venezolano.jpg"
     },
-    "estado": "Distrito Capital"
+    "estado": "Distrito Capital",
+    "cidade": null
   },
   {
     "id": "ve-pastel-de-chucho",
@@ -1501,7 +1518,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Pastel_de_Chucho_(cropped).jpg"
     },
-    "estado": "Nueva Esparta"
+    "estado": "Nueva Esparta",
+    "cidade": null
   },
   {
     "id": "ve-mandoca",
@@ -1530,7 +1548,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mandocas_maracuchas.jpg"
     },
-    "estado": "Zulia"
+    "estado": "Zulia",
+    "cidade": null
   },
   {
     "id": "bo-saltena",
@@ -1562,7 +1581,8 @@
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Salte%C3%B1as_(Plaza_Mayor)-2011.JPG"
     },
-    "estado": "Potosí"
+    "estado": "Potosí",
+    "cidade": null
   },
   {
     "id": "bo-silpancho",
@@ -1594,7 +1614,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Silpancho_cochalo.jpg"
     },
-    "estado": "Cochabamba"
+    "estado": "Cochabamba",
+    "cidade": null
   },
   {
     "id": "bo-majadito",
@@ -1624,7 +1645,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Majadito.jpg"
     },
-    "estado": "Santa Cruz"
+    "estado": "Santa Cruz",
+    "cidade": null
   },
   {
     "id": "bo-saice",
@@ -1656,7 +1678,8 @@
       "licenca": "CC BY 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Saice_tradicional_de_Tarija.jpg"
     },
-    "estado": "Tarija"
+    "estado": "Tarija",
+    "cidade": null
   },
   {
     "id": "bo-plato-paceno",
@@ -1687,7 +1710,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_tradicional.jpg"
     },
-    "estado": "La Paz"
+    "estado": "La Paz",
+    "cidade": null
   },
   {
     "id": "uy-chivito",
@@ -1719,7 +1743,8 @@
       "licenca": "CC BY-SA 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chivito_al_pan_uruguayo.jpg"
     },
-    "estado": "Maldonado"
+    "estado": "Maldonado",
+    "cidade": null
   },
   {
     "id": "uy-chaja",
@@ -1749,7 +1774,8 @@
       "licenca": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:Torta_chaj%C3%A1.jpg"
     },
-    "estado": "Paysandú"
+    "estado": "Paysandú",
+    "cidade": null
   },
   {
     "id": "uy-capeletis-a-la-caruso",
@@ -1779,7 +1805,8 @@
       "licenca": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Capelettis_a_la_Caruso.jpg"
     },
-    "estado": "Montevideo"
+    "estado": "Montevideo",
+    "cidade": null
   },
   {
     "id": "uy-queso-colonia",
@@ -1805,7 +1832,8 @@
       "licenca": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Queso_Colonia_Uruguayo.jpg"
     },
-    "estado": "Colonia"
+    "estado": "Colonia",
+    "cidade": null
   },
   {
     "id": "uy-asado",
@@ -1837,6 +1865,1627 @@
       "licenca": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Asado_uruguayo.JPG"
     },
-    "estado": "Montevideo"
+    "estado": "Montevideo",
+    "cidade": null
+  },
+  {
+    "id": "py-sopa-paraguaya",
+    "prato": "Sopa paraguaya",
+    "pais": "Paraguai",
+    "codigoPais": "PY",
+    "local": "Asunción (prato nacional)",
+    "cidade": null,
+    "regiao": "Distrito Capital",
+    "latitude": -25.28,
+    "longitude": -57.6344,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de milho",
+      "queijo fresco",
+      "ovos",
+      "leite",
+      "cebola",
+      "banha de porco"
+    ],
+    "dica": "Apesar do nome de caldo, é um bolo salgado e firme de milho com queijo, nascido da mistura entre a cozinha indígena guarani e a espanhola.",
+    "curiosidade": "Mesmo se chamando \"sopa\", não é líquida: é uma espécie de bolo salgado. É herança da cozinha mestiça cario-guarani e espanhola, que se formou na capital e arredores.",
+    "comoSeFaz": "Mistura-se farinha de milho com cebola, banha, ovos, queijo fresco e leite, e a massa vai ao forno. Há versões recheadas com carne (sopa so'o) ou com frango.",
+    "fonte": "https://es.wikipedia.org/wiki/Sopa_paraguaya",
+    "imagem": {
+      "arquivo": "pratos/py-sopa-paraguaya.jpg",
+      "autor": "Horacio Cambeiro",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sopa_paraguaya_(porciones).jpg"
+    },
+    "estado": "Asunción"
+  },
+  {
+    "id": "py-chipa",
+    "prato": "Chipa",
+    "pais": "Paraguai",
+    "codigoPais": "PY",
+    "local": "Coronel Bogado, Itapúa",
+    "cidade": null,
+    "regiao": "Itapúa (sul)",
+    "latitude": -27.1604,
+    "longitude": -56.2404,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "polvilho (amido de mandioca)",
+      "queijo",
+      "leite",
+      "ovos",
+      "sal",
+      "manteiga ou óleo"
+    ],
+    "dica": "Pãozinho de polvilho e queijo de uma cidade do sul, perto do rio Paraná, que ganhou o título oficial de capital nacional desse quitute.",
+    "curiosidade": "Existem cerca de 70 variedades desse pãozinho no país, e desde 2015 a segunda sexta-feira de agosto é o Dia Nacional da Chipa. Na Semana Santa, principalmente na Sexta-feira Santa, o consumo aumenta muito.",
+    "comoSeFaz": "Amassa-se polvilho com leite, queijo, ovos, um pouquinho de sal e manteiga ou óleo. A massa vira bolinhas de uns 4 cm que vão ao forno.",
+    "fonte": "https://es.wikipedia.org/wiki/Chipa",
+    "imagem": {
+      "arquivo": "pratos/py-chipa.jpg",
+      "autor": "Horacio Cambeiro",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chipa_paraguaya_en_el_Circuito_Comercial_de_Encarnación_(Paraguay).jpg"
+    },
+    "estado": "Itapúa"
+  },
+  {
+    "id": "py-reviro",
+    "prato": "Reviro",
+    "pais": "Paraguai",
+    "codigoPais": "PY",
+    "local": "Ciudad del Este, Alto Paraná",
+    "cidade": null,
+    "regiao": "Alto Paraná (leste)",
+    "latitude": -25.5167,
+    "longitude": -54.6167,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "farinha de trigo",
+      "água",
+      "sal",
+      "ovos (às vezes)"
+    ],
+    "dica": "Massa simples esfarelada que alimentava os trabalhadores dos ervais de erva-mate na fronteira leste, junto ao rio Paraná.",
+    "curiosidade": "A receita nasceu nos ervais onde trabalhavam os mensús, os colhedores de erva-mate. Era comida no lugar do pão, acompanhando mate cocido ou café.",
+    "comoSeFaz": "Faz-se uma massa de farinha, água e sal, às vezes com ovos, que é desmanchada em pedacinhos. Serve-se com mate cocido ou café.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Paraguay",
+    "imagem": {
+      "arquivo": "pratos/py-reviro.jpg",
+      "autor": "Horacio Cambeiro",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Reviro_misionero_en_olla_de_hierro.jpg"
+    },
+    "estado": "Alto Paraná"
+  },
+  {
+    "id": "py-chastaca",
+    "prato": "Chastaca",
+    "pais": "Paraguai",
+    "codigoPais": "PY",
+    "local": "Santa Rosa, Misiones",
+    "cidade": null,
+    "regiao": "Misiones (sul)",
+    "latitude": -26.8667,
+    "longitude": -56.85,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "carne seca (cecina)",
+      "ovos",
+      "cebola",
+      "óleo",
+      "caldo"
+    ],
+    "dica": "Prato de carne secada ao sol, ligado às antigas missões dos padres jesuítas no sul do país.",
+    "curiosidade": "A chastaca carrega a marca das missões jesuíticas e nasceu de uma técnica para conservar a carne quando não existia geladeira. A cidade faz até um festival só para ela.",
+    "comoSeFaz": "A carne é seca ao sol por uns dois dias e vira cecina, que pode durar um ano. Depois a cecina é preparada com cebola, ovos e caldo.",
+    "fonte": "https://www.ultimahora.com/chastaca-un-sabor-culinario-vigente-en-misiones",
+    "imagem": {
+      "arquivo": "pratos/py-chastaca.jpg",
+      "autor": "Overkill53",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chastaka.jpg"
+    },
+    "estado": "Misiones"
+  },
+  {
+    "id": "py-mbeju",
+    "prato": "Mbeju",
+    "pais": "Paraguai",
+    "codigoPais": "PY",
+    "local": "General Resquín, San Pedro",
+    "cidade": null,
+    "regiao": "San Pedro (norte)",
+    "latitude": -24.2,
+    "longitude": -56.5667,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "polvilho (amido de mandioca)",
+      "queijo fresco",
+      "ovos",
+      "leite",
+      "banha de porco"
+    ],
+    "dica": "Panqueca achatada de polvilho e queijo, celebrada numa festa nacional numa cidade do norte, à beira do rio Jejuí.",
+    "curiosidade": "A cidade à beira do rio Jejuí é conhecida como \"a capital do mbeju\" e todo ano faz a Festa Nacional do Mbeju, onde se vendem milhares deles.",
+    "comoSeFaz": "Na festa, um grupo de senhoras prepara o mbeju na hora, em braseiros, em vários sabores diferentes.",
+    "fonte": "https://www.ultimahora.com/ofrecen-variedades-mbeju-fiesta-nacional-n1140997",
+    "imagem": {
+      "arquivo": "pratos/py-mbeju.jpg",
+      "autor": "Patty P",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mbeyú_(comida_de_Paraguay).jpg"
+    },
+    "estado": "San Pedro"
+  },
+  {
+    "id": "gt-kakik",
+    "prato": "Kak'ik",
+    "pais": "Guatemala",
+    "codigoPais": "GT",
+    "local": "Cobán, Alta Verapaz",
+    "cidade": "Cobán",
+    "regiao": "Alta Verapaz (norte)",
+    "latitude": 15.4833,
+    "longitude": -90.3667,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peru (chompipe)",
+      "chile",
+      "especiarias",
+      "vegetais",
+      "arroz"
+    ],
+    "dica": "Sopa picante de peru, de origem indígena maia, das montanhas úmidas do norte do país.",
+    "curiosidade": "É uma receita totalmente pré-colombiana, que continua quase igual à original. Em 2007 foi declarada patrimônio cultural da Guatemala.",
+    "comoSeFaz": "Prepara-se um caldo de especiarias, vegetais e chile em que se cozinha o peru. É servido com arroz.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Guatemala",
+    "imagem": {
+      "arquivo": "pratos/gt-kakik.jpg",
+      "autor": "Hermann Luyken",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:2010.05.13.141849_Kac-iq_Fonda_Calle_Real_Antigua_Guatemala.jpg"
+    },
+    "estado": "Alta Verapaz"
+  },
+  {
+    "id": "gt-tapado",
+    "prato": "Tapado",
+    "pais": "Guatemala",
+    "codigoPais": "GT",
+    "local": "Livingston, Izabal",
+    "cidade": null,
+    "regiao": "Izabal (litoral caribenho)",
+    "latitude": 15.83,
+    "longitude": -88.75,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "leite de coco",
+      "frutos do mar",
+      "banana-da-terra",
+      "tomate",
+      "coentro"
+    ],
+    "dica": "Sopa de frutos do mar com leite de coco do litoral caribenho, terra do povo garífuna.",
+    "curiosidade": "A cidade onde ele é mais famoso é povoada principalmente pelo povo garífuna. Lá, o tapado divide a fama com o pão de coco.",
+    "comoSeFaz": "Cozinham-se os frutos do mar no leite de coco com banana-da-terra, tomate e coentro, formando uma sopa.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Guatemala",
+    "imagem": {
+      "arquivo": "pratos/gt-tapado.jpg",
+      "autor": "Jocelyn Saurini",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Livingston_Izabal_-_Tapado_-_Local_Traditional_Food.jpg"
+    },
+    "estado": "Izabal"
+  },
+  {
+    "id": "gt-pepian",
+    "prato": "Pepián",
+    "pais": "Guatemala",
+    "codigoPais": "GT",
+    "local": "Cidade da Guatemala (prato nacional)",
+    "cidade": null,
+    "regiao": "Guatemala (centro)",
+    "latitude": 14.6417,
+    "longitude": -90.5133,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "frango",
+      "batata",
+      "chuchu (güisquil)",
+      "semente de abóbora (pepitoria)",
+      "chiles",
+      "tortilla"
+    ],
+    "dica": "Ensopado de frango num molho grosso de sementes e vegetais tostados, um dos mais populares do país inteiro.",
+    "curiosidade": "Antigamente era servido em grandes eventos e rituais ligados à religião e à política. Em 2007 foi declarado patrimônio cultural da Guatemala.",
+    "comoSeFaz": "Os vegetais são assados até quase queimar, o que dá o sabor típico. O frango cozinha com batata e chuchu num molho de pepitoria, chiles e especiarias engrossado com tortilla.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Guatemala",
+    "imagem": {
+      "arquivo": "pratos/gt-pepian.jpg",
+      "autor": "Josué Goge from Guatemala",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepián_Guatemala.jpg"
+    },
+    "estado": "Guatemala"
+  },
+  {
+    "id": "gt-paches",
+    "prato": "Paches",
+    "pais": "Guatemala",
+    "codigoPais": "GT",
+    "local": "Quetzaltenango, Quetzaltenango",
+    "cidade": null,
+    "regiao": "Quetzaltenango (altiplano ocidental)",
+    "latitude": 14.8333,
+    "longitude": -91.5167,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "batata",
+      "molho de tomate",
+      "carne",
+      "chile verde",
+      "folha de maxán"
+    ],
+    "dica": "Tamal feito de batata amassada em vez de milho, típico de uma grande cidade do altiplano frio, onde se fala a língua k'iche'.",
+    "curiosidade": "O nome vem da palavra k'iche' paachi'k, que quer dizer \"amassar\": a batata não cabe inteira na folha, por isso precisa ser amassada.",
+    "comoSeFaz": "A batata, ingrediente principal, é amassada ou moída na pedra e depois embrulhada em folha de maxán.",
+    "fonte": "https://www.prensalibre.com/?p=4583653",
+    "imagem": {
+      "arquivo": "pratos/gt-paches.jpg",
+      "autor": "Luisfi",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:090203_pache.JPG"
+    },
+    "estado": "Quezaltenango"
+  },
+  {
+    "id": "gt-rosarios-de-dulce",
+    "prato": "Rosarios de dulce",
+    "pais": "Guatemala",
+    "codigoPais": "GT",
+    "local": "Esquipulas, Chiquimula",
+    "cidade": "Esquipulas",
+    "regiao": "Chiquimula (oriente)",
+    "latitude": 14.5667,
+    "longitude": -89.35,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "açúcar",
+      "palha de milho seca",
+      "tinta colorida"
+    ],
+    "dica": "Doce colorido em forma de terço, de uma cidade de peregrinação no oriente do país, perto da fronteira com Honduras.",
+    "curiosidade": "São grandes e muito coloridos, montados para parecer um rosário (terço) de reza.",
+    "comoSeFaz": "Bolinhas de açúcar são presas entre pedaços de palha de milho seca pintados de cores diferentes, formando um rosário.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Guatemala",
+    "imagem": {
+      "arquivo": "pratos/gt-rosarios-de-dulce.jpg",
+      "autor": "Eric Walter",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sucreries_d'Esquipulas_1.jpg"
+    },
+    "estado": "Chiquimula"
+  },
+  {
+    "id": "hn-baleada",
+    "prato": "Baleada",
+    "pais": "Honduras",
+    "codigoPais": "HN",
+    "local": "La Ceiba, Atlántida",
+    "cidade": "La Ceiba",
+    "regiao": "Atlántida (costa norte)",
+    "latitude": 15.7833,
+    "longitude": -86.7918,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "tortilha de farinha de trigo",
+      "feijão vermelho frito",
+      "manteiga (creme)",
+      "queijo ralado",
+      "ovo",
+      "abacate",
+      "carne"
+    ],
+    "dica": "Tortilha de trigo dobrada e recheada de feijão, nascida perto dos trilhos de trem das companhias de banana do litoral caribenho.",
+    "curiosidade": "O nome viria dos feijões, que o povo chamava de \"balas\". O primeiro registro de venda é de 1964, numa barraquinha ao lado dos trilhos da Standard Fruit Company, em La Ceiba.",
+    "comoSeFaz": "Uma tortilha de farinha de trigo, do tamanho de uma mão, é dobrada ao meio e recheada com feijão vermelho frito, manteiga e/ou queijo ralado. A versão \"com tudo\" leva também ovo, carne ou abacate.",
+    "fonte": "https://es.wikipedia.org/wiki/Baleada",
+    "imagem": {
+      "arquivo": "pratos/hn-baleada.jpg",
+      "autor": "Los viajes del Cangrejo",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Baleada_en_Cop%C3%A1n.jpg"
+    },
+    "estado": "Atlántida"
+  },
+  {
+    "id": "hn-pollo-chuco",
+    "prato": "Pollo chuco",
+    "pais": "Honduras",
+    "codigoPais": "HN",
+    "local": "San Pedro Sula, Cortés",
+    "cidade": "San Pedro Sula",
+    "regiao": "Cortés (costa norte)",
+    "latitude": 15.5053,
+    "longitude": -88.0251,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "frango",
+      "banana-verde",
+      "chismol (vinagrete de tomate)",
+      "cebola roxa em conserva",
+      "repolho",
+      "molhos"
+    ],
+    "dica": "Frango frito com fatias de banana-verde, vendido em barraquinhas de calçada numa grande cidade do norte, região das antigas companhias bananeiras.",
+    "curiosidade": "Também é chamado de \"frango frito com tajada\". Uma das explicações para o nome é que ele começou a ser vendido em barraquinhas nas calçadas da cidade.",
+    "comoSeFaz": "O frango é frito em bastante óleo quente, junto com fatias de banana-verde (as tajadas). Vai à mesa com molhos, chismol, cebola roxa em conserva e/ou repolho.",
+    "fonte": "https://es.wikipedia.org/wiki/Pollo_chuco",
+    "imagem": {
+      "arquivo": "pratos/hn-pollo-chuco.jpg",
+      "autor": "Jvaspad",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pollo_chuco_1.jpg"
+    },
+    "estado": "Cortés"
+  },
+  {
+    "id": "hn-atol-chuco",
+    "prato": "Atol chuco",
+    "pais": "Honduras",
+    "codigoPais": "HN",
+    "local": "Santa Rosa de Copán, Copán",
+    "cidade": null,
+    "regiao": "Copán (ocidente)",
+    "latitude": 14.7675,
+    "longitude": -88.7781,
+    "categoria": "bebida",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "milho preto fermentado",
+      "água",
+      "sal",
+      "alguashte (semente de abóbora moída)",
+      "feijão preto",
+      "pimenta"
+    ],
+    "dica": "Bebida quente e azedinha de milho escuro fermentado, servida numa cuia de fruta nas montanhas do oeste, terra de povos maias e lencas.",
+    "curiosidade": "É servida num \"huacal\", uma tigela feita do fruto da árvore morro, e se bebe sem colher. Tem origem pré-hispânica, ligada aos povos maia, lenca e pipil.",
+    "comoSeFaz": "O milho preto é tostado, fica de molho uma noite para fermentar, é moído e coado; o líquido é cozido mexendo sempre. Serve-se com feijão preto cozido, alguashte e pimenta a gosto.",
+    "fonte": "https://es.wikipedia.org/wiki/Atol_shuco",
+    "imagem": {
+      "arquivo": "pratos/hn-atol-chuco.jpg",
+      "autor": "Marden Nolasco",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Atole_agrio.jpg"
+    },
+    "estado": "Copán"
+  },
+  {
+    "id": "hn-sopa-marinera",
+    "prato": "Sopa marinera",
+    "pais": "Honduras",
+    "codigoPais": "HN",
+    "local": "Choluteca, Choluteca",
+    "cidade": null,
+    "regiao": "Choluteca (zona sul)",
+    "latitude": 13.3061,
+    "longitude": -87.1956,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "peixe",
+      "siri (jaiba)",
+      "camarão",
+      "caldo"
+    ],
+    "dica": "Sopa de peixe, siri e camarão do litoral quente do sul, à beira do oceano Pacífico, uma região de criação de camarão e pesca artesanal.",
+    "curiosidade": "A zona sul do país tem muitas áreas produtoras de camarão e pesca artesanal. Há alguns anos inventaram ali a \"sopa levanta-mortos\", que leva tudo o que a sopa marinera tem e ainda camarão gigante.",
+    "comoSeFaz": "É uma sopa feita com peixe, siri e camarões cozidos juntos num caldo.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Honduras",
+    "imagem": {
+      "arquivo": "pratos/hn-sopa-marinera.jpg",
+      "autor": "Acaceres29",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Seadfood_soup.JPG"
+    },
+    "estado": "Choluteca"
+  },
+  {
+    "id": "hn-desayuno-tipico",
+    "prato": "Desayuno típico hondureño",
+    "pais": "Honduras",
+    "codigoPais": "HN",
+    "local": "Tegucigalpa (prato nacional)",
+    "cidade": null,
+    "regiao": "Francisco Morazán",
+    "latitude": 14.1058,
+    "longitude": -87.2047,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "ovos fritos",
+      "feijão refrito",
+      "creme de leite salgado (crema)",
+      "queijo fresco",
+      "abacate",
+      "banana-da-terra frita",
+      "tortilhas"
+    ],
+    "dica": "Café da manhã farto com ovos, feijão, queijo, banana frita e tortilhas, acompanhado de um café escuro plantado nas encostas das montanhas do país.",
+    "curiosidade": "O povo do país costuma tomar um café da manhã grande e reforçado. Em muitas casas, a primeira coisa do dia é fazer as tortilhas, que acompanham quase todas as refeições.",
+    "comoSeFaz": "Os ovos são fritos e servidos com feijão refrito, crema, queijo fresco, abacate, banana-da-terra frita e tortilhas. Pode vir também com carne assada ou chouriço, e com café quente.",
+    "fonte": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "imagem": {
+      "arquivo": "pratos/hn-desayuno-tipico.jpg",
+      "autor": "Luis Alfredo Romero",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Honduran_breakfast.jpg"
+    },
+    "estado": "Francisco Morazán"
+  },
+  {
+    "id": "sv-pupusa-de-arroz",
+    "prato": "Pupusa de arroz",
+    "pais": "El Salvador",
+    "codigoPais": "SV",
+    "local": "Olocuilta, La Paz",
+    "cidade": "Olocuilta",
+    "regiao": "La Paz (zona paracentral)",
+    "latitude": 13.5665,
+    "longitude": -89.1166,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "massa de arroz",
+      "queijo",
+      "chicharrón (carne de porco moída)",
+      "feijão refrito",
+      "loroco (flor comestível)",
+      "curtido (repolho)",
+      "molho de tomate"
+    ],
+    "dica": "Disco grosso de massa recheada, feito com arroz numa cidade de nome indígena perto da estrada do aeroporto internacional do país.",
+    "curiosidade": "A versão de arroz surgiu em Olocuilta e ficou popular nos anos 1980, quando foi construída a estrada para o aeroporto internacional. A cidade já fez uma pupusa gigante de 4,5 metros!",
+    "comoSeFaz": "Faz-se uma bola de massa, abre-se um buraco no meio para pôr o recheio, fecha-se e bate-se a bola entre as mãos, como quem bate palmas, até virar um disco redondo. Come-se com as mãos, com molho de tomate e curtido.",
+    "fonte": "https://es.wikipedia.org/wiki/Pupusa",
+    "imagem": {
+      "arquivo": "pratos/sv-pupusa-de-arroz.jpg",
+      "autor": "JMRAFFi",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pupusas_en_comal.JPG"
+    },
+    "estado": "La Paz"
+  },
+  {
+    "id": "sv-chorizo-de-cojutepeque",
+    "prato": "Chorizo de Cojutepeque",
+    "pais": "El Salvador",
+    "codigoPais": "SV",
+    "local": "Cojutepeque, Cuscatlán",
+    "cidade": "Cojutepeque",
+    "regiao": "Cuscatlán (zona central)",
+    "latitude": 13.7217,
+    "longitude": -88.9344,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de porco",
+      "carne de boi",
+      "sal",
+      "especiarias e ervas",
+      "achiote (urucum)"
+    ],
+    "dica": "Linguiça avermelhada e picante, vendida por mulheres a quem passa de ônibus pela Rodovia Pan-Americana, no centro do país.",
+    "curiosidade": "Os primeiros embutidos da cidade são de por volta de 1740, e o sabor de hoje vem de imigrantes catalães que ensinaram suas receitas às mulheres locais. Em 1962 foi registrada ali a primeira marca de chouriço de El Salvador.",
+    "comoSeFaz": "Carne de porco e de boi é temperada com sal, especiarias, ervas e achiote e embutida em tripa natural. A técnica trazida da Europa usa cura ao ar e defumação.",
+    "fonte": "https://es.wikipedia.org/wiki/Cojutepeque",
+    "imagem": {
+      "arquivo": "pratos/sv-chorizo-de-cojutepeque.jpg",
+      "autor": "Ll1324",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chorizo_de_Cojutepeque.jpg"
+    },
+    "estado": "Cuscatlán"
+  },
+  {
+    "id": "sv-chilate-con-nuegados",
+    "prato": "Chilate con nuégados",
+    "pais": "El Salvador",
+    "codigoPais": "SV",
+    "local": "Chalatenango, Chalatenango",
+    "cidade": null,
+    "regiao": "Chalatenango (norte)",
+    "latitude": 14.0414,
+    "longitude": -88.9394,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "milho",
+      "mandioca",
+      "ovo",
+      "farinha",
+      "rapadura (dulce de panela)"
+    ],
+    "dica": "Bebida simples de milho servida com bolinhos banhados em melado escuro, comida de Semana Santa numa região de café do norte, na fronteira com Honduras.",
+    "curiosidade": "É um lanche típico da região, e na Semana Santa faz parte da comida tradicional, junto com mangas e jocotes em calda.",
+    "comoSeFaz": "O chilate é um atol simples de milho. Ele acompanha os nuégados, bolinhos de mandioca, ovo ou farinha, servidos com bastante mel de rapadura.",
+    "fonte": "https://es.wikipedia.org/wiki/Chalatenango",
+    "imagem": {
+      "arquivo": "pratos/sv-chilate-con-nuegados.jpg",
+      "autor": "robertorodriguex",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Los_id%C3%ADlicos_nu%C3%A9gados_y_pl%C3%A1tano_en_miel..._%40_Chilater%C3%ADa_y_Yuquer%C3%ADa_Chilita%2C_Santa_Ana%2C_SV.jpg"
+    },
+    "estado": "Chalatenango"
+  },
+  {
+    "id": "sv-yuca-frita",
+    "prato": "Yuca frita",
+    "pais": "El Salvador",
+    "codigoPais": "SV",
+    "local": "Metapán, Santa Ana",
+    "cidade": null,
+    "regiao": "Santa Ana (ocidente)",
+    "latitude": 14.3321,
+    "longitude": -89.4481,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "mandioca",
+      "óleo",
+      "curtido (repolho)",
+      "torresmo ou carne de porco",
+      "peixinhos fritos"
+    ],
+    "dica": "Pedaços de raiz frita e crocante servidos com salada de repolho, numa cidade do noroeste perto da fronteira com Guatemala e Honduras.",
+    "curiosidade": "É um dos pratos mais representativos do país, servido frito ou cozido, com torresmo ou peixinhos. Em Metapán, come-se com curtido, um picadinho de repolho.",
+    "comoSeFaz": "A mandioca é frita e vai à mesa com curtido, repolho picado que fermenta um pouco à temperatura ambiente antes de ser servido.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_El_Salvador",
+    "imagem": {
+      "arquivo": "pratos/sv-yuca-frita.jpg",
+      "autor": "Levystarr",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Empanada_y_yuca_frita_salvadore%C3%B1a.jpg"
+    },
+    "estado": "Santa Ana"
+  },
+  {
+    "id": "sv-sopa-de-pata",
+    "prato": "Sopa de pata",
+    "pais": "El Salvador",
+    "codigoPais": "SV",
+    "local": "San Salvador (prato nacional)",
+    "cidade": null,
+    "regiao": "San Salvador",
+    "latitude": 13.6976,
+    "longitude": -89.1912,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "patas de vaca",
+      "tripas (bucho)",
+      "chuchu (güisquil)",
+      "vagem",
+      "mandioca",
+      "milho",
+      "limão e pimenta"
+    ],
+    "dica": "Sopa encorpada feita com patas e tripas de boi e legumes, que lembra um prato antigo da Espanha e é comida em todo o país.",
+    "curiosidade": "O nome vem das patas de vaca, que dão sabor ao caldo. Ela é considerada uma versão local dos \"callos a la madrileña\", da Espanha.",
+    "comoSeFaz": "Cozinham-se patas de vaca e tripas até formar um caldo, com chuchu, vagem, mandioca e às vezes milho. Na hora de comer, pode-se pingar limão e pôr pimenta.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_El_Salvador",
+    "imagem": {
+      "arquivo": "pratos/sv-sopa-de-pata.jpg",
+      "autor": "Mima",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sopa_de_pata.jpg"
+    },
+    "estado": "San Salvador"
+  },
+  {
+    "id": "ni-vigoron",
+    "prato": "Vigorón",
+    "pais": "Nicarágua",
+    "codigoPais": "NI",
+    "local": "Granada, Granada",
+    "cidade": "Granada",
+    "regiao": "Granada (Pacífico)",
+    "latitude": 11.9304,
+    "longitude": -85.9536,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "repolho",
+      "tomate",
+      "cebola",
+      "pimenta",
+      "vinagre",
+      "mandioca cozida",
+      "torresmo (chicharrón)"
+    ],
+    "dica": "Cidade colonial antiga à beira do maior lago da América Central, onde o prato é servido sobre uma folha de bananeira.",
+    "curiosidade": "Segundo um livro de 1971, a receita foi criada em 1914 por María Luisa Cisneros Lacayo, que deu ao prato o nome de um tônico medicinal que viu num cartaz. Muitas vezes é comido com as mãos, sem talheres.",
+    "comoSeFaz": "Sobre uma folha de bananeira, coloca-se mandioca cozida, torresmo de porco e uma salada de repolho, tomate, cebola e pimenta curtida no vinagre com sal.",
+    "fonte": "https://en.wikipedia.org/wiki/Vigor%C3%B3n",
+    "imagem": {
+      "arquivo": "pratos/ni-vigoron.jpg",
+      "autor": "Nicaraguan food",
+      "licenca": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:VIGORON.JPG"
+    },
+    "estado": "Granada"
+  },
+  {
+    "id": "ni-quesillo",
+    "prato": "Quesillo",
+    "pais": "Nicarágua",
+    "codigoPais": "NI",
+    "local": "Nagarote, León",
+    "cidade": "Nagarote",
+    "regiao": "León (Pacífico)",
+    "latitude": 12.2667,
+    "longitude": -86.5667,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "tortilha de milho",
+      "quesillo (queijo macio)",
+      "cebola curtida",
+      "creme de leite",
+      "sal",
+      "pimenta"
+    ],
+    "dica": "Cidade das planícies do Pacífico, perto de um grande lago, onde o leite que sobrava virou um queijo macio enrolado em tortilha.",
+    "curiosidade": "Por volta de 1930, moradores perceberam que muito leite estragava por falta de geladeira e passaram a fazer esse queijo para conservá-lo. Uma cidade vizinha, La Paz Centro, também diz ter inventado a receita.",
+    "comoSeFaz": "O leite é aquecido, coalhado, escorrido e salgado até virar uma massa elástica. O queijo vai enrolado numa tortilha quente com cebola curtida e creme de leite.",
+    "fonte": "https://es.wikipedia.org/wiki/Quesillo_nicarag%C3%BCense",
+    "imagem": {
+      "arquivo": "pratos/ni-quesillo.jpg",
+      "autor": "Brian Johnson & Dane Kantner",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Quesillo_de_Nicaragua.jpg"
+    },
+    "estado": "León"
+  },
+  {
+    "id": "ni-indio-viejo",
+    "prato": "Indio viejo",
+    "pais": "Nicarágua",
+    "codigoPais": "NI",
+    "local": "Ilha de Ometepe, Rivas",
+    "cidade": null,
+    "regiao": "Rivas (Pacífico)",
+    "latitude": 11.5669,
+    "longitude": -85.5787,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "milho",
+      "tomate",
+      "urucum (achiote)",
+      "cebola",
+      "alho",
+      "carne desfiada",
+      "ervas"
+    ],
+    "dica": "Ilha formada por dois vulcões no meio de um enorme lago, onde vivia o povo nicarao antes da chegada dos espanhóis.",
+    "curiosidade": "O nome quer dizer \"índio velho\" e é um dos pratos mais antigos do país. Antes dos espanhóis, era feito com carne de veado, peru ou iguana.",
+    "comoSeFaz": "É um ensopado grosso, parecido com um mingau, de milho misturado com tomate, urucum, cebola, alho, ervas e carne desfiada. Na época colonial, usava-se um pilão para prepará-lo.",
+    "fonte": "https://en.wikipedia.org/wiki/Indio_viejo",
+    "imagem": {
+      "arquivo": "pratos/ni-indio-viejo.jpg",
+      "autor": "MiguelRamirez77",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indio-viejo-nicaraguense.jpg"
+    },
+    "estado": "Rivas"
+  },
+  {
+    "id": "ni-rosquillas-somotenas",
+    "prato": "Rosquillas somoteñas",
+    "pais": "Nicarágua",
+    "codigoPais": "NI",
+    "local": "Somoto, Madriz",
+    "cidade": "Somoto",
+    "regiao": "Madriz (Norte)",
+    "latitude": 13.4837,
+    "longitude": -86.5826,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "milho moído",
+      "cuajada (queijo fresco)",
+      "queijo",
+      "leite",
+      "açúcar de cana"
+    ],
+    "dica": "Cidade das montanhas do norte, perto da fronteira com Honduras, onde biscoitos de milho saem de grandes fornos a lenha.",
+    "curiosidade": "A cidade é considerada o berço desse biscoito crocante de milho, famoso em todo o país. Dá até para visitar as fábricas e aprender a fazer.",
+    "comoSeFaz": "A massa de milho é moldada em argolas com um centro de açúcar de cana e assada em grandes fornos de barro aquecidos a lenha.",
+    "fonte": "https://en.wikipedia.org/wiki/Somoto,_Madriz",
+    "imagem": {
+      "arquivo": "pratos/ni-rosquillas-somotenas.jpg",
+      "autor": "Zenia Núñez",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosquillas_Somote%C3%B1as.jpg"
+    },
+    "estado": "Madriz"
+  },
+  {
+    "id": "ni-nacatamal",
+    "prato": "Nacatamal",
+    "pais": "Nicarágua",
+    "codigoPais": "NI",
+    "local": "Manágua (prato nacional)",
+    "cidade": null,
+    "regiao": "Manágua (Pacífico)",
+    "latitude": 12.1364,
+    "longitude": -86.2514,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "massa de milho",
+      "carne de porco",
+      "batata",
+      "arroz",
+      "tomate",
+      "cebola",
+      "folha de bananeira"
+    ],
+    "dica": "Pacote embrulhado em folha de bananeira, herança do povo nahua, que as famílias preparam no fim de semana e no Natal.",
+    "curiosidade": "O nome vem da língua náuatle: \"nacatl\" quer dizer carne, e \"tamalli\", tamal. Muitas famílias começam a prepará-lo na sexta-feira para comer no sábado de manhã, com café e pão.",
+    "comoSeFaz": "A massa de milho é dividida em porções, recheada com carne de porco, batata, arroz e temperos, embrulhada em folha de bananeira e cozida.",
+    "fonte": "https://es.wikipedia.org/wiki/Nacatamal",
+    "imagem": {
+      "arquivo": "pratos/ni-nacatamal.jpg",
+      "autor": "Arturo Sotillo",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nacatamal_y_patacones_con_frijoles_molidos.jpg"
+    },
+    "estado": "Managua"
+  },
+  {
+    "id": "cr-chifrijo",
+    "prato": "Chifrijo",
+    "pais": "Costa Rica",
+    "codigoPais": "CR",
+    "local": "Tibás, San José",
+    "cidade": "Tibás",
+    "regiao": "San José (Vale Central)",
+    "latitude": 9.9589,
+    "longitude": -84.0825,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão",
+      "torresmo (chicharrón)",
+      "arroz",
+      "tomate",
+      "cebola roxa",
+      "limão",
+      "tortilhas de milho fritas"
+    ],
+    "dica": "Prato inventado num bar de um bairro vizinho da capital, no vale central cercado de montanhas e vulcões.",
+    "curiosidade": "O nome junta o começo das palavras chicharrón, chimichurri e frijoles (feijão). A família que diz tê-lo criado tentou registrar o nome como marca, mas a Justiça negou.",
+    "comoSeFaz": "Numa tigela vai uma base de feijão com caldo, arroz, pedaços de torresmo e, por cima, um vinagrete de tomate, cebola e limão, com tortilhas fritas na borda.",
+    "fonte": "https://es.wikipedia.org/wiki/Chifrijo",
+    "imagem": {
+      "arquivo": "pratos/cr-chifrijo.jpg",
+      "autor": "Roberto Rodríguez",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chifrijo.jpg"
+    },
+    "estado": "San José"
+  },
+  {
+    "id": "cr-churchill",
+    "prato": "Churchill",
+    "pais": "Costa Rica",
+    "codigoPais": "CR",
+    "local": "Puntarenas, Puntarenas",
+    "cidade": "Puntarenas",
+    "regiao": "Puntarenas (Pacífico Central)",
+    "latitude": 9.9773,
+    "longitude": -84.8346,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "gelo raspado",
+      "xarope",
+      "leite condensado",
+      "leite em pó",
+      "sorvete",
+      "frutas"
+    ],
+    "dica": "Gelado servido no calçadão de uma cidade portuária comprida e estreita, cercada pelo mar do Pacífico.",
+    "curiosidade": "Surgiu nos anos 1940. O nome é por causa de um comerciante que sempre comprava essa mistura e era parecido com o político britânico Winston Churchill.",
+    "comoSeFaz": "É uma raspadinha de gelo com xarope, leite condensado e leite em pó, com a diferença de que leva sorvete.",
+    "fonte": "https://es.wikipedia.org/wiki/Churchill_(postre)",
+    "imagem": {
+      "arquivo": "pratos/cr-churchill.jpg",
+      "autor": "Rodtico21",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Granizado_Churchill._Puntarenas._Costa_Rica.jpg"
+    },
+    "estado": "Puntarenas"
+  },
+  {
+    "id": "cr-rice-and-beans",
+    "prato": "Rice and beans",
+    "pais": "Costa Rica",
+    "codigoPais": "CR",
+    "local": "Limón, Limón",
+    "cidade": null,
+    "regiao": "Limón (Caribe)",
+    "latitude": 10.0022,
+    "longitude": -83.084,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "arroz",
+      "feijão vermelho",
+      "leite de coco",
+      "pimenta"
+    ],
+    "dica": "Litoral caribenho onde vivem descendentes de imigrantes vindos das Antilhas, que trouxeram o coco para a panela.",
+    "curiosidade": "O nome é em inglês porque a cozinha dessa região tem forte herança africana e antilhana. É considerado o prato típico da província por excelência.",
+    "comoSeFaz": "O arroz e o feijão vermelho são cozidos juntos no leite de coco, temperados com uma pimenta chamada chile panameño.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Costa_Rica",
+    "imagem": {
+      "arquivo": "pratos/cr-rice-and-beans.jpg",
+      "autor": "AndSalx95",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lim%C3%B3n_-_Rice_and_Beans.jpg"
+    },
+    "estado": "Limón"
+  },
+  {
+    "id": "cr-queso-turrialba",
+    "prato": "Queso Turrialba",
+    "pais": "Costa Rica",
+    "codigoPais": "CR",
+    "local": "Turrialba, Cartago",
+    "cidade": null,
+    "regiao": "Cartago (Vale Central)",
+    "latitude": 9.8897,
+    "longitude": -83.6807,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "leite de vaca",
+      "coalho",
+      "sal",
+      "fermento lácteo"
+    ],
+    "dica": "Queijo branco feito por famílias criadoras de vacas nas encostas de um vulcão que vive soltando fumaça.",
+    "curiosidade": "Já se fazia esse queijo em 1870, e em 2012 ele ganhou uma Denominação de Origem, um selo que protege o nome. Costuma ser comido com doces de frutas, como goiaba, e com café.",
+    "comoSeFaz": "O leite é filtrado, aquecido e coalhado; a coalhada é cortada, mexida, salgada e prensada em formas por cerca de 8 horas.",
+    "fonte": "https://es.wikipedia.org/wiki/Queso_Turrialba",
+    "imagem": {
+      "arquivo": "pratos/cr-queso-turrialba.jpg",
+      "autor": "Ana BR",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Queso_Turrialba.jpg"
+    },
+    "estado": "Cartago"
+  },
+  {
+    "id": "cr-tanelas",
+    "prato": "Tanelas",
+    "pais": "Costa Rica",
+    "codigoPais": "CR",
+    "local": "Nicoya, Guanacaste",
+    "cidade": null,
+    "regiao": "Guanacaste (Pacífico Norte)",
+    "latitude": 10.1062,
+    "longitude": -85.4862,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "massa de milho",
+      "queijo",
+      "panela (rapadura)",
+      "melado"
+    ],
+    "dica": "Doce de milho de uma região seca de fazendas de gado e vaqueiros, no noroeste do país, perto da fronteira com a Nicarágua.",
+    "curiosidade": "É vendido junto com rosquillas e tortilhas caseiras no mercado de Nicoya, e faz parte da cozinha de milho que é orgulho da região.",
+    "comoSeFaz": "É um pão doce de milho recheado com panela, melado e queijo.",
+    "fonte": "https://ict.go.cr/flipbook/guias/flip-en/GUIA_GUANACASTE_SUR/files/basic-html/page18.html",
+    "imagem": {
+      "arquivo": "pratos/cr-tanelas.jpg",
+      "autor": "Andrés Briceño",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tanelas.jpg"
+    },
+    "estado": "Guanacaste"
+  },
+  {
+    "id": "pa-sancocho",
+    "prato": "Sancocho",
+    "pais": "Panamá",
+    "codigoPais": "PA",
+    "local": "Chitré, Herrera",
+    "cidade": null,
+    "regiao": "Península de Azuero",
+    "latitude": 7.9667,
+    "longitude": -80.4333,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "galinha caipira",
+      "inhame",
+      "culantro",
+      "cebola",
+      "alho",
+      "orégano",
+      "pimenta"
+    ],
+    "dica": "Sopa de galinha caipira cozida em panela de ferro no fogão a lenha, numa península de fazendas no lado do Pacífico.",
+    "curiosidade": "Nessa região, se a sopa levar outra carne além da galinha, já não se chama sancocho, e sim \"sopa\". Em 2003, no centenário da República, um sancocho gigante de mais de 2.500 galões entrou para o Livro dos Recordes.",
+    "comoSeFaz": "Cozinha-se a galinha com inhame, o único tubérculo dessa versão, temperada com culantro, cebola, alho, orégano e pimenta, em panelas de ferro sobre fogão a lenha. Serve-se com arroz branco e fatias de banana-da-terra.",
+    "fonte": "https://es.wikipedia.org/wiki/Sancocho",
+    "imagem": {
+      "arquivo": "pratos/pa-sancocho.jpg",
+      "autor": "Daniestrella123",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sancocho_de_gallina_yopal.jpg"
+    },
+    "estado": "Herrera"
+  },
+  {
+    "id": "pa-bollo-prenao",
+    "prato": "Bollo preñao",
+    "pais": "Panamá",
+    "codigoPais": "PA",
+    "local": "La Chorrera, Panamá Oeste",
+    "cidade": "La Chorrera",
+    "regiao": "Panamá Oeste",
+    "latitude": 8.8792,
+    "longitude": -79.7822,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "milho amarelo seco",
+      "urucum (achiote)",
+      "culantro",
+      "cebola",
+      "alho",
+      "carne de boi ou de porco guisada",
+      "folhas para embrulhar"
+    ],
+    "dica": "Massa de milho recheada de carne, embrulhada em folhas e cozida em água, orgulho de uma cidade de feira famosa logo a oeste do canal.",
+    "curiosidade": "Já em 1518 uma carta contava que os indígenas do Darién comiam bollos. Na mesma cidade também é tradicional o bollo de manteiga, embrulhado em folhas de faldo.",
+    "comoSeFaz": "A massa de milho amarelo velho é temperada com urucum, culantro, cebola e alho e recheada com carne de boi ou de porco guisada. Depois é embrulhada em folhas e cozida em água fervente.",
+    "fonte": "https://es.wikipedia.org/wiki/Bollo_(envuelto)",
+    "imagem": {
+      "arquivo": "pratos/pa-bollo-prenao.jpg",
+      "autor": "George Lou",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bollos.jpg"
+    },
+    "estado": "Panamá"
+  },
+  {
+    "id": "pa-rondon",
+    "prato": "Rondón",
+    "pais": "Panamá",
+    "codigoPais": "PA",
+    "local": "Bocas del Toro, Bocas del Toro",
+    "cidade": null,
+    "regiao": "Caribe (Bocas del Toro)",
+    "latitude": 9.3403,
+    "longitude": -82.2411,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "leite de coco",
+      "peixe ou frutos do mar",
+      "banana-da-terra verde",
+      "inhame",
+      "mandioca",
+      "tomate",
+      "cebola"
+    ],
+    "dica": "Ensopado de peixe no leite de coco trazido por trabalhadores vindos da Jamaica, num arquipélago caribenho perto da fronteira com a Costa Rica.",
+    "curiosidade": "O nome vem do inglês \"run down\" (\"desmanchado\"), talvez porque o peixe cozinha até se desfazer. Chegou com trabalhadores afro-jamaicanos que vieram construir o Canal do Panamá e ferrovias.",
+    "comoSeFaz": "Cozinham-se peixe ou frutos do mar no leite de coco com banana-da-terra, inhame, mandioca, tomate e cebola, bem temperados. O leite de coco não pode faltar em nenhuma versão.",
+    "fonte": "https://es.wikipedia.org/wiki/Rond%C3%B3n_(plato)",
+    "imagem": {
+      "arquivo": "pratos/pa-rondon.jpg",
+      "autor": "Brian Johnson & Dane Kantner",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Run_down_%28stew%29.jpg"
+    },
+    "estado": "Bocas del Toro"
+  },
+  {
+    "id": "pa-almojabano",
+    "prato": "Almojábano",
+    "pais": "Panamá",
+    "codigoPais": "PA",
+    "local": "David, Chiriquí",
+    "cidade": null,
+    "regiao": "Chiriquí (oeste)",
+    "latitude": 8.4382,
+    "longitude": -82.4243,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "milho pilado",
+      "queijo branco salgado",
+      "óleo para fritar",
+      "carne de porco defumada (acompanhamento)"
+    ],
+    "dica": "Bolinho de milho com queijo em forma de \"S\", frito para o café da manhã na província mais a oeste, vizinha da Costa Rica.",
+    "curiosidade": "O nome vem do árabe e quer dizer algo como \"feito de queijo\". Por causa dos migrantes dessa província, ele também virou comida típica no sul da Costa Rica.",
+    "comoSeFaz": "A massa de milho pilado, cozido e moído é misturada com queijo branco salgado, moldada em forma de \"S\" e frita em óleo bem quente. Acompanha café, chocolate ou carne de porco defumada.",
+    "fonte": "https://es.wikipedia.org/wiki/Almoj%C3%A1bana",
+    "imagem": {
+      "arquivo": "pratos/pa-almojabano.jpg",
+      "autor": "NextPanama. You can check their authorship here",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cena_al_estilo_criollo_en_San_Andr%C3%A9s_%28Chiriqu%C3%AD%2C_Panam%C3%A1%29._Almoj%C3%A1banos_con_cerdo_ahumado.jpg"
+    },
+    "estado": "Chiriquí"
+  },
+  {
+    "id": "pa-tortilla-changa",
+    "prato": "Changa (tortilla changa)",
+    "pais": "Panamá",
+    "codigoPais": "PA",
+    "local": "Las Tablas, Los Santos",
+    "cidade": null,
+    "regiao": "Interior (Península de Azuero)",
+    "latitude": 7.7667,
+    "longitude": -80.2833,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "milho amarelo novo",
+      "queijo branco esfarelado",
+      "sal",
+      "água"
+    ],
+    "dica": "Tortilha grande e grossa de milho verde amarelo, assada numa panela de barro nas províncias rurais do interior, longe da capital.",
+    "curiosidade": "Cronistas já registravam tortilhas no Panamá em 1631 e 1640. A tortilha panamenha é diferente da mexicana, porque o milho não passa pela nixtamalização.",
+    "comoSeFaz": "Mói-se o milho amarelo novo e a massa, que pode ser misturada com queijo branco esfarelado, é assada sobre uma cazuela (panela de barro) até dourar.",
+    "fonte": "https://es.wikipedia.org/wiki/Tortilla_(Panam%C3%A1)",
+    "imagem": {
+      "arquivo": "pratos/pa-tortilla-changa.jpg",
+      "autor": "Panama1519",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Changa_paname%C3%B1a.jpg"
+    },
+    "estado": "Los Santos"
+  },
+  {
+    "id": "cu-ropa-vieja",
+    "prato": "Ropa vieja",
+    "pais": "Cuba",
+    "codigoPais": "CU",
+    "local": "Havana (prato nacional)",
+    "cidade": null,
+    "regiao": "La Habana",
+    "latitude": 23.1367,
+    "longitude": -82.3589,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "carne bovina desfiada",
+      "tomate",
+      "cebola",
+      "alho",
+      "pimentão",
+      "arroz e feijão preto (acompanhamento)"
+    ],
+    "dica": "Carne de boi desfiada em molho de tomate, servida com arroz, feijão preto e banana frita na maior ilha do Caribe.",
+    "curiosidade": "O nome quer dizer \"roupa velha\", talvez pela aparência da carne desfiada. O prato veio da Espanha com imigrantes das Ilhas Canárias e foi registrado na ilha pela primeira vez em 1857.",
+    "comoSeFaz": "A carne é cozida, desfiada e ensopada com tomate num refogado (sofrito). Costuma ser servida com arroz e feijão preto cozidos juntos e banana-da-terra frita.",
+    "fonte": "https://en.wikipedia.org/wiki/Ropa_vieja",
+    "imagem": {
+      "arquivo": "pratos/cu-ropa-vieja.jpg",
+      "autor": "El Mono Español",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ropa_vieja_plato_cubano_por_excelencia_1.jpg"
+    },
+    "estado": "La Habana"
+  },
+  {
+    "id": "cu-picadillo-a-la-habanera",
+    "prato": "Picadillo a la habanera",
+    "pais": "Cuba",
+    "codigoPais": "CU",
+    "local": "Havana, La Habana",
+    "cidade": null,
+    "regiao": "La Habana",
+    "latitude": 23.1367,
+    "longitude": -82.3589,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne moída de boi",
+      "batata em cubos",
+      "cebola",
+      "alho",
+      "pimentão vermelho e verde",
+      "alcaparras e azeitonas",
+      "uva-passa"
+    ],
+    "dica": "Carne moída com batatinhas, azeitonas e uvas-passas, prato-símbolo da cidade grande e portuária que é capital de uma ilha do Caribe.",
+    "curiosidade": "Surgiu entre as famílias pobres na época colonial: moer a carne era um jeito de aproveitar partes mais baratas do boi. O que sobra vira recheio de batatas recheadas.",
+    "comoSeFaz": "A carne moída é temperada com cebola, alho, pimentões e tomate e ganha batatas fritas em cubos, alcaparras, azeitonas e uvas-passas. Serve-se com arroz branco, feijão ou tostones.",
+    "fonte": "https://es.wikipedia.org/wiki/Picadillo_a_la_habanera",
+    "imagem": {
+      "arquivo": "pratos/cu-picadillo-a-la-habanera.jpg",
+      "autor": "El Mono Español",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Picadillo_a_la_habanera_%28edit%29.jpg"
+    },
+    "estado": "La Habana"
+  },
+  {
+    "id": "cu-ajiaco-criollo",
+    "prato": "Ajiaco criollo",
+    "pais": "Cuba",
+    "codigoPais": "CU",
+    "local": "Camagüey, Camagüey",
+    "cidade": "Camagüey",
+    "regiao": "Camagüey",
+    "latitude": 21.3786,
+    "longitude": -77.9186,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carnes de boi, porco e galinha",
+      "tasajo (carne-seca)",
+      "milho",
+      "abóbora",
+      "malanga e inhame",
+      "banana-da-terra",
+      "mandioca"
+    ],
+    "dica": "Sopa grossa com muitas carnes e raízes, feita nos bairros na noite de 24 de junho para abrir as festas de São João, numa cidade de planícies de gado no centro-leste da ilha.",
+    "curiosidade": "Conta a tradição que os vizinhos pobres juntavam o que cada um tinha para fazer a sopa, por isso ela leva tantos ingredientes. O pesquisador Fernando Ortiz dizia que \"Cuba é um ajiaco\", pela mistura de culturas.",
+    "comoSeFaz": "Cozinham-se carnes de boi, galinha e porco com tasajo, milho, abóbora, malanga, inhame, bananas, mandioca e batata-doce. Tempera-se com ají, cebola, alho, cominho, sal e limão.",
+    "fonte": "https://es.wikipedia.org/wiki/Ajiaco_criollo",
+    "imagem": {
+      "arquivo": "pratos/cu-ajiaco-criollo.jpg",
+      "autor": "Juan Emilio Prades Bel",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Caldosa_cubana%2C_sopa_y_ricos_sabores._Gastronom%C3%ADa_de_la_provincia_de_Villa_Clara%2C_Cuba.jpg"
+    },
+    "estado": "Camagüey"
+  },
+  {
+    "id": "cu-mollete-melenero",
+    "prato": "Mollete melenero",
+    "pais": "Cuba",
+    "codigoPais": "CU",
+    "local": "Melena del Sur, Mayabeque",
+    "cidade": "Melena del Sur",
+    "regiao": "Mayabeque",
+    "latitude": 22.7814,
+    "longitude": -82.1486,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "pão branco redondo",
+      "carne moída temperada (picadillo)",
+      "caldo de galinha",
+      "ovo",
+      "farinha",
+      "óleo ou banha"
+    ],
+    "dica": "Pão recheado de carne moída, passado no ovo e frito, tradição de uma cidadezinha a uns 50 km ao sul da capital.",
+    "curiosidade": "Começou no início do século 20, quando um andaluz abriu ali uma casa de comida e passou a vender pães recheados. Outros vendedores copiaram a ideia e ela virou tradição local.",
+    "comoSeFaz": "Abre-se o pão, tira-se o miolo, rega-se com caldo de galinha e recheia-se com picadillo. Depois o pão é fechado, passado em ovo com farinha e frito em óleo ou banha.",
+    "fonte": "https://es.wikipedia.org/wiki/Mollete_melenero",
+    "imagem": {
+      "arquivo": "pratos/cu-mollete-melenero.jpg",
+      "autor": "CCultura Melena",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mollete_melenero_%28Melena_del_Sur%2C_Cuba%29.jpg"
+    },
+    "estado": "Mayabeque"
+  },
+  {
+    "id": "cu-congri",
+    "prato": "Congrí",
+    "pais": "Cuba",
+    "codigoPais": "CU",
+    "local": "Santiago de Cuba, Santiago de Cuba",
+    "cidade": null,
+    "regiao": "Oriente (leste da ilha)",
+    "latitude": 20.0217,
+    "longitude": -75.8294,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "arroz branco",
+      "feijão vermelho",
+      "cebola",
+      "alho",
+      "pimentão",
+      "cominho",
+      "louro"
+    ],
+    "dica": "Arroz cozido junto com feijão vermelho na mesma panela, comida tradicional da ponta leste da ilha, a região mais montanhosa.",
+    "curiosidade": "Quando o feijão é preto, o prato se chama \"mouros e cristãos\" (o feijão são os mouros e o arroz, os cristãos). A versão com feijão vermelho, chamada congrí, é a tradicional do leste da ilha.",
+    "comoSeFaz": "Faz-se um refogado de cebola, alho e pimentões; junta-se o arroz, o feijão já cozido e a água do cozimento, com cominho, orégano e louro. Arroz e feijão cozinham juntos na mesma panela.",
+    "fonte": "https://en.wikipedia.org/wiki/Moros_y_Cristianos_(dish)",
+    "imagem": {
+      "arquivo": "pratos/cu-congri.jpg",
+      "autor": "Juan Emilio Prades Bel",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Arroz_%22Congri%22.jpg"
+    },
+    "estado": "Santiago de Cuba"
+  },
+  {
+    "id": "do-mangu",
+    "prato": "Mangú",
+    "pais": "República Dominicana",
+    "codigoPais": "DO",
+    "local": "Santo Domingo (prato nacional)",
+    "cidade": null,
+    "regiao": "Distrito Nacional",
+    "latitude": 18.4625,
+    "longitude": -69.9361,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "banana-da-terra verde",
+      "sal",
+      "manteiga",
+      "cebola refogada no vinagre",
+      "salame frito",
+      "queijo branco frito",
+      "ovo frito"
+    ],
+    "dica": "Purê salgado de uma fruta verde parente da banana, servido no café da manhã com salame, queijo e ovo fritos.",
+    "curiosidade": "Uma lenda diz que o nome veio de soldados americanos que exclamavam \"Man, good!\", mas o mais provável é que venha de \"mangusi\", palavra usada no Congo para um tubérculo cozido e amassado. Com salame, queijo frito e ovo, ele vira o famoso \"los tres golpes\".",
+    "comoSeFaz": "As bananas-da-terra verdes são cozidas em água com sal e amassadas com um pouco da água do cozimento e manteiga, até ficarem cremosas.",
+    "fonte": "https://es.wikipedia.org/wiki/Mang%C3%BA",
+    "imagem": {
+      "arquivo": "pratos/do-mangu.jpg",
+      "autor": "Ll1324",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dominican_Mangu.jpg"
+    },
+    "estado": "Distrito Nacional"
+  },
+  {
+    "id": "do-yaniqueque",
+    "prato": "Yaniqueque",
+    "pais": "República Dominicana",
+    "codigoPais": "DO",
+    "local": "Boca Chica, Santo Domingo",
+    "cidade": null,
+    "regiao": "Santo Domingo",
+    "latitude": 18.4539,
+    "longitude": -69.6064,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "farinha de trigo",
+      "fermento em pó",
+      "sal",
+      "água",
+      "manteiga",
+      "óleo para fritar"
+    ],
+    "dica": "Disco fino, frito e crocante vendido na areia de uma praia muito movimentada perto da capital.",
+    "curiosidade": "É a versão dominicana do johnnycake, pão do Caribe que teria chegado no século XIX com migrantes de língua inglesa. Virou um lanche de praia muito popular.",
+    "comoSeFaz": "A massa de farinha é aberta bem fina e frita em óleo quente até ficar dourada e crocante.",
+    "fonte": "https://en.wikipedia.org/wiki/Johnnycake",
+    "imagem": {
+      "arquivo": "pratos/do-yaniqueque.jpg",
+      "autor": "Ll1324",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Yaniqueques_2012.jpg"
+    },
+    "estado": "Santo Domingo"
+  },
+  {
+    "id": "do-puerco-a-la-puya",
+    "prato": "Puerco a la puya",
+    "pais": "República Dominicana",
+    "codigoPais": "DO",
+    "local": "Santiago de los Caballeros, Santiago",
+    "cidade": null,
+    "regiao": "Santiago (Cibao)",
+    "latitude": 19.45,
+    "longitude": -70.7,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "porco",
+      "pimenta",
+      "sal",
+      "caldo de galinha",
+      "alho",
+      "orégano"
+    ],
+    "dica": "Porco assado devagar ao ar livre sobre a lenha, estrela da ceia de Natal no grande vale do norte do país.",
+    "curiosidade": "É com esse nome que o porco assado é conhecido em Santiago de los Caballeros. Ele é comido o ano inteiro, mas principalmente no Natal.",
+    "comoSeFaz": "O porco é temperado com pimenta, sal, caldo de galinha, alho e orégano e assado ao ar livre com lenha. Também pode ser feito no forno de casa ou direto no carvão.",
+    "fonte": "https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_la_Rep%C3%BAblica_Dominicana",
+    "imagem": {
+      "arquivo": "pratos/do-puerco-a-la-puya.jpg",
+      "autor": "Jos1950",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Puerco_asado_117.jpg"
+    },
+    "estado": "Santiago"
+  },
+  {
+    "id": "do-casabe",
+    "prato": "Casabe",
+    "pais": "República Dominicana",
+    "codigoPais": "DO",
+    "local": "Monción, Santiago Rodríguez",
+    "cidade": null,
+    "regiao": "Santiago Rodríguez (Cibao)",
+    "latitude": 19.4167,
+    "longitude": -71.1667,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "mandioca-brava (yuca amarga)",
+      "água"
+    ],
+    "dica": "Pão redondo, fino e crocante herdado dos povos indígenas taínos, assado numa chapa de barro.",
+    "curiosidade": "O município é o maior produtor do país e por isso é chamado de \"capital do casabe\". Na Rota do Casabe, os visitantes podem assar o seu num burén, do jeito tradicional.",
+    "comoSeFaz": "A mandioca é ralada e espremida para tirar o suco, a massa seca vira farinha e é assada em discos finos sobre o burén.",
+    "fonte": "https://es.wikipedia.org/wiki/Monci%C3%B3n",
+    "imagem": {
+      "arquivo": "pratos/do-casabe.jpg",
+      "autor": "Félix Manuel Rodríguez",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Elaboración_de_Casabe_en_Buren_01.jpg"
+    },
+    "estado": "Santiago Rodríguez"
+  },
+  {
+    "id": "do-habichuelas-con-dulce",
+    "prato": "Habichuelas con dulce",
+    "pais": "República Dominicana",
+    "codigoPais": "DO",
+    "local": "Santo Domingo (prato nacional)",
+    "cidade": null,
+    "regiao": "Distrito Nacional",
+    "latitude": 18.4625,
+    "longitude": -69.9361,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão-vermelho",
+      "batata-doce",
+      "leite de coco",
+      "leite evaporado",
+      "açúcar",
+      "uva-passa",
+      "canela"
+    ],
+    "dica": "Creme doce feito de feijão, comido em família durante a Quaresma e a Semana Santa.",
+    "curiosidade": "A primeira menção escrita está num livro de 1929, que o chama de \"prato favorito da Quaresma\". Ninguém sabe ao certo sua origem: há teorias africana, canária, otomana e francesa.",
+    "comoSeFaz": "O feijão e a batata-doce são cozidos e amassados num purê, que ferve com os leites, o açúcar, a canela e as passas até engrossar. Serve-se quente ou frio, com biscoitinhos ou casabe por cima.",
+    "fonte": "https://es.wikipedia.org/wiki/Habichuelas_con_dulce",
+    "imagem": {
+      "arquivo": "pratos/do-habichuelas-con-dulce.jpg",
+      "autor": "Arlene Campusano",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Habichuelas_con_dulce_dominicana.jpg"
+    },
+    "estado": "Distrito Nacional"
+  },
+  {
+    "id": "ht-dous-makos",
+    "prato": "Dous makòs",
+    "pais": "Haiti",
+    "codigoPais": "HT",
+    "local": "Petit-Goâve, Ouest",
+    "cidade": "Petit-Goâve",
+    "regiao": "Ouest",
+    "latitude": 18.4314,
+    "longitude": -72.8669,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "leite",
+      "açúcar",
+      "baunilha",
+      "chocolate",
+      "canela",
+      "corante vermelho"
+    ],
+    "dica": "Doce firme de leite em três faixas coloridas, criado numa cidade do litoral a oeste da capital.",
+    "curiosidade": "As raízes do doce vêm de 1939, quando o belgo-haitiano Fernand Macos se inspirou no turrón, um doce espanhol. A cidade ficou famosa por ele.",
+    "comoSeFaz": "É um doce à base de leite montado em três camadas: bege (baunilha), marrom (chocolate) e rosa ou vermelha (corante).",
+    "fonte": "https://www.uncommoncaribbean.com/haiti/petit-goave-dous-makos-sweet-heart-of-haiti/",
+    "imagem": {
+      "arquivo": "pratos/ht-dous-makos.jpg",
+      "autor": "Didier Moïse",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dous_Makos_(Haitian_Fudge).jpg"
+    },
+    "estado": "Ouest"
+  },
+  {
+    "id": "ht-soup-joumou",
+    "prato": "Soup joumou",
+    "pais": "Haiti",
+    "codigoPais": "HT",
+    "local": "Porto Príncipe (prato nacional)",
+    "cidade": null,
+    "regiao": "Ouest",
+    "latitude": 18.5364,
+    "longitude": -72.3464,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "abóbora",
+      "carne bovina",
+      "batata",
+      "malanga",
+      "repolho",
+      "cenoura",
+      "macarrão fino"
+    ],
+    "dica": "Sopa alaranjada comida no dia 1º de janeiro para festejar a liberdade do país.",
+    "curiosidade": "Na época colonial, os escravizados plantavam a abóbora mas eram proibidos de comê-la; com a independência, em 1804, a sopa virou símbolo de liberdade. Em 2021 ela entrou na lista de patrimônio imaterial da UNESCO.",
+    "comoSeFaz": "A carne cozinha até ficar macia e a abóbora é batida em purê e misturada ao caldo com os legumes. Serve-se quente, com pão francês.",
+    "fonte": "https://en.wikipedia.org/wiki/Soup_joumou",
+    "imagem": {
+      "arquivo": "pratos/ht-soup-joumou.jpg",
+      "autor": "Lëa-Kim Châteauneuf",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Soup_joumou.jpg"
+    },
+    "estado": "Ouest"
+  },
+  {
+    "id": "ht-griot",
+    "prato": "Griot",
+    "pais": "Haiti",
+    "codigoPais": "HT",
+    "local": "Porto Príncipe, Ouest",
+    "cidade": null,
+    "regiao": "Ouest",
+    "latitude": 18.5364,
+    "longitude": -72.3464,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de porco",
+      "cebolinha",
+      "pimenta",
+      "laranja-amarga",
+      "arroz",
+      "feijão"
+    ],
+    "dica": "Pedaços de porco temperados com laranja azeda e fritos, servidos com arroz e feijão na região da capital.",
+    "curiosidade": "Na lista de pratos típicos por departamento do Haiti, o arroz com feijão e griot aparece como prato do Oeste, onde fica a capital.",
+    "comoSeFaz": "A carne de porco é temperada com cebolinha e pimenta num molho de laranja-amarga e depois frita.",
+    "fonte": "https://en.wikipedia.org/wiki/Haitian_cuisine",
+    "imagem": {
+      "arquivo": "pratos/ht-griot.jpg",
+      "autor": "Lëa-Kim Châteauneuf",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Griot_haïtien.jpg"
+    },
+    "estado": "Ouest"
+  },
+  {
+    "id": "ht-tonmtonm",
+    "prato": "Tonmtonm",
+    "pais": "Haiti",
+    "codigoPais": "HT",
+    "local": "Jérémie, Grand'Anse",
+    "cidade": null,
+    "regiao": "Grand'Anse",
+    "latitude": 18.65,
+    "longitude": -74.1167,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "fruta-pão",
+      "quiabo",
+      "carne",
+      "peixe",
+      "caranguejo",
+      "temperos"
+    ],
+    "dica": "Massa de fruta-pão pilada que se engole sem mastigar, com molho de quiabo, na ponta sudoeste do país.",
+    "curiosidade": "Ela é engolida sem mastigar, com a ajuda de um molho escorregadio de quiabo chamado kalalou.",
+    "comoSeFaz": "A fruta-pão é cozida no vapor e amassada num pilão; o molho de quiabo é cozido com carne, peixe, caranguejo e temperos.",
+    "fonte": "https://en.wikipedia.org/wiki/Haitian_cuisine",
+    "imagem": {
+      "arquivo": "pratos/ht-tonmtonm.jpg",
+      "autor": "Tenzenwest",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sos_kalalou.jpg"
+    },
+    "estado": "Grand'Anse"
+  },
+  {
+    "id": "ht-espageti-ayisyen",
+    "prato": "Espageti ayisyen",
+    "pais": "Haiti",
+    "codigoPais": "HT",
+    "local": "Porto Príncipe, Ouest",
+    "cidade": null,
+    "regiao": "Ouest",
+    "latitude": 18.5364,
+    "longitude": -72.3464,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "espaguete",
+      "salsicha",
+      "epis (tempero haitiano)",
+      "extrato de tomate ou ketchup",
+      "cebola",
+      "alho",
+      "pimentão"
+    ],
+    "dica": "Macarrão com salsicha e molho de tomate comido no café da manhã, que surgiu durante uma ocupação estrangeira no século XX.",
+    "curiosidade": "Surgiu durante a ocupação americana (1915-1934), quando chegaram ao país a salsicha e o ketchup. Não tem receita única: muda de casa para casa.",
+    "comoSeFaz": "Refogam-se cebola e pimentão, doura-se a salsicha, junta-se o epis e o molho de tomate e, por fim, o espaguete cozido, salteando até o molho reduzir.",
+    "fonte": "https://en.wikipedia.org/wiki/Haitian_spaghetti",
+    "imagem": {
+      "arquivo": "pratos/ht-espageti-ayisyen.jpg",
+      "autor": "Valereee",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Haitian_spaghetti.jpg"
+    },
+    "estado": "Ouest"
+  },
+  {
+    "id": "br-soba",
+    "prato": "Sobá",
+    "pais": "Brasil",
+    "codigoPais": "BR",
+    "local": "Campo Grande, Mato Grosso do Sul",
+    "cidade": "Campo Grande",
+    "regiao": "Centro-Oeste",
+    "latitude": -20.4697,
+    "longitude": -54.6201,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "macarrão de trigo",
+      "carne de porco",
+      "caldo de carne",
+      "cebolinha",
+      "shoyu",
+      "gengibre"
+    ],
+    "dica": "Sopa de macarrão trazida por imigrantes de uma ilha japonesa para uma capital do Pantanal, servida numa feira que funciona numa antiga estação de trem.",
+    "curiosidade": "Veio com imigrantes da ilha japonesa de Okinawa e foi declarado patrimônio cultural imaterial da cidade em 2006. Há até um festival só para ele.",
+    "comoSeFaz": "O macarrão de trigo é servido num caldo quente com carne de porco e condimentos como cebolinha e gengibre. A receita original foi adaptada ao gosto local.",
+    "fonte": "https://pt.wikipedia.org/wiki/Sob%C3%A1",
+    "imagem": {
+      "arquivo": "pratos/br-soba.jpg",
+      "autor": "Flavio Andre/MTur Destinos",
+      "licenca": "Attribution",
+      "url": "https://commons.wikimedia.org/wiki/File:Sob%C3%A1.jpg"
+    },
+    "estado": "Mato Grosso do Sul"
   }
 ]
