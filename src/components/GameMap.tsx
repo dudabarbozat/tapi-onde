@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { Prato } from '@/data/pratos';
-import { comArtigo, naDivisao, paisPorCodigo } from '@/data/countries';
+import { comArtigo, emPais, naDivisao, paisPorCodigo } from '@/data/countries';
 import { Progresso, type ProgressoProps } from '@/components/Progresso';
 import { MapaEstados } from '@/components/MapaEstados';
 import type { Marcacao } from '@/utils/estados';
@@ -22,10 +22,10 @@ export const GameMap = ({ recipe, progresso, onGuess }: GameMapProps) => {
       <section className="painel p-4 sm:p-6">
         <Progresso {...progresso} />
         <h2 className="mt-4 text-2xl sm:text-3xl">
-          📍 Em qual {divisao.nome} {comArtigo(recipe.pais)} este prato nasceu?
+          📍 {pais?.divisaoUnica ? `Onde ${emPais(recipe.pais)} este prato nasceu?` : `Em qual ${divisao.nome} ${comArtigo(recipe.pais)} este prato nasceu?`}
         </h2>
         <p className="mt-1 text-stone-700">
-          Toque {naDivisao(divisao)} no mapa. Use + e − para aproximar. Pode trocar antes de confirmar.
+          {pais?.divisaoUnica ? 'Toque no ponto exato: até 50 km da origem vale como acerto.' : `Toque ${naDivisao(divisao)} no mapa.`} Use + e − para aproximar. Pode trocar antes de confirmar.
         </p>
         <p className="mt-3 rounded-xl bg-green-50 px-4 py-2 text-green-950">
           <b>Ingredientes:</b> {recipe.ingredientes.join(', ')}
@@ -51,7 +51,13 @@ export const GameMap = ({ recipe, progresso, onGuess }: GameMapProps) => {
 
         <div className="sticky bottom-3 z-[1000] mt-4 text-center">
           <button type="button" onClick={() => marcacao && onGuess(marcacao)} disabled={!marcacao} className="botao-principal w-full shadow-lg sm:w-auto">
-            {marcacao ? `Confirmar: ${marcacao.estado} ✓` : `Toque em ${divisao.feminino ? 'uma' : 'um'} ${divisao.nome} no mapa`}
+            {marcacao
+              ? pais?.divisaoUnica
+                ? 'Confirmar palpite ✓'
+                : `Confirmar: ${marcacao.estado} ✓`
+              : pais?.divisaoUnica
+                ? 'Toque no mapa'
+                : `Toque em ${divisao.feminino ? 'uma' : 'um'} ${divisao.nome} no mapa`}
           </button>
         </div>
       </section>

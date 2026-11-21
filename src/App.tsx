@@ -88,7 +88,9 @@ const App = () => {
     const { prato } = vez;
     const ms = inicioRodada === null ? 0 : Date.now() - inicioRodada;
     const distancia = calculateDistance(m.lat, m.lng, prato.latitude, prato.longitude);
-    const acertou = m.estado === prato.estado || distancia <= 50;
+    // Sem divisões internas (Porto Rico, Guiana Francesa), só vale a distância.
+    const unica = paisPorCodigo(prato.codigoPais)?.divisaoUnica;
+    const acertou = distancia <= 50 || (!unica && m.estado === prato.estado);
     const novo: ResultadoRodada = { prato, jogador: vez.jogador, marcacao: m, distancia, acertou, ...pontuar(acertou, distancia, ms / 1000), ms };
     const completo = [...historico, novo];
     setHistorico(completo);

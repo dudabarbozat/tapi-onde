@@ -85,8 +85,10 @@ export const MapaEstados = (props: Props) => {
           const atual = propsAtuais.current;
           if (atual.modo !== 'resultado') return;
           const { palpite: p, origem: o } = atual;
-          const certo = camadas.get(o.estado);
-          const marcado = camadas.get(p.estado);
+          // Sem divisões internas, pintar o território inteiro não diz nada: ficam só os pontos e a linha.
+          const unica = paisPorCodigo(codigoPais)?.divisaoUnica;
+          const certo = unica ? undefined : camadas.get(o.estado);
+          const marcado = unica ? undefined : camadas.get(p.estado);
           if (marcado && marcado !== certo) marcado.setStyle({ fillColor: AZUL, fillOpacity: 0.45, color: '#1e3a8a', weight: 2 });
           certo?.setStyle({ fillColor: VERDE, fillOpacity: 0.6, color: '#14532d', weight: 2.5, opacity: 1 });
           certo?.bringToFront();

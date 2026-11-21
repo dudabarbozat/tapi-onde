@@ -27,7 +27,7 @@ export const IngredientsDisplay = ({ recipe, progresso, jogador, onContinue }: I
           {pais && <img src={pais.bandeira} alt="" className="h-5 w-7 rounded-sm object-cover ring-1 ring-stone-300" />}
           Prato típico {comArtigo(recipe.pais)}
         </p>
-        <h2 className="mt-3 text-3xl sm:text-4xl">De qual {divisao} é este prato?</h2>
+        <h2 className="mt-3 text-3xl sm:text-4xl">{pais?.divisaoUnica ? 'De onde é este prato?' : `De qual ${divisao} é este prato?`}</h2>
         <p className="mt-1 text-stone-700">Leia as pistas. Depois, toque no mapa {comArtigo(recipe.pais)} onde ele nasceu.</p>
 
         <h3 className="mt-6 text-lg">🌿 Ingredientes</h3>

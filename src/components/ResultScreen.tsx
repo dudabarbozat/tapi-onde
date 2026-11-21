@@ -70,7 +70,8 @@ const Resumo = ({ historico, nome }: { historico: ResultadoRodada[]; nome: strin
 export const ResultScreen = ({ resultado, historico, progresso, jogadores, proximo, isLastRound, onNextRound, onRestart }: ResultScreenProps) => {
   const { prato, marcacao } = resultado;
   const divisao = paisPorCodigo(prato.codigoPais)?.divisao ?? { nome: 'estado', plural: 'estados', feminino: false };
-  const d = desempenho(resultado, `${divisao.feminino ? 'a' : 'o'} ${divisao.nome}`);
+  const unica = paisPorCodigo(prato.codigoPais)?.divisaoUnica;
+  const d = desempenho(resultado, unica ? 'em cheio' : `${divisao.feminino ? 'a' : 'o'} ${divisao.nome}`);
   const [fotoOk, setFotoOk] = useState(true);
   const emGrupo = jogadores.length > 1;
   const placar = emGrupo ? montarPlacar(jogadores, historico) : [];
@@ -88,7 +89,11 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
             {emGrupo && <p className="etiqueta mb-1 bg-blue-100 text-blue-900">👤 {jogadores[resultado.jogador]}</p>}
             <h2 className={`text-3xl sm:text-4xl ${d.cor}`}>{d.texto}</h2>
             <p className="mt-1 text-stone-700">
-              {resultado.acertou ? (
+              {unica ? (
+                <>
+                  Seu palpite ficou a <b>{formatDistance(resultado.distancia)}</b> da origem.
+                </>
+              ) : resultado.acertou ? (
                 <>
                   Você marcou <b>{marcacao.estado}</b>, o lugar certo.
                 </>
@@ -141,10 +146,12 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
               <span className="h-3 w-3 rounded-full bg-red-600" />
               Origem do prato
             </span>
-            <span className="flex items-center gap-2">
-              <span className="h-3 w-4 rounded-sm bg-green-600" />
-              {divisao.nome[0].toUpperCase() + divisao.nome.slice(1)} {divisao.feminino ? 'certa' : 'certo'}
-            </span>
+            {!unica && (
+              <span className="flex items-center gap-2">
+                <span className="h-3 w-4 rounded-sm bg-green-600" />
+                {divisao.nome[0].toUpperCase() + divisao.nome.slice(1)} {divisao.feminino ? 'certa' : 'certo'}
+              </span>
+            )}
           </figcaption>
         </figure>
 

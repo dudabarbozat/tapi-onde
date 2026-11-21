@@ -29,7 +29,8 @@ const estilo = (codigo: string, nivel: 'normal' | 'destaque' | 'escolhido'): L.P
 /** Mapa da América Latina para escolher o país: cada país com a cor da sua bandeira. */
 export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: MapaEscolhaProps) => {
   const container = useRef<HTMLDivElement>(null);
-  const camadas = useRef(new Map<string, L.Path>());
+  // Um país pode ter mais de uma camada: o desenho e, nas ilhas pequenas, o ponto clicável.
+  const camadas = useRef(new Map<string, L.Path[]>());
   const rotulos = useRef(new Map<string, L.Tooltip>());
   const callbacks = useRef({ onDestaque, onEscolher });
   callbacks.current = { onDestaque, onEscolher };
@@ -50,23 +51,37 @@ export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: Ma
     });
     L.control.attribution({ prefix: false }).addAttribution('Fronteiras: Natural Earth').addTo(mapa);
 
+    const registrar = (codigo: string, path: L.Path) => {
+      camadas.current.set(codigo, [...(camadas.current.get(codigo) ?? []), path]);
+      path.on({
+        mouseover: () => callbacks.current.onDestaque(codigo),
+        mouseout: () => callbacks.current.onDestaque(null),
+        click: () => callbacks.current.onEscolher(codigo),
+      });
+    };
+
     const geo = L.geoJSON(fronteiras as FeatureCollection<Geometry, Props>, {
       style: (f) => (f?.properties.codigo && paisesJogaveis.includes(f.properties.codigo) ? estilo(f.properties.codigo, 'normal') : VIZINHO),
       onEachFeature: (f, camada) => {
         const codigo = (f.properties as Props).codigo;
         if (!codigo || !paisesJogaveis.includes(codigo)) return;
-        const path = camada as L.Path;
-        camadas.current.set(codigo, path);
-        path.on({
-          mouseover: () => callbacks.current.onDestaque(codigo),
-          mouseout: () => callbacks.current.onDestaque(null),
-          click: () => callbacks.current.onEscolher(codigo),
-        });
+        registrar(codigo, camada as L.Path);
       },
     }).addTo(mapa);
 
+    // Ilhas pequenas demais para tocar ganham um ponto na cor do país.
+    for (const c of countriesData.filter((p) => p.ilha && paisesJogaveis.includes(p.codigo))) {
+      registrar(c.codigo, L.circleMarker(c.rotulo, { ...estilo(c.codigo, 'normal'), radius: 7 }).addTo(mapa));
+    }
+
     for (const c of countriesData.filter((p) => paisesJogaveis.includes(p.codigo))) {
-      const rotulo = L.tooltip({ permanent: true, direction: 'center', className: `rotulo-pais${c.pequeno ? ' rotulo-pequeno' : ''}` }).setLatLng(c.rotulo).setContent(c.pais);
+      const rotulo = L.tooltip({
+        permanent: true,
+        // Nas ilhas, o nome fica ao lado do ponto para não cobri-lo.
+        direction: c.ilha ? 'right' : 'center',
+        offset: c.ilha ? [8, 0] : [0, 0],
+        className: `rotulo-pais${c.pequeno ? ' rotulo-pequeno' : ''}`,
+      }).setLatLng(c.rotulo).setContent(c.pais);
       rotulos.current.set(c.codigo, rotulo);
       mapa.openTooltip(rotulo);
     }
@@ -91,16 +106,18 @@ export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: Ma
   }, []);
 
   useEffect(() => {
-    camadas.current.forEach((camada, codigo) => {
+    camadas.current.forEach((partes, codigo) => {
       // Um país escolhido ganha contorno forte; uma região inteira (modo em grupo) fica colorida e o resto em cinza.
       const regiao = escolhidos.length > 1;
       if (regiao && !escolhidos.includes(codigo)) {
-        camada.setStyle(VIZINHO);
+        partes.forEach((p) => p.setStyle(VIZINHO));
         return;
       }
       const nivel = !regiao && escolhidos.includes(codigo) ? 'escolhido' : codigo === destaque ? 'destaque' : 'normal';
-      camada.setStyle(estilo(codigo, nivel));
-      if (nivel !== 'normal') camada.bringToFront();
+      partes.forEach((p) => {
+        p.setStyle(estilo(codigo, nivel));
+        if (nivel !== 'normal') p.bringToFront();
+      });
       // Nome dos países pequenos: só no destaque ou quando é o único escolhido (evita sobreposição).
       const visivel = codigo === destaque || (escolhidos.length === 1 && escolhidos[0] === codigo);
       rotulos.current.get(codigo)?.getElement()?.classList.toggle('rotulo-visivel', visivel);
