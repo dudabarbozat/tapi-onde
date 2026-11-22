@@ -1,16 +1,64 @@
 import { useRef, useState } from 'react';
-import { Github, Play, User, Users } from 'lucide-react';
+import { CalendarDays, Github, Globe2, Play, User, Users } from 'lucide-react';
 import { countriesData, GRUPOS, paisPorCodigo, porPais } from '@/data/countries';
 import { arquivoPublico } from '@/data/pratos';
 import { MapaEscolha } from '@/components/MapaEscolha';
 import { Ranking } from '@/components/Ranking';
 import { BONUS_MAXIMO } from '@/utils/gameLogic';
+import { hoje, lerDesafio, lerSequencia, PRATOS_POR_VOLTA, type TipoVolta } from '@/utils/volta';
 import { codigosDoDestino, nomesDosJogadores, paisesJogaveis, pratosDoDestino, PRATOS_SOZINHO, REGIOES, type Configuracao, type Regiao } from '@/utils/partida';
 
 interface CountrySelectionProps {
   nomeInicial: string;
   onComecar: (config: Configuracao) => void;
+  onVolta: (tipo: TipoVolta) => void;
 }
+
+/** Desafio do Dia e volta livre: o mapa inteiro, começando só pelos ingredientes. */
+const CartaoVolta = ({ onVolta }: { onVolta: (tipo: TipoVolta) => void }) => {
+  const data = hoje();
+  const feitas = lerDesafio(data);
+  const sequencia = lerSequencia(data);
+  const completo = feitas.length >= PRATOS_POR_VOLTA;
+  const pontos = feitas.reduce((s, r) => s + r.pontos, 0);
+
+  return (
+    <section aria-labelledby="titulo-volta" className="mb-8 rounded-3xl border-2 border-yellow-300 bg-yellow-50 p-5 text-green-950 sm:p-6">
+      <div className="flex flex-col gap-5 md:flex-row md:items-center">
+        <div className="flex-1">
+          <p className="etiqueta bg-green-900 text-white">Novo</p>
+          <h2 id="titulo-volta" className="mt-2 text-2xl sm:text-3xl">
+            🌎 Volta pela América Latina
+          </h2>
+          <p className="mt-1 text-lg text-stone-800">
+            Sem escolher país: só os ingredientes, e o mapa inteiro. Descubra de onde vem cada prato pelo que vai nele. Dica e foto ajudam, mas valem
+            menos pontos.
+          </p>
+          {sequencia.dias > 0 && (
+            <p className="mt-2 font-semibold">
+              🔥 {sequencia.dias} {sequencia.dias === 1 ? 'dia' : 'dias seguidos'} no Desafio do Dia
+            </p>
+          )}
+        </div>
+        <div className="flex flex-col gap-2 md:w-72">
+          <button type="button" onClick={() => onVolta('dia')} className="botao-principal w-full">
+            <CalendarDays size={20} aria-hidden="true" />
+            {completo
+              ? `Desafio de hoje: ${pontos.toLocaleString('pt-BR')} pts ✓`
+              : feitas.length
+                ? `Continuar o desafio (${feitas.length} de ${PRATOS_POR_VOLTA})`
+                : 'Desafio do Dia'}
+          </button>
+          <button type="button" onClick={() => onVolta('livre')} className="botao-secundario w-full">
+            <Globe2 size={20} aria-hidden="true" />
+            Volta livre
+          </button>
+          <p className="text-center text-sm text-stone-700">Desafio do Dia: os mesmos 5 pratos para a turma toda.</p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 type Modo = 'sozinho' | 'grupo';
 
@@ -34,7 +82,7 @@ const Opcao = ({ ativo, onClick, children }: { ativo: boolean; onClick: () => vo
   </button>
 );
 
-export const CountrySelection = ({ nomeInicial, onComecar }: CountrySelectionProps) => {
+export const CountrySelection = ({ nomeInicial, onComecar, onVolta }: CountrySelectionProps) => {
   const [modo, setModo] = useState<Modo>('sozinho');
   const [destaque, setDestaque] = useState<string | null>(null);
   const botaoComecar = useRef<HTMLButtonElement>(null);
@@ -86,6 +134,8 @@ export const CountrySelection = ({ nomeInicial, onComecar }: CountrySelectionPro
           </p>
         </div>
       </header>
+
+      <CartaoVolta onVolta={onVolta} />
 
       <form onSubmit={comecar} aria-labelledby="titulo-escolha" className="painel grid gap-6 p-4 sm:p-6 lg:grid-cols-[1.25fr_1fr]">
         <div className="h-[420px] sm:h-[600px] lg:h-auto lg:min-h-[720px]">

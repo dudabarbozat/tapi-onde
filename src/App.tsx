@@ -8,15 +8,17 @@ import { IngredientsDisplay } from '@/components/IngredientsDisplay';
 import { Navigation } from '@/components/Navigation';
 import { ResultScreen } from '@/components/ResultScreen';
 import { Vez } from '@/components/Vez';
+import { Volta } from '@/components/Volta';
 import { paisPorCodigo, porPais } from '@/data/countries';
 import type { Marcacao } from '@/utils/estados';
 import { calculateDistance, pontuar, PONTOS_MAXIMOS_POR_PRATO, type ResultadoRodada } from '@/utils/gameLogic';
 import { montarFila, montarPlacar, nomeDestino, type Configuracao, type Vez as VezDaFila } from '@/utils/partida';
 import { salvarNoRanking } from '@/utils/ranking';
+import type { TipoVolta } from '@/utils/volta';
 
 const CHAVE_NOME = 'tapionde-nome';
 
-type Fase = 'inicio' | 'contagem' | 'vez' | 'ingredientes' | 'mapa' | 'resultado';
+type Fase = 'inicio' | 'contagem' | 'vez' | 'ingredientes' | 'mapa' | 'resultado' | 'volta';
 
 const lerNome = () => {
   try {
@@ -39,6 +41,8 @@ const App = () => {
   const [fase, setFase] = useState<Fase>('inicio');
   const [nomeSozinho, setNomeSozinho] = useState(lerNome);
   const [config, setConfig] = useState<Configuracao | null>(null);
+  // Volta pela América Latina: Desafio do Dia ou volta livre. A chave reinicia o modo ao trocar.
+  const [volta, setVolta] = useState<{ tipo: TipoVolta; chave: number }>({ tipo: 'dia', chave: 0 });
   const [fila, setFila] = useState<VezDaFila[]>([]);
   const [indice, setIndice] = useState(0);
   const [historico, setHistorico] = useState<ResultadoRodada[]>([]);
@@ -125,6 +129,11 @@ const App = () => {
     }
   };
 
+  const comecarVolta = (tipo: TipoVolta) => {
+    setVolta((v) => ({ tipo, chave: v.chave + 1 }));
+    setFase('volta');
+  };
+
   const voltarAoInicio = () => {
     setFase('inicio');
     setConfig(null);
@@ -150,7 +159,8 @@ const App = () => {
         />
       )}
 
-      {fase === 'inicio' && <CountrySelection nomeInicial={nomeSozinho} onComecar={comecar} />}
+      {fase === 'inicio' && <CountrySelection nomeInicial={nomeSozinho} onComecar={comecar} onVolta={comecarVolta} />}
+      {fase === 'volta' && <Volta key={volta.chave} tipo={volta.tipo} nome={nomeSozinho} onLivre={() => comecarVolta('livre')} onSair={voltarAoInicio} />}
       {fase === 'contagem' && config && <Contagem bandeira={bandeira} frase={fraseDeInicio(config)} onFim={iniciarRodada} />}
       {fase === 'vez' && jogadorDaVez && (
         <Vez jogador={jogadorDaVez} rodada={progresso.atual} totalRodadas={progresso.total} onComecar={iniciarRodada} />
