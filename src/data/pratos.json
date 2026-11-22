@@ -3487,5 +3487,2278 @@
       "url": "https://commons.wikimedia.org/wiki/File:Sob%C3%A1.jpg"
     },
     "estado": "Mato Grosso do Sul"
+  },
+  {
+    "id": "gy-pepperpot",
+    "prato": "Pepperpot",
+    "pais": "Guiana",
+    "codigoPais": "GY",
+    "local": "Georgetown (prato nacional)",
+    "cidade": "Georgetown",
+    "regiao": "Demerara-Mahaica",
+    "latitude": 6.8011,
+    "longitude": -58.155,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "carne (boi ou porco, como mocotó e rabada)",
+      "cassareep (caldo grosso feito do suco da mandioca-brava)",
+      "canela",
+      "pimenta wiri wiri"
+    ],
+    "dica": "Ensopado escuro de origem indígena que as famílias comem no café da manhã de Natal, na capital do país.",
+    "curiosidade": "É um dos pratos nacionais do país. O cassareep ajuda a conservar a carne, por isso a panela pode ser reaquecida e comida durante vários dias.",
+    "comoSeFaz": "A carne cozinha devagar, por muitas horas, numa panela grande com cassareep, canela e pimenta. Costuma ser comido no dia seguinte, requentado.",
+    "fonte": "https://en.wikipedia.org/wiki/Guyanese_pepperpot",
+    "imagem": {
+      "arquivo": "pratos/gy-pepperpot.jpg",
+      "autor": "Simon Abrams",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pepperpot_(16135006279).jpg"
+    },
+    "estado": "Demerara-Mahaica"
+  },
+  {
+    "id": "gy-garlic-pork",
+    "prato": "Garlic pork",
+    "pais": "Guiana",
+    "codigoPais": "GY",
+    "local": "Georgetown (prato nacional de Natal)",
+    "cidade": "Georgetown",
+    "regiao": "Demerara-Mahaica",
+    "latitude": 6.8011,
+    "longitude": -58.155,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de porco",
+      "vinagre",
+      "alho",
+      "sal",
+      "páprica",
+      "pimenta"
+    ],
+    "dica": "Carne de porco curtida em vinagre e alho, receita trazida por imigrantes portugueses e servida no Natal do país.",
+    "curiosidade": "A receita veio de Portugal e da ilha da Madeira, onde se chama carne de vinha d'alhos. Na Índia, a mesma ideia deu origem ao famoso vindaloo.",
+    "comoSeFaz": "A carne de porco fica marinando num tempero de vinagre, alho, sal, páprica e pimenta antes de ser cozida.",
+    "fonte": "https://en.wikipedia.org/wiki/Carne_de_vinha_d%27alhos",
+    "imagem": {
+      "arquivo": "pratos/gy-garlic-pork.jpg",
+      "autor": "Chedlund808",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Vinadosh.jpg"
+    },
+    "estado": "Demerara-Mahaica"
+  },
+  {
+    "id": "gy-dhalpuri-com-curry",
+    "prato": "Dhalpuri com curry",
+    "pais": "Guiana",
+    "codigoPais": "GY",
+    "local": "Georgetown (prato nacional)",
+    "cidade": "Georgetown",
+    "regiao": "Demerara-Mahaica",
+    "latitude": 6.8011,
+    "longitude": -58.155,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de trigo",
+      "ervilha seca amarela moída",
+      "curry de frango"
+    ],
+    "dica": "Pão chato recheado de ervilha moída, enrolado em curry de frango, herança dos trabalhadores vindos da Índia.",
+    "curiosidade": "O curry de frango é considerado um dos pratos nacionais do país. A receita chegou com trabalhadores indianos no século 19 e hoje é comida por todos.",
+    "comoSeFaz": "A massa é recheada com ervilha seca moída, aberta bem fina e assada numa chapa (tava); depois é enrolada em volta do curry.",
+    "fonte": "https://en.wikipedia.org/wiki/Dal_puri",
+    "imagem": {
+      "arquivo": "pratos/gy-dhalpuri-com-curry.jpg",
+      "autor": "AFRICAN TIGRESS",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dhalpuri_roti,_curry_chicken,_aloo_and_channa_from_Hi-Way_Roti_Shop_Nelson_Rd,_Freeport_Trinidad.jpg"
+    },
+    "estado": "Demerara-Mahaica"
+  },
+  {
+    "id": "gy-pao-de-mandioca",
+    "prato": "Pão de mandioca (cassava bread)",
+    "pais": "Guiana",
+    "codigoPais": "GY",
+    "local": "Savana do Rupununi, Upper Takutu-Upper Essequibo (povos macuxi e wapixana)",
+    "cidade": null,
+    "regiao": "Upper Takutu-Upper Essequibo",
+    "latitude": 3.3833,
+    "longitude": -59.8,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "mandioca-brava ralada"
+    ],
+    "dica": "Pão chato e crocante feito pelos povos indígenas da grande savana do sul do país, perto da fronteira com Roraima.",
+    "curiosidade": "Para os macuxi, a mandioca é cuidada por uma 'Mãe da Mandioca'. A mandioca-brava é venenosa crua, por isso o suco precisa ser espremido antes de virar pão.",
+    "comoSeFaz": "As mulheres ralam a mandioca, espremem o suco, peneiram a massa e tostam discos finos numa chapa de ferro.",
+    "fonte": "https://en.wikipedia.org/wiki/Macushi",
+    "imagem": {
+      "arquivo": "pratos/gy-pao-de-mandioca.jpg",
+      "autor": "James Kevin James",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Cassava_bread_drying.jpg"
+    },
+    "estado": "Upper Takutu-Upper Essequibo"
+  },
+  {
+    "id": "gy-sopa-de-caranguejo-com-quiabo",
+    "prato": "Sopa de caranguejo com quiabo",
+    "pais": "Guiana",
+    "codigoPais": "GY",
+    "local": "Litoral de Berbice, East Berbice-Corentyne",
+    "cidade": null,
+    "regiao": "East Berbice-Corentyne",
+    "latitude": 6.25,
+    "longitude": -57.5167,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "caranguejo",
+      "quiabo"
+    ],
+    "dica": "Caldo grosso com bicho de casca dura e um legume verde que solta baba, típico da costa leste do país, perto da fronteira com o Suriname.",
+    "curiosidade": "Ela lembra o gumbo, uma sopa famosa da Louisiana, nos Estados Unidos.",
+    "comoSeFaz": "O caranguejo cozinha num caldo com quiabo, que deixa a sopa mais grossa.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Guyana#Cuisine",
+    "imagem": {
+      "arquivo": "pratos/gy-sopa-de-caranguejo-com-quiabo.jpg",
+      "autor": "jeffreyw",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Shrimp_and_crab_gumbo.jpg"
+    },
+    "estado": "East Berbice-Corentyne"
+  },
+  {
+    "id": "sr-pom",
+    "prato": "Pom",
+    "pais": "Suriname",
+    "codigoPais": "SR",
+    "local": "Paramaribo (prato nacional)",
+    "cidade": "Paramaribo",
+    "regiao": "Paramaribo",
+    "latitude": 5.8522,
+    "longitude": -55.2039,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "tayer ralado (pomtajer, raiz parente da taioba)",
+      "frango",
+      "suco de fruta cítrica (laranja-azeda)",
+      "cebola",
+      "tomate",
+      "noz-moscada"
+    ],
+    "dica": "Torta de forno das festas, com frango entre camadas de uma raiz ralada, trazida por plantadores judeus de origem portuguesa.",
+    "curiosidade": "No começo era feita com batata, mas a batata não crescia no país e foi trocada pela raiz tayer. É o prato de festa mais famoso do país e também vira sanduíche.",
+    "comoSeFaz": "Pedaços de frango refogados vão entre duas camadas de tayer ralado misturado com suco cítrico, e tudo assa no forno até dourar.",
+    "fonte": "https://en.wikipedia.org/wiki/Pom_(dish)",
+    "imagem": {
+      "arquivo": "pratos/sr-pom.jpg",
+      "autor": "Alfredo1980",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pom_gerecht.JPG"
+    },
+    "estado": "Paramaribo"
+  },
+  {
+    "id": "sr-orgeade",
+    "prato": "Orgeade",
+    "pais": "Suriname",
+    "codigoPais": "SR",
+    "local": "Paramaribo (bebida popular em todo o país)",
+    "cidade": "Paramaribo",
+    "regiao": "Paramaribo",
+    "latitude": 5.8522,
+    "longitude": -55.2039,
+    "categoria": "bebida",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "amêndoas doces e amargas",
+      "açúcar",
+      "água de rosas ou de flor de laranjeira (opcional)",
+      "água ou leite"
+    ],
+    "dica": "Xarope branco de amêndoas que chegou ao país com imigrantes judeus e é misturado com água ou leite.",
+    "curiosidade": "O nome vem de 'orge', cevada em francês: a receita antiga levava cevada, que era difícil de achar no país e foi trocada por amêndoas.",
+    "comoSeFaz": "As amêndoas viram um xarope com açúcar; na hora de beber, mistura-se o xarope com água ou leite.",
+    "fonte": "https://nl.wikipedia.org/wiki/Orgeade",
+    "imagem": {
+      "arquivo": "pratos/sr-orgeade.jpg",
+      "autor": "Kevin Bryant",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Orgeatsyrup.jpg"
+    },
+    "estado": "Paramaribo"
+  },
+  {
+    "id": "sr-saoto",
+    "prato": "Saoto",
+    "pais": "Suriname",
+    "codigoPais": "SR",
+    "local": "Commewijne (maior comunidade javanesa do país)",
+    "cidade": null,
+    "regiao": "Commewijne",
+    "latitude": 5.8697,
+    "longitude": -54.9197,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "caldo temperado (o mais comum é de frango)",
+      "batata palha frita",
+      "molho de soja com pimenta Madame Jeanette"
+    ],
+    "dica": "Sopa trazida por trabalhadores vindos da ilha de Java, muito comum no distrito do outro lado do rio, a leste da capital.",
+    "curiosidade": "Os primeiros javaneses chegaram em 1890 para trabalhar numa plantação de cana. A versão do Suriname ganhou batata palha por cima.",
+    "comoSeFaz": "Prepara-se um caldo temperado e, na hora de servir, coloca-se batata palha e um molho de soja apimentado.",
+    "fonte": "https://en.wikipedia.org/wiki/Javanese_Surinamese",
+    "imagem": {
+      "arquivo": "pratos/sr-saoto.jpg",
+      "autor": "BukanAku",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Soto_Soup.jpg"
+    },
+    "estado": "Commewijne"
+  },
+  {
+    "id": "sr-bara",
+    "prato": "Bara",
+    "pais": "Suriname",
+    "codigoPais": "SR",
+    "local": "Nickerie (distrito com mais descendentes de indianos)",
+    "cidade": null,
+    "regiao": "Nickerie",
+    "latitude": 5.9406,
+    "longitude": -56.9892,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "farinha de feijão urad",
+      "folhas de tayer ou espinafre",
+      "cominho",
+      "alho",
+      "cúrcuma",
+      "pimenta Madame Jeanette"
+    ],
+    "dica": "Bolinho frito e temperado trazido por trabalhadores vindos da Índia, muito comum no distrito do oeste, na fronteira com a Guiana.",
+    "curiosidade": "O primeiro navio com trabalhadores indianos chegou em 1873. Em Nickerie, 61% das pessoas são de origem indiana (hindustanis).",
+    "comoSeFaz": "A massa de farinha de feijão é temperada com cominho, alho, cúrcuma e pimenta, e depois frita em óleo quente.",
+    "fonte": "https://nl.wikipedia.org/wiki/Bara_(snack)",
+    "imagem": {
+      "arquivo": "pratos/sr-bara.jpg",
+      "autor": "Sebleouf",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Surinamese_bara_in_Rotterdam_(2019).jpg"
+    },
+    "estado": "Nickerie"
+  },
+  {
+    "id": "sr-kwikwi",
+    "prato": "Kwikwi",
+    "pais": "Suriname",
+    "codigoPais": "SR",
+    "local": "Coronie",
+    "cidade": null,
+    "regiao": "Coronie",
+    "latitude": 5.7636,
+    "longitude": -56.2778,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "peixe kwikwi (no Brasil, tamoatá)",
+      "temperos"
+    ],
+    "dica": "Peixe de couraça que vive nos pântanos e é pescado até dentro dos arrozais de um distrito litorâneo famoso pelos coqueiros.",
+    "curiosidade": "O kwikwi é tão pescado que corre risco: a pesca é proibida de abril até meados de maio, quando ele se reproduz.",
+    "comoSeFaz": "O peixe é limpo e cozido; numa receita indígena ele vira uma sopa de peixe chamada pepre watra.",
+    "fonte": "https://nl.wikipedia.org/wiki/Coronie",
+    "imagem": {
+      "arquivo": "pratos/sr-kwikwi.jpg",
+      "autor": "Anonyme973",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pimentade_d%27atipas_(cropped).jpg"
+    },
+    "estado": "Coronie"
+  },
+  {
+    "id": "gf-bouillon-d-awara",
+    "prato": "Bouillon d'awara",
+    "pais": "Guiana Francesa",
+    "codigoPais": "GF",
+    "local": "Caiena (prato nacional)",
+    "cidade": "Caiena",
+    "regiao": "Caiena",
+    "latitude": 4.9372,
+    "longitude": -52.326,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "pasta do fruto da palmeira awara",
+      "carnes variadas",
+      "legumes",
+      "arroz branco"
+    ],
+    "dica": "Caldo alaranjado de Páscoa, feito com a polpa de um fruto de palmeira, que pode levar um dia e meio para ficar pronto.",
+    "curiosidade": "Um ditado diz que quem come esse caldo volta para a Guiana. Ele teria sido criado por africanos escravizados, que juntavam o fruto com legumes e carnes que achavam.",
+    "comoSeFaz": "A polpa do fruto awara é cozida por muito tempo até virar uma pasta; depois entram carnes e legumes, e tudo é servido com arroz branco.",
+    "fonte": "https://fr.wikipedia.org/wiki/Bouillon_d%27awara",
+    "imagem": {
+      "arquivo": "pratos/gf-bouillon-d-awara.jpg",
+      "autor": "PouLagwiyann",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bouyon_Wara,_S%C3%A9zon_Grenn_2023.jpg"
+    },
+    "estado": "Guiana Francesa"
+  },
+  {
+    "id": "gf-kontes",
+    "prato": "Kontès (comtesse)",
+    "pais": "Guiana Francesa",
+    "codigoPais": "GF",
+    "local": "Caiena (doce típico do país)",
+    "cidade": "Caiena",
+    "regiao": "Caiena",
+    "latitude": 4.9372,
+    "longitude": -52.326,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "farinha de trigo",
+      "açúcar",
+      "manteiga"
+    ],
+    "dica": "Biscoitinho amanteigado e pouco doce, servido com sorvete de frutas e com suco de frutas locais.",
+    "curiosidade": "O nome vem do francês 'comtesse', que quer dizer condessa.",
+    "comoSeFaz": "Faz-se uma massa de biscoito amanteigado, cortam-se biscoitos pequenos e eles vão ao forno.",
+    "fonte": "https://fr.wikipedia.org/wiki/Comtesse_(sabl%C3%A9)",
+    "imagem": {
+      "arquivo": "pratos/gf-kontes.jpg",
+      "autor": "LeGuyanaisPure",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Comtesse,_(%22Kont%C3%A8s%22_en_cr%C3%A9ole_guyanais).jpg"
+    },
+    "estado": "Guiana Francesa"
+  },
+  {
+    "id": "gf-pimentade-de-boeuf",
+    "prato": "Pimentade de bœuf",
+    "pais": "Guiana Francesa",
+    "codigoPais": "GF",
+    "local": "Sinnamary",
+    "cidade": "Sinnamary",
+    "regiao": "Sinnamary",
+    "latitude": 5.3774,
+    "longitude": -52.9596,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de boi",
+      "molho de tomate",
+      "pimenta",
+      "arroz branco ou couac (farinha de mandioca)"
+    ],
+    "dica": "Carne cozida em molho de tomate apimentado, orgulho de uma cidade do litoral a noroeste de Kourou.",
+    "curiosidade": "A cidade tem dois pratos que nasceram lá: este e o byala.",
+    "comoSeFaz": "A carne cozinha num caldo com molho de tomate e pimenta e é servida com arroz branco ou farinha de mandioca.",
+    "fonte": "https://fr.wikipedia.org/wiki/Pimentade",
+    "imagem": {
+      "arquivo": "pratos/gf-pimentade-de-boeuf.jpg",
+      "autor": "Anonyme973",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pimentad-b%C3%A8f.jpg"
+    },
+    "estado": "Guiana Francesa"
+  },
+  {
+    "id": "gf-salada-de-mamao-verde-hmong",
+    "prato": "Salada de mamão verde (hmong)",
+    "pais": "Guiana Francesa",
+    "codigoPais": "GF",
+    "local": "Cacao, Roura (comunidade hmong)",
+    "cidade": "Cacao",
+    "regiao": "Roura",
+    "latitude": 4.5694,
+    "longitude": -52.4692,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "mamão verde",
+      "temperos"
+    ],
+    "dica": "Salada trazida por agricultores vindos do Laos, que em 1977 fundaram uma vila de casas sobre palafitas no meio da floresta.",
+    "curiosidade": "Cerca de 500 refugiados hmong chegaram em 1977 e construíram a vila em menos de seis meses. Hoje ela é a maior fornecedora de verduras e legumes do país.",
+    "comoSeFaz": "O mamão ainda verde é cortado em tiras finas e temperado.",
+    "fonte": "https://fr.wikipedia.org/wiki/Cuisine_guyanaise",
+    "imagem": {
+      "arquivo": "pratos/gf-salada-de-mamao-verde-hmong.jpg",
+      "autor": "Jpatokal",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lao_green_papaya_salad.jpg"
+    },
+    "estado": "Guiana Francesa"
+  },
+  {
+    "id": "gf-ostras-de-mangue",
+    "prato": "Ostras de mangue (huîtres de palétuvier)",
+    "pais": "Guiana Francesa",
+    "codigoPais": "GF",
+    "local": "Montsinéry-Tonnegrande",
+    "cidade": "Montsinéry",
+    "regiao": "Montsinéry-Tonnegrande",
+    "latitude": 4.8919,
+    "longitude": -52.4933,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "ostras de mangue"
+    ],
+    "dica": "Ostras que crescem nas raízes do mangue e são criadas no único parque de ostras do país, num rio a oeste da capital.",
+    "curiosidade": "Essa ostra é o símbolo da cidade.",
+    "comoSeFaz": "As ostras crescem presas às raízes do mangue, são criadas no parque de ostras do rio e servidas como entrada.",
+    "fonte": "https://fr.wikipedia.org/wiki/Montsin%C3%A9ry-Tonnegrande",
+    "imagem": {
+      "arquivo": "pratos/gf-ostras-de-mangue.jpg",
+      "autor": "Veronidae",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Crassostrea_rhizophorae_000.jpg"
+    },
+    "estado": "Guiana Francesa"
+  },
+  {
+    "id": "bz-rice-and-beans",
+    "prato": "Rice and beans",
+    "pais": "Belize",
+    "codigoPais": "BZ",
+    "local": "Belmopan (prato nacional)",
+    "cidade": "Belmopan",
+    "regiao": "Cayo",
+    "latitude": 17.2522,
+    "longitude": -88.7639,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "arroz",
+      "feijão",
+      "frango ensopado",
+      "salada de batata ou de repolho"
+    ],
+    "dica": "Arroz com feijão servido com frango ensopado e salada, o almoço mais comum do país.",
+    "curiosidade": "No país se fala inglês, por isso o prato tem nome em inglês, mas é parente bem próximo do nosso arroz com feijão.",
+    "comoSeFaz": "O arroz e o feijão são servidos juntos, com algum tipo de carne e uma salada.",
+    "fonte": "https://en.wikipedia.org/wiki/Belizean_cuisine",
+    "imagem": {
+      "arquivo": "pratos/bz-rice-and-beans.jpg",
+      "autor": "satanoid",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rice_and_Beans,_Stew_Chicken_and_Potato_Salad_-_Belize.jpg"
+    },
+    "estado": "Cayo"
+  },
+  {
+    "id": "bz-boil-up",
+    "prato": "Boil up",
+    "pais": "Belize",
+    "codigoPais": "BZ",
+    "local": "Belmopan (prato nacional, típico dos kriols)",
+    "cidade": "Belmopan",
+    "regiao": "Cayo",
+    "latitude": 17.2522,
+    "longitude": -88.7639,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "ovos cozidos",
+      "peixe ou rabo de porco",
+      "mandioca",
+      "banana-da-terra verde",
+      "inhame",
+      "batata-doce",
+      "molho de tomate"
+    ],
+    "dica": "Prato em que tudo é fervido junto, ovos, peixe e raízes, servido com molho de tomate.",
+    "curiosidade": "É considerado o prato da cultura kriol, povo de origem africana e europeia que fala o crioulo do país.",
+    "comoSeFaz": "Ovos, peixe ou rabo de porco e raízes como mandioca, banana-da-terra e batata-doce são cozidos na água e servidos com molho de tomate.",
+    "fonte": "https://en.wikipedia.org/wiki/Belizean_cuisine",
+    "imagem": {
+      "arquivo": "pratos/bz-boil-up.jpg",
+      "autor": "Bernt Rostad",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Boil_Up_National_Dish_of_Belize.jpg"
+    },
+    "estado": "Cayo"
+  },
+  {
+    "id": "bz-hudut",
+    "prato": "Hudut",
+    "pais": "Belize",
+    "codigoPais": "BZ",
+    "local": "Dangriga, Stann Creek (capital da cultura garífuna)",
+    "cidade": "Dangriga",
+    "regiao": "Stann Creek",
+    "latitude": 16.9667,
+    "longitude": -88.2167,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "banana-da-terra meio madura",
+      "leite de coco",
+      "peixe"
+    ],
+    "dica": "Banana-da-terra pilada servida com peixe em caldo de coco, prato do povo garífuna, que chegou de Honduras a uma cidade do litoral sul.",
+    "curiosidade": "A cidade se chamava Stann Creek e hoje tem um nome garífuna que quer dizer 'águas paradas'. Foi lá também que nasceu o ritmo punta rock.",
+    "comoSeFaz": "A banana-da-terra é amassada no pilão até virar uma massa e é servida com peixe cozido num caldo de leite de coco.",
+    "fonte": "https://en.wikipedia.org/wiki/Belizean_cuisine#Garifuna",
+    "imagem": {
+      "arquivo": "pratos/bz-hudut.jpg",
+      "autor": "Ted Obermayer",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Garifuna_Hudutu_by_Ted_Obermayer.jpg"
+    },
+    "estado": "Stann Creek"
+  },
+  {
+    "id": "bz-cacau-e-chocolate-maia",
+    "prato": "Cacau e chocolate maia",
+    "pais": "Belize",
+    "codigoPais": "BZ",
+    "local": "Punta Gorda, Toledo",
+    "cidade": "Punta Gorda",
+    "regiao": "Toledo",
+    "latitude": 16.0989,
+    "longitude": -88.8094,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "sementes de cacau"
+    ],
+    "dica": "Chocolate de cacau orgânico plantado no distrito mais ao sul do país, o único onde a maioria fala línguas maias.",
+    "curiosidade": "Todo mês de maio a cidade faz um Festival do Cacau. O cacau dali é vendido para fábricas de chocolate do país e do exterior.",
+    "comoSeFaz": "As sementes do fruto do cacau são colhidas, secas e moídas para virar chocolate.",
+    "fonte": "https://en.wikipedia.org/wiki/Toledo_District",
+    "imagem": {
+      "arquivo": "pratos/bz-cacau-e-chocolate-maia.jpg",
+      "autor": "Mvfarrell",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Shade_Cacao_Plantation,_Ixcacao_Mayan_Chocolate,_Belize.JPG"
+    },
+    "estado": "Toledo"
+  },
+  {
+    "id": "bz-castanha-de-caju",
+    "prato": "Castanha-de-caju",
+    "pais": "Belize",
+    "codigoPais": "BZ",
+    "local": "Crooked Tree, Belize District",
+    "cidade": "Crooked Tree",
+    "regiao": "Belize",
+    "latitude": 17.7667,
+    "longitude": -88.5333,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "castanha-de-caju"
+    ],
+    "dica": "Uma vila do mesmo distrito da maior cidade do país é famosa pela produção dessas castanhas e faz uma festa só para elas.",
+    "curiosidade": "O Festival do Caju acontece todo começo de maio. No país também se faz vinho caseiro de caju.",
+    "comoSeFaz": "As castanhas são secas, torradas no fogo e depois descascadas.",
+    "fonte": "https://en.wikipedia.org/wiki/Crooked_Tree,_Belize",
+    "imagem": {
+      "arquivo": "pratos/bz-castanha-de-caju.jpg",
+      "autor": "-JvL-",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Freshly_roasted_cashews_being_peeled_(33174337870).jpg"
+    },
+    "estado": "Belize"
+  },
+  {
+    "id": "pr-tembleque",
+    "prato": "Tembleque",
+    "pais": "Porto Rico",
+    "codigoPais": "PR",
+    "local": "San Juan (sobremesa nacional)",
+    "cidade": "San Juan",
+    "regiao": "San Juan",
+    "latitude": 18.4064,
+    "longitude": -66.0639,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "leite de coco",
+      "amido de milho",
+      "açúcar",
+      "sal",
+      "canela em pó"
+    ],
+    "dica": "Pudim de coco que treme no prato, uma das sobremesas mais famosas da ilha e servida no Ano-Novo.",
+    "curiosidade": "O nome vem de 'tembleque', tremelique em espanhol: se foi bem feito, ele balança e treme como gelatina.",
+    "comoSeFaz": "Cozinha-se leite de coco com açúcar, amido de milho e uma pitada de sal; a mistura vai para uma forma, gela até firmar e ganha canela por cima.",
+    "fonte": "https://en.wikipedia.org/wiki/Tembleque",
+    "imagem": {
+      "arquivo": "pratos/pr-tembleque.jpg",
+      "autor": "Arnold Gatilao",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tembleque_-_coconut_pudding.jpg"
+    },
+    "estado": "Porto Rico"
+  },
+  {
+    "id": "pr-arroz-con-gandules",
+    "prato": "Arroz con gandules",
+    "pais": "Porto Rico",
+    "codigoPais": "PR",
+    "local": "San Juan (prato nacional)",
+    "cidade": "San Juan",
+    "regiao": "San Juan",
+    "latitude": 18.4064,
+    "longitude": -66.0639,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "arroz",
+      "gandu (feijão-guandu)",
+      "carne de porco",
+      "sofrito (tempero refogado)"
+    ],
+    "dica": "Arroz com um feijãozinho verde chamado gandu, o prato símbolo da ilha.",
+    "curiosidade": "É considerado o prato-insígnia da cozinha da ilha e também é popular em outros lugares do Caribe.",
+    "comoSeFaz": "Arroz, gandu e porco cozinham juntos na mesma panela com sofrito.",
+    "fonte": "https://es.wikipedia.org/wiki/Arroz_con_gandules",
+    "imagem": {
+      "arquivo": "pratos/pr-arroz-con-gandules.jpg",
+      "autor": "Jose Kevo",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Arroz_con_gandules.jpg"
+    },
+    "estado": "Porto Rico"
+  },
+  {
+    "id": "pr-lechon-asado",
+    "prato": "Lechón asado",
+    "pais": "Porto Rico",
+    "codigoPais": "PR",
+    "local": "Guavate, Cayey",
+    "cidade": "Guavate",
+    "regiao": "Cayey",
+    "latitude": 18.1321,
+    "longitude": -66.0785,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "porco inteiro (leitão)",
+      "carvão"
+    ],
+    "dica": "Porco inteiro assado na brasa, famoso num bairro de serra cuja estrada ganhou o apelido de 'rodovia do porco'.",
+    "curiosidade": "Um trecho da estrada PR-184 é cheio de lechoneras, restaurantes de porco assado, e o lugar entrou numa campanha de turismo da ilha em 2019.",
+    "comoSeFaz": "O porco inteiro é assado sobre brasas de carvão.",
+    "fonte": "https://en.wikipedia.org/wiki/Guavate,_Cayey,_Puerto_Rico",
+    "imagem": {
+      "arquivo": "pratos/pr-lechon-asado.jpg",
+      "autor": "Krista",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Los_Pinos_lechon_en_Guavate,_Cayey,_Puerto_Rico.jpg"
+    },
+    "estado": "Porto Rico"
+  },
+  {
+    "id": "pr-mojo-isleno",
+    "prato": "Peixe com mojo isleño",
+    "pais": "Porto Rico",
+    "codigoPais": "PR",
+    "local": "Salinas",
+    "cidade": "Salinas",
+    "regiao": "Salinas",
+    "latitude": 17.977,
+    "longitude": -66.298,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe ou frutos do mar",
+      "vinagre",
+      "azeite",
+      "azeitonas",
+      "alcaparras",
+      "tomate",
+      "cebola",
+      "alho",
+      "louro",
+      "culantro (coentro-de-caboclo)",
+      "pimenta"
+    ],
+    "dica": "Molho de tomate, azeitonas e alcaparras servido sobre peixe, nascido numa cidade de pescadores da costa sul.",
+    "curiosidade": "A cidade é conhecida como o berço do mojo isleño e faz até um festival em homenagem ao molho.",
+    "comoSeFaz": "Os ingredientes do molho cozinham no fogão por até 20 minutos e depois cobrem o peixe ou os frutos do mar.",
+    "fonte": "https://en.wikipedia.org/wiki/Mojito_isle%C3%B1o",
+    "imagem": {
+      "arquivo": "pratos/pr-mojo-isleno.jpg",
+      "autor": "Portorricensis",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Mojito_Isle%C3%B1o.jpg"
+    },
+    "estado": "Porto Rico"
+  },
+  {
+    "id": "pr-brazo-gitano",
+    "prato": "Brazo gitano",
+    "pais": "Porto Rico",
+    "codigoPais": "PR",
+    "local": "Mayagüez",
+    "cidade": "Mayagüez",
+    "regiao": "Mayagüez",
+    "latitude": 18.2011,
+    "longitude": -67.1397,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "pão de ló",
+      "goiabada (pasta de goiaba)",
+      "cream cheese (opcional)",
+      "açúcar de confeiteiro"
+    ],
+    "dica": "Rocambole recheado de goiabada, especialidade de uma cidade da costa oeste da ilha.",
+    "curiosidade": "O nome quer dizer 'braço cigano', e o doce também é famoso na Espanha. Na ilha, além da goiaba, pode ter recheio de frutas tropicais como manga e abacaxi.",
+    "comoSeFaz": "Assa-se um pão de ló fino, espalha-se a goiabada, enrola-se a massa e polvilha-se açúcar de confeiteiro por cima.",
+    "fonte": "https://es.wikipedia.org/wiki/Brazo_de_gitano",
+    "imagem": {
+      "arquivo": "pratos/pr-brazo-gitano.jpg",
+      "autor": "cyclonebill",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Brazo_gitano_-_cyclonebill.jpg"
+    },
+    "estado": "Porto Rico"
+  },
+  {
+    "id": "jm-jerk",
+    "prato": "Jerk (frango e porco)",
+    "pais": "Jamaica",
+    "codigoPais": "JM",
+    "local": "Boston, Portland",
+    "cidade": "Boston",
+    "regiao": "Portland",
+    "latitude": 18.1546,
+    "longitude": -76.3547,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "frango ou porco",
+      "pimenta-da-jamaica (allspice)",
+      "pimenta scotch bonnet",
+      "temperos"
+    ],
+    "dica": "Carne bem apimentada assada na brasa, famosa num vilarejo da costa nordeste da ilha.",
+    "curiosidade": "A técnica veio dos povos indígenas taínos e foi adotada pelos maroons, descendentes de africanos que fugiram da escravidão. A área de Boston, em Portland, é conhecida pelas barracas desse assado.",
+    "comoSeFaz": "A carne é coberta com uma pasta de pimenta-da-jamaica e pimenta scotch bonnet e depois assada na brasa.",
+    "fonte": "https://en.wikipedia.org/wiki/Portland_Parish",
+    "imagem": {
+      "arquivo": "pratos/jm-jerk.jpg",
+      "autor": "Xaymacan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jamaican_jerk_pork_and_chicken.jpg"
+    },
+    "estado": "Portland"
+  },
+  {
+    "id": "jm-ackee-and-saltfish",
+    "prato": "Ackee and saltfish (ackee com bacalhau)",
+    "pais": "Jamaica",
+    "codigoPais": "JM",
+    "local": "Kingston (prato nacional)",
+    "cidade": null,
+    "regiao": "Kingston",
+    "latitude": 17.9714,
+    "longitude": -76.7931,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "ackee (fruta)",
+      "bacalhau salgado",
+      "cebola",
+      "tomate",
+      "pimenta scotch bonnet"
+    ],
+    "dica": "Prato nacional: uma fruta amarela que parece ovo mexido, refogada com peixe salgado — procure a capital.",
+    "curiosidade": "O ackee é a fruta nacional do país e chegou da África Ocidental antes de 1725. Partes da fruta são tóxicas antes de ela se abrir sozinha quando madura!",
+    "comoSeFaz": "O bacalhau salgado é refogado com o ackee cozido, cebola, tomate e pimenta. Costuma ser o café da manhã.",
+    "fonte": "https://en.wikipedia.org/wiki/Ackee_and_saltfish",
+    "imagem": {
+      "arquivo": "pratos/jm-ackee-and-saltfish.jpg",
+      "autor": "gailf548 from New York State, USA",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ackee_and_Saltfish.jpg"
+    },
+    "estado": "Kingston"
+  },
+  {
+    "id": "jm-peixe-frito-com-festival",
+    "prato": "Peixe frito com festival",
+    "pais": "Jamaica",
+    "codigoPais": "JM",
+    "local": "Hellshire Beach, Saint Catherine",
+    "cidade": null,
+    "regiao": "Saint Catherine",
+    "latitude": 17.8974,
+    "longitude": -76.8945,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe",
+      "farinha de trigo",
+      "fubá",
+      "leite",
+      "açúcar",
+      "óleo para fritar"
+    ],
+    "dica": "Peixe frito com bolinhos fritos adocicados, vendido em barracas numa praia popular a sudoeste da capital.",
+    "curiosidade": "O festival é um pãozinho frito levemente doce, parecido com massas fritas trazidas por trabalhadores chineses no século 19. É muito comido na Páscoa.",
+    "comoSeFaz": "A massa de farinha de trigo, fubá, leite e açúcar é frita até dourar; o peixe também é frito e os dois vão juntos no prato.",
+    "fonte": "https://en.wikipedia.org/wiki/Hellshire_Beach",
+    "imagem": {
+      "arquivo": "pratos/jm-peixe-frito-com-festival.jpg",
+      "autor": "Xaymacan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jamaican_fish_and_festival.jpg"
+    },
+    "estado": "Saint Catherine"
+  },
+  {
+    "id": "jm-bammy",
+    "prato": "Bammy",
+    "pais": "Jamaica",
+    "codigoPais": "JM",
+    "local": "Saint Elizabeth",
+    "cidade": null,
+    "regiao": "Saint Elizabeth",
+    "latitude": 18.05,
+    "longitude": -77.7833,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "mandioca-brava ralada",
+      "óleo para fritar (opcional)"
+    ],
+    "dica": "Pão achatado de mandioca, herança indígena, ainda feito do jeito antigo numa paróquia do sudoeste da ilha.",
+    "curiosidade": "Existe desde antes da chegada de Colombo: os taínos já faziam esse pão. O modo tradicional ainda é usado em partes de Saint Elizabeth e de Manchester.",
+    "comoSeFaz": "A mandioca é ralada e espremida num saco para tirar o caldo; a massa vira um disco assado, que depois pode ser frito.",
+    "fonte": "https://en.wikipedia.org/wiki/Bammy",
+    "imagem": {
+      "arquivo": "pratos/jm-bammy.jpg",
+      "autor": "Jongleur100",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Bammies.jpg"
+    },
+    "estado": "Saint Elizabeth"
+  },
+  {
+    "id": "jm-gizzada",
+    "prato": "Gizzada",
+    "pais": "Jamaica",
+    "codigoPais": "JM",
+    "local": "Kingston (doce nacional)",
+    "cidade": null,
+    "regiao": "Kingston",
+    "latitude": 17.9714,
+    "longitude": -76.7931,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "coco ralado",
+      "açúcar",
+      "noz-moscada",
+      "baunilha",
+      "farinha",
+      "manteiga"
+    ],
+    "dica": "Tortinha de massa crocante com borda beliscada em forma de estrela, recheada de coco temperado — doce típico do país, procure a capital.",
+    "curiosidade": "Foi trazida por judeus portugueses que se refugiaram na ilha a partir de 1530. Também é chamada de \"pinch-me-round\" (belisque em volta), por causa da borda.",
+    "comoSeFaz": "A massa é aberta, cortada em círculos e beliscada nas bordas; no meio vai um recheio de coco cozido com açúcar e especiarias.",
+    "fonte": "https://en.wikipedia.org/wiki/Gizzada",
+    "imagem": {
+      "arquivo": "pratos/jm-gizzada.jpg",
+      "autor": "Xaymacan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jamaican_Gizzada.jpg"
+    },
+    "estado": "Kingston"
+  },
+  {
+    "id": "bs-salada-de-concha",
+    "prato": "Salada de concha (conch salad)",
+    "pais": "Bahamas",
+    "codigoPais": "BS",
+    "local": "West End, Grand Bahama",
+    "cidade": "West End",
+    "regiao": "West Grand Bahama",
+    "latitude": 26.6867,
+    "longitude": -78.975,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "carne crua de concha (caramujo-marinho)",
+      "suco de limão",
+      "cebola",
+      "pimenta"
+    ],
+    "dica": "Carne de um grande caramujo do mar picada com limão, especialidade de um povoado na ponta oeste de uma ilha do norte do país.",
+    "curiosidade": "A concha é comida nas Bahamas desde o tempo dos lucaios, os primeiros habitantes. Em West End os pescadores ainda pegam conchas em águas rasas.",
+    "comoSeFaz": "A carne crua da concha é picada e \"cozida\" no suco de limão, como um ceviche, com cebola e pimenta.",
+    "fonte": "https://en.wikipedia.org/wiki/West_End,_Bahamas",
+    "imagem": {
+      "arquivo": "pratos/bs-salada-de-concha.jpg",
+      "autor": "Hannah On The Go",
+      "licenca": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Conch_salad_2022_3.jpg"
+    },
+    "estado": "West Grand Bahama"
+  },
+  {
+    "id": "bs-guava-duff",
+    "prato": "Guava duff (pudim de goiaba)",
+    "pais": "Bahamas",
+    "codigoPais": "BS",
+    "local": "Nassau (prato nacional)",
+    "cidade": null,
+    "regiao": "New Providence",
+    "latitude": 25.0781,
+    "longitude": -77.3386,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "goiaba",
+      "farinha",
+      "manteiga",
+      "açúcar",
+      "ovos",
+      "noz-moscada",
+      "canela"
+    ],
+    "dica": "Sobremesa de massa enrolada com uma fruta rosada, feita no Dia da Independência — procure a capital.",
+    "curiosidade": "\"Duff\" é uma palavra inglesa antiga para pudim. É doce especial do Dia da Independência, em 10 de julho.",
+    "comoSeFaz": "A fruta é dobrada dentro da massa, que é cozida e servida com uma calda.",
+    "fonte": "https://en.wikipedia.org/wiki/Duff_(dessert)",
+    "imagem": {
+      "arquivo": "pratos/bs-guava-duff.jpg",
+      "autor": "LittleT889",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Guava_duff.jpg"
+    },
+    "estado": "New Providence"
+  },
+  {
+    "id": "bs-conch-fritters",
+    "prato": "Bolinhos de concha (conch fritters)",
+    "pais": "Bahamas",
+    "codigoPais": "BS",
+    "local": "Nassau (prato nacional)",
+    "cidade": null,
+    "regiao": "New Providence",
+    "latitude": 25.0781,
+    "longitude": -77.3386,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de concha picada",
+      "fubá",
+      "cebola",
+      "pimentão",
+      "salsão",
+      "suco de limão"
+    ],
+    "dica": "Bolinhos fritos feitos com a carne de um grande caramujo do mar, petisco famoso no país todo — procure a capital.",
+    "curiosidade": "Uma revista americana chamou esses bolinhos de \"o fast-food original das Bahamas\". Cientistas até estudam o DNA dos bolinhos exportados para saber de onde vêm as conchas.",
+    "comoSeFaz": "A carne da concha é picada bem miúda, misturada a uma massa de fubá com legumes picados, modelada em bolinhas e frita.",
+    "fonte": "https://en.wikipedia.org/wiki/Conch",
+    "imagem": {
+      "arquivo": "pratos/bs-conch-fritters.jpg",
+      "autor": "Bob B. Brown",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Conch_fritters_Mango_Festival_2011.jpg"
+    },
+    "estado": "New Providence"
+  },
+  {
+    "id": "bs-lagosta-de-spanish-wells",
+    "prato": "Lagosta-espinhosa (crawfish) de Spanish Wells",
+    "pais": "Bahamas",
+    "codigoPais": "BS",
+    "local": "Spanish Wells (St. George's Cay)",
+    "cidade": "Spanish Wells",
+    "regiao": "Spanish Wells",
+    "latitude": 25.5458,
+    "longitude": -76.7611,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "lagosta-espinhosa (sem garras)",
+      "suco de limão",
+      "sal",
+      "pimenta"
+    ],
+    "dica": "Uma lagosta sem garras pescada pela frota de uma ilhota ao norte de Eleuthera.",
+    "curiosidade": "Nas Bahamas essa lagosta sem garras é chamada de \"crawfish\". Desde os anos 1980, quase toda a frota de pesca de Spanish Wells passou a pescar lagostas.",
+    "comoSeFaz": "Como outros frutos do mar das Bahamas, costuma ser temperada com \"old sour\", um molho de suco de limão, sal e pimenta.",
+    "fonte": "https://en.wikipedia.org/wiki/Spanish_Wells",
+    "imagem": {
+      "arquivo": "pratos/bs-lagosta-de-spanish-wells.jpg",
+      "autor": "James St. John",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Panulirus_argus_(Caribbean_spiny_lobster)_(San_Salvador_Island,_Bahamas)_1_(15958276757).jpg"
+    },
+    "estado": "Spanish Wells"
+  },
+  {
+    "id": "bs-caranguejo-de-andros",
+    "prato": "Caranguejo de Andros (crab fat and dough)",
+    "pais": "Bahamas",
+    "codigoPais": "BS",
+    "local": "Fresh Creek, Andros",
+    "cidade": "Fresh Creek",
+    "regiao": "Central Andros",
+    "latitude": 24.5833,
+    "longitude": -78,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "caranguejo",
+      "gordura do caranguejo",
+      "massa de farinha"
+    ],
+    "dica": "Caranguejo de uma ilha grande a oeste da capital, que faz uma festa só para ele todo mês de junho.",
+    "curiosidade": "Em Andros, moradores pegam caranguejos na temporada e os engordam em cercados para vender em Nassau. Todo junho acontece a Crabfest em Fresh Creek.",
+    "comoSeFaz": "O caranguejo costuma ser servido assado, ou no prato \"crab fat and dough\", com a gordura do caranguejo e massa de farinha.",
+    "fonte": "https://en.wikipedia.org/wiki/Andros,_The_Bahamas",
+    "imagem": {
+      "arquivo": "pratos/bs-caranguejo-de-andros.jpg",
+      "autor": "Jstuby",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cardisoma_guanhumi_Joulter_Cays_2000.jpg"
+    },
+    "estado": "Central Andros"
+  },
+  {
+    "id": "tt-doubles",
+    "prato": "Doubles",
+    "pais": "Trinidad e Tobago",
+    "codigoPais": "TT",
+    "local": "Princes Town",
+    "cidade": "Princes Town",
+    "regiao": "Princes Town",
+    "latitude": 10.2667,
+    "longitude": -61.3833,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "grão-de-bico (channa) ao curry",
+      "massa frita (bara)",
+      "cominho",
+      "cebola",
+      "alho",
+      "chutneys de manga e tamarindo"
+    ],
+    "dica": "Lanche de rua com grão-de-bico ao curry entre dois pãezinhos fritos, criado numa cidade do sul da ilha maior.",
+    "curiosidade": "Foi criado em 1936 por Emamool Deen e sua esposa. Os clientes pediam pão em dobro, e o nome pegou!",
+    "comoSeFaz": "O grão-de-bico é cozido com curry e cominho e servido entre dois discos de massa frita, com molhos de frutas e pimenta.",
+    "fonte": "https://en.wikipedia.org/wiki/Doubles_(food)",
+    "imagem": {
+      "arquivo": "pratos/tt-doubles.jpg",
+      "autor": "Grueslayer",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:FOOD_Doubles_2.jpg"
+    },
+    "estado": "Princes Town"
+  },
+  {
+    "id": "tt-bake-and-shark",
+    "prato": "Bake and shark",
+    "pais": "Trinidad e Tobago",
+    "codigoPais": "TT",
+    "local": "Maracas Bay, costa norte de Trinidad",
+    "cidade": null,
+    "regiao": "Costa norte de Trinidad",
+    "latitude": 10.7636,
+    "longitude": -61.4344,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "pão frito (bake)",
+      "carne de tubarão frita",
+      "alface",
+      "tomate",
+      "abacaxi",
+      "molho de culantro"
+    ],
+    "dica": "Sanduíche de peixe frito vendido em barracas de uma praia famosa da costa norte da ilha maior.",
+    "curiosidade": "O tubarão é pescado ali mesmo, perto da praia. Como muitos tubarões estão ameaçados pela pesca exagerada, às vezes usam outros peixes no lugar.",
+    "comoSeFaz": "A carne de tubarão é temperada com limão, alho e tomilho, frita e colocada num pão frito com salada e molhos.",
+    "fonte": "https://en.wikipedia.org/wiki/Bake_and_shark",
+    "imagem": {
+      "arquivo": "pratos/tt-bake-and-shark.jpg",
+      "autor": "Grueslayer",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:MISC_Bake_%26_Shark.jpg"
+    },
+    "estado": "San Juan-Laventille"
+  },
+  {
+    "id": "tt-caranguejo-com-dumplings",
+    "prato": "Caranguejo com dumplings (crab and dumplings)",
+    "pais": "Trinidad e Tobago",
+    "codigoPais": "TT",
+    "local": "Tobago",
+    "cidade": null,
+    "regiao": "Tobago",
+    "latitude": 11.25,
+    "longitude": -60.667,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "caranguejo ao curry",
+      "dumplings (bolinhos de massa cozidos)"
+    ],
+    "dica": "Caranguejo ao curry com bolinhos de massa, prato típico da ilha menor do país.",
+    "curiosidade": "Tobago trocou de dono 33 vezes entre países europeus, o recorde de todo o Caribe!",
+    "comoSeFaz": "O caranguejo é cozido em molho de curry e servido com dumplings, bolinhos de massa cozidos.",
+    "fonte": "https://en.wikipedia.org/wiki/Tobago",
+    "imagem": {
+      "arquivo": "pratos/tt-caranguejo-com-dumplings.jpg",
+      "autor": "Kalamazadkhan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tobago_Cuisine_(10).JPG"
+    },
+    "estado": "Eastern Tobago"
+  },
+  {
+    "id": "tt-aloo-pie",
+    "prato": "Aloo pie",
+    "pais": "Trinidad e Tobago",
+    "codigoPais": "TT",
+    "local": "Debe",
+    "cidade": "Debe",
+    "regiao": "Penal–Debe",
+    "latitude": 10.2,
+    "longitude": -61.45,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "massa de farinha",
+      "purê de batata temperado",
+      "cominho",
+      "alho",
+      "cebola",
+      "chutney de tamarindo ou manga"
+    ],
+    "dica": "Pastel frito recheado de batata, famoso numa vila do sul da ilha maior aonde gente de toda a ilha vai de carro para comer.",
+    "curiosidade": "\"Aloo\" quer dizer batata em hindi. Trabalhadores vindos da Índia a partir de 1845 trouxeram receitas com curry e batata.",
+    "comoSeFaz": "A massa é recheada com purê de batata temperado, frita e servida aberta, com grão-de-bico ao curry e chutney.",
+    "fonte": "https://en.wikipedia.org/wiki/Debe",
+    "imagem": {
+      "arquivo": "pratos/tt-aloo-pie.jpg",
+      "autor": "Jason Lam",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aloo_Pie.jpg"
+    },
+    "estado": "Penal-Debe"
+  },
+  {
+    "id": "tt-mauby",
+    "prato": "Mauby",
+    "pais": "Trinidad e Tobago",
+    "codigoPais": "TT",
+    "local": "Port of Spain (bebida nacional)",
+    "cidade": null,
+    "regiao": "Port of Spain",
+    "latitude": 10.6667,
+    "longitude": -61.5167,
+    "categoria": "bebida",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "casca da árvore mauby",
+      "açúcar",
+      "água"
+    ],
+    "dica": "Bebida doce e amarguinha feita da casca de uma árvore, tomada no país todo — procure a capital.",
+    "curiosidade": "O nome muda de ilha para ilha: mavi em Porto Rico e mabi no Haiti. Em Trinidad e Tobago existe até uma versão com gás.",
+    "comoSeFaz": "A casca da árvore é fervida em água e a bebida é adoçada com açúcar.",
+    "fonte": "https://en.wikipedia.org/wiki/Mauby",
+    "imagem": {
+      "arquivo": "pratos/tt-mauby.jpg",
+      "autor": "Ryan Chen-Wing",
+      "licenca": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Mauby-fizzz-bottle-glass.jpg"
+    },
+    "estado": "Port of Spain"
+  },
+  {
+    "id": "bb-cou-cou-e-peixe-voador",
+    "prato": "Cou-cou e peixe-voador",
+    "pais": "Barbados",
+    "codigoPais": "BB",
+    "local": "Bridgetown (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint Michael",
+    "latitude": 13.0969,
+    "longitude": -59.6131,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "fubá",
+      "quiabo",
+      "peixe-voador",
+      "molho apimentado"
+    ],
+    "dica": "Angu de fubá com quiabo servido com um peixe que \"plana\" sobre o mar — prato nacional, procure a capital.",
+    "curiosidade": "O país é chamado de \"terra do peixe-voador\". A massa é mexida com um pau de madeira parecido com um mini taco de críquete.",
+    "comoSeFaz": "O fubá é cozido com quiabo e mexido até ficar firme; o peixe-voador é frito ou cozido no vapor e servido com molho.",
+    "fonte": "https://en.wikipedia.org/wiki/Cou-cou",
+    "imagem": {
+      "arquivo": "pratos/bb-cou-cou-e-peixe-voador.jpg",
+      "autor": "KINGBROBLOXZZZ",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:COO_COOO.jpg"
+    },
+    "estado": "Saint Michael"
+  },
+  {
+    "id": "bb-peixe-frito-de-oistins",
+    "prato": "Peixe frito do Fish Fry de Oistins",
+    "pais": "Barbados",
+    "codigoPais": "BB",
+    "local": "Oistins, Christ Church",
+    "cidade": "Oistins",
+    "regiao": "Christ Church",
+    "latitude": 13.0644,
+    "longitude": -59.5444,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "peixe fresco (como dourado/mahi-mahi ou peixe-voador)",
+      "ervas e temperos",
+      "óleo para fritar"
+    ],
+    "dica": "Peixe frito numa festa de sexta à noite numa vila de pescadores da costa sul, perto do aeroporto.",
+    "curiosidade": "No fim do século 20 virou tradição: moradores e turistas se juntam toda sexta à noite nas barracas de peixe frito, com música e dança.",
+    "comoSeFaz": "O peixe fresco, desembarcado no mercado da vila, é temperado e frito na hora nas barracas.",
+    "fonte": "https://en.wikipedia.org/wiki/Oistins",
+    "imagem": {
+      "arquivo": "pratos/bb-peixe-frito-de-oistins.jpg",
+      "autor": "Xaymacan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Escoveitch_fish_Jamaica.jpg"
+    },
+    "estado": "Christ Church"
+  },
+  {
+    "id": "bb-macaroni-pie",
+    "prato": "Macaroni pie (torta de macarrão)",
+    "pais": "Barbados",
+    "codigoPais": "BB",
+    "local": "Bridgetown (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint Michael",
+    "latitude": 13.0969,
+    "longitude": -59.6131,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "macarrão",
+      "queijo",
+      "leite",
+      "manteiga",
+      "pimenta-do-reino",
+      "molho de pimenta"
+    ],
+    "dica": "Macarrão com queijo assado no forno e cortado em fatias, prato do dia a dia do país — procure a capital.",
+    "curiosidade": "Na Escócia essa torta leva massa por fora; no Caribe ela é feita sem massa e às vezes é comida fria.",
+    "comoSeFaz": "O macarrão é misturado com queijo, leite e manteiga, temperado com pimenta e assado até gratinar.",
+    "fonte": "https://fr.wikipedia.org/wiki/Tarte_aux_macaronis",
+    "imagem": {
+      "arquivo": "pratos/bb-macaroni-pie.jpg",
+      "autor": "Upjav",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bajan_macaroni_pie.jpg"
+    },
+    "estado": "Saint Michael"
+  },
+  {
+    "id": "bb-conkies",
+    "prato": "Conkies",
+    "pais": "Barbados",
+    "codigoPais": "BB",
+    "local": "Bridgetown (doce nacional)",
+    "cidade": null,
+    "regiao": "Saint Michael",
+    "latitude": 13.0969,
+    "longitude": -59.6131,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "fubá",
+      "coco",
+      "batata-doce",
+      "abóbora",
+      "uvas-passas",
+      "folha de bananeira"
+    ],
+    "dica": "Docinho de fubá e coco cozido embrulhado em folha de bananeira, tradição de novembro no país.",
+    "curiosidade": "Antigamente era ligado ao Dia de Guy Fawkes, em 5 de novembro, uma festa da época colonial britânica.",
+    "comoSeFaz": "A massa de fubá, coco, batata-doce, abóbora e passas é embrulhada em folha de bananeira e cozida no vapor.",
+    "fonte": "https://en.wikipedia.org/wiki/Conkie",
+    "imagem": {
+      "arquivo": "pratos/bb-conkies.jpg",
+      "autor": "Foodista",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Conkie.jpg"
+    },
+    "estado": "Saint Michael"
+  },
+  {
+    "id": "bb-sugar-cake",
+    "prato": "Sugar cake (doce de coco)",
+    "pais": "Barbados",
+    "codigoPais": "BB",
+    "local": "Bridgetown (doce nacional)",
+    "cidade": null,
+    "regiao": "Saint Michael",
+    "latitude": 13.0969,
+    "longitude": -59.6131,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "coco ralado",
+      "açúcar",
+      "corante alimentício"
+    ],
+    "dica": "Docinho colorido de coco e açúcar, o preferido das crianças na saída da escola.",
+    "curiosidade": "É um doce muito popular entre estudantes do Caribe e já era feito na Inglaterra do tempo da rainha Elizabeth I. Na América Latina se parece com a cocada.",
+    "comoSeFaz": "O coco ralado é cozido com açúcar em fogo baixo e a mistura é moldada logo em seguida numa assadeira.",
+    "fonte": "https://en.wikipedia.org/wiki/Sugar_cake",
+    "imagem": {
+      "arquivo": "pratos/bb-sugar-cake.jpg",
+      "autor": "Autor desconhecido (cartão-postal antigo)",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Barbados_-_Sugar_Cake_Sellers.jpg"
+    },
+    "estado": "Saint Michael"
+  },
+  {
+    "id": "ag-fungee-e-pepperpot",
+    "prato": "Fungee e pepperpot",
+    "pais": "Antígua e Barbuda",
+    "codigoPais": "AG",
+    "local": "St. John's (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint John",
+    "latitude": 17.1167,
+    "longitude": -61.85,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "fubá",
+      "quiabo",
+      "pepperpot (ensopado apimentado)"
+    ],
+    "dica": "Angu de fubá com quiabo servido com ensopado apimentado — prato nacional, procure a capital.",
+    "curiosidade": "Se pronuncia \"fun-dji\" e é parecido com a polenta italiana. Em Barbados o mesmo angu se chama cou-cou.",
+    "comoSeFaz": "O fubá é cozido com quiabo e mexido com um pau de madeira até ficar firme; é servido com o ensopado.",
+    "fonte": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_cuisine",
+    "imagem": {
+      "arquivo": "pratos/ag-fungee-e-pepperpot.jpg",
+      "autor": "KINGBROBLOXZZZ",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:COO_COOO.jpg"
+    },
+    "estado": "Saint John"
+  },
+  {
+    "id": "ag-ducana",
+    "prato": "Ducana",
+    "pais": "Antígua e Barbuda",
+    "codigoPais": "AG",
+    "local": "St. John's (prato típico nacional)",
+    "cidade": null,
+    "regiao": "Saint John",
+    "latitude": 17.1167,
+    "longitude": -61.85,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "batata-doce ralada",
+      "coco ralado",
+      "açúcar",
+      "farinha",
+      "uvas-passas",
+      "noz-moscada",
+      "folha de bananeira"
+    ],
+    "dica": "Bolinho doce de batata-doce e coco cozido embrulhado em folha, servido com peixe salgado na ilha maior do país.",
+    "curiosidade": "É um prato antigo, ligado aos povos indígenas e adotado pelos descendentes de africanos. Tem \"primos\" na Jamaica e em outras ilhas.",
+    "comoSeFaz": "A massa de batata-doce, coco, açúcar e farinha é embrulhada em folha (ou papel-alumínio) e fervida por uns 25 minutos.",
+    "fonte": "https://en.wikipedia.org/wiki/Ducana",
+    "imagem": {
+      "arquivo": "pratos/ag-ducana.jpg",
+      "autor": "Xaymacan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_drawers.jpg"
+    },
+    "estado": "Saint John"
+  },
+  {
+    "id": "ag-abacaxi-preto",
+    "prato": "Abacaxi preto de Antígua",
+    "pais": "Antígua e Barbuda",
+    "codigoPais": "AG",
+    "local": "Saint Mary (costa sudoeste de Antígua)",
+    "cidade": null,
+    "regiao": "Saint Mary",
+    "latitude": 17.0333,
+    "longitude": -61.8833,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "abacaxi preto (variedade local)"
+    ],
+    "dica": "Fruta pequena e muito doce, símbolo nacional, plantada só na costa sudoeste da ilha principal.",
+    "curiosidade": "É a fruta nacional do país e há quem diga que é o abacaxi mais doce do mundo. Só cresce no \"cinturão do abacaxi\", por causa da chuva da região.",
+    "comoSeFaz": "É comido fresco ou usado em doces e sobremesas típicas da ilha.",
+    "fonte": "https://en.wikipedia.org/wiki/Antigua_black_pineapple",
+    "imagem": {
+      "arquivo": "pratos/ag-abacaxi-preto.jpg",
+      "autor": "Bgabel",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ANTIGUA-blackpine-1.jpg"
+    },
+    "estado": "Saint Mary"
+  },
+  {
+    "id": "ag-lagosta-de-barbuda",
+    "prato": "Lagosta de Barbuda",
+    "pais": "Antígua e Barbuda",
+    "codigoPais": "AG",
+    "local": "Codrington, Barbuda",
+    "cidade": "Codrington",
+    "regiao": "Barbuda",
+    "latitude": 17.6333,
+    "longitude": -61.8333,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "lagosta-espinhosa do Caribe",
+      "temperos"
+    ],
+    "dica": "Lagosta pescada em volta da ilha menor do país, ao norte da ilha principal.",
+    "curiosidade": "A pesca é a principal exportação de Barbuda, com muita lagosta. Os pescadores usam técnicas de baixo impacto passadas de geração em geração.",
+    "comoSeFaz": "A lagosta é pescada fresca, desembarcada no complexo de pesca de Codrington e preparada nos restaurantes da ilha.",
+    "fonte": "https://en.wikipedia.org/wiki/Barbuda",
+    "imagem": {
+      "arquivo": "pratos/ag-lagosta-de-barbuda.jpg",
+      "autor": "Brett/Tele (iNaturalist)",
+      "licenca": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Caribbean_Spiny_Lobster,_Pigeon_Beach_Road,_Antigua_and_Barbuda,_Antigua_and_Barbuda,_AG_imported_from_iNaturalist_photo_58233472.jpg"
+    },
+    "estado": "Barbuda"
+  },
+  {
+    "id": "ag-souse",
+    "prato": "Souse",
+    "pais": "Antígua e Barbuda",
+    "codigoPais": "AG",
+    "local": "St. John's (petisco nacional do Carnaval)",
+    "cidade": null,
+    "regiao": "Saint John",
+    "latitude": 17.1167,
+    "longitude": -61.85,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "pés, juntas e rabo de porco",
+      "muita cebola",
+      "pimenta"
+    ],
+    "dica": "Caldo bem apimentado de pé de porco, vendido na beira da rua durante o Carnaval do país — procure a capital.",
+    "curiosidade": "É um petisco muito procurado nas barracas de beira de estrada durante o Carnaval. Leva muita cebola e é bem apimentado!",
+    "comoSeFaz": "Pés, juntas e rabo de porco são cozidos num caldo muito apimentado com bastante cebola.",
+    "fonte": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_cuisine",
+    "imagem": {
+      "arquivo": "pratos/ag-souse.jpg",
+      "autor": "Ll1324",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cooking_Trinidadian_Souse.jpg"
+    },
+    "estado": "Saint John"
+  },
+  {
+    "id": "dm-callaloo",
+    "prato": "Callaloo",
+    "pais": "Dominica",
+    "codigoPais": "DM",
+    "local": "Roseau (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 15.2992,
+    "longitude": -61.3873,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "folhas verdes de taioba (dasheen)",
+      "leite de coco",
+      "quiabo",
+      "carne salgada ou frutos do mar",
+      "cebola e alho",
+      "pimenta"
+    ],
+    "dica": "Sopa verdinha com leite de coco que virou o prato oficial da 'Ilha da Natureza', no lugar de um sapo protegido.",
+    "curiosidade": "Virou prato nacional em 2013, substituindo a 'galinha da montanha', que na verdade é um sapo grandão hoje protegido por lei.",
+    "comoSeFaz": "As folhas verdes cozinham com leite de coco, temperos e um pouco de carne ou peixe até virar uma sopa grossa. Costuma ser servida com arroz, bolinhos ou fruta-pão.",
+    "fonte": "https://en.wikipedia.org/wiki/Dominica_cuisine",
+    "imagem": {
+      "arquivo": "pratos/dm-callaloo.jpg",
+      "autor": "Grueslayer",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:FOOD_Callaloo.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "dm-sorrel",
+    "prato": "Sorrel (bebida de hibisco)",
+    "pais": "Dominica",
+    "codigoPais": "DM",
+    "local": "Roseau (bebida típica nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 15.2992,
+    "longitude": -61.3873,
+    "categoria": "bebida",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "cálices da flor de hibisco (sorrel)",
+      "água",
+      "açúcar",
+      "gengibre",
+      "cravo e canela"
+    ],
+    "dica": "Bebida vermelha feita com flores, que aparece no Natal desta ilha montanhosa entre Guadalupe e Martinica.",
+    "curiosidade": "É uma bebida preparada principalmente na época do Natal, fervendo a parte vermelha da flor.",
+    "comoSeFaz": "Os cálices vermelhos da flor são fervidos com gengibre e especiarias; depois a mistura é coada e adoçada. Bebe-se bem gelada.",
+    "fonte": "https://en.wikipedia.org/wiki/Dominica_cuisine",
+    "imagem": {
+      "arquivo": "pratos/dm-sorrel.jpg",
+      "autor": "stu_spivack",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Homemade_sorrel_drink.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "dm-souse",
+    "prato": "Souse",
+    "pais": "Dominica",
+    "codigoPais": "DM",
+    "local": "Roseau (petisco nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 15.2992,
+    "longitude": -61.3873,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "carne de porco ou frango",
+      "suco de limão",
+      "cebola",
+      "pimenta",
+      "sal"
+    ],
+    "dica": "Carne em conserva bem azedinha de limão e ardida de pimenta, petisco popular na ilha montanhosa entre Guadalupe e Martinica.",
+    "curiosidade": "Costuma ser comido como lanche ou entrada, e não como prato principal.",
+    "comoSeFaz": "A carne é cozida até ficar macia e depois fica de molho num caldo de limão, cebola e pimenta, que dá o sabor azedinho.",
+    "fonte": "https://en.wikipedia.org/wiki/Dominica_cuisine",
+    "imagem": {
+      "arquivo": "pratos/dm-souse.jpg",
+      "autor": "Ll1324",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cooking_Trinidadian_Souse.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "dm-titiri-accra",
+    "prato": "Titiri accra (bolinho de peixinho de rio)",
+    "pais": "Dominica",
+    "codigoPais": "DM",
+    "local": "Layou, Saint Joseph",
+    "cidade": "Layou",
+    "regiao": "Saint Joseph",
+    "latitude": 15.3972,
+    "longitude": -61.4252,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "titiri (peixinhos minúsculos de rio)",
+      "farinha de trigo",
+      "cebolinha",
+      "pimenta",
+      "sal",
+      "óleo para fritar"
+    ],
+    "dica": "Bolinho frito de peixinhos minúsculos, que ganhou festival numa vila da costa oeste, na foz do rio mais comprido do país.",
+    "curiosidade": "A vila celebra esses peixinhos com um festival desde 2007, porque todo mês milhares deles chegam à beira do rio que passa por ali.",
+    "comoSeFaz": "Os peixinhos inteiros são misturados numa massa temperada de farinha, cebolinha e pimenta e fritos às colheradas no óleo quente.",
+    "fonte": "https://avirtualdominica.com/?p=3047",
+    "imagem": {
+      "arquivo": "pratos/dm-titiri-accra.jpg",
+      "autor": "Inanga at English Wikipedia",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Whitebait_Fritter.JPG"
+    },
+    "estado": "Saint Joseph"
+  },
+  {
+    "id": "dm-pao-de-mandioca-kalinago",
+    "prato": "Pão de mandioca kalinago (cassava bread)",
+    "pais": "Dominica",
+    "codigoPais": "DM",
+    "local": "Território Kalinago, Saint David",
+    "cidade": null,
+    "regiao": "Saint David",
+    "latitude": 15.4928,
+    "longitude": -61.257,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "mandioca ralada e espremida",
+      "coco ralado (opcional)",
+      "sal"
+    ],
+    "dica": "Pão achatado de raiz, feito como os povos originários faziam, na costa leste (lado do Atlântico), onde vive o povo indígena da ilha.",
+    "curiosidade": "Os kalinago foram os primeiros moradores da ilha; numa aldeia-museu do território, os visitantes veem como a mandioca é processada.",
+    "comoSeFaz": "A mandioca é ralada, espremida para tirar o caldo, peneirada e assada numa chapa quente até virar um pão chato e firme.",
+    "fonte": "https://en.wikipedia.org/wiki/Kalinago_Territory",
+    "imagem": {
+      "arquivo": "pratos/dm-pao-de-mandioca-kalinago.jpg",
+      "autor": "James Kevin James",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Cassava_bread_drying.jpg"
+    },
+    "estado": "Saint David"
+  },
+  {
+    "id": "gd-oil-down",
+    "prato": "Oil down",
+    "pais": "Granada",
+    "codigoPais": "GD",
+    "local": "Saint George's (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 12.0535,
+    "longitude": -61.7518,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "fruta-pão",
+      "leite de coco",
+      "cúrcuma",
+      "bolinhos de massa (dumplings)",
+      "folhas de callaloo",
+      "carne salgada ou peixe salgado"
+    ],
+    "dica": "Ensopado cozido num panelão até o leite de coco secar, prato oficial da 'Ilha das Especiarias'.",
+    "curiosidade": "O nome quer dizer algo como 'óleo no fundo': o caldo de coco é todo absorvido e só sobra um pouquinho de óleo de coco embaixo da panela.",
+    "comoSeFaz": "Os ingredientes são arrumados em camadas, com fruta-pão e carne embaixo e folhas e bolinhos em cima, e cozinham no leite de coco por mais de uma hora sem mexer.",
+    "fonte": "https://en.wikipedia.org/wiki/Oil_down",
+    "imagem": {
+      "arquivo": "pratos/gd-oil-down.jpg",
+      "autor": "St. Georges U. S. Embassy",
+      "licenca": "Domínio público",
+      "url": "https://commons.wikimedia.org/wiki/File:Cooking_oil_down_01.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "gd-guava-cheese",
+    "prato": "Guava cheese (doce de goiaba)",
+    "pais": "Granada",
+    "codigoPais": "GD",
+    "local": "Saint George's (doce nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 12.0535,
+    "longitude": -61.7518,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "goiaba",
+      "açúcar",
+      "suco de limão"
+    ],
+    "dica": "Doce firme de fruta, cortado em quadradinhos, na ilha das especiarias que fica logo acima de Trinidad.",
+    "curiosidade": "Apesar do nome 'queijo de goiaba', não leva queijo nenhum: é bem parecido com a goiabada brasileira.",
+    "comoSeFaz": "A polpa da goiaba é cozida com açúcar, mexendo sem parar, até virar uma massa grossa que endurece ao esfriar e é cortada em pedaços.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Grenada",
+    "imagem": {
+      "arquivo": "pratos/gd-guava-cheese.jpg",
+      "autor": "Voton",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Goiabada_slice.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "gd-aloo-pie",
+    "prato": "Aloo pie",
+    "pais": "Granada",
+    "codigoPais": "GD",
+    "local": "Saint George's (comida de rua nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 12.0535,
+    "longitude": -61.7518,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "massa de farinha de trigo",
+      "batata amassada",
+      "cominho",
+      "alho",
+      "pimenta",
+      "óleo para fritar"
+    ],
+    "dica": "Pastel frito de batata temperada, herança dos trabalhadores indianos que chegaram em 1857 à ilha famosa pela noz-moscada.",
+    "curiosidade": "'Aloo' quer dizer batata em hindi: o lanche faz parte da herança dos indianos que vieram trabalhar na ilha a partir de 1857.",
+    "comoSeFaz": "Uma massa simples é recheada com batata amassada e temperada, fechada e frita até dourar.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Grenada",
+    "imagem": {
+      "arquivo": "pratos/gd-aloo-pie.jpg",
+      "autor": "Jason Lam",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aloo_Pie.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "gd-chocolate-de-hermitage",
+    "prato": "Chocolate orgânico de Hermitage",
+    "pais": "Granada",
+    "codigoPais": "GD",
+    "local": "Hermitage, Saint Patrick",
+    "cidade": "Hermitage",
+    "regiao": "Saint Patrick",
+    "latitude": 12.1766,
+    "longitude": -61.6354,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "cacau orgânico",
+      "açúcar"
+    ],
+    "dica": "Barra feita do pé de cacau até a embalagem, numa fábrica movida a energia solar numa vila do norte da ilha principal.",
+    "curiosidade": "A fábrica foi fundada em 1999 por Mott Green, e as fazendas de cacau da região são sócias do negócio.",
+    "comoSeFaz": "As sementes de cacau fermentam em caixas por quase uma semana, secam ao sol, são torradas e moídas com açúcar até virar chocolate.",
+    "fonte": "https://c-spot.com/atlas/chocolate-brands/grenada-chocolate-company/",
+    "imagem": {
+      "arquivo": "pratos/gd-chocolate-de-hermitage.jpg",
+      "autor": "Will Szal",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Grenada_Chocolate_At_Runaway_Creek_Farm_(39655510).jpeg"
+    },
+    "estado": "Saint Andrew"
+  },
+  {
+    "id": "gd-coo-coo",
+    "prato": "Coo-coo",
+    "pais": "Granada",
+    "codigoPais": "GD",
+    "local": "Carriacou (Festival do Milho, perto do aeroporto de Lauriston)",
+    "cidade": null,
+    "regiao": "Carriacou e Petite Martinique",
+    "latitude": 12.4764,
+    "longitude": -61.4714,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "fubá (farinha de milho)",
+      "quiabo",
+      "água",
+      "manteiga",
+      "sal"
+    ],
+    "dica": "Angu de milho com quiabo, estrela de um festival numa ilhazinha ao norte da ilha principal, onde se planta muito milho.",
+    "curiosidade": "Na ilha, o milho é tão importante que ganhou um festival em outubro, com música de 'string band' e dança do mastro.",
+    "comoSeFaz": "O fubá é cozido com quiabo picado e mexido sem parar com uma colher de pau até ficar firme, como uma polenta.",
+    "fonte": "https://www.puregrenada.com/?p=11476",
+    "imagem": {
+      "arquivo": "pratos/gd-coo-coo.jpg",
+      "autor": "KINGBROBLOXZZZ",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:COO_COOO.jpg"
+    },
+    "estado": "Carriacou and Petite Martinique"
+  },
+  {
+    "id": "lc-accra",
+    "prato": "Accra (bolinho de bacalhau)",
+    "pais": "Santa Lúcia",
+    "codigoPais": "LC",
+    "local": "Castries (petisco nacional)",
+    "cidade": null,
+    "regiao": "Castries",
+    "latitude": 14.0096,
+    "longitude": -60.9902,
+    "categoria": "aperitivo",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "bacalhau (peixe salgado)",
+      "farinha de trigo",
+      "ovo",
+      "cebolinha",
+      "pimenta",
+      "óleo para fritar"
+    ],
+    "dica": "Bolinho frito de peixe salgado, feito sobretudo na Páscoa, na ilha dos dois picos famosos, os Pitons.",
+    "curiosidade": "É preparado principalmente na época da Páscoa.",
+    "comoSeFaz": "O bacalhau é dessalgado e desfiado, misturado com farinha, ovo e temperos, e a massa é frita às colheradas.",
+    "fonte": "https://en.wikipedia.org/wiki/Saint_Lucian_cuisine",
+    "imagem": {
+      "arquivo": "pratos/lc-accra.jpg",
+      "autor": "Fanny Schertzer",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Accras_de_morue.jpg"
+    },
+    "estado": "Castries"
+  },
+  {
+    "id": "lc-bouyon",
+    "prato": "Bouyon",
+    "pais": "Santa Lúcia",
+    "codigoPais": "LC",
+    "local": "Castries (prato nacional)",
+    "cidade": null,
+    "regiao": "Castries",
+    "latitude": 14.0096,
+    "longitude": -60.9902,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "feijão vermelho",
+      "carne",
+      "inhame e outras raízes",
+      "legumes",
+      "temperos verdes"
+    ],
+    "dica": "Sopão de uma panela só, com feijão vermelho e raízes, muito popular na ilha entre Martinica e São Vicente.",
+    "curiosidade": "É uma refeição completa numa panela só, e mostra a mistura de influências francesas, britânicas e indianas da cozinha da ilha.",
+    "comoSeFaz": "Feijão, carne, raízes e legumes cozinham juntos numa panela grande até o caldo ficar bem grosso.",
+    "fonte": "https://en.wikipedia.org/wiki/Saint_Lucian_cuisine",
+    "imagem": {
+      "arquivo": "pratos/lc-bouyon.jpg",
+      "autor": "LittleT889",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bouyon_bef.jpg"
+    },
+    "estado": "Castries"
+  },
+  {
+    "id": "lc-paime",
+    "prato": "Paime (conkie)",
+    "pais": "Santa Lúcia",
+    "codigoPais": "LC",
+    "local": "Castries (Jounen Kwéyòl, festa nacional)",
+    "cidade": null,
+    "regiao": "Castries",
+    "latitude": 14.0096,
+    "longitude": -60.9902,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "fubá",
+      "coco ralado",
+      "batata-doce",
+      "abóbora",
+      "uvas-passas",
+      "folha de bananeira"
+    ],
+    "dica": "Docinho de milho embrulhado em folha de bananeira, comido no Dia Crioulo, no último domingo de outubro, na ilha dos Pitons.",
+    "curiosidade": "Nesta ilha ele está ligado ao Jounen Kwéyòl (Dia Crioulo), quando o povo celebra sua língua e suas tradições.",
+    "comoSeFaz": "Mistura-se fubá com coco, batata-doce e abóbora raladas; a massa é embrulhada em folha de bananeira e cozida.",
+    "fonte": "https://en.wikipedia.org/wiki/Conkie",
+    "imagem": {
+      "arquivo": "pratos/lc-paime.jpg",
+      "autor": "Foodista",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Conkie.jpg"
+    },
+    "estado": "Castries"
+  },
+  {
+    "id": "lc-cocoa-tea",
+    "prato": "Cocoa tea (chá de cacau)",
+    "pais": "Santa Lúcia",
+    "codigoPais": "LC",
+    "local": "Soufrière",
+    "cidade": "Soufrière",
+    "regiao": "Soufrière",
+    "latitude": 13.8541,
+    "longitude": -61.0586,
+    "categoria": "bebida",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "bastão de cacau ralado",
+      "água",
+      "leite",
+      "canela",
+      "noz-moscada",
+      "açúcar"
+    ],
+    "dica": "Bebida quente de café da manhã, ligada às fazendas de cacau da cidade aos pés de dois picos vulcânicos, na costa oeste.",
+    "curiosidade": "Apesar do nome 'chá', não leva folha de chá: o povo começou a tomá-la depois do fim da escravidão, em 1833, quando chá era raro e o cacau era barato.",
+    "comoSeFaz": "O bastão de cacau é ralado e fervido com água e especiarias; depois entra o leite, e a bebida é coada e adoçada.",
+    "fonte": "https://www.thedailymeal.com/discovering-st-lucian-cocoa-tea/",
+    "imagem": {
+      "arquivo": "pratos/lc-cocoa-tea.jpg",
+      "autor": "Theo Crazzolara",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hot_Chocolate_with_Cinnamon_(40792838441).jpg"
+    },
+    "estado": "Soufrière"
+  },
+  {
+    "id": "lc-lagosta-grelhada-anse-la-raye",
+    "prato": "Lagosta grelhada da noite do peixe",
+    "pais": "Santa Lúcia",
+    "codigoPais": "LC",
+    "local": "Anse La Raye (fish fry de sexta-feira)",
+    "cidade": "Anse La Raye",
+    "regiao": "Anse La Raye",
+    "latitude": 13.9406,
+    "longitude": -61.0427,
+    "categoria": "prato-principal",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "lagosta",
+      "limão",
+      "alho",
+      "manteiga ou óleo",
+      "sal",
+      "pimenta"
+    ],
+    "dica": "Frutos do mar preparados na rua da praia toda sexta à noite, numa vila da costa oeste perto da Baía de Marigot.",
+    "curiosidade": "O nome da vila quer dizer 'Baía das Arraias'; toda sexta à noite, na rua paralela à praia, se cozinham lagosta, peixe e lambi (um caramujo do mar).",
+    "comoSeFaz": "A lagosta é aberta ao meio, temperada com limão e alho e assada na brasa até a carne ficar branquinha.",
+    "fonte": "https://en.wikipedia.org/wiki/Anse_La_Raye",
+    "imagem": {
+      "arquivo": "pratos/lc-lagosta-grelhada-anse-la-raye.jpg",
+      "autor": "Olivdediego",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Langouste_grill%C3%A9e_de_Ramena.JPG"
+    },
+    "estado": "Anse-la-Raye"
+  },
+  {
+    "id": "kn-goat-water",
+    "prato": "Goat water",
+    "pais": "São Cristóvão e Névis",
+    "codigoPais": "KN",
+    "local": "Basseterre (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George Basseterre",
+    "latitude": 17.2961,
+    "longitude": -62.7223,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "carne de cabrito",
+      "fruta-pão",
+      "mamão verde",
+      "bolinhos de massa (droppers)",
+      "molho de tomate"
+    ],
+    "dica": "Ensopado de cabrito com molho de tomate, o prato mais famoso de um país formado por duas ilhas vizinhas no norte das Pequenas Antilhas.",
+    "curiosidade": "Apesar do nome 'água de cabra', é um ensopado grosso; muita gente acredita que ele veio do ensopado irlandês, feito com carneiro.",
+    "comoSeFaz": "A carne de cabrito cozinha devagar com fruta-pão, mamão verde e bolinhos de massa num caldo de tomate bem temperado.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Saint_Kitts_and_Nevis",
+    "imagem": {
+      "arquivo": "pratos/kn-goat-water.jpg",
+      "autor": "Cbeanstudies",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Goat_Water.jpg"
+    },
+    "estado": "Saint George Basseterre"
+  },
+  {
+    "id": "kn-pelau",
+    "prato": "Cook-up (pelau)",
+    "pais": "São Cristóvão e Névis",
+    "codigoPais": "KN",
+    "local": "Basseterre (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George Basseterre",
+    "latitude": 17.2961,
+    "longitude": -62.7223,
+    "categoria": "prato-principal",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "arroz",
+      "feijão-guandu",
+      "frango",
+      "rabo de porco",
+      "bacalhau",
+      "legumes"
+    ],
+    "dica": "Arroz de panela só, misturado com várias carnes e feijão-guandu, muito querido nas duas ilhas que formam este país.",
+    "curiosidade": "O nome 'cook-up' lembra 'cozinhar tudo junto', porque vai tudo na mesma panela.",
+    "comoSeFaz": "As carnes são douradas, depois entram o arroz, o feijão e os legumes com água, e tudo cozinha junto até o arroz secar.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Saint_Kitts_and_Nevis",
+    "imagem": {
+      "arquivo": "pratos/kn-pelau.jpg",
+      "autor": "Grueslayer",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:MISC_Pelau.jpg"
+    },
+    "estado": "Saint George Basseterre"
+  },
+  {
+    "id": "kn-doce-de-tamarindo",
+    "prato": "Bolinha de tamarindo",
+    "pais": "São Cristóvão e Névis",
+    "codigoPais": "KN",
+    "local": "Basseterre (doce nacional)",
+    "cidade": null,
+    "regiao": "Saint George Basseterre",
+    "latitude": 17.2961,
+    "longitude": -62.7223,
+    "categoria": "sobremesa",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "polpa de tamarindo",
+      "açúcar"
+    ],
+    "dica": "Docinho azedinho de só dois ingredientes, típico do pequeno país de duas ilhas cuja capital fica na ilha maior.",
+    "curiosidade": "Os doces do país costumam ser bem simples, às vezes só fruta e açúcar, como este.",
+    "comoSeFaz": "A polpa do tamarindo é separada das sementes, misturada com bastante açúcar e enrolada em bolinhas.",
+    "fonte": "https://en.wikipedia.org/wiki/Culture_of_Saint_Kitts_and_Nevis",
+    "imagem": {
+      "arquivo": "pratos/kn-doce-de-tamarindo.jpg",
+      "autor": "Felix Padilla",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Tamarind_ball.jpg"
+    },
+    "estado": "Saint George Basseterre"
+  },
+  {
+    "id": "kn-johnny-cake",
+    "prato": "Johnny cake",
+    "pais": "São Cristóvão e Névis",
+    "codigoPais": "KN",
+    "local": "Basseterre (barracas da Fort Street)",
+    "cidade": "Basseterre",
+    "regiao": "Saint George Basseterre",
+    "latitude": 17.2961,
+    "longitude": -62.7223,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "farinha de trigo",
+      "fermento",
+      "manteiga",
+      "sal",
+      "açúcar",
+      "óleo para fritar"
+    ],
+    "dica": "Pãozinho frito vendido com peixe salgado nas barracas de rua da capital, na maior das duas ilhas do país.",
+    "curiosidade": "Na rua Fort Street, na capital, vendedores oferecem o pãozinho junto com peixe salgado.",
+    "comoSeFaz": "A massa de farinha, fermento e manteiga é sovada, dividida em bolinhas achatadas e frita até estufar e dourar.",
+    "fonte": "https://www.heatheronhertravels.com/?p=46044",
+    "imagem": {
+      "arquivo": "pratos/kn-johnny-cake.jpg",
+      "autor": "Dqfn13",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Johnnycake,_West_Indies_01.jpg"
+    },
+    "estado": "Saint George Basseterre"
+  },
+  {
+    "id": "kn-torta-de-coco",
+    "prato": "Torta de coco (coconut tart)",
+    "pais": "São Cristóvão e Névis",
+    "codigoPais": "KN",
+    "local": "Fothergills, Saint George Gingerland (Névis)",
+    "cidade": "Fothergills",
+    "regiao": "Saint George Gingerland",
+    "latitude": 17.1409,
+    "longitude": -62.5591,
+    "categoria": "sobremesa",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "coco ralado",
+      "açúcar",
+      "massa de torta",
+      "noz-moscada",
+      "baunilha"
+    ],
+    "dica": "Tortinha doce feita num museu ao ar livre na ilha menor e mais redondinha do país, num distrito que leva o nome de uma raiz picante.",
+    "curiosidade": "Na Vila da Herança Nevisiana, museu a céu aberto do governo, as cozinheiras mostram aos visitantes como se fazem pães e tortas de coco.",
+    "comoSeFaz": "Coco ralado é cozido com açúcar e especiarias, colocado sobre uma massa de torta e assado até dourar.",
+    "fonte": "https://nia.gov.kn/traditional-culinary-delights-hits-high-note-with-visitors-to-nevisian-heritage-village",
+    "imagem": {
+      "arquivo": "pratos/kn-torta-de-coco.jpg",
+      "autor": "ProjectManhattan",
+      "licenca": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Coconut_tarts.jpg"
+    },
+    "estado": "Saint George Gingerland"
+  },
+  {
+    "id": "vc-fruta-pao-assada-com-jackfish",
+    "prato": "Fruta-pão assada com jackfish frito",
+    "pais": "São Vicente e Granadinas",
+    "codigoPais": "VC",
+    "local": "Kingstown (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 13.1562,
+    "longitude": -61.228,
+    "categoria": "prato-principal",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "fruta-pão",
+      "peixe jackfish",
+      "suco de limão",
+      "farinha de trigo",
+      "sal",
+      "óleo para fritar"
+    ],
+    "dica": "Fruta assada direto no fogo com peixe frito: prato oficial de um país que tem mais de 25 variedades dessa fruta.",
+    "curiosidade": "A fruta-pão foi trazida na época da escravidão como comida barata; hoje ganha um festival inteiro em agosto.",
+    "comoSeFaz": "A fruta-pão é assada inteira sobre o fogo até a casca ficar preta; o peixe é temperado com limão, passado na farinha e frito.",
+    "fonte": "https://tourism.gov.vc/tourism/index.php/festivals-a-events/65-breadfruit-festival",
+    "imagem": {
+      "arquivo": "pratos/vc-fruta-pao-assada-com-jackfish.jpg",
+      "autor": "tracy the astonishing",
+      "licenca": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Breadfruit_in_the_Fire_Pit.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "vc-sea-moss",
+    "prato": "Sea moss (bebida de alga)",
+    "pais": "São Vicente e Granadinas",
+    "codigoPais": "VC",
+    "local": "Kingstown (bebida típica nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 13.1562,
+    "longitude": -61.228,
+    "categoria": "bebida",
+    "dificuldade": "facil",
+    "ingredientes": [
+      "alga marinha (sea moss)",
+      "leite",
+      "canela",
+      "noz-moscada",
+      "açúcar"
+    ],
+    "dica": "Bebida cremosa feita de uma alga do mar, popular na ilha do vulcão La Soufrière e nas ilhotas ao sul dela.",
+    "curiosidade": "A alga solta uma gelatina natural que deixa a bebida grossinha, quase como um milk-shake.",
+    "comoSeFaz": "A alga é lavada, cozida até amolecer e batida com leite e especiarias; depois é adoçada e servida gelada.",
+    "fonte": "https://www.worldtravelguide.net/guides/caribbean/st-vincent-and-the-grenadines/food-and-drink",
+    "imagem": {
+      "arquivo": "pratos/vc-sea-moss.jpg",
+      "autor": "Father.Jack from Coventry, UK",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jamaican_Irish_Moss_drink_-_in_can_and_over_ice.jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "vc-buljol",
+    "prato": "Buljol",
+    "pais": "São Vicente e Granadinas",
+    "codigoPais": "VC",
+    "local": "Kingstown (prato nacional)",
+    "cidade": null,
+    "regiao": "Saint George",
+    "latitude": 13.1562,
+    "longitude": -61.228,
+    "categoria": "aperitivo",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "bacalhau (peixe salgado)",
+      "cebola",
+      "tomate",
+      "pimenta",
+      "óleo",
+      "ovo cozido (opcional)"
+    ],
+    "dica": "Peixe salgado desfiado com tomate e cebola, comido no país de uma ilha vulcânica e várias ilhotas ao sul.",
+    "curiosidade": "Algumas versões ganham ovo cozido picado por cima.",
+    "comoSeFaz": "O bacalhau é dessalgado, desfiado e preparado com cebola, tomate, pimenta e um fio de óleo.",
+    "fonte": "https://travelfoodatlas.com/st-vincent-the-grenadines-food",
+    "imagem": {
+      "arquivo": "pratos/vc-buljol.jpg",
+      "autor": "Kalamazadkhan",
+      "licenca": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Buljol_(Salted_cod,_oil,_onions,_tomatoes,_pepper,_boiled_eggs).jpg"
+    },
+    "estado": "Saint George"
+  },
+  {
+    "id": "vc-biscoito-de-araruta",
+    "prato": "Biscoito de araruta",
+    "pais": "São Vicente e Granadinas",
+    "codigoPais": "VC",
+    "local": "Owia, Charlotte",
+    "cidade": "Owia",
+    "regiao": "Charlotte",
+    "latitude": 13.376,
+    "longitude": -61.1436,
+    "categoria": "sobremesa",
+    "dificuldade": "medio",
+    "ingredientes": [
+      "amido de araruta",
+      "manteiga",
+      "açúcar",
+      "leite"
+    ],
+    "dica": "Biscoito feito com o pó de uma raiz que já foi a maior exportação do país, plantada no extremo nordeste da ilha principal.",
+    "curiosidade": "O país já foi o maior produtor de araruta do mundo; hoje o plantio se concentra perto de Owia, onde fica uma grande fábrica de amido.",
+    "comoSeFaz": "A raiz é ralada e lavada para soltar um pó branco bem fininho; esse amido vai na massa com manteiga, açúcar e leite, e os biscoitos vão ao forno.",
+    "fonte": "https://en.wikipedia.org/wiki/Arrowroot",
+    "imagem": {
+      "arquivo": "pratos/vc-biscoito-de-araruta.jpg",
+      "autor": "Catherine",
+      "licenca": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Decorated_milk_arrowroot_biscuits.jpg"
+    },
+    "estado": "Charlotte"
+  },
+  {
+    "id": "vc-farine",
+    "prato": "Farine (farinha de mandioca)",
+    "pais": "São Vicente e Granadinas",
+    "codigoPais": "VC",
+    "local": "Sandy Bay, Charlotte",
+    "cidade": "Sandy Bay",
+    "regiao": "Charlotte",
+    "latitude": 13.3603,
+    "longitude": -61.1341,
+    "categoria": "aperitivo",
+    "dificuldade": "dificil",
+    "ingredientes": [
+      "mandioca"
+    ],
+    "dica": "Farinha torrada de raiz, feita em barracões de quintal numa vila do nordeste da ilha principal, perto do vulcão.",
+    "curiosidade": "Muitas famílias aprendem a técnica de pai para filho e fazem a farinha em casa; ela é muito procurada na época do Natal.",
+    "comoSeFaz": "A mandioca é descascada, ralada, espremida e torrada num tacho largo, mexendo sempre, até virar uma farinha seca e soltinha.",
+    "fonte": "https://searchlight.vc/searchlight/special-feature/2008/12/23/farine-making-still-important-part-of-christmas",
+    "imagem": {
+      "arquivo": "pratos/vc-farine.jpg",
+      "autor": "Ashehp",
+      "licenca": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Farinha_de_mandioca.jpg"
+    },
+    "estado": "Charlotte"
   }
 ]
