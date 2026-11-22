@@ -48,7 +48,8 @@ export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: Ma
       keyboard: false,
       zoomSnap: 0.1,
       attributionControl: false,
-    });
+      // Sem vista inicial, os pontos das ilhas quebram o Leaflet ao entrar no mapa (o enquadramento vem depois).
+    }).setView([-10, -70], 3);
     L.control.attribution({ prefix: false }).addAttribution('Fronteiras: Natural Earth').addTo(mapa);
 
     const registrar = (codigo: string, path: L.Path) => {
