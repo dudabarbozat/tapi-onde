@@ -149,7 +149,8 @@ const App = () => {
 
   return (
     <div className="min-h-screen">
-      <FaixaProjeto />
+      {/* A apresentação do projeto só na página inicial: durante o jogo, a tela é do mapa. */}
+      {fase === 'inicio' && <FaixaProjeto />}
       {fase !== 'inicio' && (
         <Navigation
           pais={paisDaVez}

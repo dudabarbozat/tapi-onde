@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Share2 } from 'lucide-react';
 import { arquivoPublico, CATEGORIA, type Prato } from '@/data/pratos';
 import { paisPorCodigo } from '@/data/countries';
+import { BarraInferior } from '@/components/BarraInferior';
 import { MapaContinente } from '@/components/MapaContinente';
 import { Progresso } from '@/components/Progresso';
 import { calculateDistance, formatDistance } from '@/utils/gameLogic';
@@ -56,10 +57,11 @@ const Rodada = ({ prato, numero, onConfirmar }: { prato: Prato; numero: number; 
   // Se a foto não carregar, a pista não conta.
   const pistasValendo = fotoFalhou ? Math.min(pistas, 1) : pistas;
   const teto = TETO_POR_PISTAS[pistasValendo];
+  const nomeTocado = ponto ? nomeDoPais(paisNoPonto(ponto.lat, ponto.lng)) : null;
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-6">
-      <div className="painel animate-fade-in grid gap-6 p-4 sm:p-6 lg:grid-cols-[1fr_1.3fr]">
+    <main className="com-barra mx-auto max-w-6xl px-3 py-4 sm:px-4">
+      <div className="painel animate-fade-in grid gap-5 p-3 sm:p-5 lg:grid-cols-[1fr_1.4fr]">
         <section>
           <div className="flex flex-wrap items-center justify-between gap-3">
             <Progresso rotulo="Prato" atual={numero} total={PRATOS_POR_VOLTA} />
@@ -116,18 +118,27 @@ const Rodada = ({ prato, numero, onConfirmar }: { prato: Prato; numero: number; 
           <p className="mt-3 text-sm font-semibold text-stone-600">Este prato vale até {teto} pontos.</p>
         </section>
 
-        <section className="flex flex-col">
-          <div className="h-[420px] sm:h-[560px]">
-            <MapaContinente modo="palpite" onMarcar={setPonto} />
-          </div>
-          <p className="mt-2 text-sm text-stone-600">Use + e − para aproximar. Pode trocar o ponto antes de confirmar.</p>
-          <div className="sticky bottom-3 z-[1000] mt-3 text-center">
-            <button type="button" disabled={!ponto} onClick={() => ponto && onConfirmar(ponto, pistasValendo)} className="botao-principal w-full shadow-lg">
-              {ponto ? `Confirmar palpite${nomeDoPais(paisNoPonto(ponto.lat, ponto.lng)) ? `: ${nomeDoPais(paisNoPonto(ponto.lat, ponto.lng))}` : ''} ✓` : 'Toque no mapa onde o prato nasceu'}
-            </button>
-          </div>
+        {/* O mapa ocupa a altura da tela: é aqui que se joga. */}
+        <section className="h-[70dvh] min-h-[340px] lg:h-[calc(100dvh-13rem)]">
+          <MapaContinente modo="palpite" onMarcar={setPonto} />
         </section>
       </div>
+
+      <BarraInferior
+        info={
+          ponto ? (
+            <>
+              Você tocou {nomeTocado ? <b className="text-blue-800">{nomeTocado}</b> : 'fora dos países do jogo'}. Pode trocar antes de confirmar.
+            </>
+          ) : (
+            'Toque no mapa onde o prato nasceu. Use + e −, a rodinha do mouse ou o atalho do Caribe.'
+          )
+        }
+      >
+        <button type="button" disabled={!ponto} onClick={() => ponto && onConfirmar(ponto, pistasValendo)} className="botao-principal w-full sm:w-auto">
+          Confirmar palpite ✓
+        </button>
+      </BarraInferior>
     </main>
   );
 };
@@ -142,8 +153,8 @@ const Revelacao = ({ prato, rodada, numero, ultima, onProximo }: { prato: Prato;
   const mesmoPais = tocado?.toUpperCase() === prato.codigoPais;
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-6">
-      <article className="painel animate-fade-in p-5 sm:p-8">
+    <main className="com-barra mx-auto max-w-4xl px-3 py-4 sm:px-4">
+      <article className="painel animate-fade-in p-4 sm:p-8">
         <Progresso rotulo="Prato" atual={numero} total={PRATOS_POR_VOLTA} />
 
         <header className="mt-5 flex items-center gap-4">
@@ -205,9 +216,10 @@ const Revelacao = ({ prato, rodada, numero, ultima, onProximo }: { prato: Prato;
           </p>
         </div>
 
+        <div className={`mt-5 grid gap-6 ${fotoOk ? 'md:grid-cols-2' : ''}`}>
         {fotoOk && (
-          <figure className="mt-5 overflow-hidden rounded-2xl border-2 border-stone-200">
-            <img src={arquivoPublico(prato.imagem.arquivo)} alt={`Foto de ${prato.prato}`} className="max-h-[28rem] w-full object-cover" onError={() => setFotoOk(false)} />
+          <figure className="self-start overflow-hidden rounded-2xl border-2 border-stone-200">
+            <img src={arquivoPublico(prato.imagem.arquivo)} alt={`Foto de ${prato.prato}`} className="max-h-[24rem] w-full object-cover" onError={() => setFotoOk(false)} />
             <figcaption className="bg-stone-50 px-4 py-2 text-xs text-stone-600">
               Foto: {prato.imagem.autor} ·{' '}
               <a href={prato.imagem.url} target="_blank" rel="noreferrer" className="underline hover:text-stone-900">
@@ -217,7 +229,7 @@ const Revelacao = ({ prato, rodada, numero, ultima, onProximo }: { prato: Prato;
           </figure>
         )}
 
-        <section className="mt-6 space-y-5 text-lg leading-relaxed">
+        <section className="space-y-5 text-lg leading-relaxed">
           <div>
             <h4 className="text-xl text-blue-900">🌎 Curiosidade</h4>
             <p className="mt-1 text-stone-800">{prato.curiosidade}</p>
@@ -230,11 +242,14 @@ const Revelacao = ({ prato, rodada, numero, ultima, onProximo }: { prato: Prato;
             Saiba mais sobre o prato ↗
           </a>
         </section>
+        </div>
+      </article>
 
-        <button type="button" onClick={onProximo} className="botao-principal mt-8 w-full">
+      <BarraInferior info={<>{d.emoji} <b>+{rodada.pontos} pontos</b> · {prato.prato}</>}>
+        <button type="button" onClick={onProximo} className="botao-principal">
           {ultima ? 'Ver o resultado da volta 🏆' : 'Próximo prato 🍽️'}
         </button>
-      </article>
+      </BarraInferior>
     </main>
   );
 };

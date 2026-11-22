@@ -6,6 +6,7 @@ import fronteiras from '@/data/america-latina.json';
 import { paisPorCodigo } from '@/data/countries';
 import { carregarEstados, type Estado, type Marcacao } from '@/utils/estados';
 import { estiloPalpite, estiloResposta } from '@/utils/mapa';
+import { adicionarControles } from '@/utils/controlesMapa';
 
 type Props =
   | { modo: 'palpite'; codigoPais: string; onMarcar: (m: Marcacao) => void; /** Toque fora do país. */ onFora: () => void }
@@ -34,7 +35,8 @@ export const MapaEstados = (props: Props) => {
     const palpite = modo === 'palpite';
     // A vista inicial faz o Leaflet desenhar cada camada assim que ela entra no mapa;
     // sem ela, mudar o estilo de uma área antes do enquadramento quebra.
-    const mapa = L.map(container.current, { scrollWheelZoom: false, zoomSnap: 0.25, attributionControl: false }).setView([-10, -70], 3);
+    // No palpite, a rodinha do mouse aproxima: o mapa é o centro da tela.
+    const mapa = L.map(container.current, { scrollWheelZoom: palpite, zoomControl: false, zoomSnap: 0.25, attributionControl: false }).setView([-10, -70], 3);
     L.control.attribution({ prefix: false }).addAttribution('Fronteiras: Natural Earth').addTo(mapa);
     contexto().addTo(mapa);
     let cancelado = false;
@@ -47,6 +49,7 @@ export const MapaEstados = (props: Props) => {
         if (cancelado) return;
         let escolhido: L.Path | null = null;
         let marcador: L.CircleMarker | null = null;
+        let rotulo: L.Tooltip | null = null;
         const camadas = new Map<string, L.Path>();
 
         const camada = L.geoJSON(estados, {
@@ -68,6 +71,12 @@ export const MapaEstados = (props: Props) => {
                 path.bringToFront();
                 marcador?.remove();
                 marcador = L.circleMarker(e.latlng, { ...estiloPalpite, interactive: false }).addTo(mapa);
+                // O nome do lugar escolhido fica fixo no mapa, para conferir antes de confirmar.
+                rotulo?.remove();
+                rotulo = L.tooltip({ permanent: true, direction: 'top', offset: [0, -10], className: 'rotulo-escolhido' })
+                  .setLatLng(e.latlng)
+                  .setContent(f.properties.nome)
+                  .addTo(mapa);
                 const atual = propsAtuais.current;
                 if (atual.modo === 'palpite') atual.onMarcar({ lat: e.latlng.lat, lng: e.latlng.lng, estado: f.properties.nome });
               },
@@ -76,6 +85,7 @@ export const MapaEstados = (props: Props) => {
         }).addTo(mapa);
 
         if (palpite) {
+          adicionarControles(mapa, [{ rotulo: '⤢ Ver tudo', titulo: 'Ver o país inteiro', limites: () => camada.getBounds() }]);
           mapa.fitBounds(camada.getBounds(), { padding: [12, 12], animate: false });
           mapa.on('click', () => {
             const atual = propsAtuais.current;
@@ -100,6 +110,7 @@ export const MapaEstados = (props: Props) => {
           const limites = L.latLngBounds([a, b]);
           if (certo && 'getBounds' in certo) limites.extend((certo as L.Polygon).getBounds());
           mapa.fitBounds(limites, { padding: [30, 30], maxZoom: 7, animate: false });
+          adicionarControles(mapa, [{ rotulo: '⤢ Ver tudo', titulo: 'Ver o palpite e a origem', limites: () => limites.pad(0.1) }]);
         }
         setSituacao('pronto');
       })

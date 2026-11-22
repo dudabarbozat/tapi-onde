@@ -5,6 +5,7 @@ import type { FeatureCollection, Geometry } from 'geojson';
 import fronteiras from '@/data/america-latina.json';
 import { countriesData, paisPorCodigo } from '@/data/countries';
 import { paisesJogaveis } from '@/utils/partida';
+import { adicionarControles, LIMITES_CARIBE } from '@/utils/controlesMapa';
 
 type Props = { codigo: string | null };
 
@@ -93,6 +94,15 @@ export const MapaEscolha = ({ destaque, escolhidos, onDestaque, onEscolher }: Ma
       mapa.fitBounds(geo.getBounds(), { padding: [8, 8], animate: false });
     };
     enquadrar();
+    // O mapa fica parado (a página rola por cima dele); os atalhos aproximam o Caribe, onde as ilhas são pequenas.
+    adicionarControles(
+      mapa,
+      [
+        { rotulo: '⤢ Ver tudo', titulo: 'Ver a América Latina inteira', limites: () => geo.getBounds() },
+        { rotulo: '🔍 Caribe', titulo: 'Aproximar o Caribe', limites: () => LIMITES_CARIBE },
+      ],
+      { zoom: false },
+    );
     const observador = new ResizeObserver(enquadrar);
     observador.observe(caixa);
 

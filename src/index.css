@@ -57,6 +57,11 @@
     @apply inline-flex items-center justify-center gap-2 rounded-2xl border-2 border-green-700 bg-white px-6 py-3 font-titulo text-lg font-bold text-green-800 transition hover:bg-green-50;
   }
 
+  /* Páginas com a barra fixa de ação no rodapé */
+  .com-barra {
+    padding-bottom: 7.5rem;
+  }
+
   .etiqueta {
     @apply inline-flex items-center gap-1.5 rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-900;
   }
@@ -84,8 +89,33 @@
     border-top-color: #052e16 !important;
   }
 
+  /* Nome fixo do lugar escolhido no mapa do palpite */
+  .rotulo-escolhido {
+    @apply rounded-lg border-2 border-white bg-blue-700 px-2.5 py-1 font-titulo text-sm font-bold text-white shadow-lg;
+  }
+  .rotulo-escolhido::before {
+    border-top-color: #1d4ed8 !important;
+  }
+
+  /* Botões grandes de zoom e enquadramento */
+  .controles-mapa {
+    @apply flex flex-col items-end gap-1.5;
+  }
+  .controle-mapa {
+    @apply grid h-11 min-w-11 place-items-center rounded-xl border-2 border-stone-300 bg-white px-3 font-titulo text-xl font-bold leading-none text-green-950 shadow-md transition hover:border-green-900 hover:bg-green-50;
+  }
+  .controle-mapa.controle-texto {
+    @apply h-9 text-sm;
+  }
+
   /* Países pequenos: nome só quando destacados ou escolhidos */
   .rotulo-pequeno:not(.rotulo-visivel) {
     display: none;
   }
+}
+
+/* Sem o retângulo de foco do navegador nos desenhos do mapa: o lugar escolhido já fica pintado e com o nome. */
+.leaflet-container path.leaflet-interactive:focus,
+.leaflet-container path.leaflet-interactive:focus-visible {
+  outline: none !important;
 }

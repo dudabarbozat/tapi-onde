@@ -5,6 +5,7 @@ import { Progresso, type ProgressoProps } from '@/components/Progresso';
 import { Placar, Podio } from '@/components/Placar';
 import { montarPlacar } from '@/utils/partida';
 import { MapaEstados } from '@/components/MapaEstados';
+import { BarraInferior } from '@/components/BarraInferior';
 import { formatDistance, formatTempoExtenso, PONTOS_MAXIMOS_POR_PRATO, type ResultadoRodada } from '@/utils/gameLogic';
 
 interface ResultScreenProps {
@@ -77,8 +78,8 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
   const placar = emGrupo ? montarPlacar(jogadores, historico) : [];
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-6">
-      <article className="painel animate-fade-in p-5 sm:p-8">
+    <main className="com-barra mx-auto max-w-4xl px-3 py-4 sm:px-4">
+      <article className="painel animate-fade-in p-4 sm:p-8">
         <Progresso {...progresso} />
 
         <header className="mt-5 flex items-center gap-4">
@@ -163,9 +164,10 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
           </p>
         </div>
 
+        <div className={`mt-5 grid gap-6 ${fotoOk ? 'md:grid-cols-2' : ''}`}>
         {fotoOk && (
-          <figure className="mt-5 overflow-hidden rounded-2xl border-2 border-stone-200">
-            <img src={arquivoPublico(prato.imagem.arquivo)} alt={`Foto de ${prato.prato}`} className="max-h-[28rem] w-full object-cover" onError={() => setFotoOk(false)} />
+          <figure className="self-start overflow-hidden rounded-2xl border-2 border-stone-200">
+            <img src={arquivoPublico(prato.imagem.arquivo)} alt={`Foto de ${prato.prato}`} className="max-h-[24rem] w-full object-cover" onError={() => setFotoOk(false)} />
             <figcaption className="bg-stone-50 px-4 py-2 text-xs text-stone-600">
               Foto: {prato.imagem.autor} ·{' '}
               <a href={prato.imagem.url} target="_blank" rel="noreferrer" className="underline hover:text-stone-900">
@@ -175,7 +177,7 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
           </figure>
         )}
 
-        <section className="mt-6 space-y-5 text-lg leading-relaxed">
+        <section className="space-y-5 text-lg leading-relaxed">
           <div>
             <h4 className="text-xl text-blue-900">🌎 Curiosidade</h4>
             <p className="mt-1 text-stone-800">{prato.curiosidade}</p>
@@ -188,21 +190,23 @@ export const ResultScreen = ({ resultado, historico, progresso, jogadores, proxi
             Saiba mais sobre o prato ↗
           </a>
         </section>
+        </div>
 
         {emGrupo && !isLastRound && <Placar linhas={placar} atual={jogadores[resultado.jogador]} />}
         {isLastRound && (emGrupo ? <Podio linhas={placar} /> : <Resumo historico={historico} nome={jogadores[0]} />)}
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          {!isLastRound && (
-            <button type="button" onClick={onNextRound} className="botao-principal flex-1">
-              {proximo ? `Próxima vez: ${proximo} ▶` : 'Próximo prato 🍽️'}
-            </button>
-          )}
-          <button type="button" onClick={onRestart} className={`flex-1 ${isLastRound ? 'botao-principal' : 'botao-secundario'}`}>
-            {isLastRound ? 'Jogar de novo 🌎' : emGrupo ? 'Sair da partida' : 'Trocar de país 🌎'}
-          </button>
-        </div>
       </article>
+
+      <BarraInferior info={<>{d.emoji} <b>+{resultado.total.toLocaleString('pt-BR')} pontos</b> · {prato.prato}</>}>
+        {!isLastRound && (
+          <button type="button" onClick={onNextRound} className="botao-principal">
+            {proximo ? `Próxima vez: ${proximo} ▶` : 'Próximo prato 🍽️'}
+          </button>
+        )}
+        <button type="button" onClick={onRestart} className={isLastRound ? 'botao-principal' : 'botao-secundario'}>
+          {isLastRound ? 'Jogar de novo 🌎' : emGrupo ? 'Sair da partida' : 'Trocar de país 🌎'}
+        </button>
+      </BarraInferior>
     </main>
   );
 };
